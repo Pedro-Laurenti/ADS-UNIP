@@ -21,14 +21,6 @@ O repositório está organizado em diferentes diretórios para facilitar a naveg
 
 Se você é da mesma faculdade ou está interessado em colaborar com este repositório, sinta-se à vontade para fazer um *fork* e enviar *pull requests* com adições ou correções. Contribuições são sempre bem-vindas e apreciadas!
 
-## Licença
-
-O conteúdo deste repositório está sob a seguinte licença: [Coloque_aqui_o_link_da_licenca](link_da_licenca).
-
 ## Contato
 
-Caso queira entrar em contato comigo em relação ao conteúdo deste repositório ou qualquer outra questão, você pode me encontrar através do seguinte e-mail: seu.email@exemplo.com.
-
----
-
-*Este readme foi criado com carinho utilizando Markdown. Para mais informações sobre como escrever em Markdown, confira: [Markdown Cheatsheet](link_para_cheatsheet_markdown).*
+Caso queira entrar em contato comigo em relação ao conteúdo deste repositório ou qualquer outra questão, você pode me encontrar através do seguinte [endereço](https://pedrolaurenti.orbytesistemas.com).
