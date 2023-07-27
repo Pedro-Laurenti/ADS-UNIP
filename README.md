@@ -1,9 +1,7 @@
 # Análise e Desenvolvimento de Sistemas - UNIP
 
 <center>
-
 ![Faculdade](https://www.unip.br/assets/img/logo/logo-unip-2021.svg)
-
 </center>
 
 ## Descrição
