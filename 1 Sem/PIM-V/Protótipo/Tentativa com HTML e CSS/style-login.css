@@ -1,0 +1,231 @@
+/* Itens básicos */
+body {
+	height: 100vh;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	font-family:Arial, Helvetica, sans-serif;
+	background-color: aliceblue;
+	z-index: 0;
+}
+
+.container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+
+/* estilo do background em main */
+.fundo-desktop {
+	height: 100%;
+	width: 45%;
+	position: relative;
+	overflow: hidden;
+	border-radius: 50px 0px 0px 50px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+#sky-stars-main-img{
+	position: absolute;
+	height: 100%;
+	z-index: 3;
+}
+
+#solid-transparent-collor{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 50%;
+	height: 100%;
+	background-color: #0c5bbc75;
+	border-color: aliceblue;
+	border-width: 5px;
+	border-style: solid;
+	z-index: 4;
+	border-radius: 50px 0px 0px 50px;
+}
+
+#logo-main{
+	position: relative;
+	z-index: 5;
+	width: 100%;
+}
+
+/* Estilo da mensagem de sucesso */
+
+#success-message {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	max-width: 80%;
+	padding: 10px;
+	background-color: #DFF2BF;
+	border: 1px solid #4F8A10;
+	color: #4F8A10;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	z-index: 10;
+}
+
+#success-message.show {
+	display: block;
+	animation: fade-out 5s forwards;
+}
+
+/* Estilo da mensagem de erro */
+
+#error-message {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	max-width: 80%;
+	padding: 10px;
+	background-color: #FFBABA;
+	border: 1px solid #D8000C;
+	color: #D8000C;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	z-index: 10;
+}
+
+#error-message.show {
+	display: block;
+	animation: fade-out 5s forwards;
+}
+
+@keyframes fade-out {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	100% { opacity: 0; }
+}
+
+/* Estilo dentro do form */
+
+form {
+	background-color: #fff;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0 0 5px rgba(2, 25, 45, 0.12);
+	width: 50%;
+	height: auto;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#logo-completa{
+	width: 50%;
+	margin-bottom: 2vh;
+}
+
+#hr-entre-imagem-h2{
+	border-width: 1px ;
+	border-color: #0c5cbc;
+	border-style: solid;
+	width: 90%;
+	margin-bottom: 2vh;
+}
+
+#bem-vindo-mensagem{
+	width: 80%;
+	margin-top: 25px;
+	margin-bottom: 45px;
+}
+
+input[type="text"],
+input[type="password"] {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	box-shadow: 0 0 5px rgba(2, 25, 45, 0.12);
+	border-style: solid;
+    border-width: 1px;
+    border-color: #0c5cbc;
+}
+
+#botoes-main{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 25px;
+	width: 80%;
+}
+
+#pagina-registro-a{
+	color: #333;
+	font-weight: 500;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#entrar-botao-style{
+	background-color: #0c5cbc;
+	color: aliceblue;
+	font-weight: 900;
+	height: 40px;
+	width: 150px;
+	display: inline-block;
+	border-radius: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	cursor: pointer;
+    text-decoration: none;
+}
+
+#entrar-botao-style:hover{
+	background-color: #277be2;
+	transition: 0.5s;
+}
+
+#entrar-botao-style:active{
+	background-color: #5ca0f3;
+	transition: 0.5ms;
+}
+
+
+@media (max-width:1115px) {
+
+	#botoes-main{
+		flex-direction: column-reverse;
+	}
+
+	#entrar-botao-style{
+		margin-bottom: 25px;
+	}
+
+    .fundo-desktop{
+		display: none;
+	}
+
+}

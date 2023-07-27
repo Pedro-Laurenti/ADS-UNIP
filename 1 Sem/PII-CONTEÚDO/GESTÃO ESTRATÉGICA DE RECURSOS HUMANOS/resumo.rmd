@@ -1,0 +1,75 @@
+--- 
+title: "Projeto de Interface com o Usuário"
+author: "Pedro José Laurenti de Matos"
+date: "`r Sys.Date()`"
+output: rmdformats::material
+
+---
+
+# Introdução
+
+## Tab of Contents
+
+- Unidade I: AS ORGANIZAÇÕES
+    - Um pouco da história recente das organizações
+    - Modelos de organizações
+    - Organização funcional
+    - Organização orientada a projetos
+    - Organização matricial
+
+- Unidade II: AS RELAÇÕES INDUSTRIAIS
+    - O setor de Recursos Humanos nas organizações
+    - Recursos Humanos no Brasil
+
+- Unidade III: GESTÃO DE PESSOAS
+    - Conceitos e fundamentos da Gestão de Recursos Humanos
+    - Agregando pessoas
+        - A importância da comunicação
+    - Recrutamento e seleção
+        - Recrutamento
+        - Seleção
+    - Alocação das pessoas selecionadas
+    - Aplicação de pessoas
+        - Orientação às pessoas
+        - Cargos
+        - Função
+        - Modelagem de cargos
+        - Descrição de cargos
+
+
+- Unidade IV: DESENVOLVENDO, MANTENDO E RECOMPENSANDO AS PESSOAS
+    - Desenvolvendo pessoas
+    - Mantendo pessoas
+    - Recompensando pessoas
+    - Remuneração, benefícios e incentivos
+    - Monitorando pessoas
+        - Sistema de informação (SI) de Recursos Humanos (RH)
+    - Ética e responsabilidade
+
+- Unidade V: O INDIVÍDUO E O GRUPO
+    - Estudo dos grupos
+        - Aspectos relevantes na formação de grupos de trabalho
+    - Visão estratégica de pessoal
+        - Tipos psicológicos
+    - Motivação: necessidades humanas e teorias motivacionais
+        - Teoria da Hierarquia das Necessidades de Maslow
+        - Teoria de Frederick Herzberg
+        - Teoria de McGregor
+        - Teoria Vroom
+        - Teoria de Lawler
+        - Teoria de McClelland
+
+- Unidade VI: LIDERANÇA E TRABALHO EM EQUIPE
+    - Estilos de liderança
+    - Tomada de decisão, planejamento, delegação e negociação
+        - Planejamento
+        - Delegação
+        - Negociação
+
+- Unidade VII: ADMINISTRAÇÃO DE CONFLITOS
+    - Conflitos intergeracionais
+    - Como se preparar para solucionar conflitos
+
+- Unidade VIII: ADMINISTRAÇÃO DO TEMPO
+    - Fatores de pesquisa do clima organizacional
+    - Criatividade
