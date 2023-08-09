@@ -10,6 +10,8 @@
 
 Bem-vindo ao repositório da minha faculdade! Aqui, você encontrará todo o conteúdo relacionado aos meus estudos em ADS, incluindo projetos, anotações de aula, livros-texto e muito mais.
 
+![](https://geps.dev/progress/50)
+
 ## Organização do Repositório
 
 O repositório está organizado em diferentes diretórios para facilitar a navegação e encontrar o que você precisa. Abaixo, está a estrutura geral do repositório:
