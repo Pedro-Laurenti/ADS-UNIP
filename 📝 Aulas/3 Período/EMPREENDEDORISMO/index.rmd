@@ -20,7 +20,7 @@ output: rmdformats::material
 
 </center>
 
-## Histórico
+### Histórico
 
 1. Sócrates  (470  a.C.  –  399  a.C.)  via  a  Administração  como  uma  habilidade  pessoal separada do conhecimento técnico e da experiência;
 2. Platão  (429  a.C.  –  347  a.C.)  preocupou-se  com  os  problemas  políticos  e  sociais relacionados ao desenvolvimento social e cultural do povo grego. Em sua obra A República, expõe o seu ponto de vista sobre a forma de governo e a administração dos negócios públicos;
@@ -30,7 +30,7 @@ output: rmdformats::material
 6. Jean-Jacques  Rousseau  (1712-1778)  pregou  a  necessidade  do  contrato  social, baseado na convicção de que o homem, embora individualmente e por natureza seja cordial e pacífico, é deturpado pela vida em sociedade.
 7. Karl  Heinrich  Marx  (1818-1883),  juntamente  com  seu  companheiro  de  estudos  Friedrich  Engels  (1820-1898),  propôs  uma  teoria  da  origem econômica do Estado segundo a qual o surgimento do poder político e do Estado nada mais é que o fruto da dominação econômica do  homem  pelo  homem.
 
-## Administração **Científica**, **Clássica** e por **Objetivos**
+### Administração **Científica**, **Clássica** e por **Objetivos**
 
 Frederick Winslow Taylor - Pai da ADM Científica, ele formulou uma série de ideias e constatações sustentando que a Administração **não é uma arte ou habilidade inata** de algumas pessoas, e sim **obedece a um conjunto de preceitos** que ditam o sucesso de um sistema administrativo.
 
@@ -43,7 +43,7 @@ Henri Fayol - ADM Clássica, foi feita a partir da Científica. Afirmava que adm
 5. **função contábil**: relacionando-se a registros, balanços e custos
 6. **função administrativa**: relacionando-se à integração das funções anteriores e subdividindo-se em cinco subfunções (planejar, organizar, comandar, coordenar e controlar).
 
-## Outros nomes
+### Outros nomes
 
 - **Henry  Ford -** Pai do FORDISMO, método de produção e de administração voltada a produção em massa
 - **Escola de Relações Humanas da Administração -** Considerou os elementos humanos 
