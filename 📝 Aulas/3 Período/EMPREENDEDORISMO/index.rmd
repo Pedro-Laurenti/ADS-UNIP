@@ -47,3 +47,19 @@ Henri Fayol - ADM Clássica, foi feita a partir da Científica. Afirmava que adm
 
 - **Henry  Ford -** Pai do FORDISMO, método de produção e de administração voltada a produção em massa
 - **Escola de Relações Humanas da Administração -** Considerou os elementos humanos 
+
+## Organizações
+
+Organização - É a pessoa jurídica, um conjunto de pessoas aliadas no mesmo ideal.
+
+Classificação da estrutura:
+
+- Corporações: formadas pela **reunião de pessoas**, podem ter fim não econômico e econômico;
+- Fundações: constituídas em torno de um patrimônio com determinado fim;
+
+Classificação de função;
+
+- direito público: Estatais, governo ou instituições sem fim lucrativo.
+- direito privado: Empresas privadas com fins lucrativos.
+
+> A empresa possui `entradas` (insumos) e `saídas` (bens e serviços).
