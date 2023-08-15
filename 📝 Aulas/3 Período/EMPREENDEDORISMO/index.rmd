@@ -62,4 +62,76 @@ Classificação de função;
 - direito público: Estatais, governo ou instituições sem fim lucrativo.
 - direito privado: Empresas privadas com fins lucrativos.
 
-> A empresa possui `entradas` (insumos) e `saídas` (bens e serviços).
+### Elementos do sistema "Empresa"
+
+> A empresa possui `entradas` e `saídas`.
+
+- `Capital` - é a provisão de investimentos necessários é aquilo que paga o custo.
+- `Insumos` - elementos necessários para a produção do produto
+- `Produto` - produtos, subprodutos ou serviços são os elementos de valor que a empresa oferece ao cliente.
+- `efeito sobre o meio` - Efeito que a empresa provoca no meio em que existe
+
+O = (I,P,T,L,R)
+
+O = Organização
+I = Insumos
+P = Produtos
+T = Tarefa
+L = Restrições
+R = Recurso
+
+### Relações de uma empresa
+
+<center>
+
+![Relações de uma empresa](img/Asset2.png)
+
+</center>
+
+
+Os relacionamentos descritos na figura anterior são:
+
+- **Empresa – Mercado Consumidor:** é a relação entre a empresa e o seu potencial mercado;
+- **Empresa – Fornecedores:** é a relação na qual a empresa remunera o fornecedor para fazer a aquisição de seus produtos;
+- **Empresa – Mercado de Mão de Obra:** é a relação na qual os trabalhadores são remunerados pelos serviços prestados;
+- **Empresa – Mercado Financeiro:** é a relação de troca entre ativos financeiros – a empresa e o mercado financeiro (bancos e agentes financeiros, entre outros);
+- **Empresa – Governo:** é a relação na qual o governo provê serviços públicos de qualidade, e a empresa cumpre suas obrigações, como pagamento de impostos;
+- **Empresa – Acionistas:** é a relação em que o acionista investe na empresa e recebe dela o retorno sob o seu investimento;
+- **Empresa – Cliente:** é a relação em que a empresa entrega seus produtos e é remunerada por eles.
+
+> #### Mas e empresas públicas?
+> De acordo com Costa Neto e Canuto (2010), as empresas públicas e órgãos públicos deveriam seguir práticas similares às das empresas privadas, mas observa-se uma disparidade:
+> 
+> - Gestores com mandatos políticos.
+> - Objetivos institucionais influenciados por interesses políticos.
+> - Estado, como "dono" do negócio, frequentemente ausente.
+> - Dificuldade de desligar funcionários devido à estabilidade, levando ao excesso de pessoal.
+> - Risco de confusão entre interesse público e privado, levando a corrupção e outros crimes.
+> 
+> Segundo Costa Neto e Canuto (2010), ocorrências dessas situações diminuem conforme o desenvolvimento da sociedade em que o sistema público está inserido.
+
+### Estrutura organizacional e funcional
+
+<center>
+
+![Estrutura tradicional](img/Asset3.png)
+
+</center>
+
+
+As funções dentro de uma corporação denotam o desdobramento de responsabilidades de cada área. De modo geral, a maioria das corporações `possui as seguintes funções`:
+
+- Função de Marketing: preocupa-se com o relacionamento com o mercado, entendendo expectativas, necessidades, hábitos e tendências dos clientes;
+- Função de Operação ou Produção: preocupa-se com a operação de bens e serviços entregues pela corporação ao cliente;
+- Função de Administração: preocupa-se com a administração geral dos recursos da corporação.
+
+As atividades estão relacionadas aos processos e métodos detalhados das funções presentes na corporação. Elas podem ser:
+
+- Atividades de Planejamento;
+- Atividades de Vendas;
+- Atividades de Logística;
+- Atividades de Controle da Produção;
+- Atividades de Compras e Gestão de Estoques;
+- Atividades de Departamento de Pessoal;
+- Atividades Contábil-Financeiras;
+- Atividades de Controles.
