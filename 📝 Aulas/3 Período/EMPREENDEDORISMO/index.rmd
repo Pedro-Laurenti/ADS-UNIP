@@ -140,25 +140,54 @@ As atividades estão relacionadas aos processos e métodos detalhados das funç�
 
 Diante de todo o histórico, passando por todas as escolas e a partir do legado deixado por Taylor, Fayol,  Ford,  Mayo  e  Druker,  entre  outros,  é  possível  entender  que  a  Administração  possui  quatro  funções:
 
--  Planejamento
-   -  O que fazer?
-   -  Por que fazer?
-   -  Como fazer?
+## Planejamento
+>     - O que fazer?
+>     - Por que fazer?
+>     - Como fazer?
 
 Missão, valores e visão são **`norteadores`** para a organização.
 
 Planos:
 
-`nível estratégico`: relacionado a decisões de médio e longo prazo associadas a questões com alto grau de incerteza
+- `nível estratégico`: relacionado a decisões de médio e longo prazo associadas a questões com alto grau de incerteza
 
-`nível  tático`:  como  desdobramento  do  nível  tático,  é  associado  a  decisões  de  médio  prazo,  buscando eficiência dos processos organizacionais
+- `nível  tático`:  como  desdobramento  do  nível  tático,  é  associado  a  decisões  de  médio  prazo,  buscando eficiência dos processos organizacionais
 
-`Nível operacional`: com decisões de curto prazo, preocupa-se com ações dentro do dia a dia das operações
+- `Nível operacional`: com decisões de curto prazo, preocupa-se com ações dentro do dia a dia das operações
 
 ![Pirâmide de níveis](img/Asset4.png)
 
--  Organização
-   -  
--  Direção
--  Controle
+## Organização
+>     - Quem vai fazer?
+>     - Onde fazer?
+>     - Quando fazer?
 
+- `competência técnica`:  capacidade  intelectual,  como  resultado  do  aprendizado  eficaz,  com  capacidade de pensar estrategicamente e introduzir aperfeiçoamentos no trabalho;
+- `competência organizacional`: capacidade de planejar e organizar o trabalho, gerenciando tempo e espaço;
+- `competência comunicativa`: capacidade de expressão e comunicação com o grupo;
+- `competência social`: capacidade de criação de bons relacionamentos, bem como de transferência de conhecimento;
+- `competência  comportamental`:  capacidade  de  iniciativa,  criatividade  e  vontade  de  aprender,  sendo aberto a mudanças.
+
+![Escala de competências](img/Asset5.png)
+
+
+## Direção
+### Eficiência e eficácia
+
+A `eficiência` está relacionada à melhor utilização dos recursos disponíveis para alcançar o melhor resultado, possuindo uma ligação muito forte com as áreas mais táticas e operacionais. A `eficácia` está relacionada ao melhor resultado da corporação, possuindo uma ligação muito forte com as áreas mais estratégicas.
+
+![Relação entre eficácia e eficiência](img/Asset6.png)
+
+
+### Liderança e motivação
+
+- `Comando autocrático`: impõe o que deve ser feito por meio de ordens de cima para baixo, com o mínimo de diálogo possível. É a mais antiga, clássica e também obsoleta;
+
+- `Comando democrático`: toma decisões conforme opinião da maioria. Escuta a todos e tenta ser politicamente correto em suas atitudes, mas pode levar a distorções;
+
+- `Comando  participativo`:  toma  decisões  por  meio  de  discussões  com  os  grupos  mais  próximos,  buscando uma série de esclarecimentos antes da posição final.
+
+## Controle
+>     - Comparação com padrões
+>     - Correção de rumos
+>     - Subsídios ao aperfeiçoamento
