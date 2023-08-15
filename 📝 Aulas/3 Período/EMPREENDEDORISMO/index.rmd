@@ -135,3 +135,30 @@ As atividades estão relacionadas aos processos e métodos detalhados das funç�
 - Atividades de Departamento de Pessoal;
 - Atividades Contábil-Financeiras;
 - Atividades de Controles.
+
+# FUNÇÕES DA ADMINISTRAÇÃO
+
+Diante de todo o histórico, passando por todas as escolas e a partir do legado deixado por Taylor, Fayol,  Ford,  Mayo  e  Druker,  entre  outros,  é  possível  entender  que  a  Administração  possui  quatro  funções:
+
+-  Planejamento
+   -  O que fazer?
+   -  Por que fazer?
+   -  Como fazer?
+
+Missão, valores e visão são **`norteadores`** para a organização.
+
+Planos:
+
+`nível estratégico`: relacionado a decisões de médio e longo prazo associadas a questões com alto grau de incerteza
+
+`nível  tático`:  como  desdobramento  do  nível  tático,  é  associado  a  decisões  de  médio  prazo,  buscando eficiência dos processos organizacionais
+
+`Nível operacional`: com decisões de curto prazo, preocupa-se com ações dentro do dia a dia das operações
+
+![Pirâmide de níveis](img/Asset4.png)
+
+-  Organização
+   -  
+-  Direção
+-  Controle
+
