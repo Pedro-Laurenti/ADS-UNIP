@@ -191,3 +191,117 @@ A `eficiência` está relacionada à melhor utilização dos recursos disponíve
 >     - Comparação com padrões
 >     - Correção de rumos
 >     - Subsídios ao aperfeiçoamento
+
+# ASPECTOS COMPORTAMENTAIS
+
+Não é possível estudar a Administração e o empreendedorismo sem considerar de suma importância o  papel  do  ser  humano  e  seu  comportamento.  Os  recursos  humanos  são  peças‑chave  nos  processos  organizacionais, bem como o modo como eles se relacionam.
+
+## Liderança
+
+Temos 3 pensadores principais com 3 conceitos diferentes:
+
+1. `Costa Neto e Canuto (2010)` - destacam que o conceito de liderança é relacionado a características que determinadas pessoas possuem de tomar decisões aceitas com entusiasmo pelos seus colaboradores.
+
+2. `Sobral  e  Gimba  (2012)` - mencionam  liderança  como  um  processo  de  influência  em  um  grupo  que  desempenha atividades com vistas a um objetivo, envolvendo construção e desconstrução de percepções, situações e expectativas.
+
+Sobral  e  Gimba  (2012)  afirmam  que  as  teorias  mais  modernas  sobre  liderança  tendem  a  uma  ênfase num tipo de líder carismático, visionário e transformacional, com comportamentos apelativos e simbólicos, visando a obter alto grau de comprometimento dos liderados.
+
+Sobral e Gimba (2012) também mencionam o surgimento de um novo tipo de liderança, conhecida como liderança autêntica. Ela está ligada ao conceito de autenticidade, e sua principal característica é a elevada transparência entre líder e liderado, bem como uma conduta consistente com o sistema de valores pessoais e convicções.Essa liderança autêntica pode ser concebida a partir de quatro dimensões, conforme Sobral e Gimba (2012):
+- **autoconsciência**:  relaciona‑se  à  consciência  que  há,  por  parte  da  liderança,  sobre  fraquezas  e  potencialidades;
+- **transparência**: relaciona‑se ao grau de profundidade de conhecimento dos desejos do líder por parte dos liderados;
+- **perspectiva moral e ética**: relaciona‑se à consideração dada, por parte da liderança, a valores morais e éticos;
+- **processamento balanceado**: relaciona‑se à consideração dada à opinião dos liderados.
+
+3. `Barreto et al. (2013)` - afirmam que a liderança tem um caráter inspiracional, fortalecida pela dinâmica motivacional entre líderes, liderados e o sistema organizacional onde atua.
+
+Barreto et al. (2013) mencionam que essas três lideranças (carismática, visionária e transformacional) têm muitas semelhanças entre si. Na liderança carismática, a ênfase é no comportamento simbólico do líder, bem como em suas habilidades visionárias, na comunicação não verbal e no apelo a valores ideológicos. A liderança visionária tem o foco no futuro, assumindo riscos e influenciando a direção da organização. A liderança transformacional preza por estabelecer uma relação bidirecional entre líder e liderados.
+
+Os autores mencionam também quatro características principais da liderança transformacional:
+- influência idealizada;
+- motivação inspiracional;
+- estímulo intelectual;
+- consideração individualizada.
+
+<hr />
+
+### Perfis psicológicos segundo Jung e Myers‑Briggs
+
+Costa Neto e Canuto (2010) mencionam que o tipo psicológico de indivíduo influencia na capacidade que ele tem de exercer uma liderança. De acordo com os autores, há uma teoria que classifica as pessoas em quatro grandes tipos psicológicos, que derivam dos perfis estudados pelos psicólogos Carl Gustav Jung (1875‑1961), Katharine Briggs (1875‑1968) e Isabel Myers (1897‑1980). Veja o quadro a seguir:
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+</style>
+<table class="tg" style="undefined;table-layout: fixed; width: 1002px">
+<colgroup>
+<col style="width: 200.88889px">
+<col style="width: 400.88889px">
+<col style="width: 399.77778px">
+</colgroup>
+<thead>
+  <tr>
+    <th class="tg-c3ow">Atividades‑chave</th>
+    <th class="tg-c3ow" colspan="2">Escala</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-c3ow" rowspan="2">Motivação</td>
+    <td class="tg-c3ow">Extroversão (E)</td>
+    <td class="tg-c3ow">Introversão (I)</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">Preferência por tirar energia do mundo exterior das pessoas, atividades ou coisa</td>
+    <td class="tg-baqh">Preferência por tirar energia do mundo interior das ideias, emoções ou impressões pessoais</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" rowspan="2">Observação</td>
+    <td class="tg-baqh">Sensação (S)</td>
+    <td class="tg-baqh">Intuição (N)</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">Preferência por obter informações por meio dos cinco sentidos e observar aquilo que é real</td>
+    <td class="tg-baqh">Preferência por obter informações por meio do “sexto sentido”, observando o que pode ser</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" rowspan="2">Decisões</td>
+    <td class="tg-baqh">Pensamento (T)</td>
+    <td class="tg-baqh">Sentimento (F)</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">Preferência por organizar e estruturar as informações para tomar decisões de maneira lógica e objetiva</td>
+    <td class="tg-baqh">Preferência por organizar e estruturar as informações para tomar decisões de maneira pessoal e orientada para os valores</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" rowspan="2">Modo de vida</td>
+    <td class="tg-baqh">Julgamento (J)</td>
+    <td class="tg-baqh">Percepção (P)</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">Preferência por ter uma vida organizada e planejada</td>
+    <td class="tg-baqh">Preferência por ter uma vida espontânea e flexível</td>
+  </tr>
+</tbody>
+</table>
+
+
+<hr ;>
+
+## Motivação
+
+Costa  Neto  e  Canuto  (2010)  mencionam  que  as  seguintes  considerações  de  natureza  humana  possuem necessidades que precisam ser satisfeitas no alcance da motivação, conforme uma determinada hierarquia desenvolvida pelo renomado psicólogo Abraham Maslow, descrita na figura a seguir.
+
+![Pirâmide de Maslow](img/Asset7.png)
+
+Nessa hierarquia de necessidades que influenciam na motivação, têm‑se:
+- `necessidades  primárias`:  compostas  pelas  necessidades  básicas  de  subsistência  (casa,  comida  etc.) e segurança (física, estabilidade no trabalho, seguro saúde etc.);
+- `necessidades secundárias`: compostas por questões de cunho um pouco mais íntimo, como a vida na sociedade (amigos, diversões etc.), a autoestima (status, poder etc.) e a autorrealização (sensação de paz, de dever cumprido etc.).
+
+Costa  Neto  e  Canuto  (2010)  mencionam  também  a  abordagem  de  Frederick  Herzberg  sobre  a  influência de fatores que geram ou não motivação. Esses fatores são os seguintes:
+- `fatores   extrínsecos  (externos  ao  indivíduo)`:  geram  satisfação  física,  mas  não  a  motivação  propriamente dita. Por exemplo: boas condições físicas de trabalho, ar condicionado, transporte etc.
+- `fatores  intrínsecos`:  ligados  a  tarefas  do  indivíduo,  que  geram  desafios  e  um  sentimento  de  satisfação interior pelo sucesso alcançado. Esses levam à motivação.
