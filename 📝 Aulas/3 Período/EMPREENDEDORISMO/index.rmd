@@ -353,3 +353,4 @@ Costa Neto e Canuto (2010) afirmam que o sucesso de uma mudança se dá quando h
 - **Correção**: inexistência de erros nos processos de mudança organizacional;
 - **Comunicação**: perfeito funcionamento de um plano de comunicação na mudança;
 - **Continuidade**: garantia de que não haverá retrocesso após a mudança.
+
