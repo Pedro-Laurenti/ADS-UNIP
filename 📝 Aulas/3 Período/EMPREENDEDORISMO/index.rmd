@@ -207,6 +207,7 @@ Temos 3 pensadores principais com 3 conceitos diferentes:
 Sobral  e  Gimba  (2012)  afirmam  que  as  teorias  mais  modernas  sobre  liderança  tendem  a  uma  ênfase num tipo de líder carismático, visionário e transformacional, com comportamentos apelativos e simbólicos, visando a obter alto grau de comprometimento dos liderados.
 
 Sobral e Gimba (2012) também mencionam o surgimento de um novo tipo de liderança, conhecida como liderança autêntica. Ela está ligada ao conceito de autenticidade, e sua principal característica é a elevada transparência entre líder e liderado, bem como uma conduta consistente com o sistema de valores pessoais e convicções.Essa liderança autêntica pode ser concebida a partir de quatro dimensões, conforme Sobral e Gimba (2012):
+
 - **autoconsciência**:  relaciona‑se  à  consciência  que  há,  por  parte  da  liderança,  sobre  fraquezas  e  potencialidades;
 - **transparência**: relaciona‑se ao grau de profundidade de conhecimento dos desejos do líder por parte dos liderados;
 - **perspectiva moral e ética**: relaciona‑se à consideração dada, por parte da liderança, a valores morais e éticos;
@@ -217,6 +218,7 @@ Sobral e Gimba (2012) também mencionam o surgimento de um novo tipo de lideran�
 Barreto et al. (2013) mencionam que essas três lideranças (carismática, visionária e transformacional) têm muitas semelhanças entre si. Na liderança carismática, a ênfase é no comportamento simbólico do líder, bem como em suas habilidades visionárias, na comunicação não verbal e no apelo a valores ideológicos. A liderança visionária tem o foco no futuro, assumindo riscos e influenciando a direção da organização. A liderança transformacional preza por estabelecer uma relação bidirecional entre líder e liderados.
 
 Os autores mencionam também quatro características principais da liderança transformacional:
+
 - influência idealizada;
 - motivação inspiracional;
 - estímulo intelectual;
@@ -299,9 +301,55 @@ Costa  Neto  e  Canuto  (2010)  mencionam  que  as  seguintes  considerações  
 ![Pirâmide de Maslow](img/Asset7.png)
 
 Nessa hierarquia de necessidades que influenciam na motivação, têm‑se:
+
 - `necessidades  primárias`:  compostas  pelas  necessidades  básicas  de  subsistência  (casa,  comida  etc.) e segurança (física, estabilidade no trabalho, seguro saúde etc.);
 - `necessidades secundárias`: compostas por questões de cunho um pouco mais íntimo, como a vida na sociedade (amigos, diversões etc.), a autoestima (status, poder etc.) e a autorrealização (sensação de paz, de dever cumprido etc.).
 
 Costa  Neto  e  Canuto  (2010)  mencionam  também  a  abordagem  de  Frederick  Herzberg  sobre  a  influência de fatores que geram ou não motivação. Esses fatores são os seguintes:
+
 - `fatores   extrínsecos  (externos  ao  indivíduo)`:  geram  satisfação  física,  mas  não  a  motivação  propriamente dita. Por exemplo: boas condições físicas de trabalho, ar condicionado, transporte etc.
 - `fatores  intrínsecos`:  ligados  a  tarefas  do  indivíduo,  que  geram  desafios  e  um  sentimento  de  satisfação interior pelo sucesso alcançado. Esses levam à motivação.
+
+## Clima, cultura e mudança organizacional
+
+### Clima organizacional
+
+Este conceito diz respeito à forma como os relacionamentos interpessoais se dão no seio da organização.
+
+O  clima  organizacional  é  um  conjunto  de  fatores  e  itens  de  caráter  permanente  que  distingue  uma organização da outra, influenciando o comportamento de indivíduos.
+
+### Cultura organizacional
+
+Cultura organizacional é um sistema sociocultural que revela a identidade da organização por meio de padrões de comportamento.
+
+Schein (1992) afirma que a cultura organizacional é dividida em três níveis:
+
+- artefatos: compreendem as estruturas e os processos organizacionais existentes na corporação;
+- valores: compreendem as estratégias, os objetivos e as filosofias adotadas no dia a dia das corporações;
+- pressupostos: compreendem as crenças, as percepções e os pensamentos, muitas vezes até inconscientes.
+
+Barreto et al.(2013) mencionam quatro tipos de culturas organizacionais:
+
+- `cultura clã ou grupal`: nesse tipo de cultura, é enfatizada a participação das pessoas na tomada de decisão. Valores morais e trabalho em grupo são incentivados. Há um alto comprometimento dos colaboradores;
+- `cultura inovativa ou adhocracia`: nesse tipo de cultura, há uma grande abertura à flexibilidade e à mudança organizacional. O ambiente de trabalho é marcado pelo dinamismo, e há incentivo às iniciativas individuais e à liberdade;
+- `cultura de mercado ou racional`: nesse tipo de cultura, há uma orientação a partir de tendências de  mercado  e  bases  seguras  de  clientes.  O  resultado  é  o  objetivo  principal  para  que  o  negócio  melhore a sua posição competitiva;
+- `cultura hierárquica`: nesse tipo de cultura, a maior importância é dada à estabilidade, aos valores e às normas associados à burocracia. Regras e políticas mantêm a organização integrada.
+
+### Mudança organizacional
+
+- **Mudança contínua**: constante e evolutiva, produzindo pequenos avanços cotidianos;
+- **Mudança episódica**: pouco frequente, descontínua e intencional, é necessária para as organizações que saem de seu ponto de equilíbrio;
+- **Mudança descontínua**: ocorre em períodos de desequilíbrio e envolve várias reestruturações;
+- **Mudança espontânea**: não gerada e não controlada pela liderança, é gerada pelo dia a dia das corporações;
+- **Mudança planejada**: ocorre de modo programado e sistemático;
+- **Macromudança**: abrange toda a organização e suas relações com o macroambiente.
+
+
+Costa Neto e Canuto (2010) afirmam que o sucesso de uma mudança se dá quando há a consideração dos seguintes fatores:
+
+- **Compreensão**: perfeito entendimento do processo e da importância da mudança por parte dos envolvidos;
+- **Comprometimento**: determinação de executar a mudança devido a sua importância;
+- **Competência**: capacidade técnica e administrativa para efetuar a mudança;
+- **Correção**: inexistência de erros nos processos de mudança organizacional;
+- **Comunicação**: perfeito funcionamento de um plano de comunicação na mudança;
+- **Continuidade**: garantia de que não haverá retrocesso após a mudança.
