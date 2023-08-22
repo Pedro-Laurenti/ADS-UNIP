@@ -354,3 +354,58 @@ Costa Neto e Canuto (2010) afirmam que o sucesso de uma mudança se dá quando h
 - **Comunicação**: perfeito funcionamento de um plano de comunicação na mudança;
 - **Continuidade**: garantia de que não haverá retrocesso após a mudança.
 
+# A TOMADA DE DECISÃO E A ESTRATÉGIA NO MUNDO DOS NEGÓCIOS
+
+## A tomada de decisão
+
+> “A tomada de decisão não é algo fácil. Mesmo fazendo parte do dia a dia dos administradores e empreendedores, ela tem que ser um processo efetuado de modo racional, em que devem ser utilizadas técnicas por meio das quais se atingem os objetivos organizacionais”
+
+
+### Qualidade na tomada de decisões
+
+| Decisões Tomadas | Descrição |
+|------------------|-----------|
+| Racionalmente    | Consequência de um cuidadoso processo de reflexão e do uso de metodologias apropriadas. As fortes emoções são extintas para dar espaço a um processo racional. |
+| Baseadas em Fatos e Dados | Tomada de decisão com base em fatos e dados, em vez de palpites ou opiniões subjetivas. Transforma dados em informações e informações em conhecimento. |
+| Economicamente Pesadas | Considera a importância de avaliar aspectos econômicos na tomada de decisão. |
+| Baseadas na Experiência | Reconhece a importância da experiência adquirida sobre determinados assuntos como fator de sucesso para boas decisões. |
+| Visando ao Futuro | Foca em pensar estrategicamente no longo prazo. A visão estratégica é crucial no processo decisório. |
+| Consensuais | Em situações complexas com diferentes perspectivas, busca-se o consenso entre os envolvidos. |
+| Baseadas em Indicadores | Decisões apoiadas em indicadores que surgem por métodos quantitativos apropriados. |
+| Justas e Legais | Decisões fundamentadas em critérios éticos, justos e em conformidade com disposições legais. |
+| Criativas e Inovadoras | Capacidade de fugir de soluções convencionais, buscando abordagens criativas e inovadoras. |
+| Corajosas x Prudentes | Necessidade de equilibrar coragem e prudência no processo decisório. |
+| Inspiradas em Paradigmas | Prática do benchmarking para adotar melhores práticas de mercado. |
+
+
+## Estratégia
+
+- **Chandler (1962):** Estratégia é a definição dos objetivos de longo prazo de uma empresa e a alocação de recursos para alcançá-los.
+- **Ansoff (1965):** Estratégia são diretrizes para tomar decisões em condições de incerteza parcial, focando na interação com o ambiente.
+- **Katz (1970):** Estratégia envolve a relação presente (situação estratégica) e futura (plano estratégico) da empresa com o ambiente.
+- **Steiner e Miner (1977):** Estratégia envolve a formulação de metas alinhadas às forças internas e externas, com planos para garantir o sucesso.
+- **Porter (1989):** Estratégia competitiva são ações para construir uma posição sólida na indústria, superar concorrentes e maximizar retornos.
+- **Mintzberg (1988):** Estratégia é uma ponte entre a organização e o ambiente, moldando decisões para se adaptar ao contexto.
+- **Hax e Majluf (1988):** Estratégia é um conjunto coeso de decisões que refletem objetivos, ações e alocação de recursos a longo prazo.
+
+### Administração Estratégica
+
+1. **Estratégia como Plano:**
+   - Estratégia é um plano conscientemente criado para lidar com uma situação.
+   - Exemplo: Plano de guerra militar, estratégia na Teoria dos Jogos, plano amplo de administração.
+
+2. **Estratégia como Pretexto:**
+   - Estratégia pode ser usada como uma manobra para superar concorrentes.
+   - Exemplo: Ameaçar expansão para desencorajar competidores.
+
+3. **Estratégia como Padrão:**
+   - Estratégia pode ser observada como um padrão de comportamento consistente.
+   - Exemplo: Ford oferecendo apenas o modelo T na cor preta.
+
+4. **Estratégia como Posição:**
+   - Estratégia é uma forma de localizar a organização em relação ao ambiente.
+   - Exemplo: Nicho ecológico, local gerador de renda, domínio de produto-mercado.
+
+5. **Estratégia como Perspectiva:**
+   - Estratégia é uma maneira ampla de olhar o mundo, tanto interna como externamente.
+   - Envolve uma visão coletiva dos estrategistas.
