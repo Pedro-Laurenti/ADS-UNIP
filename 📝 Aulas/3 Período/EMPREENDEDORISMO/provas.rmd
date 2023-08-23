@@ -1,0 +1,243 @@
+--- 
+title: "Empreendedorismo - Provas"
+author: "Pedro José Laurenti de Matos"
+date: "`r Sys.Date()`"
+output: rmdformats::material
+
+---
+
+
+# UNIDADE I
+
+## ATIVIDADE TELEAULA I
+
+1. É considerado o principal expoente da Administração Científica:
+
+    A. Henri Fayol.  
+    B. Bernadini.  
+    C. Francis Bacon.  
+    D. Frederik Taylor.  
+    E. Karl Marx.
+
+- Resposta Selecionada: `D`
+
+<br/>
+
+2. Com relação à estrutura organizacional e funcional, quais as funções, de modo geral, de cada área?
+
+    A. Marketing e produção.  
+    B. Marketing e operação.  
+    C. Administrativa.  
+    D. Administrativa e marketing.  
+    E. Marketing, operação ou produção e administração.
+
+- Resposta Selecionada: `E`
+
+<br/>
+
+3. O comando eficaz é sempre algo difícil de conseguir nas corporações, por sempre envolver habilidades pessoais. Isso é devido a quais questões?
+
+    A. Motivação e controle.  
+    B. Liderança e planejamento.  
+    C. Organização e liderança.  
+    D. Liderança e motivação.  
+    E. Planejamento e motivação.  
+
+- Resposta Selecionada: `D`
+
+<br/>
+
+4. Quais as funções da Administração?
+
+    A. Planejamento, organização, direção e controle.  
+    B. Organização e planejamento.  
+    C. Organização e controle.  
+    D. Direção.  
+    E. Planejamento.
+
+- Resposta Selecionada: `A`
+
+<br/>
+
+## QUESTIONÁRIO UNIDADE I
+
+1. A Revolução Industrial foi marcada pela passagem da produção semiartesanal para a era da manufatura. Em que período aconteceu:
+
+    A. Metade do século XX.
+    B. Metade do século XVIII.
+    C. Metade do século XVII.
+    D. Metade do século XIX.
+    E. Todas as alternativas estão corretas.
+
+- Resposta Selecionada: Correta `B`
+
+<br/>
+
+2. A abordagem sistêmica considera o relacionamento entre o todo. Ela é contrária a qual ideia?
+
+    A. Estruturalista.
+    B. Behaviorista.
+    C. Taylorista.
+    D. Fordista.
+    E. Nenhuma das alternativas.
+
+- Resposta Selecionada: Correta `C`
+
+<br/>
+
+3. Assinale a(s) alternativa(s) correta(s) de acordo com as afirmações abaixo:
+
+    I. Eficiência está relacionada à melhor utilização dos recursos disponíveis para alcançar o melhor resultado.
+    II. Eficácia está relacionada ao resultado não muito bom da corporação, possuindo uma ligação ruim com as áreas.
+    III. O comando eficaz é sempre muito fácil de se conseguir na empresa, pois envolve habilidades pessoais, questões de liderança e motivação.
+    IV. Função de segurança.
+
+    A. I está correta.
+    B. II está correta.
+    C. I e III estão corretas.
+    D. II, III e IV estão corretas.
+    E. I e II estão corretas.
+
+- Resposta Selecionada: Correta `A`
+
+<br/>
+
+4. Assinale a(s) alternativa(s) correta(s) de acordo com as afirmações abaixo:
+    I. Administração é um processo, conjunto de tarefas.
+    II. A Administração só pode ocorrer em nível de diretoria.
+    III. O administrador tem papel primordial no processo administrativo, na análise de situações e na resolução de problemas com eficácia e eficiência.
+
+    A. Somente a alternativa I está correta.
+    B. Somente a alternativa II está correta.
+    C. Somente as alternativas I e III estão corretas.
+    D. Somente as alternativas II e III estão corretas.
+    E. Somente as alternativas I e II estão corretas.
+
+- Resposta Selecionada: Correta `C`
+
+<br/>
+
+5. Baseado no equilíbrio entre meios e fins, no poder da burocracia e na impessoalidade. Estamos falando da escola:
+
+    A. Estruturalismo.
+    B. Behaviorismo.
+    C. Relações Humanas.
+    D. Administração Clássica.
+    E. Nenhuma das alternativas.
+
+- Resposta Selecionada: Correta `A`
+
+<br/>
+
+6. Contemporâneo de Taylor, trabalhou com o conhecido Sistema Taylorista-Fordista. Estamos falando de:
+
+    A. Bernadini.
+    B. Frederick Taylor.
+    C. Henry Ford.
+    D. Thomas Hobbs.
+    E. Costa Neto.
+
+- Resposta Selecionada: Correta `C`
+
+<br/>
+
+7. Costa Neto e Canuto (2010) descreve os pioneiros da Administração de acordo com suas abordagens. Assinale a alternativa correta:
+
+    A. Jean-Jacques Rousseau – via a Administração como uma habilidade pessoal.
+    B. Platão – via a Administração como uma habilidade pessoal.
+    C. Frances Bacon – desenvolveu a teoria da origem contratualista.
+    D. Thomas Hobbes – desenvolveu a teoria contratualista.
+    E. Aristóteles – distinguiu três formas de Administração pública: Monarquia, Aristocracia e Democracia.
+
+- Resposta Selecionada: Correta `E`
+
+<br/>
+
+8. Em uma organização, pessoa jurídica quanto à sua função pode ser classificada como de direito público e de direito privado. Outra classificação de acordo com Costa Neto e Canuto (2010) é:
+
+    A. Primeiro setor.
+    B. Segundo setor.
+    C. Terceiro setor.
+    D. Primeiro setor, segundo setor e terceiro setor.
+    E. Primeiro setor e segundo setor.
+
+- Resposta Selecionada: Correta `D`
+
+<br/>
+
+9. Henry Fayol determinou funções primordiais dentro das organizações. Podemos citar algumas delas:
+
+    I. Função técnica.
+    II. Função de afetividade e sociabilidade.
+    III. Função de necessidade de participação de grupos informais.
+    IV. Função de segurança.
+
+    A. I e III estão corretas.
+    B. I, III e IV estão corretas.
+    D. I e IV estão corretas.
+    C. II, III e IV estão corretas.
+    E. I e II estão corretas.
+
+- Resposta Selecionada: Correta `D`
+
+<br/>
+
+10.  Segundo Costa Neto e Canuto o objetivo primordial de uma empresa é:
+
+    A. Produto.
+    B. Lucro e papel social.
+    C. Insumos.
+    D. Cliente.
+    E. Nenhuma das alternativas.
+
+- Resposta Selecionada: Correta `B`
+
+<br/>
+
+# UNIDADE II
+
+## ATIVIDADE TELEAULA II
+
+1. Quais são os níveis da Cultura Organizacional?
+
+    A. Valores, Mudança contínua e Mudança planejada.
+    B. Pressupostos, Mudança descontínua e Mudança planejada.
+    C. Valores, Mudança planejada e Macromudança.
+    D. Artefatos, Mudança contínua e Mudança planejada.
+    E. Artefatos, Valores e Pressupostos.
+
+- Resposta Selecionada: Correta `A`
+
+<br/>
+
+2. Qual alternativa está relacionada aos aspectos econômicos na qualidade da tomada de decisão?
+
+    A. Decisões Consensuais.
+    B. Decisões Justas e Legais.
+    C. Decisões Economicamente Pesadas.
+    D. Decisões Racionalmente.
+    E. Decisões Baseadas na Consolidação de Indicadores.
+
+- Resposta Selecionada: Correta `C`
+
+<br/>
+
+3. Quais são os três tipos gerais de negócios na cadeia de transações?
+    - Resposta Selecionada: Negócio Industrial, Negócio Comercial e Negócio de Prestação de Serviços.
+    - Opções:
+        - a. Negócio Ambiental, Negócio Legal e Negócio de Prestação de Serviços.
+        - b. Negócio Social, Negócio Ecológico e Negócio Industrial.
+        - c. Negócio Industrial, Negócio Comercial e Negócio de Prestação de Serviços.
+        - d. Negócio Econômico, Negócio Comercial e Negócio Industrial.
+        - e. Negócio Demográfico, Negócio Industrial e Negócio de Prestação de Serviços.
+
+2. Qual é uma das características da liderança transformacional?
+    - Resposta Selecionada: Estímulo intelectual.
+    - Opções:
+        - a. Estímulo intelectual.
+        - b. Comunicação não verbal.
+        - c. Comportamento simbólico.
+        - d. Estímulo intelectual e comunicação verbal.
+        - e. Estímulo verbal.
+
+## QUESTIONÁRIO UNIDADE II
