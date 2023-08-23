@@ -409,3 +409,78 @@ Costa Neto e Canuto (2010) afirmam que o sucesso de uma mudança se dá quando h
 5. **Estratégia como Perspectiva:**
    - Estratégia é uma maneira ampla de olhar o mundo, tanto interna como externamente.
    - Envolve uma visão coletiva dos estrategistas.
+
+## O mundo dos negócios
+
+> “Negócio é um esforço organizado por determinadas pessoas para produzir bens e serviços, a fim de vendê-los em um determinado mercado e alcançar recompensa financeira pelo seu esforço
+
+Negociar significa basicamente comprar e vender algo a alguém. E, sem dúvida, produzir esse algo e agregar valor no meio dessas duas pontas.
+
+Todo negócio envolve necessariamente algum produto/serviço e, consequentemente, algum fornecedor e algum cliente; uma cadeia de entradas, processos e saídas; alguma produção e algum mercado; uma forma de satisfazer alguma necessidade do cliente ou responder a alguma oportunidade de mercado.
+
+### cadeia de transações e os tipos de negócios
+
+Os bens e serviços são comercializados entre compradores e vendedores que formam uma verdadeira cadeia de transações, conforme a figura a seguir
+
+![Cadeia de transações](img/Asset8.png)
+
+- **Negócio Industrial:**
+  - Responsável pela produção de bens de consumo ou bens de produção.
+  - Transforma matérias-primas em mercadorias ou produtos acabados.
+
+- **Negócio Comercial:**
+  - Responsável pela venda direta ao consumidor (comércio varejista).
+  - Responsável pela venda direta do produtor (comércio atacadista).
+
+- **Negócio de Prestação de Serviços:**
+  - Oferece serviços especializados aos clientes.
+
+
+### Ambiente de negócios
+
+As organizações operam em um contexto, não de forma isolada. O ambiente externo à empresa é chamado de ambiente de negócios, com variáveis que podem influenciar positiva ou negativamente.
+
+De acordo com Chiavenato (2008), as variáveis no ambiente podem ser macroambientais, influenciando a maioria das corporações, ou microambientais, afetando um mercado específico.
+
+**Variáveis Macroambientais:**
+- **Econômicas:** Influenciam empresas de todos os tamanhos, relacionadas à economia em geral.
+- **Sociais:** Relacionadas à saúde, educação, segurança e bem-estar social.
+- **Tecnológicas:** Aspectos tecnológicos que podem trazer mudanças e inovações.
+- **Culturais:** Eventos e características culturais.
+- **Legais:** Leis e regulamentos que afetam as operações do negócio.
+- **Demográficas:** Características da população.
+- **Ecológicas:** Relacionadas ao meio ambiente e recursos naturais.
+
+**Variáveis Microeconômicas:**
+- **Fornecedores:** Fornecem recursos e insumos para a operação do negócio.
+- **Clientes:** Adquirem produtos ou serviços comercializados.
+- **Concorrentes:** Disputam as fatias de mercado com o negócio.
+- **Agências Reguladoras:** Responsáveis pela fiscalização das operações do negócio.
+
+#### Tamanho de empresas
+
+As empresas são classificadas pelo porte ou tamanho, segundo Chiavenato (2008) e o critério do Sebrae:
+
+- **Microempresa:**
+  - Construção e Indústria: Até 19 funcionários.
+  - Comércio e Serviços: Até 9 funcionários.
+
+- **Pequena Empresa:**
+  - Construção e Indústria: De 20 a 99 funcionários.
+  - Comércio e Serviços: De 10 a 49 funcionários.
+
+- **Média Empresa:**
+  - Construção e Indústria: De 100 a 499 funcionários.
+  - Comércio e Serviços: De 50 a 99 funcionários.
+
+- **Grande Empresa:**
+  - Construção e Indústria: A partir de 500 funcionários.
+  - Comércio e Serviços: A partir de 100 funcionários.
+
+O BNDES também classifica o porte das empresas de acordo com a receita operacional bruta anual:
+
+- **Microempresa:** ≤ R$ 2,4 milhões.
+- **Pequena Empresa:** > R$ 2,4 milhões e ≤ R$ 16 milhões.
+- **Média Empresa:** > R$ 16 milhões e ≤ R$ 90 milhões.
+- **Média-Grande Empresa:** > R$ 90 milhões e ≤ R$ 300 milhões.
+- **Grande Empresa:** > R$ 300 milhões.
