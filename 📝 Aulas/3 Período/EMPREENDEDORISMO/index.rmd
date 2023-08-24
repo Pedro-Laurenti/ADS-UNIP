@@ -496,7 +496,7 @@ Conceitos gerais:
 > *`EMPREENDEDORISMO`* - É o envolvimento de pessoas e processos que, em conjunto, levam à transformação de ideias em oportunidades. A perfeita implementação dessas oportunidades leva à criação de negócios de sucesso.
 
 
-Características de um empreendedor: 
+### Características de um empreendedor: 
 
 - **Iniciativa:** São pessoas que não ficam esperando que os outros (governo, empregador, parente, padrinho) resolvam seus problemas. Agem diante de adversidades.
 - **Persistência:** Motivados e convictos, os empreendedores persistem até que as coisas funcionem adequadamente.
@@ -512,7 +512,7 @@ Características de um empreendedor:
 - **Capacidade Empreendedora:** Ter capacidade empreendedora aumenta as chances de sucesso nos negócios, mas outras habilidades também são necessárias.
 
 
-Competências de um empreendedor:
+#### Competências de um empreendedor:
 
 - **Negociação Equilibrada:** Aprender a negociar e realizar acordos comerciais equilibrados, visando benefícios mútuos para as partes envolvidas.
 - **Comunicação Efetiva:** Desenvolver habilidades de comunicação para se expressar claramente, tanto por escrito quanto verbalmente, e compreender as mensagens dos outros.
@@ -521,3 +521,27 @@ Competências de um empreendedor:
 - **Orientação para o Cliente:** Reconhecer a importância de focar nos clientes, entendendo suas necessidades e transformando-os em parceiros. Clientes satisfeitos retornam e divulgam a empresa.
 - **Ferramentas ECR (Efficient Consumer Response):** Adquirir conhecimento sobre as ferramentas de Resposta Eficiente ao Consumidor, visando otimizar a relação entre a empresa e seus clientes.
 
+### Aspectos do empreendedorismo
+
+- No Aspecto Individual:
+  - Empreendedorismo é um **comportamento**, não um traço de personalidade isolado.
+  - Envolve uma conotação **prática** e abarca atitudes e ideias.
+  - Significa criar coisas novas ou desenvolver abordagens inovadoras para tarefas existentes.
+  - Um empreendedor é alguém que **imagina, desenvolve e realiza visões**.
+  - Capacidade de sonhar e transformar esses sonhos em realidade é fundamental.
+
+- No Aspecto Social:
+  - Um empreendedor de sucesso deve possuir capacidade de **julgamento, perseverança** e compreensão tanto do mundo quanto do negócio.
+  - Empreendedores têm a habilidade de **identificar e avaliar oportunidades de negócios**, providenciar recursos necessários e tomar ações para assegurar o sucesso.
+  - O empreendedor é associado ao **desenvolvimento econômico, inovação** e exploração de oportunidades de negócio.
+
+#### tipos de empreendedorismo:
+
+
+<center>
+
+|        Empreendedorismo Externo         | Empreendedorismo Interno ou Intraempreendedorismo |
+|:--------------------------------------:|:-----------------------------------------------:|
+| Quando o empreendedor comanda o próprio negócio ou empreendimento, exercendo a liderança sobre o grupo; | Quando o empreendedor lidera um grupo de pessoas dentro de sua própria organização com o objetivo de impulsionar o crescimento do negócio. |
+
+</center>
