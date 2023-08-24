@@ -498,8 +498,6 @@ Conceitos gerais:
 
 Características de um empreendedor: 
 
-## Características do Empreendedorismo
-
 - **Iniciativa:** São pessoas que não ficam esperando que os outros (governo, empregador, parente, padrinho) resolvam seus problemas. Agem diante de adversidades.
 - **Persistência:** Motivados e convictos, os empreendedores persistem até que as coisas funcionem adequadamente.
 - **Autoconfiança:** Acreditam em si mesmos, permitindo que assumam riscos e iniciativas desafiadoras.
