@@ -540,8 +540,53 @@ Conceitos gerais:
 
 <center>
 
-|        Empreendedorismo Externo         | Empreendedorismo Interno ou Intraempreendedorismo |
+|        Empreendedorismo Externo        | Empreendedorismo Interno ou Intraempreendedorismo |
 |:--------------------------------------:|:-----------------------------------------------:|
 | Quando o empreendedor comanda o próprio negócio ou empreendimento, exercendo a liderança sobre o grupo; | Quando o empreendedor lidera um grupo de pessoas dentro de sua própria organização com o objetivo de impulsionar o crescimento do negócio. |
 
 </center>
+
+Intraempreendedorismo:
+
+O  intraempreendedor  é  o  colaborador  da  empresa  que  inova,  identifica  e  cria  oportunidades  de  negócios e monta e coordena novas organizações ou arranjos de recursos para agregar valor. Age para atender necessidades latentes e busca fazer de forma mais eficaz o que já existe.
+
+As competências do intraempreendedor são:
+
+-  conhecimento do produto: habilidade de conhecer e entender o produto, além de explorar seu potencial;
+-  conhecimento do negócio: habilidade de realização e operação organizacionais;
+-  conhecimento do setor: habilidade de conhecer o segmento de mercado e suas tendências;
+-  habilidade de liderança: habilidade de influenciar e direcionar subordinados;
+-  habilidade  de  criar  rede  de  contatos:  habilidade  de  relacionar‑se  com  pessoas  influentes,  formadores de opinião e tomadores de decisão;
+-  habilidade administrativa: habilidade de planejar estrategicamente, encaminhando táticas e operações;
+-  habilidade de empreendedor: habilidade de reconhecer oportunidades e aproveitá‑las.
+
+> Geralmente o intraempreendedor é um péssimo treinador, pois acredita não saber o suficiente para ensinar  e  tem  a  necessidade  de  estar  constantemente  aprendendo  novas  coisas.  Dadas  as  condições,  
+
+## Histórico de empreendedorismo
+
+Segundo  Chiavenato  (2008),  o  empreendedorismo  se  origina  no  século  XVII  e  XIX,  no  período  do  liberalismo econômico. Nesse início, alguns pensadores econômicos afirmavam que as forças livres do mercado  e  da  concorrência  refletiam  a  ação  econômica.  O  empreendedor  era  visto  como  aquele  que  adquiria a matéria‑prima e a revendia, assumindo certo risco. Se conseguisse lucro além do esperado, seria um claro sinal de inovação.
+
+O  termo  “empreendedorismo”  foi  registrado  por  Richard  Cantillon,  em  1755,  para  explicar  a  receptividade ao risco de comprar algo por um determinado preço e vendê‑lo em um regime de incerteza. Jean Baptiste Say, em 1803, ampliou essa definição – para ele, empreendedorismo consiste em transferir recursos  econômicos  de  um  setor  que  produz  menos  para  um  setor  que  tenha  produtividade  mais  elevada e com maior rendimento. Fica convencionado, portanto, que quem abre seu próprio negócio é um empreendedor.
+
+### A visão behaviorista
+
+a década de 1950, quando houve crescimento da URSS, os americanos  adeptos  da  Escola  Behaviorista  decidiram  traçar  um  perfil  da  personalidade  behaviorista.  Colocando em foco a alta gerência das empresas, descobriu‑se que a necessidade de autorrealização (ideia anteriormente defendida) `não estava` claramente interligada à decisão de início de um empreendimento.
+
+### Evolução do empreendedorismo
+
+- Na Idade Média:
+  - o termo “empreender” foi utilizado para definir a pessoa que gerenciava grandes projetos de produção usando os recursos disponíveis, geralmente do governo do país.
+- No século XVII:
+  - o empreendedor estabelecia um acordo contratual com o governo para realizar algum serviço, fornecer produtos e, como geralmente os preços eram prefixados, qualquer lucro ou prejuízo era  só  do  empreendedor.  Richard  Cantillon  (escritor  e  economista)  é  considerado  um  dos  criadores do termo “empreendedorismo”.
+- No século XVIII:
+  -  nesse  século,  o  capitalista  e  o  empreendedor  foram  diferenciados,  devido  ao  início  da  industrialização que ocorria no mundo.
+- Nos séculos XIX e XX:
+  -  os empreendedores foram confundidos com os gerentes ou administradores (o que ainda acontece nos dias de hoje). São analisados, somente do ponto de vista econômico, como pessoas que organizam a empresa, planejam, dirigem e controlam as ações desenvolvidas na organização.
+
+- Nos dias de hoje: 
+  - há quem considere que o momento em que se vive atualmente é considerado a Era do empreendedorismo,  devido  a  todas  as  quedas  de  barreiras  comerciais  e  culturais  pela  ação dos empreendedores;
+  - impulsionados pela internet e por todo aparato tecnológico, as boas ideias e os negócios têm crescido cada vez mais – contando também com a colaboração da globalização;
+  - diversos países do mundo têm criado políticas públicas que incentivam a economia criativa e a atividade empreendedora;
+
+- O  empreendedorismo  no  Brasil:
+  - Começou  na  década  de  1990.  Seus  principais  responsáveis  foram  o  Serviço  Brasileiro  de  Apoio  às  Micro  e  Pequenas  Empresas  (Sebrae)  e  a  Sociedade  Brasileira  para  Exportação de Software (Softex).
