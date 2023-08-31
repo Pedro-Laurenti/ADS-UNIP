@@ -270,7 +270,7 @@ output: rmdformats::material
 
 - Resposta Selecionada: Correta `A`
 
-1. Com relação à qualidade na tomada de decisões, podemos citar alguns fatores com alto grau de qualidade, que são eles:
+2. Com relação à qualidade na tomada de decisões, podemos citar alguns fatores com alto grau de qualidade, que são eles:
 
     I. decisões economicamente pesados: leva em consideração aspectos econômicos;
     II. decisões consensuais: pautadas em critérios éticos;
@@ -288,7 +288,7 @@ output: rmdformats::material
 
 <br/>
 
-1. Assinale a(s) alternativa(s) correta(s) de acordo com as afirmações abaixo:
+3. Assinale a(s) alternativa(s) correta(s) de acordo com as afirmações abaixo:
 
     I. Eficiência está relacionada à melhor utilização dos recursos disponíveis para alcançar o melhor resultado.
     II. Eficácia está relacionada ao resultado não muito bom da corporação, possuindo uma ligação ruim com as áreas.
@@ -411,3 +411,83 @@ Resposta Selecionada:
 <br/>
 
 - Resposta Selecionada: Correta `D`
+
+
+# UNIDADE III
+
+## ATIVIDADE TELEAULA III
+
+1. A revolução do empreendedorismo foi marcada por grandes inovações. Podemos citar como exemplo a criação do avião motorizado, a teoria geral da relatividade, o laser entre outros. Em que período isso ocorreu?
+
+    - Resposta Correta: `C` Século XX.
+
+2. Com relação à estratégia competitiva, um autor (1998) diz: “[...] a estratégia será boa quando possibilitar entender melhor a necessidade dos clientes e criar valor para eles”. Estamos falando de qual autor?
+
+    - Resposta Correta: `B` Ohmae.
+
+3. Com relação ao Processo Empreendedor, Dornelas (2008) afirma que: para que haja sucesso em um negócio são necessários:
+
+    - Resposta correta: `B`Talento, Tecnologia, Capital e Conhecimento.
+
+4. No aspecto do empreendedorismo, das afirmações abaixo, qual não se enquadra no aspecto individual?
+
+    - Resposta correta: `C` Não possui a capacidade de sonhar e de transformar esses sonhos em realidade.
+
+
+## QUESTIONÁRIO UNIDADE III
+
+1. Com relação ao ambiente competitivo de uma organização, quais os elementos básicos que o alicerçam?
+    I. Criatividade e inflexibilidade.
+    II. Intuição e criatividade.
+    III. Adaptação e flexibilidade.
+    IV. Criatividade e adaptação.
+
+    - Resposta correta: `C` II, III e IV.
+
+2. Com relação ao histórico do empreendedorismo: “[...] É uma oposição e ao mesmo tempo um complemento às relações humanas, concilia trabalho, produtividade, condições de trabalho e abordagem social da empresa”. Estamos nos referindo a:
+
+    - Resposta correta: `A` Escola Behaviorista.
+
+3. Conforme estudado no texto, empreendedorismo pode ser ensinado? Assinale abaixo a alternativa correta:
+
+    - Resposta correta: `D` O processo empreendedor pode ser ensinado e entendido por qualquer pessoa.
+
+4. De acordo com Dorneles (2008), as habilidades requeridas de um empreendedor podem ser classificadas em:
+
+    - Resposta correta: `A` Habilidades técnicas, gerenciais e características pessoais.
+
+5. Dentro de uma empresa, aquele colaborador que inova, identifica e cria oportunidades de negócio é chamado de:
+
+    - Resposta correta: `D` Intraempreendedor.
+
+6. Existem vários mitos sobre empreendedorismo, conforme Dornelas (2008). Assinale a alternativa correta:
+
+    - Resposta correta: `B` Empreendedores são natos, nascem para o sucesso.
+
+7. O empreendedor, além dos atributos do administrador, também possui características extras. Essas características podem ser identificadas conforme descritas abaixo:
+    I. Decisão e responsabilidade.
+    II. Volúvel e indecisão.
+    III. Não aceitação dos riscos.
+    IV. Ser voltado para a equipe.
+
+    - Resposta correta: `C` I e IV.
+
+8. O movimento do empreendedorismo no Brasil começou a tomar forma quando entidades como o SEBRAE e a Softex foram criadas. Em que década isso ocorreu? Assinale a alternativa correta:
+
+    - Resposta correta: `A` Década de 1990.
+
+9. O processo empreendedor é composto por fases, que são elas:
+    I. 1ª fase: Identificar e avaliar uma oportunidade.
+    II. 2ª fase: Ideias criativas.
+    III. 3ª fase: Determinar e captar os recursos necessários.
+    IV. 4ª fase: Gerenciar a empresa criada.
+
+    - Resposta correta: `B` I, III e IV.
+
+10. Para ajudar a vencer e a driblar a competitividade dos tempos modernos, o empreendedor deve focar nos quatro pilares da educação, que são:
+    I. Aprender a conhecer.
+    II. Aprender a fazer.
+    III. Aprender a trabalhar individualmente.
+    IV. Aprender a ser.
+
+    - Resposta correta: `B` I, II e IV.
