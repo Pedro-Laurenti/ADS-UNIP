@@ -1,0 +1,68 @@
+--- 
+title: "Estudos Disciplinares VII"
+author: "Pedro José Laurenti de Matos"
+date: "`r Sys.Date()`"
+output: rmdformats::material
+
+---
+
+# UNIDADE I
+
+## Diagrama de Atividades
+
+<div style="width:80%">
+
+<center>
+
+![Exemplo de um D.A.](img/image1.png)
+
+</center>
+
+</div>
+
+As `coleções de ações` podem ser divididas conforme a seguir:
+
+- Estado inicial: é representado por um círculo preenchido. Todo diagrama de atividades deve ter um estado inicial.
+- Estado de ação: é realizado instantaneamente e indica que o sistema está realizando algo.
+- Estado de atividade: necessita de um tempo para ser executado e indica que o sistema está realizando algo.
+- Ponto de ramificação: é representado por um losango e apresenta uma transição de entrada e várias transições de saída.
+- Ponto de união: é representado por um losango e reúne várias transições de entrada e uma transição de saída.
+- Ponto de transição: ocorre no término de um estado de ação e, consequentemente, no início de outro.
+- Bifurcação: pode ser representada por uma barra horizontal. Recebe uma transição de entrada e cria dois ou mais fluxos de controle que serão executados independentemente e em paralelo.
+- União: é representada por uma barra horizontal. Recebe duas ou mais transições de entrada e une os fluxos em um único fluxo de controle.
+- Estado final: um diagrama de atividade pode não apresentar estado final (quando o processo ou procedimento que está sendo modelado é cíclico) e também pode ter um ou vários estados finais.
+
+
+O diagrama de atividades é um dos diagramas disponíveis na UML (Linguagem de Modelagem Unificada) para a modelagem de aspectos dinâmicos de sistemas.
+
+## Design Pattern e Abstract Factory
+
+Os **Padrões de Projeto (Design Patterns)** são soluções comprovadas para problemas comuns que surgem ao desenvolver software. Eles fornecem diretrizes e modelos para resolver esses problemas de forma eficaz.
+
+Um exemplo de Padrão de Projeto é o **Abstract Factory**, que se concentra na criação de objetos de maneira flexível. Isso é especialmente útil quando precisamos criar objetos que se encaixem em diferentes contextos, como suportar diferentes tipos de interfaces gráficas, como Windows ou Mac.
+
+A ideia é que você diga à fábrica que deseja um sistema que se comporte como o Windows. A fábrica, então, cria objetos relacionados à interface gráfica do Windows, como botões, caixas de seleção e janelas. Quando você usa esses objetos, eles são criados pela fábrica de GUI do Windows, tornando seu código mais flexível e independente das classes específicas que estão sendo instanciadas.
+
+## Diagrama de Sequência
+
+O **Diagrama de Sequência da UML** é uma representação gráfica que descreve a ordem temporal das mensagens trocadas entre os objetos em um sistema.
+
+Geralmente, é construído com informações provenientes dos **Diagramas de Caso de Uso** e dos **Diagramas de Classes**. O Diagrama de Caso de Uso fornece os atores (como usuários) e o Diagrama de Classes fornece os objetos envolvidos no sistema. Isso ajuda a determinar a sequência em que os eventos ocorrem e as mensagens que são enviadas (ou seja, os métodos chamados), estabelecendo a interação entre os objetos.
+
+O Diagrama de Sequência é derivado das funcionalidades identificadas nos Diagramas de Caso de Uso, onde um Caso de Uso descreve um comportamento do sistema executado por um ator. Ele também se baseia no Diagrama de Classes para identificar os objetos relevantes. Além disso, o Diagrama de Sequência ajuda a validar e refinar os dois diagramas, podendo levar a complementações ou modificações.
+
+Ao ler um Diagrama de Sequência, é importante seguir a sequência temporal de cima para baixo e da esquerda para a direita. Números sequenciais são frequentemente usados para ordenar as mensagens.
+
+Os atores em um Diagrama de Sequência são os mesmos descritos nos Casos de Uso e são representados como bonecos magros. Os objetos são representados como quadrados ou estereótipos da UML (que não são utilizados no diagrama em questão). Cada ator ou objeto possui uma "linha de vida" tracejada, que geralmente representa uma instância e o tempo em que existem no processo. Essa linha de vida é interrompida com um "X" quando o objeto é destruído.
+
+Quando um objeto está ativamente envolvido no processo, ele possui o "foco de controle", que é uma linha retangular fina posicionada acima da linha de vida. Os objetos posicionados no topo do diagrama existem desde o início do processo, enquanto os objetos posicionados abaixo são criados e, muitas vezes, destruídos durante o processo. Um objeto também pode enviar uma mensagem a si mesmo, o que é chamado de autochamada.
+
+<div style="width:80%">
+
+<center>
+
+![Exemplo de um D.S.](img/image2.png)
+
+</center>
+
+</div>
