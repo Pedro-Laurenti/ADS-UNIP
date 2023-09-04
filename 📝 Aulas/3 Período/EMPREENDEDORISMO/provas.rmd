@@ -497,73 +497,110 @@ Resposta Selecionada:
 
 ## ATIVIDADE TELEAULA IV
 
+1. Correta Mercado é o local, físico ou virtual que favorece a compra e venda de bens e serviços. Ele pode se encontrar em duas situações: mercado de oferta ou procura. Assinale abaixo a alternativa que corresponda ao mercado de oferta:
+    a. Mais compradores que ofertantes.
+    b. Falta de produtos e serviço.
+    c. Concorrência de compradores.
+    d. Oferta maior que procura.
+    e. Preços com tendência a elevação.
+
+    - Comentário da resposta: Resposta Correta: `D`
+
+2. O empreendedor para ser bem sucedido precisa planejar o seu negócio, esse planejamento produz um resultado imediato: o plano. Baseado nessa afirmação, qual o propósito de se ter um plano? Assinale abaixo a alternativa correta:
+    a. Ideia e coordenação.
+    b. Programação e capital.
+    c. Previsão, programação e coordenação.
+    d. Capital e coordenação.
+    e. Nenhuma das alternativas anteriores.
+
+    - Resposta Correta: `C`
+
+3. Correta Os produtos possuem um ciclo de vida, passando por etapas clássicas de desenvolvimento. Maximiano (2006) apresenta cada etapa e suas características. Assinale a alternativa correta:
+    a. Etapa introdutória: as vendas decrescem, lucros desaparecem.
+    b. Crescimento: vendas decrescem, lucros desaparecem.
+    c. Maturação: vendas decrescem, lucros desaparecem.
+    d. Declínio: vendas decrescem lucros desaparecem.
+    e. Nenhuma das alternativas anteriores.
+
+    - Resposta Correta: `D` Declínio: vendas decrescem lucros desaparecem.
+
+4. Qual é um dos principais instrumentos para a manutenção, retenção e motivação dos funcionários dentro de uma empresa? Assinale a alternativa correta:
+    a. Aprimoramento do desempenho.
+    b. Remuneração direta e indireta.
+    c. Reconhecimento pelas habilidades.
+    d. Jornada de trabalho.
+    e. Promoção por tempo de serviço.
+
+    - Resposta Correta: `B` Remuneração direta e indireta. 
+
+
 ## QUESTIONÁRIO UNIDADE IV
 
 1. A avaliação de desempenho é uma técnica muito prática. Nesse sistema, o gerente e cada funcionário ou equipe em conjunto definem:
-   
-   I. Definem metas de desempenho.
-   II. Definem salários e contratação.
-   III. Definem aprimoramento do desempenho.
-   IV. Definem novos mitos.
-   
-   Assinale a alternativa correta:
-   
-   - Resposta correta: `A` I, III, IV
+
+    I. Definem metas de desempenho.
+    II. Definem salários e contratação.
+    III. Definem aprimoramento do desempenho.
+    IV. Definem novos mitos.
+
+    Assinale a alternativa correta:
+
+    - Resposta correta: `A` I, III, IV
 
 2. A função de Recursos Humanos compreende processos básicos que são:
-   
-   I. Aquisição de pessoas
-   II. Aquisição de recursos (capital)
-   III. Gestão do desempenho das pessoas
-   IV. Manutenção de pessoas
-   
-   Assinale a alternativa correta:
-   
-   - Resposta correta: `A` I, III, IV
+    
+    I. Aquisição de pessoas
+    II. Aquisição de recursos (capital)
+    III. Gestão do desempenho das pessoas
+    IV. Manutenção de pessoas
+
+    Assinale a alternativa correta:
+
+    - Resposta correta: `A` I, III, IV
 
 3. O Brainstorming, conhecido como "tempestade de ideias", baseia-se no fato de as pessoas serem estimuladas a gerar novas ideias quando estão em grupo. O Brainstorming é executado conforme algumas regras. Assinale abaixo a alternativa incorreta:
-   
-   - Resposta correta: `A` Deve haver críticas mútuas no grupo sobre as ideias que vêm à tona.
+
+    - Resposta correta: `A` Deve haver críticas mútuas no grupo sobre as ideias que vêm à tona.
 
 4. O cargo é uma coleção de responsabilidades e tarefas que o funcionário deverá desempenhar e executar. Além disso, uma descrição de cargo contém quais informações?
-   
-   I. Posição do cargo na hierarquia.
-   II. Qualificações obrigatórias, como diploma ou habilitações profissionais.
-   III. Condições de trabalho, como riscos ou necessidades de usar equipamentos especializados.
-   IV. Classe salarial.
-   
-   Assinale a alternativa correta:
-   
-   - Resposta correta: `D` I, II, III, IV
+
+    I. Posição do cargo na hierarquia.
+    II. Qualificações obrigatórias, como diploma ou habilitações profissionais.
+    III. Condições de trabalho, como riscos ou necessidades de usar equipamentos especializados.
+    IV. Classe salarial.
+
+    Assinale a alternativa correta:
+
+    - Resposta correta: `D` I, II, III, IV
 
 5. Os autores falam "...que a composição do corpo do plano de negócios começa por uma descrição da empresa, que explicitará o nível de organização do negócio, a história, a constituição jurídica, a situação atual e os projetos futuros, tanto para pesquisa e desenvolvimento como para atividades operacionais e financeiras". Estamos falando de quais autores?
-   
-   Assinale a alternativa correta:
-   
-   - Resposta correta: `D` Dornellas (2008) e Biagio (2005)
+
+    Assinale a alternativa correta:
+
+    - Resposta correta: `D` Dornellas (2008) e Biagio (2005)
 
 6. Por meio do Marketing, a empresa demonstra sua capacidade em tornar o produto conhecido pelos clientes. De acordo com Biagio (2006):
-   
-   I. É a forma que a empresa tem de divulgar seus produtos para o cliente.
-   II. Despertará em seus clientes a necessidade de adquirir produtos.
-   III. A forma como a empresa se comunicará com seus consumidores.
-   
-   Está correto em afirmar:
-   
-   - Resposta correta: `C` I, II, III
+
+    I. É a forma que a empresa tem de divulgar seus produtos para o cliente.
+    II. Despertará em seus clientes a necessidade de adquirir produtos.
+    III. A forma como a empresa se comunicará com seus consumidores.
+
+    Está correto em afirmar:
+
+    - Resposta correta: `C` I, II, III
 
 7. Produção é como a empresa produz seus produtos ou presta seus serviços. A produção e a instalação de processos que afetarão diretamente a produção devem ser identificadas, planejadas e conduzidas sob condições controladas. Quais são essas condições?
-   
-   - Resposta correta: `E` Todas as alternativas estão corretas.
+
+    - Resposta correta: `E` Todas as alternativas estão corretas.
 
 8. Segundo Chiavenato (2008), "...O empreendedor que deseja desenvolver um produto ou um novo negócio deverá levar em consideração primeiramente qual etapa"? Assinale a alternativa correta:
-   
-   - Resposta correta: `B` Oportunidade e ideia
+
+    - Resposta correta: `B` Oportunidade e ideia
 
 9. Segundo o autor "Mercado é um grupo de consumidores que têm necessidades e interesses similares." Estamos falando de qual autor?
-   
-   - Resposta correta: `C` Porter (1989)
+
+    - Resposta correta: `C` Maximiano (2006)
 
 10. Tomada de decisões é uma constante na rotina de um empreendedor, como por exemplo, comprar ou alugar equipamentos e instalações, fixar preços e controlar estoques, entre outros. Estamos falando de?
-    
+
     - Resposta correta: `C` Plano financeiro
