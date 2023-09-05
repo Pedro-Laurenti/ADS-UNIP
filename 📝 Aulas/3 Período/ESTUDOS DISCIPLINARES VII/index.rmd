@@ -151,8 +151,8 @@ Na área de computação, lidamos frequentemente com grandes quantidades de dado
 |---------------------|--------------|
 | Ludwig van Beethoven| Clássico     |
 | Johann Sebastian Bach| Barroco     |
-| John Coltrane        | Jazz        |
-| Miles Davis          | Jazz        |
+| John Coltrane       |  Jazz        |
+| Miles Davis         |  Jazz        |
 | Antônio Carlos Jobim| MPB          |
 
 Os **Diagramas de Entidade e Relacionamento** são usados no projeto de bancos de dados relacionais. Eles incluem três elementos principais: tipos de entidade (representados como quadrados), atributos (propriedades dos tipos de entidade) e relacionamentos (associações entre tipos de entidade).
