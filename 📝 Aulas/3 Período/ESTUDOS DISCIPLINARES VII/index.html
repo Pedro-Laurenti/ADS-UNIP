@@ -7,7 +7,7 @@
 
         <meta name="author" content="Pedro José Laurenti de Matos" />
     
-        <meta name="date" content="2023-09-04" />
+        <meta name="date" content="2023-09-07" />
     
     <title>Estudos Disciplinares VII</title>
     <!-- Material Design fonts -->
@@ -852,6 +852,75 @@ font-weight: bold;
 </script>
     
     
+        <style type="text/css">code{white-space: pre;}</style>
+    <style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+{ counter-reset: source-line 0; }
+pre.numberSource code > span
+{ position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+{ content: counter(source-line);
+position: relative; left: -1em; text-align: right; vertical-align: baseline;
+border: none; display: inline-block;
+-webkit-touch-callout: none; -webkit-user-select: none;
+-khtml-user-select: none; -moz-user-select: none;
+-ms-user-select: none; user-select: none;
+padding: 0 4px; width: 4em;
+background-color: #ffffff;
+color: #a0a0a0;
+}
+pre.numberSource { margin-left: 3em; border-left: 1px solid #a0a0a0; padding-left: 4px; }
+div.sourceCode
+{ color: #1f1c1b; background-color: #ffffff; }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span { color: #1f1c1b; } 
+code span.al { color: #bf0303; background-color: #f7e6e6; font-weight: bold; } 
+code span.an { color: #ca60ca; } 
+code span.at { color: #0057ae; } 
+code span.bn { color: #b08000; } 
+code span.bu { color: #644a9b; font-weight: bold; } 
+code span.cf { color: #1f1c1b; font-weight: bold; } 
+code span.ch { color: #924c9d; } 
+code span.cn { color: #aa5500; } 
+code span.co { color: #898887; } 
+code span.cv { color: #0095ff; } 
+code span.do { color: #607880; } 
+code span.dt { color: #0057ae; } 
+code span.dv { color: #b08000; } 
+code span.er { color: #bf0303; text-decoration: underline; } 
+code span.ex { color: #0095ff; font-weight: bold; } 
+code span.fl { color: #b08000; } 
+code span.fu { color: #644a9b; } 
+code span.im { color: #ff5500; } 
+code span.in { color: #b08000; } 
+code span.kw { color: #1f1c1b; font-weight: bold; } 
+code span.op { color: #1f1c1b; } 
+code span.ot { color: #006e28; } 
+code span.pp { color: #006e28; } 
+code span.re { color: #0057ae; background-color: #e0e9f8; } 
+code span.sc { color: #3daee9; } 
+code span.ss { color: #ff5500; } 
+code span.st { color: #bf0303; } 
+code span.va { color: #0057ae; } 
+code span.vs { color: #bf0303; } 
+code span.wa { color: #bf0303; } 
+</style>
     
     
     <!-- tabsets -->
@@ -939,7 +1008,7 @@ display: none;
 	  	  <div id="header">
 	    <h1 class="title">Estudos Disciplinares VII</h1>
 	    	    	    	    <h4 class="author">Pedro José Laurenti de Matos</h4>
-	    	    	    	    <h4 class="date">2023-09-04</h4>
+	    	    	    	    <h4 class="date">2023-09-07</h4>
 	    	  </div>
 	  	</div>
       </div>
@@ -953,6 +1022,7 @@ display: none;
 <div id="toc">
 <ul>
 <li><a href="#unidade-i" id="toc-unidade-i">UNIDADE I</a></li>
+<li><a href="#unidade-ii" id="toc-unidade-ii">UNIDADE II</a></li>
 </ul>
 </div>
 </nav>
@@ -1731,6 +1801,97 @@ e extensão entre casos de uso.</p></li>
 especificados por meio de relacionamentos de generalização, inclusão e
 extensão.</p></li>
 </ul>
+</div>
+</div>
+</div>
+<div id="unidade-ii" class="section level1">
+<h1>UNIDADE II</h1>
+<div id="javabeans-e-componentes-reutilizáveis-em-java" class="section level2">
+<h2><strong>JavaBeans e Componentes Reutilizáveis em Java</strong></h2>
+<p><strong>JavaBeans</strong> são elementos fundamentais no mundo do
+desenvolvimento de software em Java. Eles são componentes de software
+escritos em linguagem de programação Java que seguem uma série de
+convenções e especificações da Sun Microsystems. Essas convenções tornam
+os JavaBeans componentes reutilizáveis que podem ser facilmente
+manipulados visualmente com a ajuda de ferramentas de desenvolvimento,
+como IDEs (Ambientes de Desenvolvimento Integrado).</p>
+<p><strong>Características dos JavaBeans:</strong> -
+<strong>Reutilizabilidade:</strong> Os JavaBeans são projetados para
+serem reutilizáveis em diferentes contextos de desenvolvimento. Isso
+significa que você pode criar um JavaBean em um projeto e facilmente
+utilizá-lo em outros projetos, economizando tempo e esforço de
+desenvolvimento.</p>
+<ul>
+<li><p><strong>Acessibilidade:</strong> Um JavaBean é uma classe Java
+que segue uma convenção de nomenclatura simples para seus métodos. Essa
+convenção inclui métodos <code>getter</code> e <code>setter</code>, que
+permitem o acesso e a modificação das propriedades do JavaBean. Essa
+abordagem de encapsulamento facilita o controle e a manipulação das
+propriedades do componente.</p></li>
+<li><p><strong>Serialização:</strong> Os JavaBeans são serializáveis, o
+que significa que podem ser convertidos em uma sequência de bytes e,
+posteriormente, recriados a partir desses bytes. Isso é útil em cenários
+como persistência de objetos em banco de dados ou transmissão de objetos
+pela rede.</p></li>
+<li><p><strong>Construtor Nulo:</strong> Um JavaBean deve ter um
+construtor nulo (construtor sem parâmetros), o que garante que ele possa
+ser facilmente instanciado e utilizado em várias situações.</p></li>
+</ul>
+<p>Além disso, os JavaBeans são projetados para serem independentes de
+plataforma. Isso significa que, independentemente da plataforma de
+hardware ou sistema operacional em que seu aplicativo Java esteja sendo
+executado, os JavaBeans podem ser utilizados, desde que uma <strong>Java
+Virtual Machine (JVM)</strong> esteja disponível. A JVM é responsável
+por executar aplicativos Java, traduzindo o código Java (bytecode) em
+código de máquina executável e gerenciando a execução dos
+aplicativos.</p>
+<p><strong>IDEs Java (Ambientes de Desenvolvimento Integrado)</strong>,
+como Eclipse, NetBeans e JDeveloper, desempenham um papel importante no
+desenvolvimento de software Java. Essas ferramentas oferecem um ambiente
+completo para escrever, depurar e testar código Java, aumentando a
+produtividade dos desenvolvedores. Além disso, eles são compatíveis com
+a especificação JavaBeans, o que significa que podem facilmente integrar
+e utilizar JavaBeans em seus projetos.</p>
+<p>A interoperabilidade entre diferentes IDEs é uma vantagem adicional
+da especificação JavaBeans. Isso permite que desenvolvedores criem
+componentes em uma IDE e os utilizem em outra sem problemas de
+compatibilidade.</p>
+<p><strong>Adquirir componentes de terceiros</strong> é uma prática
+comum no desenvolvimento de software Java. Componentes de terceiros
+podem ser facilmente incorporados aos projetos, economizando tempo e
+esforço de desenvolvimento. Como esses componentes são independentes da
+arquitetura de hardware, eles só dependem da presença de uma JVM para
+serem executados em qualquer máquina.</p>
+<p>Portanto, a especificação JavaBeans e o uso de IDEs Java, como
+Eclipse, NetBeans e JDeveloper, simplificam o desenvolvimento de
+software, promovendo a reutilização de componentes, independência de
+plataforma e facilitando a integração de componentes de terceiros em
+seus projetos.</p>
+<div id="tratamento-de-erro-e-exceções" class="section level3">
+<h3>Tratamento de erro e exceções</h3>
+<p>Sempre que um método de alguma classe é passível de causar algum
+erro, podemos usar o método de tentativa, o <code>try</code>. Tudo que
+estiver dentro do bloco try será executado até que alguma exceção seja
+lançada, ou seja, até que algo dê errado.</p>
+<p>Quando uma exceção é lançada, ela sempre deve ser capturada. O
+trabalho de captura da exceção é executado pelo bloco catch.</p>
+<ul>
+<li>Um bloco <code>try</code> pode possuir vários blocos de
+<code>catch</code>, dependendo do número de exceções que podem ser
+lançadas por uma classe ou método.</li>
+<li>O bloco <code>catch</code> obtém o erro criando uma instância da
+exceção.</li>
+<li>Portanto, a sintaxe do bloco <code>try</code>/<code>catch</code> é a
+seguinte:</li>
+</ul>
+<div class="sourceCode" id="cb1"><pre class="sourceCode java"><code class="sourceCode java"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="cf">try</span></span>
+<span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb1-3"><a href="#cb1-3" tabindex="-1"></a>    <span class="co">// código a ser executado</span></span>
+<span id="cb1-4"><a href="#cb1-4" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb1-5"><a href="#cb1-5" tabindex="-1"></a><span class="cf">catch</span> <span class="op">(</span>ClasseDeExcecao instanciaDaExcecao<span class="op">)</span></span>
+<span id="cb1-6"><a href="#cb1-6" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb1-7"><a href="#cb1-7" tabindex="-1"></a>    <span class="co">// tratamento da exceção</span></span>
+<span id="cb1-8"><a href="#cb1-8" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
 </div>
 </div>
 </div>

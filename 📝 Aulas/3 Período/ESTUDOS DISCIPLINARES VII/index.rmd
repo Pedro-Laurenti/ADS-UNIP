@@ -410,3 +410,80 @@ Uma associação estabelece o motivo pelo qual duas classes relacionam-se e esta
 - Extensões e Inclusões: Relacionamentos de generalização, inclusão e extensão entre casos de uso.
 
 - Organização: Os casos de uso podem ser organizados em pacotes ou especificados por meio de relacionamentos de generalização, inclusão e extensão.
+
+
+# UNIDADE II
+
+## **JavaBeans e Componentes Reutilizáveis em Java**
+
+**JavaBeans** são elementos fundamentais no mundo do desenvolvimento de software em Java. Eles são componentes de software escritos em linguagem de programação Java que seguem uma série de convenções e especificações da Sun Microsystems. Essas convenções tornam os JavaBeans componentes reutilizáveis que podem ser facilmente manipulados visualmente com a ajuda de ferramentas de desenvolvimento, como IDEs (Ambientes de Desenvolvimento Integrado).
+
+**Características dos JavaBeans:**
+- **Reutilizabilidade:** Os JavaBeans são projetados para serem reutilizáveis em diferentes contextos de desenvolvimento. Isso significa que você pode criar um JavaBean em um projeto e facilmente utilizá-lo em outros projetos, economizando tempo e esforço de desenvolvimento.
+
+- **Acessibilidade:** Um JavaBean é uma classe Java que segue uma convenção de nomenclatura simples para seus métodos. Essa convenção inclui métodos `getter` e `setter`, que permitem o acesso e a modificação das propriedades do JavaBean. Essa abordagem de encapsulamento facilita o controle e a manipulação das propriedades do componente.
+
+- **Serialização:** Os JavaBeans são serializáveis, o que significa que podem ser convertidos em uma sequência de bytes e, posteriormente, recriados a partir desses bytes. Isso é útil em cenários como persistência de objetos em banco de dados ou transmissão de objetos pela rede.
+
+- **Construtor Nulo:** Um JavaBean deve ter um construtor nulo (construtor sem parâmetros), o que garante que ele possa ser facilmente instanciado e utilizado em várias situações.
+
+Além disso, os JavaBeans são projetados para serem independentes de plataforma. Isso significa que, independentemente da plataforma de hardware ou sistema operacional em que seu aplicativo Java esteja sendo executado, os JavaBeans podem ser utilizados, desde que uma **Java Virtual Machine (JVM)** esteja disponível. A JVM é responsável por executar aplicativos Java, traduzindo o código Java (bytecode) em código de máquina executável e gerenciando a execução dos aplicativos.
+
+**IDEs Java (Ambientes de Desenvolvimento Integrado)**, como Eclipse, NetBeans e JDeveloper, desempenham um papel importante no desenvolvimento de software Java. Essas ferramentas oferecem um ambiente completo para escrever, depurar e testar código Java, aumentando a produtividade dos desenvolvedores. Além disso, eles são compatíveis com a especificação JavaBeans, o que significa que podem facilmente integrar e utilizar JavaBeans em seus projetos.
+
+A interoperabilidade entre diferentes IDEs é uma vantagem adicional da especificação JavaBeans. Isso permite que desenvolvedores criem componentes em uma IDE e os utilizem em outra sem problemas de compatibilidade.
+
+**Adquirir componentes de terceiros** é uma prática comum no desenvolvimento de software Java. Componentes de terceiros podem ser facilmente incorporados aos projetos, economizando tempo e esforço de desenvolvimento. Como esses componentes são independentes da arquitetura de hardware, eles só dependem da presença de uma JVM para serem executados em qualquer máquina.
+
+Portanto, a especificação JavaBeans e o uso de IDEs Java, como Eclipse, NetBeans e JDeveloper, simplificam o desenvolvimento de software, promovendo a reutilização de componentes, independência de plataforma e facilitando a integração de componentes de terceiros em seus projetos.
+
+### Tratamento de erro e exceções
+
+Sempre que um método de alguma classe é passível de causar algum erro, podemos usar o método de tentativa, o `try`. Tudo que estiver dentro do bloco try será executado até que alguma exceção seja lançada, ou seja, até que algo dê errado.
+
+Quando uma exceção é lançada, ela sempre deve ser capturada. O trabalho de captura da exceção é executado pelo bloco catch.
+
+
+- Um bloco `try` pode possuir vários blocos de `catch`, dependendo do número de exceções que podem ser lançadas por uma classe ou método.
+- O bloco `catch` obtém o erro criando uma instância da exceção.
+- Portanto, a sintaxe do bloco `try`/`catch` é a seguinte:
+
+```java
+try
+{
+    // código a ser executado
+}
+catch (ClasseDeExcecao instanciaDaExcecao)
+{
+    // tratamento da exceção
+}
+
+```
+
+
+## Marco Civil da Internet
+
+- O cenário envolve um cliente de um provedor de acesso à Internet que contratou um serviço com velocidade de conexão de 5 Megabits/s (Mbps). No entanto, o cliente enfrenta problemas de perda de conexão e não recebe a velocidade contratada, mesmo pagando em dia.
+
+- São apresentadas duas asserções relacionadas ao Marco Civil da Internet:
+    I. A manutenção da qualidade contratada da conexão à Internet é uma obrigação prevista no Marco Civil da Internet.
+    II. Não pode haver suspensão da conexão à Internet, salvo por débito diretamente decorrente de sua utilização.
+
+- A resposta correta é a alternativa B, pois ambas as asserções são verdadeiras, mas a II não é uma justificativa correta da I. O Marco Civil da Internet estabelece a obrigação dos provedores de garantir a qualidade do serviço, conforme o item V do artigo 7º do Capítulo II da Lei Nº 12.965/2014, e a suspensão da conexão só pode ocorrer em caso de débito decorrente da utilização, conforme o item IV do mesmo artigo.
+
+- A relação entre as asserções é que ambas estão relacionadas ao Marco Civil da Internet, mas abordam aspectos diferentes da legislação. A asserção I refere-se à qualidade do serviço, enquanto a asserção II trata das condições de suspensão do serviço.
+
+## Barramentos
+
+- O barramento é o elemento de conexão entre todos os componentes do computador, como memória, CPU e dispositivos de entrada e saída.
+- O barramento de dados é o meio pelo qual os dados são transmitidos.
+- O barramento de endereços transporta informações sobre o endereço do dispositivo que pode acessar o barramento de dados.
+- O barramento de controle determina o sentido do fluxo de dados (entrada ou saída da CPU) e controla o clock no barramento.
+
+
+## Função recursiva
+
+- Uma função é chamada recursiva quando ela é chamada novamente dentro de seu próprio corpo.
+- Implementações recursivas podem ser menos eficientes, mas geralmente facilitam a codificação e compreensão do código.
+- Ao criar uma função recursiva, é essencial estabelecer uma condição de parada para evitar que o programa entre em um loop infinito.
+- A recursividade pode ser resolvida seguindo a execução da função em uma tabela, retornando valores com base nas chamadas recursivas.
