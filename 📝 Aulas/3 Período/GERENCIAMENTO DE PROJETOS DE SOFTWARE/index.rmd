@@ -104,3 +104,56 @@ Funções de um Escritório de Gerenciamento de Projetos (Dinsmore e Barbosa, 20
 - Consultoria e aconselhamento: suporte a propostas, avaliação de riscos e consultoria com a alta administração.
 - Treinamento: treinamento das equipes de projeto.
 - Acompanhamento de profissionais: apoio na contratação, avaliação de capacidades e identificação de níveis salariais.
+
+
+# GERENCIAMENTO DE PROJETOS DENTRO DO AMBIENTE DE TI
+
+Hoje em dia, podemos encontrar a TI com uma estrutura organizacional formada pelas seguintes subáreas: desenvolvimento, suporte, produção e relacionamento. A figura a seguir apresenta um exemplo de estrutura organizacional de TI comumente encontrada em algumas empresas.
+
+![Diagrama de projetos em TI](img/image2.png)
+
+- **CIO (Chief Information Officer):** Responsável pelos resultados da TI e pelo alinhamento estratégico com o negócio.
+
+- **Área de Desenvolvimento:** Mantém e desenvolve sistemas de informação com base nos requisitos de negócio.
+
+- **Área de Suporte:** Gerencia a infraestrutura que suporta as operações das aplicações de negócio.
+
+- **Área de Produção (Operação ou Datacenter):** Lida com o processamento de dados.
+
+- **Área de Relacionamento:** Facilita a comunicação entre TI e negócio.
+
+A estrutura de TI pode variar com base na terceirização de serviços. A evolução na administração da TI abrangeu uma mudança para a gestão de serviços e, atualmente, foca na governança de TI, promovendo parceria com o negócio.
+
+## Modelos que auxiliam a gestão da TI
+
+| Modelo                                             | Escopo do Modelo                                      |
+|----------------------------------------------------|-------------------------------------------------------|
+| Business Analysis Body of Knowledge (BABOK)        | Análise de negócios                                   |
+| Business Process Management Body of Knowledge (BPM CBOK) | Gestão de processos de negócios                 |
+| The Open Group Architecture Framework (TOGAF)      | Arquitetura relacionada à TI                          |
+| Projects in controlled environments (PRINCE2)      | Gestão de projetos de forma geral                     |
+| Project Management Body Of Knowledge (PMBOK)       | Gestão de projetos de forma geral                     |
+| Capability Maturity Model Integration (CMMI)       | Desenvolvimento de produtos e projetos de sistemas    |
+| Melhoria de Processos do Software Brasileiro (MPS.br) | Melhoria do processo de software                   |
+| ISO 31000:2018                                     | Gerenciamento de riscos para organizações             |
+| ISO 20000:2018                                     | Gerenciamento de serviços de TI                       |
+| ISO 27001:2013 e ISO 27002:2013                    | Gestão da segurança da informação                     |
+| eSourcing Capability Model (eSCM)                  | Outsourcing em serviços intensivos em TI              |
+| Organizational Project Management Maturity Model (OPM3) | Gerenciamento de projetos                        |
+| Scrum                                              | Gerenciamento ágil de projetos                        |
+| Balanced Scorecard (BSC)                           | Planejamento e gestão da estratégia                   |
+| Six Sigma                                          | Melhoria da qualidade de processos                    |
+| Statement on Auditing Standards (SAS) n. 70        | Regras de auditoria para empresas de serviços         |
+
+## Família de normas ISO/IEC 20000
+
+| Norma                                   | ISO Equivalente ABNT                     | Escopo                                                                                    |
+|-----------------------------------------|------------------------------------------|-------------------------------------------------------------------------------------------|
+| ISO/IEC 20000-1:2018                    | ABNT NBR ISO/IEC 20000-1:2020            | Tecnologia da informação – Gestão de serviço – Requisitos do sistema de gestão de serviço |
+| ISO/IEC 20000-2:2019                    | ABNT NBR ISO/IEC 20000-2:2021            | Orientação para aplicação de sistemas de gestão de serviço                                |
+| ISO/IEC 20000-3:2019                    | Não há equivalente                       | Definição de escopo e aplicabilidade da norma ABNT NBR ISO/IEC 20000-1                    |
+| ISO/IEC TR 20000-4:2010                 | Não há equivalente                       | Modelo de referência de processo                                                          |
+| ISO/IEC TR 20000-5:2010                 | ABNT ISO/IEC TR 20000-5:2011             | Exemplo de um plano de implementação da ABNT NBR ISO/IEC 20000-1                          |
+
+
+C:\Users\pedro\Desktop\Faculdade\ADS-UNIP\📝 Aulas\3 Período\GERENCIAMENTO DE PROJETOS DE SOFTWARE\img
