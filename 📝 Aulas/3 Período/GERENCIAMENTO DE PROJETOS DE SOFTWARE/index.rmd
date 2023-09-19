@@ -1,0 +1,106 @@
+--- 
+title: "Gerenciamento de Projetos de Software"
+author: "Pedro José Laurenti de Matos"
+date: "`r Sys.Date()`"
+output: rmdformats::material
+
+---
+
+# PROJETOS
+
+### Conceitos básicos envolvendo projetos
+
+"Projetar" é um esforço para se alcançar um objetivo específico por meio de um conjunto único de atividades inter-relacionadas e da utilização eficaz de recursos
+
+Uma das características mais interessantes do projeto é que ele é temporário, ou seja, é concebido, nasce, cresce e depois “morre”. Essa forma de enxergar os projetos é conhecida como `ciclo de vida`.
+
+![Ciclo de vida de um projeto](img/image1.png)
+
+### Stakeholders
+
+- **Definição:** Stakeholders são pessoas, grupos ou organizações afetadas por um projeto, programa ou portfólio.
+
+- **Tipos de Stakeholders:**
+    1. **Shareholders:** Proprietários e investidores, interessados no retorno sobre investimento.
+    2. **Stakeholders Internos:** Funcionários e colaboradores do projeto.
+    3. **Stakeholders Externos:** Fornecedores, clientes e usuários finais.
+    4. **Stakeholders do Entorno:** ONGs, entidades governamentais, sociedade e comunidades locais.
+
+- Stakeholders externos têm relação direta com negócios, enquanto os do entorno não.
+
+### Conceito de Programa e Portfólio
+
+**Programa:**
+- Definido como um grupo de subprogramas, projetos e operações relacionados e coordenados.
+- Objetivo: Alcançar benefícios que não seriam obtidos se gerenciados individualmente.
+- Exemplo: Programa de melhoria de infraestrutura de TI com projetos interligados.
+
+**Portfólio:**
+- Conjunto de projetos, programas e outros esforços agrupados para atingir objetivos estratégicos.
+- Componentes são mensuráveis, ordenáveis e priorizáveis.
+- Inclui esforços temporários e não temporários (operações).
+- Os componentes não necessariamente estão interligados.
+- Pode abranger áreas diferentes e refletir objetivos estratégicos.
+
+**Características do Portfólio:**
+- Abrangência de ações atuais e futuras.
+- Características temporárias diferentes dos projetos e programas.
+- Uma organização pode ter vários portfólios agrupados por áreas.
+- Reflete objetivos estratégicos.
+- Composto de trabalhos que devem ser feitos.
+
+## Estruturas de gerenciamento de projetos
+
+Nas organizações, existem várias estruturas de gerenciamento de projetos influenciadas pelo estilo organizacional, maturidade em gestão de projetos e cultura organizacional. As modalidades incluem funcional, projetizada e matricial. A cultura organizacional desempenha um papel fundamental na escolha da estrutura.
+
+**Cultura Organizacional:**
+- Cultura organizacional é um sistema sociocultural que define a identidade da organização.
+- Envolve padrões de comportamento, valores, normas, significados e interpretações.
+- Schein divide a cultura em três níveis: artefatos, valores e pressupostos.
+- Barreto et al. mencionam quatro tipos de culturas organizacionais: clã, inovativa, mercado e hierárquica.
+
+**Tipos de Estruturas Organizacionais:**
+- Funcional: Hierarquia tradicional; gerentes funcionais têm autoridade.
+- Projetizada: Organização orientada por projetos; gerentes de projeto têm autoridade.
+- Matricial: Combinando funcional e projetizada; dualidade de autoridade.
+
+### Estruturas de Gerenciamento de Projetos
+
+Estrutura Organizacional Funcional:
+- Mais comum e tradicional.
+- Organização centrada em funções especializadas.
+- Controle limitado e independência entre departamentos.
+- Vantagens: clareza de especializações, carreiras definidas.
+- Desvantagens: pouca autoridade do gerente de projeto, foco nas áreas funcionais.
+
+Estrutura Organizacional Projetizada:
+- Foco nos projetos, com gerente de projeto com alta autoridade.
+- Recursos alocados diretamente para os projetos.
+- Funções de suporte são vistas como apoio aos projetos.
+- Vantagens: poder do gerente de projeto, eficiência nos projetos.
+- Desvantagens: ociosidade, duplicação de recursos e estruturas.
+
+Estrutura Organizacional Matricial:
+- Estrutura híbrida, combina elementos funcional e projetizado.
+- Coexistência de gerentes funcionais e de projeto.
+- Três categorias: matricial fraca, matricial forte e matricial balanceada.
+- Vantagens: controle compartilhado, melhor utilização de recursos.
+- Desvantagens: conflitos de autoridade, alocação de recursos desafiadora.
+
+## Escritório de Projetos
+
+Um Escritório de Projetos (também conhecido como PMO, do inglês Project Management Office) é responsável pelo gerenciamento dos projetos sob sua competência. É mais comumente encontrado em estruturas organizacionais projetizadas e matriciais.
+
+Principais Papéis do Escritório de Projetos (Monteiro, 2008):
+- Determinar padrões, políticas e procedimentos para o gerenciamento de projetos.
+- Desenvolver e fornecer documentos relacionados à gestão de projetos.
+- Oferecer ferramentas, suporte e treinamento a gerentes e equipes de projeto.
+- Realizar auditorias em projetos da organização.
+- Salvaguardar documentos e registros dos projetos.
+
+Funções de um Escritório de Gerenciamento de Projetos (Dinsmore e Barbosa, 2009):
+- Suporte e administração: manutenção de cronogramas, relatórios, salas de reunião, histórico do projeto e ferramentas computacionais.
+- Métodos e padrões: planejamento do projeto, elaboração de cronogramas, gerenciamento de contratos e padrões de projeto.
+- Consultoria e aconselhamento: suporte a propostas, avaliação de riscos e consultoria com a alta administração.
+- Treinamento: treinamento das equipes de projeto.
+- Acompanhamento de profissionais: apoio na contratação, avaliação de capacidades e identificação de níveis salariais.
