@@ -155,5 +155,56 @@ A estrutura de TI pode variar com base na terceirização de serviços. A evolu�
 | ISO/IEC TR 20000-4:2010                 | Não há equivalente                       | Modelo de referência de processo                                                          |
 | ISO/IEC TR 20000-5:2010                 | ABNT ISO/IEC TR 20000-5:2011             | Exemplo de um plano de implementação da ABNT NBR ISO/IEC 20000-1                          |
 
+# Padrão de Gerenciamento de Projetos
+
+O Padrão de Gerenciamento de Projetos é uma publicação elaborada pelo PMI (Project Management Institute) que visa fornecer os princípios fundamentais que compõem a gestão de projetos. É uma referência amplamente reconhecida e utilizada por profissionais de gerenciamento de projetos em todo o mundo.
+
+## Aplicação Universal
+
+Uma das principais vantagens desse padrão é sua aplicação universal. Ele pode ser implementado com sucesso em qualquer organização, independentemente do tamanho, setor ou ramo de atividade. Isso o torna uma ferramenta valiosa para empresas que desejam melhorar a eficiência de suas operações e alcançar resultados bem-sucedidos por meio da gestão de projetos.
+
+## Componentes do Padrão
+
+O Padrão de Gerenciamento de Projetos é composto por três elementos essenciais:
+
+1. **Aspectos Introdutórios:** Esta seção fornece definições claras de termos e conceitos básicos relacionados a projetos, incluindo projeto, programa, portfólio, produto, gerenciamento de projetos, gerente de projetos, equipe de projeto, sistema de entrega de valor e valor. Essa base conceitual é crucial para uma compreensão sólida da gestão de projetos.
+
+2. **Sistema para Entrega de Valor:** Aqui, o padrão aborda a estruturação do sistema de entrega de valor. Isso envolve a definição de projetos, programas, portfólios e operações, cada um desempenhando um papel fundamental na entrega de valor aos stakeholders. O foco principal é atender às necessidades e expectativas das partes interessadas.
+
+3. **Princípios de Gerenciamento de Projetos:** Este componente apresenta um conjunto de princípios que orientam a condução e a gestão de projetos. Cada princípio está relacionado a uma temática específica e oferece direcionamento sobre como abordar questões relevantes durante o ciclo de vida do projeto.
+
+Em resumo, o Padrão de Gerenciamento de Projetos é uma ferramenta valiosa para profissionais de gerenciamento de projetos e organizações que desejam melhorar sua capacidade de planejar, executar e controlar projetos com eficácia, visando ao alcance de resultados bem-sucedidos.
+
+
+# PRINCE2 (PRojects IN Controlled Environments)
+
+- O PRINCE2 é um método de gestão de projetos que foi desenvolvido no Reino Unido em 1989 pela Central Computer and Telecommunications Agency (CCTA), agora conhecida como Office of Government Commerce (OGC). Desde então, ele se tornou amplamente reconhecido e adotado em todo o mundo para o gerenciamento de projetos em diversas áreas, incluindo TI.
+
+- Uma das principais características do PRINCE2 é sua abordagem orientada para o negócio. Ele coloca grande ênfase na justificativa de negócio, o que significa que cada projeto deve ter uma razão clara e sólida para existir. Isso ajuda a garantir que os recursos da organização sejam alocados de maneira eficaz apenas para projetos que agreguem valor.
+
+- O PRINCE2 equilibra seis aspectos de desempenho em um projeto: escopo, riscos, custos, tempo, qualidade e benefícios. Isso significa que o modelo não apenas se concentra em entregar um projeto dentro do prazo e orçamento, mas também em garantir que o projeto alcance seus objetivos e benefícios esperados.
+
+- O PRINCE2 é composto por quatro elementos principais: princípios, temas, processos e adaptação ao ambiente de projeto.
+
+- Os princípios do PRINCE2 são diretrizes fundamentais que orientam a abordagem do projeto. Eles incluem:
+    - Justificativa para o negócio: Certificar-se de que há uma razão clara e contínua para o projeto.
+    - Definição de papéis e responsabilidades: Designar responsabilidades claras para todos os envolvidos no projeto.
+    - Aprendizado com a experiência: Usar lições aprendidas em projetos anteriores para melhorar o desempenho.
+    - Gerenciamento por estágios: Dividir o projeto em estágios gerenciáveis, com revisões no final de cada estágio.
+    - Foco no produto: Concentrar-se nos resultados e produtos que o projeto entregará.
+    - Adequação ao ambiente de projeto: Adaptar o PRINCE2 ao ambiente específico do projeto.
+    - Continuidade do negócio: Garantir que o projeto não coloque em risco a continuidade dos negócios da organização.
+
+- Os temas do PRINCE2 são áreas de foco contínuo durante todo o ciclo de vida do projeto. Eles incluem:
+    - Business Case: Avaliar continuamente a viabilidade do projeto.
+    - Organização: Definir papéis e responsabilidades da equipe do projeto.
+    - Qualidade: Garantir que os produtos do projeto atendam aos padrões de qualidade.
+    - Riscos: Identificar, avaliar e gerenciar riscos ao longo do projeto.
+    - Planos: Criar e manter planos detalhados para orientar a execução do projeto.
+    - Mudanças: Gerenciar mudanças no escopo e nos requisitos do projeto.
+    - Progresso: Acompanhar e relatar o progresso do projeto em relação ao plano.
+
+Esses são alguns dos princípios, temas e elementos essenciais do PRINCE2, que contribuem para torná-lo um modelo abrangente e estruturado para o gerenciamento de projetos, incluindo aqueles na área de Tecnologia da Informação.
+
 
 C:\Users\pedro\Desktop\Faculdade\ADS-UNIP\📝 Aulas\3 Período\GERENCIAMENTO DE PROJETOS DE SOFTWARE\img
