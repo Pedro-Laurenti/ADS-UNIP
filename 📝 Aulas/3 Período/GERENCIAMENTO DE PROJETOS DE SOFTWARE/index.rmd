@@ -8,7 +8,7 @@ output: rmdformats::material
 
 # PROJETOS
 
-### Conceitos básicos envolvendo projetos
+## Conceitos básicos envolvendo projetos
 
 "Projetar" é um esforço para se alcançar um objetivo específico por meio de um conjunto único de atividades inter-relacionadas e da utilização eficaz de recursos
 
@@ -16,7 +16,7 @@ Uma das características mais interessantes do projeto é que ele é temporário
 
 ![Ciclo de vida de um projeto](img/image1.png)
 
-### Stakeholders
+## Stakeholders
 
 - **Definição:** Stakeholders são pessoas, grupos ou organizações afetadas por um projeto, programa ou portfólio.
 
@@ -28,7 +28,7 @@ Uma das características mais interessantes do projeto é que ele é temporário
 
 - Stakeholders externos têm relação direta com negócios, enquanto os do entorno não.
 
-### Conceito de Programa e Portfólio
+## Conceito de Programa e Portfólio
 
 **Programa:**
 - Definido como um grupo de subprogramas, projetos e operações relacionados e coordenados.
@@ -205,6 +205,22 @@ Em resumo, o Padrão de Gerenciamento de Projetos é uma ferramenta valiosa para
     - Progresso: Acompanhar e relatar o progresso do projeto em relação ao plano.
 
 Esses são alguns dos princípios, temas e elementos essenciais do PRINCE2, que contribuem para torná-lo um modelo abrangente e estruturado para o gerenciamento de projetos, incluindo aqueles na área de Tecnologia da Informação.
+
+# PMBOK
+
+## Evolução do PMBOK
+
+O Guia PMBOK é uma referência para o gerenciamento de projetos nas organizações, criado pelo PMI (Project Management Institute). Sua primeira edição data de 1996, fornecendo orientações para o gerenciamento de projetos.
+
+- **Primeira edição (1996):** Estabeleceu diretrizes iniciais para o gerenciamento de projetos.
+- **Segunda edição (2000):** Enfatizou o envolvimento das partes interessadas em projetos.
+- **Terceira edição (2004):** Reforçou a ideia de atendimento a requisitos e práticas aplicáveis.
+- **Quarta edição (2009):** Ganhou destaque na área de TI, mas enfrentou oposição dos métodos ágeis.
+- **Quinta edição (2013):** Buscou maior penetração nas organizações e conciliação com métodos ágeis.
+- **Sexta edição (2017):** Incorporou conteúdos relacionados aos métodos ágeis.
+- **Sétima edição (2021):** Introduziu um modelo baseado em princípios, focado em resultados.
+
+A sétima edição mantém compatibilidade com abordagens baseadas em processos e estabelece a ideia de domínios de desempenho em projetos, expandindo o conceito de adaptação.
 
 
 C:\Users\pedro\Desktop\Faculdade\ADS-UNIP\📝 Aulas\3 Período\GERENCIAMENTO DE PROJETOS DE SOFTWARE\img
