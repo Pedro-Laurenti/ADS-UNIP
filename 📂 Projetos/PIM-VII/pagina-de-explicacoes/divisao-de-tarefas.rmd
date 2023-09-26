@@ -65,31 +65,43 @@ Após leitura e compreensão dos requisitos do projeto, elaboramos um sumário q
 
 **Dia 1: Planejamento e Escopo (4 horas)**
 
-- Lucas (2 horas): Desenvolver um Plano de Negócios para a startup (Empreendedorismo).
-- Pedro (2 horas): Redigir a introdução e o resumo do trabalho.
+| Quem fará | Tempo de Execução  | Descrição                                                      | Check |
+|-----------|--------------------|----------------------------------------------------------------|-------|
+| Lucas     | 2 horas            | Desenvolver um Plano de Negócios para a startup (Empreendedorismo) | [ ]   |
+| Pedro     | 2 horas            | Redigir a introdução e o resumo do trabalho                     | [ ]   |
+
 
 **Dia 2: Requisitos e Diagramas (4 horas)**
 
-- Lucas (2 horas): Propor requisitos funcionais, não funcionais e regras de negócios (Projeto de Sistemas Orientado a Objetos).
-- Pedro (2 horas): Criar o diagrama de caso de uso (descritivo e design).
+| Quem fará | Tempo de Execução  | Descrição                                                      | Check |
+|-----------|--------------------|----------------------------------------------------------------|-------|
+| Lucas     | 2 horas            | Propor requisitos funcionais, não funcionais e regras de negócios (Projeto de Sistemas Orientado a Objetos) | [ ]   |
+| Pedro     | 2 horas            | Criar o diagrama de caso de uso (descritivo e design)           | [ ]   |
+
 
 **Dia 3: Diagramas e Metodologia (4 horas)**
 
-- Lucas (2 horas): Criar o diagrama de atividades.
-- Pedro (2 horas): Criar o diagrama de classes.
+| Quem fará | Tempo de Execução  | Descrição                                                      | Check |
+|-----------|--------------------|----------------------------------------------------------------|-------|
+| Lucas     | 2 horas            | Criar o diagrama de atividades                                  | [ ]   |
+| Pedro     | 2 horas            | Criar o diagrama de classes                                     | [ ]   |
+
 
 **Dia 4: Metodologia e Gerenciamento de Projeto (4 horas)**
 
-- Lucas (1 hora): Criar o diagrama de sequência.
-- Pedro (1 hora): Criar o diagrama de componentes e de implantação.
-- Ambos (2 horas): Escrever sobre a metodologia escolhida frente às Normas Internacionais ISO, CMMI, MPS.br (Gestão da Qualidade).
+| Quem fará | Tempo de Execução  | Descrição                                                      | Check |
+|-----------|--------------------|----------------------------------------------------------------|-------|
+| Lucas     | 1 hora             | Criar o diagrama de sequência                                  | [ ]   |
+| Pedro     | 1 hora             | Criar o diagrama de componentes e de implantação               | [ ]   |
+| Ambos     | 2 horas            | Escrever sobre a metodologia escolhida frente às Normas Internacionais ISO, CMMI, MPS.br (Gestão da Qualidade) | [ ]   |
 
 **Dia 5: Conclusão e Finalização (4 horas)**
 
-- Lucas (30 minutos): Definir a Matriz de Papéis e Responsabilidades.
-- Pedro (30 minutos): Criar o Cronograma de Atividades e Custos.
-- Lucas (30 minutos): Realizar a Análise de Riscos.
-- Lucas (30 minutos): Escrever a conclusão do trabalho.
-- Pedro (30 minutos): Listar Lições Aprendidas.
-- Pedro (30 minutos): Revisar e formatar o trabalho, incluindo capa, sumário e referências (ABNT).
-- Ambos (30 minutos): Revisão final do trabalho.
+| Quem fará | Tempo de Execução  | Descrição                                                      | Check |
+|-----------|--------------------|----------------------------------------------------------------|-------|
+| Lucas     | 30 minutos         | Definir a Matriz de Papéis e Responsabilidades                  | [ ]   |
+| Pedro     | 1 hora             | Criar o Cronograma de Atividades e Custos                       | [ ]   |
+| Lucas     | 30 minutos         | Realizar a Análise de Riscos                                    | [ ]   |
+| Lucas     | 30 minutos         | Escrever a conclusão do trabalho                                | [ ]   |
+| Pedro     | 30 minutos         | Listar Lições Aprendidas                                       | [ ]   |
+| Pedro     | 30 minutos         | Revisar e formatar o trabalho, incluindo capa, sumário e referências (ABNT) | [ ]   |
