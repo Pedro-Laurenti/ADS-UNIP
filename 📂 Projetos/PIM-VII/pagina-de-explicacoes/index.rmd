@@ -153,7 +153,7 @@ Agradeço a disposição de todos neste projeto, espero que façamos história c
 
 ![ [Github com arquivos do projeto](https://github.com/Pedro-Laurenti/ADS-UNIP/tree/main/%F0%9F%93%82%20Projetos/PIM-VII) ](img/github.png){width=50%}
 
-![ [Documentação final](https://pimvi.orbytesistemas.com/PIM-VI.pdf) ](img/latex.png){width=50%}
+![ [Documentação final](https://www.orbytesistemas.com/PIM-VII.pdf) ](img/latex.png){width=50%}
 
 
 
