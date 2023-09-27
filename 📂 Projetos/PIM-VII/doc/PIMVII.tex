@@ -41,8 +41,6 @@
 	%subsubsection=TITLE,% títulos de subsubseções convertidos em letras maiúsculas
 	% -- opções do pacote babel --
 	english,			% idioma adicional para hifenização
-	french,				% idioma adicional para hifenização
-	spanish,			% idioma adicional para hifenização
 	brazil				% o último idioma é o principal do documento
 	]{abntex2}
 
@@ -94,23 +92,21 @@
 % ---
 % Informações de dados para CAPA e FOLHA DE ROSTO
 % ---
-\titulo{Modelo Canônico de\\ Trabalho Acadêmico com \abnTeX}
+\titulo{PIM VI \\ Projeto Integrado Multidiciplinar VI}
 \autor{Equipe \abnTeX}
 \local{Brasil}
-\data{2018, v-1.9.7}
-\orientador{Lauro César Araujo}
-\coorientador{Equipe \abnTeX}
+\data{Setembro de 2023}
+\orientador{Robson Batista Alves}
+\coorientador{Coorientador aqui} %¨
 \instituicao{%
-  Universidade do Brasil -- UBr
+  Universidade Paulista -- UNIP
   \par
-  Faculdade de Arquitetura da Informação
-  \par
-  Programa de Pós-Graduação}
-\tipotrabalho{Tese (Doutorado)}
+  Curso de Análise e Desenvolvimento de Sistemas
+  \par}
+\tipotrabalho{Trabalho Científico}
 % O preambulo deve conter o tipo do trabalho, o objetivo, 
 % o nome da instituição e a área de concentração 
-\preambulo{Modelo canônico de trabalho monográfico acadêmico em conformidade com
-as normas ABNT apresentado à comunidade de usuários \LaTeX.}
+\preambulo{Trabalho científico redigido colocando em prática as habilidades e conhecimento adquiridos no terceiro período do curso.}
 % ---
 
 
@@ -127,8 +123,8 @@ as normas ABNT apresentado à comunidade de usuários \LaTeX.}
 		pdftitle={\@title}, 
 		pdfauthor={\@author},
     	pdfsubject={\imprimirpreambulo},
-	    pdfcreator={LaTeX with abnTeX2},
-		pdfkeywords={abnt}{latex}{abntex}{abntex2}{trabalho acadêmico}, 
+	    pdfcreator={Pedro Laurenti e Lucas Andrade},
+		pdfkeywords={Desenvolvimento}{Análise e Desenvolvimento}{Sistemas}{PIM VII}{UNIP}, 
 		colorlinks=true,       		% false: boxed links; true: colored links
     	linkcolor=blue,          	% color of internal links
     	citecolor=blue,        		% color of links to bibliography
@@ -237,10 +233,8 @@ as normas ABNT apresentado à comunidade de usuários \LaTeX.}
 	\imprimirautor
 	%Sobrenome, Nome do autor
 	
-	\hspace{0.5cm} \imprimirtitulo  / \imprimirautor. --
-	\imprimirlocal, \imprimirdata-
-	
-	\hspace{0.5cm} \thelastpage p. : il. (algumas color.) ; 30 cm.\\
+	\hspace{0.5cm} PIM V Projeto Integrado Multidiciplinar V -- \imprimirautor. --
+	\imprimirlocal, \imprimirdata \ --
 	
 	\hspace{0.5cm} \imprimirorientadorRotulo~\imprimirorientador\\
 	
@@ -249,45 +243,16 @@ as normas ABNT apresentado à comunidade de usuários \LaTeX.}
 	\imprimirdata.}\\
 	
 	\hspace{0.5cm}
-		1. Palavra-chave1.
-		2. Palavra-chave2.
-		2. Palavra-chave3.
+		1. Eccomerce.
+		2. Desenvolvimento.
+		3. Análise de Sistemas.
 		I. Orientador.
-		II. Universidade xxx.
-		III. Faculdade de xxx.
-		IV. Título 			
+		II. UNIP -- Universidade Paulista.
+		III. Faculdade de  Análise e Desenvolvimento de Sistemas.
+		IV. PIM VII - Projeto Integrado Multidiciplinar			
 	\end{minipage}}
 	\end{center}
 \end{fichacatalografica}
-% ---
-
-% ---
-% Inserir errata
-% ---
-\begin{errata}
-Elemento opcional da \citeonline[4.2.1.2]{NBR14724:2011}. Exemplo:
-
-\vspace{\onelineskip}
-
-FERRIGNO, C. R. A. \textbf{Tratamento de neoplasias ósseas apendiculares com
-reimplantação de enxerto ósseo autólogo autoclavado associado ao plasma
-rico em plaquetas}: estudo crítico na cirurgia de preservação de membro em
-cães. 2011. 128 f. Tese (Livre-Docência) - Faculdade de Medicina Veterinária e
-Zootecnia, Universidade de São Paulo, São Paulo, 2011.
-
-\begin{table}[htb]
-\center
-\footnotesize
-\begin{tabular}{|p{1.4cm}|p{1cm}|p{3cm}|p{3cm}|}
-  \hline
-   \textbf{Folha} & \textbf{Linha}  & \textbf{Onde se lê}  & \textbf{Leia-se}  \\
-    \hline
-    1 & 10 & auto-conclavo & autoconclavo\\
-   \hline
-\end{tabular}
-\end{table}
-
-\end{errata}
 % ---
 
 % ---
@@ -344,11 +309,19 @@ Zootecnia, Universidade de São Paulo, São Paulo, 2011.
 % Dedicatória
 % ---
 \begin{dedicatoria}
-   \vspace*{\fill}
-   \centering
-   \noindent
-   \textit{ Este trabalho é dedicado às crianças adultas que,\\
-   quando pequenas, sonharam em se tornar cientistas.} \vspace*{\fill}
+	\vspace*{\fill}
+	\centering
+	\noindent
+	\textit{Este projeto é dedicado a todos os desenvolvedores que já falharam várias vezes, mas nunca desistiram de suas paixões e ideias.}
+
+	//
+
+	\begin{quote}
+	\textit{``Ser feliz ao realizar a jornada pode ser muito melhor do que chegar ao destino com sucesso.'' - Jordan Peterson.}
+	\end{quote}
+
+	\vspace*{\fill}
+
 \end{dedicatoria}
 % ---
 
@@ -356,37 +329,22 @@ Zootecnia, Universidade de São Paulo, São Paulo, 2011.
 % Agradecimentos
 % ---
 \begin{agradecimentos}
-Os agradecimentos principais são direcionados à Gerald Weber, Miguel Frasson,
-Leslie H. Watter, Bruno Parente Lima, Flávio de Vasconcellos Corrêa, Otavio Real
-Salvador, Renato Machnievscz\footnote{Os nomes dos integrantes do primeiro
-projeto abn\TeX\ foram extraídos de
-\url{http://codigolivre.org.br/projects/abntex/}} e todos aqueles que
-contribuíram para que a produção de trabalhos acadêmicos conforme
-as normas ABNT com \LaTeX\ fosse possível.
+	Os agradecimentos principais são direcionados à todos aqueles que contribuíram para que a produção deste trabalho acadêmico.
 
-Agradecimentos especiais são direcionados ao Centro de Pesquisa em Arquitetura
-da Informação\footnote{\url{http://www.cpai.unb.br/}} da Universidade de
-Brasília (CPAI), ao grupo de usuários
-\emph{latex-br}\footnote{\url{http://groups.google.com/group/latex-br}} e aos
-novos voluntários do grupo
-\emph{\abnTeX}\footnote{\url{http://groups.google.com/group/abntex2} e
-\url{http://www.abntex.net.br/}}~que contribuíram e que ainda
-contribuirão para a evolução do \abnTeX.
+	Agradecimentos especiais aos desenvolvedores do \abnTeX e ao professor Miguel Frasson - pelas orientações.
 
 \end{agradecimentos}
 % ---
+
 
 % ---
 % Epígrafe
 % ---
 \begin{epigrafe}
-    \vspace*{\fill}
+	\vspace*{\fill}
 	\begin{flushright}
-		\textit{``Não vos amoldeis às estruturas deste mundo, \\
-		mas transformai-vos pela renovação da mente, \\
-		a fim de distinguir qual é a vontade de Deus: \\
-		o que é bom, o que Lhe é agradável, o que é perfeito.\\
-		(Bíblia Sagrada, Romanos 12, 2)}
+		\textit{``A máquina moderna é um instrumento de poder sem precedentes;\\ e sua falha é que não há precedentes que possam nos ensinar como lidar com isso." \\
+		(G.K. Chesterton)}
 	\end{flushright}
 \end{epigrafe}
 % ---
@@ -398,48 +356,34 @@ contribuirão para a evolução do \abnTeX.
 % resumo em português
 \setlength{\absparsep}{18pt} % ajusta o espaçamento dos parágrafos do resumo
 \begin{resumo}
- Segundo a \citeonline[3.1-3.2]{NBR6028:2003}, o resumo deve ressaltar o
- objetivo, o método, os resultados e as conclusões do documento. A ordem e a extensão
- destes itens dependem do tipo de resumo (informativo ou indicativo) e do
- tratamento que cada item recebe no documento original. O resumo deve ser
- precedido da referência do documento, com exceção do resumo inserido no
- próprio documento. (\ldots) As palavras-chave devem figurar logo abaixo do
- resumo, antecedidas da expressão Palavras-chave:, separadas entre si por
- ponto e finalizadas também por ponto.
+	Este é um Projeto Integrado Multidisciplinar (PIM) abrangendo diversas áreas de conhecimento, incluindo Projeto de Sistemas Orientada a Objetos, Empreendedorismo, Gestão de Qualidade e Gerenciamento de Projeto de Software, com o objetivo de realizar um levantamento completo e uma análise detalhada dos requisitos para um Sistema de Marketplace para compra e venda de produtos diversos via app/web. Em um contexto de constante avanço tecnológico, não é possível para o comércio feito de forma tradicional vencer todos os desafios para fornecer a melhor experiência de compra ao consumidor. A adoção de marketplace se faz necessária, tal sistema moderniza os processos e provê mais facilidade e variedade nos processos de compra para ambos consumidor e loja. Para atender aos requisitos desse projeto, é fundamental realizar uma análise aprofundada das necessidades e desafios de mercado através de um plano de negócios além de ser fundamental incluir a organização dos processos e ações possíveis de serem tomadas pelas partes atuantes no sistema, alterações, consultas e exclusões, bem como o estabelecimento de funcionalidades que permitam o uso eficiente do sistema por atendentes, estoquistas e o supervisor da loja, com a ajuda de diagramas. Ao considerar a interdisciplinaridade desse projeto, os conhecimentos adquiridos nas disciplinas de Projeto de Sistemas Orientada a Objetos, Empreendedorismo, Gestão de Qualidade e Gerenciamento de Projeto de Software se tornam essenciais para garantir a eficiência e a integridade do sistema desenvolvido. Dessa forma, espera-se apresentar um software prático, confiável e adaptado às necessidades específicas da loja, contribuindo para a otimização das operações de vendas.
 
- \textbf{Palavras-chave}: latex. abntex. editoração de texto.
+ \textbf{Palavras-chave}: projeto de sistemas, empreendedorismo, interdisciplinaridade, software.
 \end{resumo}
 
 % resumo em inglês
 \begin{resumo}[Abstract]
  \begin{otherlanguage*}{english}
-   This is the english abstract.
+	This project aims to develop an Integrated Multidisciplinary Project (IMP) encompassing various areas of knowledge, including Object-Oriented Systems Project, Entrepreneurship, Quality Management and Software Project Management with the objective of conducting a comprehensive survey and detailed analysis of the requirements for a Marketplace System for buying and selling various products via app/web. In a context of constant technological advancements, it is not possible for traditional commerce to overcome all challenges to provide the best consumer shopping experience. The adoption of a marketplace is necessary, said system modernizes processes and provides greater ease and variety in purchasing processes for both consumers and stores. To meet the requirements of this project, it is essential to conduct a detailed survey and in-depth analysis of market needs and challenges through a business plan, in addition to being essential to include the organization of processes and possible actions to be taken by the parties working in the system, changes, consultations and deletions, as well as the establishment of functionalities that allow efficient use of the system by attendants, stockists and the store supervisor, with the help of diagrams. Considering the interdisciplinary nature of this project, the knowledge acquired in the disciplines of Object-Oriented Systems Project, Entrepreneurship, Quality Management and Software Project Management becomes essential to ensure the efficiency and integrity of the developed system. Thus, the goal is to present a practical, reliable software tailored to the specific needs of the store, contributing to the optimization of sales operations
 
    \vspace{\onelineskip}
  
    \noindent 
-   \textbf{Keywords}: latex. abntex. text editoration.
+   \textbf{Keywords}: systems project, entrepreneurship, interdisciplinary approach, software.
  \end{otherlanguage*}
 \end{resumo}
 
-% resumo em francês 
-\begin{resumo}[Résumé]
- \begin{otherlanguage*}{french}
-    Il s'agit d'un résumé en français.
- 
-   \textbf{Mots-clés}: latex. abntex. publication de textes.
- \end{otherlanguage*}
-\end{resumo}
-
-% resumo em espanhol
-\begin{resumo}[Resumen]
- \begin{otherlanguage*}{spanish}
-   Este es el resumen en español.
-  
-   \textbf{Palabras clave}: latex. abntex. publicación de textos.
- \end{otherlanguage*}
-\end{resumo}
 % ---
+
+
+% ---
+% inserir o sumario
+% ---
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\cleardoublepage
+% ---
+
 
 % ---
 % inserir lista de ilustrações
@@ -474,27 +418,6 @@ contribuirão para a evolução do \abnTeX.
 \end{siglas}
 % ---
 
-% ---
-% inserir lista de símbolos
-% ---
-\begin{simbolos}
-  \item[$ \Gamma $] Letra grega Gama
-  \item[$ \Lambda $] Lambda
-  \item[$ \zeta $] Letra grega minúscula zeta
-  \item[$ \in $] Pertence
-\end{simbolos}
-% ---
-
-% ---
-% inserir o sumario
-% ---
-\pdfbookmark[0]{\contentsname}{toc}
-\tableofcontents*
-\cleardoublepage
-% ---
-
-
-
 % ----------------------------------------------------------
 % ELEMENTOS TEXTUAIS
 % ----------------------------------------------------------
@@ -506,41 +429,20 @@ contribuirão para a evolução do \abnTeX.
 \chapter{Introdução}
 % ----------------------------------------------------------
 
-Este documento e seu código-fonte são exemplos de referência de uso da classe
-\textsf{abntex2} e do pacote \textsf{abntex2cite}. O documento 
-exemplifica a elaboração de trabalho acadêmico (tese, dissertação e outros do
-gênero) produzido conforme a ABNT NBR 14724:2011 \emph{Informação e documentação
-- Trabalhos acadêmicos - Apresentação}.
+A adoção de sistemas de marketplace para facilitar a compra e venda de uma ampla variedade de produtos por meio de aplicativos e sites tornou-se fundamental na atual era tecnológica. Essas plataformas desempenham um papel importante ao reunir compradores e vendedores em um único ambiente virtual, oferecendo inúmeras vantagens para ambos os lados.
 
-A expressão ``Modelo Canônico'' é utilizada para indicar que \abnTeX\ não é
-modelo específico de nenhuma universidade ou instituição, mas que implementa tão
-somente os requisitos das normas da ABNT. Uma lista completa das normas
-observadas pelo \abnTeX\ é apresentada em \citeonline{abntex2classe}.
+\\
 
-Sinta-se convidado a participar do projeto \abnTeX! Acesse o site do projeto em
-\url{http://www.abntex.net.br/}. Também fique livre para conhecer,
-estudar, alterar e redistribuir o trabalho do \abnTeX, desde que os arquivos
-modificados tenham seus nomes alterados e que os créditos sejam dados aos
-autores originais, nos termos da ``The \LaTeX\ Project Public
-License''\footnote{\url{http://www.latex-project.org/lppl.txt}}.
+Para os consumidores, a importância desses sistemas reside na comodidade e praticidade que oferecem. Eles permitem que os clientes naveguem por uma ampla gama de produtos, comparem preços, leiam avaliações de outros compradores e efetuem compras com facilidade, tudo a partir de um dispositivo conectado à internet. Isso economiza tempo e esforço, tornando a experiência de compra mais eficiente e satisfatória.
 
-Encorajamos que sejam realizadas customizações específicas deste exemplo para
-universidades e outras instituições --- como capas, folha de aprovação, etc.
-Porém, recomendamos que ao invés de se alterar diretamente os arquivos do
-\abnTeX, distribua-se arquivos com as respectivas customizações.
-Isso permite que futuras versões do \abnTeX~não se tornem automaticamente
-incompatíveis com as customizações promovidas. Consulte
-\citeonline{abntex2-wiki-como-customizar} para mais informações.
+\\
 
-Este documento deve ser utilizado como complemento dos manuais do \abnTeX\ 
-\cite{abntex2classe,abntex2cite,abntex2cite-alf} e da classe \textsf{memoir}
-\cite{memoir}. 
+Já para os comerciantes, os sistemas de marketplace representam uma oportunidade de alcançar um público muito mais amplo do que seria possível em suas operações tradicionais. Eles podem aproveitar a infraestrutura tecnológica e a base de clientes já existente na plataforma, economizando em custos de marketing e expandindo seus horizontes de negócios além de simplificar a administração de pedidos, estoque e pagamentos, tudo isso proporciona uma operação mais eficiente e escalável.
 
-Esperamos, sinceramente, que o \abnTeX\ aprimore a qualidade do trabalho que
-você produzirá, de modo que o principal esforço seja concentrado no principal:
-na contribuição científica.
+\\
 
-Equipe \abnTeX 
+Além disso, a confiança é um fator crítico em qualquer transação comercial, e os sistemas de marketplace geralmente oferecem uma camada adicional de segurança. Muitos deles implementam medidas rigorosas para proteger informações pessoais e financeiras, e a presença de um intermediário na plataforma ajuda a resolver disputas e conflitos entre compradores e vendedores, criando um ambiente de compra mais seguro e confiável. Em resumo, a adoção de sistemas de marketplace é fundamental para comércios acompanharem e se ajustarem a transformação do cenário comercial moderno.
+
 
 Lauro César Araujo
 

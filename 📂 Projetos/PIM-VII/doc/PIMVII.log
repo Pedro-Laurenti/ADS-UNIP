@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.9.26)  26 SEP 2023 23:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.9.26)  26 SEP 2023 23:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -522,79 +522,35 @@ Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 (babel)             (\language73). Reported on input line 108.
 )
-(C:\MikTex\tex/generic/babel-french\french.ldf
-Language: french 2023/01/02 v3.5p French support from the babel system
-Package babel Info: Hyphen rules for 'acadian' set to \l@french
-(babel)             (\language22). Reported on input line 91.
-Package babel Info: Hyphen rules for 'canadien' set to \l@french
-(babel)             (\language22). Reported on input line 92.
-\FB@nonchar=\count326
-Package babel Info: Making : an active character on input line 395.
-Package babel Info: Making ; an active character on input line 396.
-Package babel Info: Making ! an active character on input line 397.
-Package babel Info: Making ? an active character on input line 398.
-\FBguill@level=\count327
-\FBold@everypar=\toks25
-\FB@Mht=\dimen192
-\mc@charclass=\count328
-\mc@charfam=\count329
-\mc@charslot=\count330
-\std@mcc=\count331
-\dec@mcc=\count332
-\listindentFB=\dimen193
-\descindentFB=\dimen194
-\labelindentFB=\dimen195
-\labelwidthFB=\dimen196
-\leftmarginFB=\dimen197
-\parindentFFN=\dimen198
-\FBfnindent=\dimen199
-)
-(C:\MikTex\tex/latex/babel-spanish\spanish.ldf
-Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
-\es@quottoks=\toks26
-\es@quotdepth=\count333
-Package babel Info: Making " an active character on input line 570.
-Package babel Info: Making . an active character on input line 675.
-Package babel Info: Making < an active character on input line 722.
-Package babel Info: Making > an active character on input line 722.
-)
 (C:\MikTex\tex/latex/babel-portuges\brazil.ldf
 Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
 Package babel Info: Hyphen rules for 'brazil' set to \l@portuguese
 (babel)             (\language56). Reported on input line 111.
+Package babel Info: Making " an active character on input line 143.
 ))
-(C:\MikTex\tex/generic/babel/locale/es\babel-spanish.tex
-Package babel Info: Importing font and identification data for spanish
-(babel)             from babel-es.ini. Reported on input line 11.
-)
-(C:\MikTex\tex/generic/babel/locale/fr\babel-french.tex
-Package babel Info: Importing font and identification data for french
-(babel)             from babel-fr.ini. Reported on input line 11.
-)
 (C:\MikTex\tex/generic/babel/locale/en\babel-english.tex
 Package babel Info: Importing font and identification data for english
 (babel)             from babel-en.ini. Reported on input line 11.
 )
-(C:\MikTex\tex/latex/carlisle\scalefnt.sty)
 (C:\MikTex\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip191
-\enit@outerparindent=\dimen256
-\enit@toks=\toks27
+\enit@outerparindent=\dimen192
+\enit@toks=\toks25
 \enit@inbox=\box56
-\enit@count@id=\count334
-\enitdp@description=\count335
+\enit@count@id=\count326
+\enitdp@description=\count327
 ) (C:\MikTex\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count336
-\calc@Bcount=\count337
-\calc@Adimen=\dimen257
-\calc@Bdimen=\dimen258
+\calc@Acount=\count328
+\calc@Bcount=\count329
+\calc@Adimen=\dimen193
+\calc@Bdimen=\dimen194
 \calc@Askip=\skip192
 \calc@Bskip=\skip193
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count338
+\calc@Ccount=\count330
 \calc@Cskip=\skip194
 )
 
@@ -617,17 +573,17 @@ Sidefoothsep and sidefootwidth: 7pt and 92pt
 Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
 ******************************************************
 
-\c@abntex@bookmarkcounter=\count339
+\c@abntex@bookmarkcounter=\count331
 \cftlastnumwidth=\skip195
 \chapternamenumlength=\skip196
 \ABNTEXcitacaorecuo=\skip197
-\c@alineasi=\count340
-\c@alineasii=\count341
-\enitdp@alineas=\count342
-\c@subalineasi=\count343
-\enitdp@subalineas=\count344
-\c@incisosi=\count345
-\enitdp@incisos=\count346
+\c@alineasi=\count332
+\c@alineasii=\count333
+\enitdp@alineas=\count334
+\c@subalineasi=\count335
+\enitdp@subalineas=\count336
+\c@incisosi=\count337
+\enitdp@incisos=\count338
 \ABNTEXsignwidth=\skip198
 \ABNTEXsignthickness=\skip199
 \ABNTEXsignskip=\skip256
@@ -674,8 +630,8 @@ LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )) (C:\MikTex\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks28
-\inpenc@posthook=\toks29
+\inpenc@prehook=\toks26
+\inpenc@posthook=\toks27
 )
 (C:\MikTex\tex/latex/tools\indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
@@ -706,21 +662,21 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 )
-\Gin@req@height=\dimen259
-\Gin@req@width=\dimen260
+\Gin@req@height=\dimen195
+\Gin@req@width=\dimen196
 )
 (C:\MikTex\tex/latex/microtype\microtype.sty
 Package: microtype 2022/06/23 v3.0f Micro-typographical refinements (RS)
-\MT@toks=\toks30
+\MT@toks=\toks28
 \MT@tempbox=\box57
-\MT@count=\count347
+\MT@count=\count339
 LaTeX Info: Redefining \noprotrusionifhmode on input line 1045.
 LaTeX Info: Redefining \leftprotrusion on input line 1046.
 LaTeX Info: Redefining \rightprotrusion on input line 1056.
 LaTeX Info: Redefining \textls on input line 1234.
-\MT@outer@kern=\dimen261
+\MT@outer@kern=\dimen197
 LaTeX Info: Redefining \textmicrotypecontext on input line 1858.
-\MT@listname@count=\count348
+\MT@listname@count=\count340
 
 (C:\MikTex\tex/latex/microtype\microtype-pdftex.def
 File: microtype-pdftex.def 2022/06/23 v3.0f Definitions specific to pdftex (RS)
@@ -741,15 +697,15 @@ Package: expl3 2023-02-07 L3 programming layer (loader)
 
 (C:\MikTex\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count349
+\l__color_backend_stack_int=\count341
 \l__pdf_internal_box=\box58
 ))
 Package: l3keys2e 2023-01-16 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count350
-\l__lipsum_a_int=\count351
-\l__lipsum_b_int=\count352
+\g__lipsum_par_int=\count342
+\l__lipsum_a_int=\count343
+\l__lipsum_b_int=\count344
 
 (C:\MikTex\tex/latex/lipsum\lipsum.ltd.tex))
 (C:\MikTex\tex/latex/hyperref\backref.sty
@@ -761,8 +717,8 @@ Package: abntex2cite 2018/11/24 v-1.9.7 abnTeX2
 (C:\MikTex\tex/latex/abntex2\abntex2abrev.sty)
 \minimumbiblabelwidth=\skip258
 \ABCIauxlen=\skip259
-\c@ABCIaux=\count353
-\c@ABCImax=\count354
+\c@ABCIaux=\count345
+\c@ABCImax=\count346
 
 (C:\MikTex\tex/generic/iftex\ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
@@ -776,12 +732,12 @@ Package: relsize 2013/03/29 ver 4.1
 \biblabelsep=\skip260
 LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
-\ABCItoken=\toks31
+\ABCItoken=\toks29
 )
-Package color Info: Redefining color blue on input line 121.
-Package hyperref Info: Option `colorlinks' set `true' on input line 138.
-\c@quadro=\count355
-\c@loqdepth=\count356
+Package color Info: Redefining color blue on input line 117.
+Package hyperref Info: Option `colorlinks' set `true' on input line 134.
+\c@quadro=\count347
+\c@loqdepth=\count348
 \cftbeforequadroskip=\skip261
 \cftquadroindent=\skip262
 \cftquadronumwidth=\skip263
@@ -790,358 +746,37 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 138.
 
 
 Writing index file PIMVII.idx 
-No file PIMVII.aux.
-\openout1 = `PIMVII.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-Package hyperref Info: Link coloring ON on input line 189.
-LaTeX Info: Redefining \degres on input line 189.
-LaTeX Info: Redefining \up on input line 189.
-\myptabbox=\box59
-\myptabboxwidth=\skip264
-(C:\MikTex\tex/context/base/mkii\supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count357
-\scratchdimen=\dimen262
-\scratchbox=\box60
-\nofMPsegments=\count358
-\nofMParguments=\count359
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count360
-\MPscratchDim=\dimen263
-\MPnumerator=\count361
-\makeMPintoPDFobject=\count362
-\everyMPtoPDFconversion=\toks33
-) (C:\MikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(C:\MikTex\tex/latex/00miktex\epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-))
-LaTeX Info: Redefining \microtypecontext on input line 189.
-Package microtype Info: Applying patch `item' on input line 189.
-Package microtype Info: Applying patch `toc' on input line 189.
-Package microtype Info: Applying patch `eqnum' on input line 189.
-Package microtype Info: Applying patch `footnote' on input line 189.
-Package microtype Info: Generating PDF output.
-Package microtype Info: Character protrusion enabled (level 2).
-Package microtype Info: Using default protrusion set `alltext'.
-Package microtype Info: Automatic font expansion enabled (level 2),
-(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
-Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 189.
-Package microtype Info: No adjustment of tracking.
-Package microtype Info: No adjustment of interword spacing.
-Package microtype Info: No adjustment of character kerning.
-
-(C:\MikTex\tex/latex/microtype\mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
-)
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 2
-06.
- (C:\MikTex\tex/latex/lm\t1lmss.fd
-File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmss' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-[1
-
-{C:/Users/pedro/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2
-
-]
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-15.
-
-(C:\MikTex\tex/latex/lm\ot1lmr.fd
-File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-15.
- (C:\MikTex\tex/latex/lm\omllmm.fd
-File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-215.
-
-(C:\MikTex\tex/latex/lm\omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-215.
- (C:\MikTex\tex/latex/lm\omxlmex.fd
-File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 215.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 215.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 215.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.215 
-       [1
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 259--259
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--259
-
- []
-
-
-Overfull \hbox (16.6597pt too wide) in paragraph at lines 259--259
-[]  [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--259
-
- []
-
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 259.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 259.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 259.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.268 E
-       lemento opcional da \citeonline[4.2.1.2]{NBR14724:2011}. Exemplo:
-[2]
-
-LaTeX Warning: Citation `NBR14724:2011' on page 3 undefined on input line 268.
-
-[3
-
-] [4
-
-] [5
-
-] [6
-
-] [7] [8
-
-] [9
-
-] [10
-
-] [11] [12
-
-]
-
-LaTeX Warning: Citation `NBR6028:2003' on page 13 undefined on input line 401.
-
-[13] [14
-
-] [15] [16
-
-] [17] [18
-
-]
-LaTeX Info: Redefining \. on input line 436.
-LaTeX Info: Redefining \% on input line 436.
- [19] [20
-
-]
-No file PIMVII.lof.
-[21] [22
-
-]
-No file PIMVII.loq.
-[23] [24
-
-]
-No file PIMVII.lot.
-[25] [26
-
-] [27
-
-] [28
-
-] [29
-
-] [30
-
-]
-No file PIMVII.toc.
-[31] [32
-
-]
-
-LaTeX Warning: Citation `abntex2classe' on page 33 undefined on input line 518.
-
-
-
-LaTeX Warning: Citation `abntex2-wiki-como-customizar' on page 33 undefined on 
-input line 533.
-
-
-LaTeX Warning: Citation `abntex2classe' on page 33 undefined on input line 536.
-
-
-
-LaTeX Warning: Citation `abntex2cite' on page 33 undefined on input line 536.
-
-
-LaTeX Warning: Citation `abntex2cite-alf' on page 33 undefined on input line 53
-6.
-
-
-LaTeX Warning: Citation `memoir' on page 33 undefined on input line 537.
-
-[33
-
-] [34
-
-] [35] [36]
-\openout2 = `abntex2-modelo-include-comandos.aux'.
-
-
-No file abntex2-modelo-include-comandos.tex.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 5
-63.
-(C:\MikTex\tex/latex/lm\t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-
-LaTeX Warning: Reference `quadro_exemplo' on page 37 undefined on input line 58
-1.
-
-
-LaTeX Warning: Reference `quadro_exemplo' on page 37 undefined on input line 58
-2.
-
-[37
-
-
-
-
-] [38
-
-] [39] [40] [41
-
-] [42
-
-] [43] [44] [45
-
-] [46
-
-] [47] [48
-
-]
-No file PIMVII.bbl.
-[49] [50
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 681.
-
-[51
-
-] [52] [53
-
-] [54
-
-] [55] [56
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 709.
-
-[57
-
-] [58] [59
-
-] [60
-
-] [61] [62
-
-]
-No file PIMVII.ind.
-[63]
-\tf@lof=\write5
-\openout5 = `PIMVII.lof'.
-
-\tf@loq=\write6
-\openout6 = `PIMVII.loq'.
-
-\tf@lot=\write7
-\openout7 = `PIMVII.lot'.
-
-\tf@toc=\write8
-\openout8 = `PIMVII.toc'.
-
- (PIMVII.aux (abntex2-modelo-include-comandos.aux))
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+(PIMVII.aux)
+Runaway argument?
+{\setlength {\cftchapterinde 
+! File ended while scanning use of \@writefile.
+<inserted text> 
+                \par 
+l.185 \begin{document}
+                      
+? ?
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+H for help, X to quit.
+? <return>
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+H for help, X to quit.
+? E
+ 
 Here is how much of TeX's memory you used:
- 18955 strings out of 476339
- 302890 string characters out of 5804534
- 1858340 words of memory out of 5000000
- 38800 multiletter control sequences out of 15000+600000
- 596150 words of font info for 157 fonts, out of 8000000 for 9000
+ 16446 strings out of 476339
+ 263319 string characters out of 5804534
+ 1850340 words of memory out of 5000000
+ 36698 multiletter control sequences out of 15000+600000
+ 515884 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,12n,90p,1585b,642s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{C:/MikTex/fonts/enc/dvips/lm/lm-ec.enc}{C:/MikTex/fonts/enc/dvips/lm/lm-math
-sy.enc}{C:/MikTex/fonts/enc/dvips/lm/lm-mathit.enc}{C:/MikTex/fonts/enc/dvips/l
-m/lm-rm.enc}<C:/MikTex/fonts/type1/public/lm/lmbx10.pfb><C:/MikTex/fonts/type1/
-public/lm/lmbx12.pfb><C:/MikTex/fonts/type1/public/lm/lmmi12.pfb><C:/MikTex/fon
-ts/type1/public/lm/lmr10.pfb><C:/MikTex/fonts/type1/public/lm/lmr12.pfb><C:/Mik
-Tex/fonts/type1/public/lm/lmr7.pfb><C:/MikTex/fonts/type1/public/lm/lmr8.pfb><C
-:/MikTex/fonts/type1/public/lm/lmri12.pfb><C:/MikTex/fonts/type1/public/lm/lmss
-10.pfb><C:/MikTex/fonts/type1/public/lm/lmss12.pfb><C:/MikTex/fonts/type1/publi
-c/lm/lmss17.pfb><C:/MikTex/fonts/type1/public/lm/lmssbx10.pfb><C:/MikTex/fonts/
-type1/public/lm/lmsy10.pfb><C:/MikTex/fonts/type1/public/lm/lmtt12.pfb>
-Output written on PIMVII.pdf (65 pages, 395748 bytes).
+ 90i,1n,90p,437b,395s stack positions out of 10000i,1000n,20000p,200000b,200000s
+No pages of output.
 PDF statistics:
- 571 PDF objects out of 1000 (max. 8388607)
- 132 named destinations out of 1000 (max. 500000)
- 49953 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 0 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
