@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.9.26)  26 SEP 2023 23:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.9.26)  27 SEP 2023 00:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -747,36 +747,303 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 134.
 
 Writing index file PIMVII.idx 
 (PIMVII.aux)
-Runaway argument?
-{\setlength {\cftchapterinde 
-! File ended while scanning use of \@writefile.
-<inserted text> 
-                \par 
-l.185 \begin{document}
-                      
-? ?
-Type <return> to proceed, S to scroll future error messages,
-R to run without stopping, Q to run quietly,
-I to insert something, E to edit your file,
-H for help, X to quit.
-? <return>
-Type <return> to proceed, S to scroll future error messages,
-R to run without stopping, Q to run quietly,
-I to insert something, E to edit your file,
-H for help, X to quit.
-? E
- 
+\openout1 = `PIMVII.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 185.
+LaTeX Font Info:    ... okay on input line 185.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 185.
+LaTeX Font Info:    ... okay on input line 185.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 185.
+LaTeX Font Info:    ... okay on input line 185.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 185.
+LaTeX Font Info:    ... okay on input line 185.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 185.
+LaTeX Font Info:    ... okay on input line 185.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 185.
+LaTeX Font Info:    ... okay on input line 185.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 185.
+LaTeX Font Info:    ... okay on input line 185.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 185.
+LaTeX Font Info:    ... okay on input line 185.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 185.
+LaTeX Font Info:    ... okay on input line 185.
+Package hyperref Info: Link coloring ON on input line 185.
+\myptabbox=\box59
+\myptabboxwidth=\skip264
+ (C:\MikTex\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count349
+\scratchdimen=\dimen198
+\scratchbox=\box60
+\nofMPsegments=\count350
+\nofMParguments=\count351
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count352
+\MPscratchDim=\dimen199
+\MPnumerator=\count353
+\makeMPintoPDFobject=\count354
+\everyMPtoPDFconversion=\toks31
+) (C:\MikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\MikTex\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Info: Redefining \microtypecontext on input line 185.
+Package microtype Info: Applying patch `item' on input line 185.
+Package microtype Info: Applying patch `toc' on input line 185.
+Package microtype Info: Applying patch `eqnum' on input line 185.
+Package microtype Info: Applying patch `footnote' on input line 185.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 185.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+
+(C:\MikTex\tex/latex/microtype\mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 2
+02.
+ (C:\MikTex\tex/latex/lm\t1lmss.fd
+File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmss' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+[1
+
+{C:/Users/pedro/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2
+
+]
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
+11.
+
+(C:\MikTex\tex/latex/lm\ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
+11.
+ (C:\MikTex\tex/latex/lm\omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+211.
+
+(C:\MikTex\tex/latex/lm\omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+211.
+ (C:\MikTex\tex/latex/lm\omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 211.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 211.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 211.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.211 
+       [1
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 255--255
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--255
+
+ []
+
+
+Overfull \hbox (16.6597pt too wide) in paragraph at lines 255--255
+[]  [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--255
+
+ []
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 255.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 255.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 255.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.274 
+       [2] [3
+
+] [4
+
+] [5] [6
+
+] [7
+
+] [8
+
+] [9] [10
+
+] [11] [12
+
+] [13] [14
+
+] (PIMVII.toc
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 12.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15])
+[16] (PIMVII.lof) [17
+
+] [18
+
+] (PIMVII.loq) [19] [20
+
+] (PIMVII.lot) [21] [22
+
+]
+[23
+
+] [24
+
+] [25
+
+] [26
+
+] [27] [28]
+\openout2 = `abntex2-modelo-include-comandos.aux'.
+
+
+No file abntex2-modelo-include-comandos.tex.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 4
+58.
+(C:\MikTex\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+
+LaTeX Warning: Reference `quadro_exemplo' on page 29 undefined on input line 47
+6.
+
+
+LaTeX Warning: Reference `quadro_exemplo' on page 29 undefined on input line 47
+7.
+
+[29
+
+
+
+
+] [30
+
+] [31] [32] [33
+
+] [34
+
+] [35] [36] [37
+
+] [38
+
+] [39] [40
+
+]
+No file PIMVII.bbl.
+[41] [42
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 576.
+
+[43
+
+] [44] [45
+
+] [46
+
+] [47] [48
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 604.
+
+[49
+
+] [50] [51
+
+] [52
+
+] [53] [54
+
+] (PIMVII.ind) [55]
+\tf@toc=\write5
+\openout5 = `PIMVII.toc'.
+
+\tf@lof=\write6
+\openout6 = `PIMVII.lof'.
+
+\tf@loq=\write7
+\openout7 = `PIMVII.loq'.
+
+\tf@lot=\write8
+\openout8 = `PIMVII.lot'.
+
+ (PIMVII.aux
+(abntex2-modelo-include-comandos.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 16446 strings out of 476339
- 263319 string characters out of 5804534
- 1850340 words of memory out of 5000000
- 36698 multiletter control sequences out of 15000+600000
- 515884 words of font info for 35 fonts, out of 8000000 for 9000
+ 17708 strings out of 476339
+ 284321 string characters out of 5804534
+ 1860340 words of memory out of 5000000
+ 37607 multiletter control sequences out of 15000+600000
+ 589908 words of font info for 148 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,1n,90p,437b,395s stack positions out of 10000i,1000n,20000p,200000b,200000s
-No pages of output.
+ 90i,12n,90p,1809b,639s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{C:/MikTex/fonts/enc/dvips/lm/lm-ec.enc}<C:/MikTex/fonts/type1/public/lm/lmbx
+12.pfb><C:/MikTex/fonts/type1/public/lm/lmr10.pfb><C:/MikTex/fonts/type1/public
+/lm/lmr12.pfb><C:/MikTex/fonts/type1/public/lm/lmri12.pfb><C:/MikTex/fonts/type
+1/public/lm/lmss10.pfb><C:/MikTex/fonts/type1/public/lm/lmss12.pfb><C:/MikTex/f
+onts/type1/public/lm/lmss17.pfb><C:/MikTex/fonts/type1/public/lm/lmssbx10.pfb><
+C:/MikTex/fonts/type1/public/lm/lmtt12.pfb>
+Output written on PIMVII.pdf (57 pages, 308015 bytes).
 PDF statistics:
- 0 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 493 PDF objects out of 1000 (max. 8388607)
+ 109 named destinations out of 1000 (max. 500000)
+ 45825 words of extra memory for PDF output out of 51595 (max. 10000000)
 
