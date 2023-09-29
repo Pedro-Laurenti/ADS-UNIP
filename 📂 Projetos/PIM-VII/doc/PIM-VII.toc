@@ -1,0 +1,70 @@
+\changetocdepth {4}
+\babel@toc {brazil}{}\relax 
+\babel@toc {brazil}{}\relax 
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}\MakeUppercase []{Introdução}}{25}{chapter.1}%
+\contentsline {part}{\partnumberline {I}\MakeUppercase []{Definição do projeto}}{27}{part.1}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\MakeUppercase []{Plano de Negócios}}{29}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Desenvolvimento do Plano de Negócios}{29}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Resumo Executivo}{29}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Descrição da Empresa}{29}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Análise de Mercado}{30}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Estratégia e Plano de Marketing}{31}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Plano Operacional}{31}{subsection.2.1.5}%
+\contentsline {subsection}{\numberline {2.1.6}Plano Financeiro}{31}{subsection.2.1.6}%
+\contentsline {subsection}{\numberline {2.1.7}Gestão e Equipe}{31}{subsection.2.1.7}%
+\contentsline {subsection}{\numberline {2.1.8}Estrutura de Propriedade e Jurídica}{32}{subsection.2.1.8}%
+\contentsline {subsection}{\numberline {2.1.9}Plano de Implementação}{32}{subsection.2.1.9}%
+\contentsline {section}{\numberline {2.2}Quadros}{32}{section.2.2}%
+\contentsline {part}{\partnumberline {II}\MakeUppercase []{Referenciais teóricos}}{33}{part.2}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeUppercase []{Lorem ipsum dolor sit amet}}{35}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Aliquam vestibulum fringilla lorem}{35}{section.3.1}%
+\contentsline {part}{\partnumberline {III}\MakeUppercase []{Resultados}}{37}{part.3}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}\MakeUppercase []{Lectus lobortis condimentum}}{39}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae}{39}{section.4.1}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}\MakeUppercase []{Nam sed tellus sit amet lectus urna ullamcorper tristique interdum elementum}}{41}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Pellentesque sit amet pede ac sem eleifend consectetuer}{41}{section.5.1}%
+\vspace {\cftbeforechapterskip }
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {6}\MakeUppercase []{Conclusão}}{43}{chapter.6}%
+\vspace {\cftbeforechapterskip }
+\renewcommand *{\cftappendixname }{AP\^ENDICE \space }
+\setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
+\cftinsert {A}
+\contentsline {part}{\uppercase {Ap\^endices}}{45}{section*.20}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {A}\MakeUppercase []{Quisque libero justo}}{47}{appendix.A}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {B}\MakeUppercase []{Nullam elementum urna vel imperdiet sodales elit ipsum pharetra ligula ac pretium ante justo a nulla curabitur tristique arcu eu metus}}{49}{appendix.B}%
+\cftinsert {AAA}
+\renewcommand *{\cftappendixname }{ANEXO \space }
+\setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
+\cftinsert {A}
+\contentsline {part}{\uppercase {Anexos}}{51}{section*.21}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {A}\MakeUppercase []{Morbi ultrices rutrum lorem.}}{53}{appendix.anexochapback.1}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {B}\MakeUppercase []{Cras non urna sed feugiat cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus}}{55}{appendix.anexochapback.2}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {C}\MakeUppercase []{Fusce facilisis lacinia dui}}{57}{appendix.anexochapback.3}%
+\vspace {\cftbeforechapterskip }

@@ -66,76 +66,71 @@ Após leitura e compreensão dos requisitos do projeto, elaboramos um sumário q
 
 ## Semana 1
 
-### Dia 1: Planejamento e Escopo (2 horas)
+- [ ] Dia 1: Planejamento e Escopo (2 horas)
 
 | Quem fará | Tempo de Execução  | Descrição                                                         | 
 |-----------|--------------------|-------------------------------------------------------------------|
 | Pedro     | 1 hora             | Desenvolver um Plano de Negócios para a startup (Empreendedorismo)|
 | Lucas     | 1 hora             | Redigir a introdução e o resumo do trabalho                       |
 
-### Dia 2: Plano de Negócios (2 horas)
+- [ ] Dia 2: Plano de Negócios (3 horas)
 
-| Quem fará | Tempo de Execução  | Descrição                                                       | 
-|-----------|--------------------|-----------------------------------------------------------------|
-| Lucas     | 1 hora             | Continuar o desenvolvimento do Plano de Negócios                |
-| Pedro     | 1 hora             | Revisar e aprimorar a introdução e o resumo                     |
+| Quem fará | Tempo de Execução  | Descrição                                                         | 
+|-----------|--------------------|-------------------------------------------------------------------|
+| Pedro     | 1 hora             | 2.1 Desenvolvimento do Plano de Negócios                          |
+| Allan     | 1 hora             | 2.2 Estratégias Empresariais                                      |
+| Lucas     | 1 hora             | 3.1 Requisitos Funcionais e Não Funcionais                        |
 
-### Dia 3: Requisitos e Diagramas (2 horas)
+- [ ] Dia 3: Requisitos e Diagramas (3 horas)
 
-| Quem fará | Tempo de Execução  | Descrição                                                       | 
-|-----------|--------------------|-----------------------------------------------------------------|
-| Lucas     | 1 hora             | Identificar requisitos funcionais e não funcionais              |
-| Pedro     | 1 hora             | Criar o Diagrama de Caso de Uso e o Diagrama de Atividades      |
+| Quem fará | Tempo de Execução  | Descrição                                                         | 
+|-----------|--------------------|-------------------------------------------------------------------|
+| Pedro     | 1 hora             | 3.2 Diagrama de Caso de Uso                                       |
+| Lucas     | 1 hora             | 3.3 Diagrama de Atividades                                        |
+| Allan     | 1 hora             | 4.1 Diagrama de Classes                                           |
 
-### Dia 4: Diagramas e Metodologia (2 horas)
+- [ ] Dia 4: Diagramas e Metodologia (3 horas)
 
-| Quem fará | Tempo de Execução  | Descrição                                                      | 
-|-----------|--------------------|----------------------------------------------------------------|
-| Lucas     | 1 hora             | Criar o Diagrama de Classes                                    |
-| Pedro     | 1 hora             | Elaborar o Diagrama de Sequência                               |
+| Quem fará | Tempo de Execução  | Descrição                                                         | 
+|-----------|--------------------|-------------------------------------------------------------------|
+| Pedro     | 1 hora             | 4.2 Diagrama de Sequência                                         |
+| Lucas     | 1 hora             | 4.3 Diagrama de Componentes e de Implantação                      |
+| Pedro     | 1 hora             | 4.4 Metodologia de Desenvolvimento                                |
+
+- [ ] Dia 5: Gerenciamento de Projeto (3 horas)
+
+| Quem fará | Tempo de Execução  | Descrição                                                         | 
+|-----------|--------------------|-------------------------------------------------------------------|
+| Allan     | 1 hora             | 5.1 Termo de Abertura de Projeto                                  |
+| Pedro     | 1 hora             | 5.2 Matriz de Papéis e Responsabilidades                          |
+| Lucas     | 1 hora             | 5.3 Cronograma de Atividades e Custos                             |
 
 ## Semana 2
 
-### Dia 5: Gerenciamento de Projeto (2 horas)
+- [ ] Dia 1: Conclusão (3 horas)
 
-| Quem fará | Tempo de Execução  | Descrição                                                      | 
-|-----------|--------------------|----------------------------------------------------------------|
-| Pedro     | 1 hora             | Preparar o Termo de Abertura de Projeto                        |
-| Lucas     | 1 hora             | Criar a Matriz de Papéis e Responsabilidades                   |
+| Quem fará | Tempo de Execução  | Descrição                                                         | 
+|-----------|--------------------|-------------------------------------------------------------------|
+| Allan     | 1 hora             | 5.4 Análise de Riscos                                             |
+| Pedro     | 1 hora             | 5.5 Lições Aprendidas                                             |
+| Pedro     | 1 hora             | 6.1 Resumo dos Principais Pontos                                  |
 
-### Dia 6: Gerenciamento de Projeto (2 horas)
+- [ ] Dia 2: Referências (3 hora)
 
-| Quem fará | Tempo de Execução  | Descrição                                                      | 
-|-----------|--------------------|----------------------------------------------------------------|
-| Pedro     | 1 hora             | Continuar o Termo de Abertura de Projeto                       |
-| Lucas     | 1 hora             | Completar a Matriz de Papéis e Responsabilidades               |
+| Quem fará | Tempo de Execução  | Descrição                                                         | 
+|-----------|--------------------|-------------------------------------------------------------------|
+| Lucas     | 1 hora             | 6.2 Contribuições e Resultados Esperados                          |
+| Allan     | 1 hora             | 7.1 Fontes de Informação Utilizadas                               |
+| Pedro     | 1 hora             | EXT. Diagramação final                                            |
 
-### Dia 7: Conclusão (2 horas)
 
-| Quem fará | Tempo de Execução  | Descrição                                                      | 
-|-----------|--------------------|----------------------------------------------------------------|
-| Lucas     | 1 hora             | Resumir os principais pontos da pesquisa e desenvolvimento     |
-| Pedro     | 1 hora             | Escrever as contribuições e resultados esperados               |
+- [ ] Dia 3: Finalização e envio (3 hora)
 
-### Dia 8: Revisão e Edição (2 horas)
-
-| Quem fará | Tempo de Execução  | Descrição                                                      | 
-|-----------|--------------------|----------------------------------------------------------------|
-| Todos     | 2 horas            | Revisar e editar o trabalho completo                           |
-
-### Dia 9: Finalização (2 horas)
-
-| Quem fará | Tempo de Execução  | Descrição                                                      | 
-|-----------|--------------------|----------------------------------------------------------------|
-| Pedro     | 1 hora             | Preparar a formatação final e verificar as referências         |
-| Lucas     | 1 hora             | Preparar o arquivo final e enviá-lo para a submissão           |
-
-### Dia 10: Entrega (1 hora)
-
-| Quem fará | Tempo de Execução  | Descrição                                                      | 
-|-----------|--------------------|----------------------------------------------------------------|
-| Todos     | 1 hora             | Preparar o arquivo final e enviá-lo para a submissão           |
-
+| Quem fará | Tempo de Execução  | Descrição                                                         | 
+|-----------|--------------------|-------------------------------------------------------------------|
+| Todos     | 1 hora             | Revisão final                                                     |
+| Pedro     | 1 hora             | Correção da revisão                                               |
+| Pedro     | 1 hora             | Envio do trabalho                                                 |
 
 > Prazo do desenvolvimento de 2 semanas
 
@@ -146,6 +141,7 @@ Agradeço a disposição de todos neste projeto, espero que façamos história c
 - Integrantes:
   - Pedro José Laurenti de Matos (RA: 0621134)
   - Lucas Andrade da Silva (RA: 0621821)
+  - Allan Cândido (RA: )
 
 ## Leia aqui
 
@@ -153,7 +149,7 @@ Agradeço a disposição de todos neste projeto, espero que façamos história c
 
 ![ [Github com arquivos do projeto](https://github.com/Pedro-Laurenti/ADS-UNIP/tree/main/%F0%9F%93%82%20Projetos/PIM-VII) ](img/github.png){width=50%}
 
-![ [Documentação final](https://www.orbytesistemas.com/PIM-VII.pdf) ](img/latex.png){width=50%}
+![ [Documentação final](https://www.orbytesistemas.com/pimvii/PIM-VII.pdf) ](img/latex.png){width=50%}
 
 
 
