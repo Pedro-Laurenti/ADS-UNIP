@@ -66,7 +66,7 @@ Após leitura e compreensão dos requisitos do projeto, elaboramos um sumário q
 
 ## Semana 1
 
-- [ ] Dia 1: Planejamento e Escopo (2 horas)
+- [X] Dia 1: Planejamento e Escopo (2 horas)
 
 | Quem fará | Tempo de Execução  | Descrição                                                         | 
 |-----------|--------------------|-------------------------------------------------------------------|
