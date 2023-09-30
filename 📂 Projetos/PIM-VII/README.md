@@ -1,15 +1,3 @@
----
-title: "PIM VII"
-date: "26/09/2023"
-author: "Pedro Laurenti e Lucas Andrade"
-output:
-  rmdformats::downcute:
-    thumbnails: true
-    lightbox: true
-    gallery: true
-    highlight: tango
-    downcute_theme: "chaos"
----
 
 # Projeto Integrado Multidisciplinar - PIM VII
 
@@ -73,7 +61,7 @@ Após leitura e compreensão dos requisitos do projeto, elaboramos um sumário q
 | Pedro     | 1 hora             | Desenvolver um Plano de Negócios para a startup (Empreendedorismo)|
 | Lucas     | 1 hora             | Redigir a introdução e o resumo do trabalho                       |
 
-- [ ] Dia 2: Plano de Negócios (3 horas)
+- [X] Dia 2: Plano de Negócios (3 horas)
 
 | Quem fará | Tempo de Execução  | Descrição                                                         | 
 |-----------|--------------------|-------------------------------------------------------------------|
@@ -141,7 +129,7 @@ Agradeço a disposição de todos neste projeto, espero que façamos história c
 - Integrantes:
   - Pedro José Laurenti de Matos (RA: 0621134)
   - Lucas Andrade da Silva (RA: 0621821)
-  - Allan Cândido (RA: )
+  - Allan Cândido Mendes (RA: 0618169)
 
 ## Leia aqui
 
