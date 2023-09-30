@@ -54,6 +54,8 @@
 \usepackage{color}				% Controle das cores
 \usepackage{graphicx}			% Inclusão de gráficos
 \usepackage{microtype} 			% para melhorias de justificação
+\usepackage{adjustbox}          % Quadros justificados
+
 % ---
 		
 % ---
@@ -417,6 +419,8 @@
   \item[SEO] Search Engine Optimization
   \item[C2C] Client to client
   \item[IA] Inteligência Artificial
+  \item[RNF] Requisito Não funcional
+  \item[RF] Requisito Funcional
 \end{siglas}
 % ---
 
@@ -534,28 +538,54 @@ Nosso plano de implementação inclui o lançamento da plataforma no primeiro tr
 
 No segundo trimestre prevemos uma expansão de vendedores e compradores por meio das ações do marketing. Estabelecemos metas específicas, como alcançar no mínimo 1000 vendedores e 5000 vendas até o final do ano - um valor de lucro que estimamos em 5.000.000 em reais.
 
-\section{Quadros}
+\section{Requisitos Funcionais e Não Funcionais}
 
-Este modelo vem com o ambiente \texttt{quadro} e impressão de Lista de quadros 
-configurados por padrão. Verifique um exemplo de utilização:
+Para o desenvolvimento do projeto da plataforma, foram idealizados os seguintes Requisitos Não Funcionais, presentes no \autoref{quadro_rnf} . 
+
+Também foram analizados os Requisitos Funcionais, presentes no \autoref{quadro_rf} .
 
 \begin{quadro}[htb]
-\caption{\label{quadro_exemplo}Exemplo de quadro}
-\begin{tabular}{|c|c|c|c|}
-	\hline
-	\textbf{Pessoa} & \textbf{Idade} & \textbf{Peso} & \textbf{Altura} \\ \hline
-	Marcos & 26    & 68   & 178    \\ \hline
-	Ivone  & 22    & 57   & 162    \\ \hline
-	...    & ...   & ...  & ...    \\ \hline
-	Sueli  & 40    & 65   & 153    \\ \hline
-\end{tabular}
-\fonte{Autor.}
+	\caption{\label{quadro_rnf}Requisitos Não Funcionais}
+	\begin{adjustbox}{center}
+		\begin{tabular}{|p{2cm}|p{4cm}|p{4cm}|p{2cm}|p{5cm}|}
+			\hline
+			\textbf{Id} & \textbf{Nome} & \textbf{Categoria} & \textbf{Prioridade} & \textbf{Descrição} \\ \hline
+			[RNF001] & Portabilidade de telas & Compatibilidade & Essencial & Interface deverá se adaptar às telas de diferentes dispositivos visto que no mundo atual há uma ampla variedade de dispositivos pelos quais pode-se acessar um marketplace. \\ \hline
+			[RNF002] & Interface intuitiva & Usabilidade & Essencial & A interface deve ser de fácil interpretação para os usuários a fim de que eles consigam localizar e acessar as funções desejadas em poucos segundos. \\ \hline
+			[RNF003] & Boa performance & Desempenho & Essencial & Cliente deverá obter respostas rápidas para suas pesquisas e páginas deverão ser carregadas com agilidade. \\ \hline
+			[RNF004] & Backup de dados & Disponibilidade & Essencial & Sistema registrará e arquivará todas as informações relevantes de seus usuários para uso futuro. \\ \hline
+			[RNF005] & Segurança de acesso & Segurança & Essencial & Cada usuário terá login e senha próprio para acessar sua conta. \\ \hline
+			[RNF006] & Facilidade de manutenção & Padrões & Essencial & Serão usados métodos estruturados de código para facilitar sua manutenção e reusabilidade futuramente. \\ \hline
+			[RNF007] & Estrutura do código & Padrões & Essencial & Código será desenvolvido na linguagem C\#. \\ \hline
+			[RNF008] & Controle de compras & Segurança & Essencial & O sistema designará um código específico para cada compra a fim de localizá-la. \\ \hline
+		\end{tabular}
+	\end{adjustbox}
+\fonte{fonte: os autores}
 \end{quadro}
 
-Este parágrafo apresenta como referenciar o quadro no texto, requisito
-obrigatório da ABNT. 
-Primeira opção, utilizando \texttt{autoref}: Ver o \autoref{quadro_exemplo}. 
-Segunda opção, utilizando  \texttt{ref}: Ver o Quadro \ref{quadro_exemplo}.
+\begin{quadro}[htb]
+	\caption{\label{quadro_rf}Requisitos Funcionais}
+	\begin{adjustbox}{center}
+		\begin{tabular}{|p{2cm}|p{4cm}|p{4cm}|p{2cm}|p{5cm}|}
+			\hline
+			\textbf{Id} & \textbf{Função} & \textbf{Prioridade} & \textbf{Ator} & \textbf{Descrição} \\ \hline
+			[RF001] & PESQUISA & Essencial & Sistema & O sistema deverá permitir o usuário pesquisar produto. \\ \hline
+			[RF002] & AVALIAÇÃO & Essencial & Sistema & O sistema deverá permitir o usuário ler avaliação/avaliar. \\ \hline
+			[RF003] & ESCOLHA & Essencial & Sistema & O sistema deverá permitir o usuário escolher atributos do produto. \\ \hline
+			[RF004] & ADICIONAR & Essencial & Sistema & O sistema deverá permitir o usuário adicionar ao carrinho. \\ \hline
+			[RF005] & VISUALIZAR & Essencial & Sistema & O sistema deverá permitir o usuário ver carrinho. \\ \hline
+			[RF006] & FINALIZAR & Essencial & Sistema & O sistema deverá permitir o usuário finalizar compra. \\ \hline
+			[RF007] & ENTREGA & Essencial & Sistema & O sistema deverá permitir o usuário configurar opções de entrega. \\ \hline
+			[RF008] & PAGAMENTO & Essencial & Sistema & O sistema deverá permitir o usuário configurar opções de pagamento. \\ \hline
+			[RF009] & CADASTRO & Essencial & Sistema & O sistema deverá permitir o usuário configurar opções de cadastro. \\ \hline
+			[RF010] & CHAT & Essencial & Sistema & O sistema deverá permitir o usuário conversar em tempo real. \\ \hline
+			[RF011] & CONSULTA & Essencial & Sistema & O sistema deverá permitir o usuário consultar dados. \\ \hline
+			[RF012] & CARRINHO & Essencial & Sistema & O sistema deverá permitir o usuário configurar opções do carrinho. \\ \hline
+			[RF013] & FRETE & Essencial & Sistema & O sistema deverá permitir o usuário calcular frete. \\ \hline
+		\end{tabular}
+	\end{adjustbox}
+\fonte{fonte: os autores}
+\end{quadro}
 
 % ----------------------------------------------------------
 % PARTE
