@@ -31,48 +31,8 @@
 \contentsline {subsection}{\numberline {3.1.2}Ator: Vendedor}{37}{subsection.3.1.2}%
 \contentsline {section}{\numberline {3.2}Diagrama de Atividades}{37}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Diagrama de Classes}{38}{section.3.3}%
-\contentsline {part}{\partnumberline {II}\MakeUppercase []{Referenciais teóricos}}{41}{part.2}%
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeUppercase []{Lorem ipsum dolor sit amet}}{43}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Aliquam vestibulum fringilla lorem}{43}{section.4.1}%
-\contentsline {part}{\partnumberline {III}\MakeUppercase []{Resultados}}{45}{part.3}%
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeUppercase []{Lectus lobortis condimentum}}{47}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae}{47}{section.5.1}%
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeUppercase []{Nam sed tellus sit amet lectus urna ullamcorper tristique interdum elementum}}{49}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Pellentesque sit amet pede ac sem eleifend consectetuer}{49}{section.6.1}%
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {7}\MakeUppercase []{Conclusão}}{51}{chapter.7}%
+\contentsline {chapter}{\chapternumberline {4}\MakeUppercase []{Conclusão}}{41}{chapter.4}%
 \vspace {\cftbeforechapterskip }
-\renewcommand *{\cftappendixname }{AP\^ENDICE \space }
-\setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
-\cftinsert {A}
-\contentsline {part}{\uppercase {Ap\^endices}}{53}{section*.20}%
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeUppercase []{Quisque libero justo}}{55}{appendix.A}%
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\MakeUppercase []{Nullam elementum urna vel imperdiet sodales elit ipsum pharetra ligula ac pretium ante justo a nulla curabitur tristique arcu eu metus}}{57}{appendix.B}%
-\cftinsert {AAA}
-\renewcommand *{\cftappendixname }{ANEXO \space }
-\setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
-\cftinsert {A}
-\contentsline {part}{\uppercase {Anexos}}{59}{section*.21}%
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeUppercase []{Morbi ultrices rutrum lorem.}}{61}{appendix.anexochapback.1}%
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\MakeUppercase []{Cras non urna sed feugiat cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus}}{63}{appendix.anexochapback.2}%
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\cftinsert {A}
-\contentsline {appendix}{\chapternumberline {C}\MakeUppercase []{Fusce facilisis lacinia dui}}{65}{appendix.anexochapback.3}%
 \vspace {\cftbeforechapterskip }
