@@ -15,7 +15,7 @@ output:
 
 <div align="center">
 
-![Logo desenvolvida para o trabalho](./img/PIM-VII-LOGO.png){width=80%}
+![Logo desenvolvida para o trabalho](./img/PIM-VII-LOGO.png){width=70%}
 
 <br>
 
@@ -34,17 +34,17 @@ Após leitura e compreensão dos requisitos do projeto, elaboramos um sumário q
 2. **Plano de Negócios**
     - 2.1 Desenvolvimento do Plano de Negócios
     - 2.2 Estratégias Empresariais
+    - 2.3 Requisitos Funcionais e Não Funcionais
 
-3. **Requisitos e Diagramas**
-    - 3.1 Requisitos Funcionais e Não Funcionais
-    - 3.2 Diagrama de Caso de Uso
-    - 3.3 Diagrama de Atividades
+3. **Diagramas e aplicações**
+    - 3.1 Diagrama de Caso de Uso
+    - 3.2 Diagrama de Atividades
+    - 3.3 Diagrama de Classes
 
 4. **Diagramas e Metodologia**
-    - 4.1 Diagrama de Classes
-    - 4.2 Diagrama de Sequência
-    - 4.3 Diagrama de Componentes e de Implantação
-    - 4.4 Metodologia de Desenvolvimento
+    - 4.1 Diagrama de Sequência
+    - 4.2 Diagrama de Componentes e de Implantação
+    - 4.3 Metodologia de Desenvolvimento
 
 5. **Gerenciamento de Projeto**
     - 5.1 Termo de Abertura de Projeto
@@ -81,7 +81,7 @@ Após leitura e compreensão dos requisitos do projeto, elaboramos um sumário q
 | Allan     | 1 hora             | 2.2 Estratégias Empresariais                                      |
 | Lucas     | 1 hora             | 3.1 Requisitos Funcionais e Não Funcionais                        |
 
-- [ ] Dia 3: Requisitos e Diagramas (3 horas)
+- [X] Dia 3: Requisitos e Diagramas (3 horas)
 
 | Quem fará | Tempo de Execução  | Descrição                                                         | 
 |-----------|--------------------|-------------------------------------------------------------------|
@@ -95,7 +95,7 @@ Após leitura e compreensão dos requisitos do projeto, elaboramos um sumário q
 |-----------|--------------------|-------------------------------------------------------------------|
 | Pedro     | 1 hora             | 4.2 Diagrama de Sequência                                         |
 | Lucas     | 1 hora             | 4.3 Diagrama de Componentes e de Implantação                      |
-| Pedro     | 1 hora             | 4.4 Metodologia de Desenvolvimento                                |
+| Allan     | 1 hora             | 4.4 Metodologia de Desenvolvimento                                |
 
 - [ ] Dia 5: Gerenciamento de Projeto (3 horas)
 
