@@ -85,8 +85,8 @@ Após leitura e compreensão dos requisitos do projeto, elaboramos um sumário q
 
 | Quem fará | Tempo de Execução  | Descrição                                                         | 
 |-----------|--------------------|-------------------------------------------------------------------|
-| Pedro     | 1 hora             | 3.2 Diagrama de Caso de Uso                                       |
-| Lucas     | 1 hora             | 3.3 Diagrama de Atividades                                        |
+| Lucas     | 1 hora             | 3.2 Diagrama de Caso de Uso                                       |
+| Pedro     | 1 hora             | 3.3 Diagrama de Atividades                                        |
 | Allan     | 1 hora             | 4.1 Diagrama de Classes                                           |
 
 - [ ] Dia 4: Diagramas e Metodologia (3 horas)
