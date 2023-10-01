@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.9.26)  30 SEP 2023 00:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.9.26)  1 OCT 2023 00:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -996,7 +996,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 No file abntex2-modelo-include-comandos.tex.
-<img/XY-logo.png, id=234, 1003.75pt x 1003.75pt>
+<img/XY-logo.png, id=248, 1003.75pt x 1003.75pt>
 File: img/XY-logo.png Graphic file (type png)
 <use img/XY-logo.png>
 Package pdftex.def Info: img/XY-logo.png  used on input line 472.
@@ -1012,56 +1012,120 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4
  (C:\MikTex\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [30]
-[31]
-Overfull \hbox (4.07256pt too wide) in paragraph at lines 552--552
-[]|\T1/lmr/bx/n/12 (-20) Prioridade| 
+[31] [32] [33]
+<img/business-model-canvas.jpg, id=272, 1343.0175pt x 749.80125pt>
+File: img/business-model-canvas.jpg Graphic file (type jpg)
+<use img/business-model-canvas.jpg>
+Package pdftex.def Info: img/business-model-canvas.jpg  used on input line 594.
+
+(pdftex.def)             Requested size: 455.0pt x 254.0252pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 609.
+
+Overfull \hbox (2.33147pt too wide) in paragraph at lines 612--612
+[]|\T1/lmr/m/n/10.95 (-20) [RNF001]| 
  []
 
-[32] [33] [34] [35
 
-] [36] [37
+Overfull \hbox (2.33147pt too wide) in paragraph at lines 613--613
+[]|\T1/lmr/m/n/10.95 (-20) [RNF002]| 
+ []
 
-] [38
 
-] [39] [40] [41
+Overfull \hbox (2.33147pt too wide) in paragraph at lines 614--614
+[]|\T1/lmr/m/n/10.95 (-20) [RNF003]| 
+ []
+
+
+Overfull \hbox (2.33147pt too wide) in paragraph at lines 615--615
+[]|\T1/lmr/m/n/10.95 (-20) [RNF004]| 
+ []
+
+
+Overfull \hbox (2.33147pt too wide) in paragraph at lines 616--616
+[]|\T1/lmr/m/n/10.95 (-20) [RNF005]| 
+ []
+
+
+Overfull \hbox (2.33147pt too wide) in paragraph at lines 617--617
+[]|\T1/lmr/m/n/10.95 (-20) [RNF006]| 
+ []
+
+
+Overfull \hbox (2.33147pt too wide) in paragraph at lines 618--618
+[]|\T1/lmr/m/n/10.95 (-20) [RNF007]| 
+ []
+
+
+Overfull \hbox (2.33147pt too wide) in paragraph at lines 619--619
+[]|\T1/lmr/m/n/10.95 (-20) [RNF008]| 
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 633--633
+\T1/lmr/m/n/10.95 (+20) tir o usuá-rio ler ava-li-a-
+ []
+
+[34 <./img/business-model-canvas.jpg>] [35] [36]
+<img/diagrama-de-atividades.png, id=289, 785.8158pt x 418.6842pt>
+File: img/diagrama-de-atividades.png Graphic file (type png)
+<use img/diagrama-de-atividades.png>
+Package pdftex.def Info: img/diagrama-de-atividades.png  used on input line 660
+.
+(pdftex.def)             Requested size: 455.0pt x 242.42175pt.
+<img/diagrama-de-classes.png, id=290, 1003.75pt x 1003.75pt>
+File: img/diagrama-de-classes.png Graphic file (type png)
+<use img/diagrama-de-classes.png>
+Package pdftex.def Info: img/diagrama-de-classes.png  used on input line 672.
+(pdftex.def)             Requested size: 455.0pt x 455.0069pt.
+ [37
+
+ <./img/diagrama-de-atividades.png>] [38 <./img/diagrama-de-classes.png>] [39
+
+] [40] [41
 
 ] [42
 
-] [43] [44
+] [43]
+[44] [45
+
+] [46
+
+] [47] [48
 
 ]
 No file PIM-VII.bbl.
-[45] [46
+[49] [50
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 687.
+(hyperref)                removing `\uppercase' on input line 774.
 
-[47
+[51
 
-] [48] [49
+] [52] [53
 
-] [50
+] [54
 
-] [51] [52
+] [55] [56
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 715.
+(hyperref)                removing `\uppercase' on input line 802.
 
-[53
+[57
 
-] [54] [55
+] [58] [59
 
-] [56
+] [60
 
-] [57] [58
+] [61] [62
 
 ]
 No file PIM-VII.ind.
-[59]
+[63]
 \tf@toc=\write5
 \openout5 = `PIM-VII.toc'.
 
@@ -1074,25 +1138,29 @@ No file PIM-VII.ind.
 \tf@lot=\write8
 \openout8 = `PIM-VII.lot'.
 
- (PIM-VII.aux (abntex2-modelo-include-comandos.aux)) ) 
+ (PIM-VII.aux (abntex2-modelo-include-comandos.aux))
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 18909 strings out of 476339
- 305796 string characters out of 5804534
- 1884340 words of memory out of 5000000
- 38722 multiletter control sequences out of 15000+600000
- 595723 words of font info for 165 fonts, out of 8000000 for 9000
+ 19011 strings out of 476339
+ 307824 string characters out of 5804534
+ 1879340 words of memory out of 5000000
+ 38777 multiletter control sequences out of 15000+600000
+ 606580 words of font info for 185 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,13n,90p,1810b,639s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{C:/MikTex/fonts/enc/dvip
-s/lm/lm-ts1.enc}{C:/MikTex/fonts/enc/dvips/lm/lm-ec.enc}<C:/MikTex/fonts/type1/
-public/lm/lmbx12.pfb><C:/MikTex/fonts/type1/public/lm/lmr10.pfb><C:/MikTex/font
-s/type1/public/lm/lmr12.pfb><C:/MikTex/fonts/type1/public/lm/lmri10.pfb><C:/Mik
-Tex/fonts/type1/public/lm/lmri12.pfb><C:/MikTex/fonts/type1/public/lm/lmss10.pf
-b><C:/MikTex/fonts/type1/public/lm/lmss12.pfb><C:/MikTex/fonts/type1/public/lm/
-lmss17.pfb><C:/MikTex/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on PIM-VII.pdf (61 pages, 358167 bytes).
+ 90i,13n,90p,1810b,651s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{C:/MikTex/fonts/enc/dvips/lm/lm-ec.enc}{C:/MikTex/fonts/enc/dvips/lm/lm-ts1.
+enc}<C:/MikTex/fonts/type1/public/lm/lmbx10.pfb><C:/MikTex/fonts/type1/public/l
+m/lmbx12.pfb><C:/MikTex/fonts/type1/public/lm/lmr10.pfb><C:/MikTex/fonts/type1/
+public/lm/lmr12.pfb><C:/MikTex/fonts/type1/public/lm/lmri10.pfb><C:/MikTex/font
+s/type1/public/lm/lmri12.pfb><C:/MikTex/fonts/type1/public/lm/lmss10.pfb><C:/Mi
+kTex/fonts/type1/public/lm/lmss12.pfb><C:/MikTex/fonts/type1/public/lm/lmss17.p
+fb><C:/MikTex/fonts/type1/public/lm/lmssbx10.pfb>
+Output written on PIM-VII.pdf (65 pages, 685464 bytes).
 PDF statistics:
- 572 PDF objects out of 1000 (max. 8388607)
- 125 named destinations out of 1000 (max. 500000)
- 49494 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 631 PDF objects out of 1000 (max. 8388607)
+ 137 named destinations out of 1000 (max. 500000)
+ 55693 words of extra memory for PDF output out of 61914 (max. 10000000)
 

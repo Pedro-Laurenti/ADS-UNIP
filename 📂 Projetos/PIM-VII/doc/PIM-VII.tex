@@ -538,6 +538,64 @@ Nosso plano de implementação inclui o lançamento da plataforma no primeiro tr
 
 No segundo trimestre prevemos uma expansão de vendedores e compradores por meio das ações do marketing. Estabelecemos metas específicas, como alcançar no mínimo 1000 vendedores e 5000 vendas até o final do ano - um valor de lucro que estimamos em 5.000.000 em reais.
 
+\section{Estratégias Empresariais}
+
+\textbf{Parcerias-Chave:}
+\begin{itemize}
+    \item Fornecedores de Produtos: Parcerias com empresas que fornecem produtos para serem vendidos na plataforma.
+    \item Vendedores e Empreendedores Parceiros: Colaboração com vendedores e empreendedores que usam a plataforma.
+    \item Parceiros de Logística: Empresas de transporte e logística que ajudam a entregar os produtos aos consumidores.
+\end{itemize}
+
+\textbf{Atividades-Chave:}
+\begin{itemize}
+    \item Desenvolvimento e Manutenção da Plataforma: Investimos constantemente em melhorias na plataforma para garantir uma experiência de usuário aprimorada.
+    \item Marketing e Aquisição de Clientes: Atividades de marketing para atrair novos vendedores e consumidores.
+    \item Suporte ao Cliente: Resposta rápida a consultas e resolução de problemas.
+    \item Parcerias Estratégicas: Desenvolvimento e manutenção de relacionamentos com parceiros-chave.
+\end{itemize}
+
+\textbf{Recursos Principais:}
+\begin{itemize}
+    \item Plataforma de Comércio Eletrônico: A plataforma online é o núcleo do nosso negócio.
+    \item Equipe de Desenvolvimento de Tecnologia: Uma equipe dedicada que mantém e aprimora constantemente a plataforma.
+    \item Equipe de Suporte ao Cliente: Especialistas disponíveis para ajudar vendedores e consumidores.
+    \item Parcerias Estratégicas: Colaboramos com fornecedores e parceiros logísticos para garantir uma ampla gama de produtos e serviços.
+\end{itemize}
+
+\textbf{Proposta de Valor:}
+\begin{itemize}
+    \item Plataforma de Comércio Eletrônico Intuitiva: Uma plataforma fácil de usar que permite aos vendedores criar suas lojas online e aos consumidores navegar e comprar produtos de forma conveniente.
+    \item Soluções de Comércio Eletrônico Personalizadas: Oferecemos soluções adaptadas às necessidades específicas dos vendedores, incluindo opções de pagamento, logística e marketing.
+    \item Comunidade Global: Uma comunidade online onde vendedores e consumidores podem interagir, compartilhar experiências e obter suporte.
+    \item Ferramentas de Marketing: Recursos de marketing integrados para vendedores promoverem seus produtos na plataforma.
+\end{itemize}
+
+\textbf{Relacionamento com Clientes:}
+\begin{itemize}
+    \item Suporte ao Cliente Online: Oferecemos suporte ao cliente 24/7 para ajudar os vendedores e consumidores com dúvidas, problemas técnicos e outras questões.
+    \item Comunidade Online: Uma comunidade online onde os membros podem se conectar, compartilhar dicas e experiências, e receber suporte da comunidade.
+\end{itemize}
+
+\textbf{Canais:}
+\begin{itemize}
+    \item Website e Aplicativo: A plataforma "XY Sales" está disponível tanto na forma de um website quanto de um aplicativo para dispositivos móveis, permitindo que os clientes acessem a plataforma de onde quer que estejam.
+\end{itemize}
+
+\textbf{Segmentos de Cliente:}
+\begin{itemize}
+    \item Empreendedores Individuais: São empreendedores que desejam abrir suas lojas online e usar a plataforma "XY Sales" para listar e vender seus produtos. Eles podem ser pequenos fabricantes, artesãos ou revendedores.
+    \item Empresas de Médio Porte: Empresas maiores que desejam expandir sua presença online e alavancar a plataforma "XY Sales" para atingir um público mais amplo.
+    \item Consumidores Online: Pessoas que buscam uma variedade de produtos e serviços online, desde roupas até eletrônicos e produtos personalizados.
+\end{itemize}
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=1\textwidth]{img/business-model-canvas}
+	\caption{Business Model Canvas (fonte: os autores).}
+	\label{fig:business-model-canvas}
+\end{figure}
+
 \section{Requisitos Funcionais e Não Funcionais}
 
 Para o desenvolvimento do projeto da plataforma, foram idealizados os seguintes Requisitos Não Funcionais, presentes no \autoref{quadro_rnf} . 
@@ -545,47 +603,76 @@ Para o desenvolvimento do projeto da plataforma, foram idealizados os seguintes 
 Também foram analizados os Requisitos Funcionais, presentes no \autoref{quadro_rf} .
 
 \begin{quadro}[htb]
-	\caption{\label{quadro_rnf}Requisitos Não Funcionais}
-	\begin{adjustbox}{center}
-		\begin{tabular}{|p{2cm}|p{4cm}|p{4cm}|p{2cm}|p{5cm}|}
-			\hline
-			\textbf{Id} & \textbf{Nome} & \textbf{Categoria} & \textbf{Prioridade} & \textbf{Descrição} \\ \hline
-			[RNF001] & Portabilidade de telas & Compatibilidade & Essencial & Interface deverá se adaptar às telas de diferentes dispositivos visto que no mundo atual há uma ampla variedade de dispositivos pelos quais pode-se acessar um marketplace. \\ \hline
-			[RNF002] & Interface intuitiva & Usabilidade & Essencial & A interface deve ser de fácil interpretação para os usuários a fim de que eles consigam localizar e acessar as funções desejadas em poucos segundos. \\ \hline
-			[RNF003] & Boa performance & Desempenho & Essencial & Cliente deverá obter respostas rápidas para suas pesquisas e páginas deverão ser carregadas com agilidade. \\ \hline
-			[RNF004] & Backup de dados & Disponibilidade & Essencial & Sistema registrará e arquivará todas as informações relevantes de seus usuários para uso futuro. \\ \hline
-			[RNF005] & Segurança de acesso & Segurança & Essencial & Cada usuário terá login e senha próprio para acessar sua conta. \\ \hline
-			[RNF006] & Facilidade de manutenção & Padrões & Essencial & Serão usados métodos estruturados de código para facilitar sua manutenção e reusabilidade futuramente. \\ \hline
-			[RNF007] & Estrutura do código & Padrões & Essencial & Código será desenvolvido na linguagem C\#. \\ \hline
-			[RNF008] & Controle de compras & Segurança & Essencial & O sistema designará um código específico para cada compra a fim de localizá-la. \\ \hline
-		\end{tabular}
-	\end{adjustbox}
-\fonte{fonte: os autores}
+    \caption{\label{quadro_rnf}Requisitos Não Funcionais}
+    \small % Fonte menor
+    \begin{adjustbox}{center}
+        \begin{tabular}{|p{1.5cm}|p{3.5cm}|p{3.5cm}|p{4.5cm}|}
+            \hline
+            \textbf{Id} & \textbf{Nome} & \textbf{Categoria} & \textbf{Descrição} \\ \hline
+            [RNF001] & Portabilidade de telas & Compatibilidade & Interface deverá se adaptar às telas de diferentes dispositivos visto que no mundo atual há uma ampla variedade de dispositivos pelos quais pode-se acessar um marketplace. \\ \hline
+            [RNF002] & Interface intuitiva & Usabilidade & A interface deve ser de fácil interpretação para os usuários a fim de que eles consigam localizar e acessar as funções desejadas em poucos segundos. \\ \hline
+            [RNF003] & Boa performance & Desempenho & Cliente deverá obter respostas rápidas para suas pesquisas e páginas deverão ser carregadas com agilidade. \\ \hline
+            [RNF004] & Backup de dados & Disponibilidade & Sistema registrará e arquivará todas as informações relevantes de seus usuários para uso futuro. \\ \hline
+            [RNF005] & Segurança de acesso & Segurança & Cada usuário terá login e senha próprio para acessar sua conta. \\ \hline
+            [RNF006] & Facilidade de manutenção & Padrões & Serão usados métodos estruturados de código para facilitar sua manutenção e reusabilidade futuramente. \\ \hline
+            [RNF007] & Estrutura do código & Padrões & Código será desenvolvido na linguagem C\#. \\ \hline
+            [RNF008] & Controle de compras & Segurança & O sistema designará um código específico para cada compra a fim de localizá-la. \\ \hline
+        \end{tabular}
+    \end{adjustbox}
+    \fonte{Fonte: os autores}
 \end{quadro}
 
 \begin{quadro}[htb]
-	\caption{\label{quadro_rf}Requisitos Funcionais}
-	\begin{adjustbox}{center}
-		\begin{tabular}{|p{2cm}|p{4cm}|p{4cm}|p{2cm}|p{5cm}|}
-			\hline
-			\textbf{Id} & \textbf{Função} & \textbf{Prioridade} & \textbf{Ator} & \textbf{Descrição} \\ \hline
-			[RF001] & PESQUISA & Essencial & Sistema & O sistema deverá permitir o usuário pesquisar produto. \\ \hline
-			[RF002] & AVALIAÇÃO & Essencial & Sistema & O sistema deverá permitir o usuário ler avaliação/avaliar. \\ \hline
-			[RF003] & ESCOLHA & Essencial & Sistema & O sistema deverá permitir o usuário escolher atributos do produto. \\ \hline
-			[RF004] & ADICIONAR & Essencial & Sistema & O sistema deverá permitir o usuário adicionar ao carrinho. \\ \hline
-			[RF005] & VISUALIZAR & Essencial & Sistema & O sistema deverá permitir o usuário ver carrinho. \\ \hline
-			[RF006] & FINALIZAR & Essencial & Sistema & O sistema deverá permitir o usuário finalizar compra. \\ \hline
-			[RF007] & ENTREGA & Essencial & Sistema & O sistema deverá permitir o usuário configurar opções de entrega. \\ \hline
-			[RF008] & PAGAMENTO & Essencial & Sistema & O sistema deverá permitir o usuário configurar opções de pagamento. \\ \hline
-			[RF009] & CADASTRO & Essencial & Sistema & O sistema deverá permitir o usuário configurar opções de cadastro. \\ \hline
-			[RF010] & CHAT & Essencial & Sistema & O sistema deverá permitir o usuário conversar em tempo real. \\ \hline
-			[RF011] & CONSULTA & Essencial & Sistema & O sistema deverá permitir o usuário consultar dados. \\ \hline
-			[RF012] & CARRINHO & Essencial & Sistema & O sistema deverá permitir o usuário configurar opções do carrinho. \\ \hline
-			[RF013] & FRETE & Essencial & Sistema & O sistema deverá permitir o usuário calcular frete. \\ \hline
-		\end{tabular}
-	\end{adjustbox}
-\fonte{fonte: os autores}
+    \caption{\label{quadro_rf}Requisitos Funcionais}
+    \small % Fonte menor
+    \begin{adjustbox}{center}
+        \begin{tabular}{|p{1.5cm}|p{3.5cm}|p{3.5cm}|p{4.5cm}|}
+            \hline
+            \textbf{Id} & \textbf{Função} & \textbf{Ator} & \textbf{Descrição} \\ \hline
+            [RF001] & Pesquisa & Sistema & O sistema deverá permitir o usuário pesquisar produto. \\ \hline
+            [RF002] & Avaliação & Sistema & O sistema deverá permitir o usuário ler avaliação/avaliar. \\ \hline
+            [RF003] & Escolha & Sistema & O sistema deverá permitir o usuário escolher atributos do produto. \\ \hline
+            [RF004] & Adicionar & Sistema & O sistema deverá permitir o usuário adicionar ao carrinho. \\ \hline
+            [RF005] & Visualizar & Sistema & O sistema deverá permitir o usuário ver carrinho. \\ \hline
+            [RF006] & Finalizar & Sistema & O sistema deverá permitir o usuário finalizar compra. \\ \hline
+            [RF007] & Entrega & Sistema & O sistema deverá permitir o usuário configurar opções de entrega. \\ \hline
+            [RF008] & Pagamento & Sistema & O sistema deverá permitir o usuário configurar opções de pagamento. \\ \hline
+            [RF009] & Cadastro & Sistema & O sistema deverá permitir o usuário configurar opções de cadastro. \\ \hline
+            [RF010] & Chat & Sistema & O sistema deverá permitir o usuário conversar em tempo real. \\ \hline
+            [RF011] & Consulta & Sistema & O sistema deverá permitir o usuário consultar dados. \\ \hline
+            [RF012] & Carrinho & Sistema & O sistema deverá permitir o usuário configurar opções do carrinho. \\ \hline
+            [RF013] & Frete & Sistema & O sistema deverá permitir o usuário calcular frete. \\ \hline
+        \end{tabular}
+    \end{adjustbox}
+    \fonte{Fonte: os autores}
 \end{quadro}
+
+\chapter{Diagramas de aplicações}\label{cap_diagama_de_aplicacoes}
+
+\section{Diagrama de Caso de Uso}
+
+\section{Diagrama de Atividades}
+
+Foi elaborado um diagrama de atividades para o marketplace "XY Store", conforme apresentado na Figura 4. Esse diagrama de atividades é uma representação visual que descreve o fluxo de ações e processos essenciais dentro do sistema, proporcionando uma visão clara e organizada das atividades realizadas pelos usuários e pelo sistema, e como elas se interconectam para facilitar o funcionamento eficiente do marketplace.
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=1\textwidth]{img/diagrama-de-atividades}
+	\caption{Diagrama de Classes (fonte: os autores).}
+	\label{fig:diagrama-de-atividades}
+\end{figure}
+
+
+\section{Diagrama de Classes}
+
+Foi concebido um diagrama de classes para este projeto, conforme ilustrado na Figura 5. Um diagrama de classes é uma representação visual fundamental que descreve a estrutura e as relações entre as principais entidades de um sistema. Por meio de símbolos e conexões intuitivas, esse diagrama proporciona uma visão clara e organizada do funcionamento interno do projeto, permitindo uma compreensão aprofundada das classes, seus atributos e métodos, e como elas interagem para alcançar os objetivos do sistema.
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=1\textwidth]{img/diagrama-de-classes}
+	\caption{Diagrama de Classes (fonte: os autores).}
+	\label{fig:diagrama-de-classes}
+\end{figure}
 
 % ----------------------------------------------------------
 % PARTE

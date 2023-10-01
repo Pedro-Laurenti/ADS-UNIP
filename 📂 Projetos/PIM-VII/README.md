@@ -22,14 +22,14 @@ Após leitura e compreensão dos requisitos do projeto, elaboramos um sumário q
 2. **Plano de Negócios**
     - 2.1 Desenvolvimento do Plano de Negócios
     - 2.2 Estratégias Empresariais
+    - 2.1 Requisitos Funcionais e Não Funcionais
 
-3. **Requisitos e Diagramas**
-    - 3.1 Requisitos Funcionais e Não Funcionais
-    - 3.2 Diagrama de Caso de Uso
-    - 3.3 Diagrama de Atividades
-
-4. **Diagramas e Metodologia**
+3. **Diagramas de aplicações**
+    - 3.1 Diagrama de Caso de Uso
+    - 3.2 Diagrama de Atividades
     - 4.1 Diagrama de Classes
+
+4. **Diagramas de Metodologias**
     - 4.2 Diagrama de Sequência
     - 4.3 Diagrama de Componentes e de Implantação
     - 4.4 Metodologia de Desenvolvimento
@@ -69,7 +69,7 @@ Após leitura e compreensão dos requisitos do projeto, elaboramos um sumário q
 | Allan     | 1 hora             | 2.2 Estratégias Empresariais                                      |
 | Lucas     | 1 hora             | 3.1 Requisitos Funcionais e Não Funcionais                        |
 
-- [ ] Dia 3: Requisitos e Diagramas (3 horas)
+- [X] Dia 3: Requisitos e Diagramas (3 horas)
 
 | Quem fará | Tempo de Execução  | Descrição                                                         | 
 |-----------|--------------------|-------------------------------------------------------------------|
