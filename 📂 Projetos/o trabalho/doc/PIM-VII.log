@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.9.26)  1 OCT 2023 14:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.9.26)  11 OCT 2023 16:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -971,14 +971,17 @@ l.276
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <14.4> on input line 12.
 
-[15]) [16] (PIM-VII.lof) [17
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15])
+[16] (PIM-VII.lof) [17
 
 ] [18
 
 ] (PIM-VII.loq) [19] [20
 
-] (PIM-VII.lot)
-[21] [22
+] (PIM-VII.lot) [21]
+[22
 
 ] [23
 
@@ -993,7 +996,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 
 No file abntex2-modelo-include-comandos.tex.
-<img/XY-logo.png, id=258, 1003.75pt x 1003.75pt>
+<img/XY-logo.png, id=263, 1003.75pt x 1003.75pt>
 File: img/XY-logo.png Graphic file (type png)
 <use img/XY-logo.png>
 Package pdftex.def Info: img/XY-logo.png  used on input line 472.
@@ -1010,7 +1013,7 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [30]
 [31] [32] [33]
-<img/business-model-canvas.jpg, id=282, 1343.0175pt x 749.80125pt>
+<img/business-model-canvas.jpg, id=287, 1343.0175pt x 749.80125pt>
 File: img/business-model-canvas.jpg Graphic file (type jpg)
 <use img/business-model-canvas.jpg>
 Package pdftex.def Info: img/business-model-canvas.jpg  used on input line 594.
@@ -1064,19 +1067,19 @@ Underfull \hbox (badness 1571) in paragraph at lines 633--633
  []
 
 [34 <./img/business-model-canvas.jpg>] [35] [36]
-<img/Diagrama de atividades comprador.png, id=299, 2059.695pt x 542.025pt>
+<img/Diagrama de atividades comprador.png, id=304, 2059.695pt x 542.025pt>
 File: img/Diagrama de atividades comprador.png Graphic file (type png)
 <use img/Diagrama de atividades comprador.png>
 Package pdftex.def Info: img/Diagrama de atividades comprador.png  used on inpu
 t line 660.
 (pdftex.def)             Requested size: 455.0pt x 119.73383pt.
-<img/Diagrama de Atividades Vendedor.png, id=300, 1029.8475pt x 271.0125pt>
+<img/Diagrama de Atividades Vendedor.png, id=305, 1029.8475pt x 271.0125pt>
 File: img/Diagrama de Atividades Vendedor.png Graphic file (type png)
 <use img/Diagrama de Atividades Vendedor.png>
 Package pdftex.def Info: img/Diagrama de Atividades Vendedor.png  used on input
  line 669.
 (pdftex.def)             Requested size: 455.0pt x 119.73383pt.
-<img/diagrama-de-atividades.png, id=301, 785.8158pt x 418.6842pt>
+<img/diagrama-de-atividades.png, id=306, 785.8158pt x 418.6842pt>
 File: img/diagrama-de-atividades.png Graphic file (type png)
 <use img/diagrama-de-atividades.png>
 Package pdftex.def Info: img/diagrama-de-atividades.png  used on input line 681
@@ -1086,18 +1089,41 @@ Package pdftex.def Info: img/diagrama-de-atividades.png  used on input line 681
 
  <./img/Diagrama de atividades comprador.png> <./img/Diagrama de Atividades Ven
 dedor.png>]
-<img/diagrama-de-classes.png, id=308, 1003.75pt x 1003.75pt>
+<img/diagrama-de-classes.png, id=313, 1003.75pt x 1003.75pt>
 File: img/diagrama-de-classes.png Graphic file (type png)
 <use img/diagrama-de-classes.png>
 Package pdftex.def Info: img/diagrama-de-classes.png  used on input line 693.
 (pdftex.def)             Requested size: 455.0pt x 455.0069pt.
- [38 <./img/diagrama-de-atividades.png>] [39 <./img/diagrama-de-classes.png>] [
-40
+
+Underfull \vbox (badness 3690) has occurred while \output is active []
+
+ [38 <./img/diagrama-de-atividades.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39 <./img/diagrama-de-classes.png>] [40] [41] [42
+
+] [43] [44] [45
+
+] [46
+
+] [47] [48
 
 ]
+[49] [50
+
+] [51] [52
+
+] [53] [54] [55
+
+] [56
+
+] [57] [58
+
+] [59] [60
+
+] [61] [62]
 No file PIM-VII.bbl.
 No file PIM-VII.ind.
-[41]
 \tf@toc=\write5
 \openout5 = `PIM-VII.toc'.
 
@@ -1110,74 +1136,46 @@ No file PIM-VII.ind.
 \tf@lot=\write8
 \openout8 = `PIM-VII.lot'.
 
- (PIM-VII.aux (abntex2-modelo-include-comandos.aux)) ) 
+(PIM-VII.aux (abntex2-modelo-include-comandos.aux))
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 18995 strings out of 476339
- 308568 string characters out of 5804534
+ 19050 strings out of 476339
+ 309166 string characters out of 5804534
  1879340 words of memory out of 5000000
- 38783 multiletter control sequences out of 15000+600000
- 606340 words of font info for 183 fonts, out of 8000000 for 9000
+ 38807 multiletter control sequences out of 15000+600000
+ 606229 words of font info for 182 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,13n,90p,1810b,651s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-pdfTeX warning (dest): name{appendix.anexochapback.3} has been referenced but d
-oes not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{appendix.anexochapback.2} has been referenced but d
-oes not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{appendix.anexochapback.1} has been referenced but d
-oes not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section*.21} has been referenced but does not exist
+pdfTeX warning (dest): name{section.5.3} has been referenced but does not exist
 , replaced by a fixed one
 
 
-pdfTeX warning (dest): name{appendix.B} has been referenced but does not exist,
- replaced by a fixed one
-
-
-pdfTeX warning (dest): name{appendix.A} has been referenced but does not exist,
- replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section*.20} has been referenced but does not exist
+pdfTeX warning (dest): name{section.5.2} has been referenced but does not exist
 , replaced by a fixed one
-
-
-pdfTeX warning (dest): name{chapter.7} has been referenced but does not exist, 
-replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.6.1} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{chapter.6} has been referenced but does not exist, 
-replaced by a fixed one
 
 
 pdfTeX warning (dest): name{section.5.1} has been referenced but does not exist
 , replaced by a fixed one
 
 
-pdfTeX warning (dest): name{chapter.5} has been referenced but does not exist, 
-replaced by a fixed one
+pdfTeX warning (dest): name{section.4.4} has been referenced but does not exist
+, replaced by a fixed one
 
 
-pdfTeX warning (dest): name{part.3} has been referenced but does not exist, rep
-laced by a fixed one
+pdfTeX warning (dest): name{section.4.3} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.4.2} has been referenced but does not exist
+, replaced by a fixed one
 
 
 pdfTeX warning (dest): name{section.4.1} has been referenced but does not exist
 , replaced by a fixed one
-
-
-pdfTeX warning (dest): name{part.2} has been referenced but does not exist, rep
-laced by a fixed one
 
 {C:/MikTex/fonts/enc/dvips/lm/lm-ec.enc}{C:/MikTex/fonts/enc/dvips/lm/lm-ts1.en
 c}<C:/MikTex/fonts/type1/public/lm/lmbx10.pfb><C:/MikTex/fonts/type1/public/lm/
@@ -1186,9 +1184,9 @@ blic/lm/lmr12.pfb><C:/MikTex/fonts/type1/public/lm/lmri10.pfb><C:/MikTex/fonts/
 type1/public/lm/lmri12.pfb><C:/MikTex/fonts/type1/public/lm/lmss10.pfb><C:/MikT
 ex/fonts/type1/public/lm/lmss12.pfb><C:/MikTex/fonts/type1/public/lm/lmss17.pfb
 ><C:/MikTex/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on PIM-VII.pdf (43 pages, 729343 bytes).
+Output written on PIM-VII.pdf (64 pages, 752845 bytes).
 PDF statistics:
- 509 PDF objects out of 1000 (max. 8388607)
- 117 named destinations out of 1000 (max. 500000)
- 55599 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 667 PDF objects out of 1000 (max. 8388607)
+ 150 named destinations out of 1000 (max. 500000)
+ 55743 words of extra memory for PDF output out of 61914 (max. 10000000)
 

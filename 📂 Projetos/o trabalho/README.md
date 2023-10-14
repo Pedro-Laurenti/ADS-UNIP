@@ -69,7 +69,7 @@ Após leitura e compreensão dos requisitos do projeto, elaboramos um sumário q
 | Allan     | 1 hora             | 2.2 Estratégias Empresariais                                      |
 | Lucas     | 1 hora             | 3.1 Requisitos Funcionais e Não Funcionais                        |
 
-- [ ] Dia 3: Requisitos e Diagramas (3 horas)
+- [x] Dia 3: Requisitos e Diagramas (3 horas)
 
 | Quem fará | Tempo de Execução  | Descrição                                                         | 
 |-----------|--------------------|-------------------------------------------------------------------|
@@ -77,7 +77,7 @@ Após leitura e compreensão dos requisitos do projeto, elaboramos um sumário q
 | Pedro     | 1 hora             | 3.3 Diagrama de Atividades                                        |
 | Allan     | 1 hora             | 4.1 Diagrama de Classes                                           |
 
-- [ ] Dia 4: Diagramas e Metodologia (3 horas)
+- [x] Dia 4: Diagramas e Metodologia (3 horas)
 
 | Quem fará | Tempo de Execução  | Descrição                                                         | 
 |-----------|--------------------|-------------------------------------------------------------------|

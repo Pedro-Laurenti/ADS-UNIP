@@ -31,8 +31,31 @@
 \contentsline {subsection}{\numberline {3.1.2}Ator: Vendedor}{37}{subsection.3.1.2}%
 \contentsline {section}{\numberline {3.2}Diagrama de Atividades}{37}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Diagrama de Classes}{38}{section.3.3}%
-\vspace {\cftbeforechapterskip }
+\contentsline {section}{\numberline {3.4}Metodologia de Desenvolvimento}{38}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Iniciação do Projeto}{38}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Planejamento do Projeto}{39}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Execução do Projeto}{40}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Monitoramento e Controle do Projeto}{40}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}Encerramento do Projeto}{40}{subsection.3.4.5}%
+\contentsline {subsection}{\numberline {3.4.6}Integração de Processos}{40}{subsection.3.4.6}%
+\contentsline {subsection}{\numberline {3.4.7}Escopo, Tempo, Custo, Qualidade}{40}{subsection.3.4.7}%
+\contentsline {subsection}{\numberline {3.4.8}Recursos Humanos, Comunicações, Riscos, Aquisições, Partes Interessadas}{40}{subsection.3.4.8}%
+\contentsline {part}{\partnumberline {II}\MakeUppercase []{Desenvolvimento do Projeto}}{43}{part.2}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeUppercase []{Conclusão}}{41}{chapter.4}%
+\contentsline {chapter}{\chapternumberline {4}\MakeUppercase []{Termo de Abertura do Projeto}}{45}{chapter.4}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}\MakeUppercase []{Matriz de Papéis e Responsabilidades}}{47}{chapter.5}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {6}\MakeUppercase []{Cronograma de Atividades e Custos}}{49}{chapter.6}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {7}\MakeUppercase []{Análise de Riscos}}{51}{chapter.7}%
+\contentsline {part}{\partnumberline {III}\MakeUppercase []{Conclusão do Projeto}}{53}{part.3}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {8}\MakeUppercase []{Lições Aprendidas}}{55}{chapter.8}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {9}\MakeUppercase []{Resumo dos Principais Pontos}}{57}{chapter.9}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {10}\MakeUppercase []{Contribuições e Resultados Esperados}}{59}{chapter.10}%
 \vspace {\cftbeforechapterskip }
 \vspace {\cftbeforechapterskip }
+\contentsline {part}{\partnumberline {IV}\MakeUppercase []{Referências}}{61}{part.4}%
