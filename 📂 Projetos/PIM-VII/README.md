@@ -7,7 +7,7 @@
 
 <br>
 
-![](https://geps.dev/progress/20)
+![](https://geps.dev/progress/100)
 
 </div>
 
@@ -85,7 +85,7 @@ Após leitura e compreensão dos requisitos do projeto, elaboramos um sumário q
 | Lucas     | 1 hora             | 4.3 Diagrama de Componentes e de Implantação                      |
 | Pedro     | 1 hora             | 4.4 Metodologia de Desenvolvimento                                |
 
-- [ ] Dia 5: Gerenciamento de Projeto (3 horas)
+- [x] Dia 5: Gerenciamento de Projeto (3 horas)
 
 | Quem fará | Tempo de Execução  | Descrição                                                         | 
 |-----------|--------------------|-------------------------------------------------------------------|
@@ -95,7 +95,7 @@ Após leitura e compreensão dos requisitos do projeto, elaboramos um sumário q
 
 ## Semana 2
 
-- [ ] Dia 1: Conclusão (3 horas)
+- [x] Dia 1: Conclusão (3 horas)
 
 | Quem fará | Tempo de Execução  | Descrição                                                         | 
 |-----------|--------------------|-------------------------------------------------------------------|
@@ -103,7 +103,7 @@ Após leitura e compreensão dos requisitos do projeto, elaboramos um sumário q
 | Pedro     | 1 hora             | 5.5 Lições Aprendidas                                             |
 | Pedro     | 1 hora             | 6.1 Resumo dos Principais Pontos                                  |
 
-- [ ] Dia 2: Referências (3 hora)
+- [x] Dia 2: Referências (3 hora)
 
 | Quem fará | Tempo de Execução  | Descrição                                                         | 
 |-----------|--------------------|-------------------------------------------------------------------|
@@ -112,7 +112,7 @@ Após leitura e compreensão dos requisitos do projeto, elaboramos um sumário q
 | Pedro     | 1 hora             | EXT. Diagramação final                                            |
 
 
-- [ ] Dia 3: Finalização e envio (3 hora)
+- [x] Dia 3: Finalização e envio (3 hora)
 
 | Quem fará | Tempo de Execução  | Descrição                                                         | 
 |-----------|--------------------|-------------------------------------------------------------------|
