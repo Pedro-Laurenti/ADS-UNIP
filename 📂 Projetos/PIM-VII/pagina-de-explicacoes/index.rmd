@@ -16,7 +16,7 @@ output:
 <div align="center">
 
 ![Logo desenvolvida para o trabalho](./img/PIM-VII-LOGO.png){width=70%}
-
+x
 <br>
 
 ![](https://geps.dev/progress/100)
