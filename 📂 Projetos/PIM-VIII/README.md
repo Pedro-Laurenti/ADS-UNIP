@@ -28,12 +28,12 @@ O que precisa entregar (por matéria):
 
 
 ### Programação Orientada a Objetos II
-1. Código C# Acesso ao Banco de Dados
-2. Codificar as classes de entidades
-   1. Cliente
-   2. Carrinho
-   3. Produto
-   4. Vendedor
+1. Código C# acesso ao Banco de Dados
+2. Codificar as classes de entidades:
+    - Cliente
+    - Carrinho
+    - Produto
+    - Vendedor
 3. Codificar a classe CarrinhoRepository
 4. Implementar os métodos da classe CarrinhoRepository
 
@@ -69,6 +69,53 @@ O que precisa entregar (por matéria):
 
 6. **Referências**
     - 7.1 Fontes de Informação Utilizadas
+
+# Classes de entidade
+
+**Cliente:**
+
+| PK  | ID          | INTEGER       |
+| PK  | NOME        | VARCHAR(256)  |
+| PK  | CPF         | BIGINT        |
+| PK  | EMAIL       | VARCHAR(70)   |
+| PK  | SENHA       | VARCHAR(25)   |
+| FK  | ENDERECO_ID  | INTEGER       |
+
+**Carrinho:**
+
+| PK  | ID               | INTEGER       |
+| PK  | DATA_PEDIDO      | DATE          |
+| PK  | VALOR_TOTAL      | FLOAT(7,2)    |
+| FK  | STATUS_PEDIDO_ID | INTEGER       |
+| FK  | CLIENTE_ID       | INTEGER       |
+
+**Item Carrinho:**
+
+| PK,FK  | CARRINHO_ID  | INTEGER       |
+| PK,FK  | PRODUTO_ID    | INTEGER       |
+|        | QUANTIDADE    | VARCHAR(45)   |
+|        | TOTAL         | FLOAT(7,2)    |
+
+**Produto:**
+
+| PK  | ID          | INTEGER       |
+| PK  | DESCRICAO    | VARCHAR(45)   |
+| PK  | PRECO        | FLOAT(5,2)    |
+| PK  | IMAGEM       | VARCHAR(200)  |
+| PK  | STATUS       | BOOL          |
+| FK  | VENDOR_ID    | INTEGER       |
+| FK  | CATEGORIA_ID | INTEGER       |
+
+**Vendedor:**
+
+| PK  | ID            | INTEGER       |
+| PK  | RAZAO_SOCIAL  | VARCHAR(100)  |
+| PK  | NOME_FANTASIA | VARCHAR(70)   |
+| PK  | EMAIL         | VARCHAR(70)   |
+| PK  | SENHA         | VARCHAR(25)   |
+| PK  | CNPJ          | VARCHAR(18)   |
+| PK  | COMISSAO      | INTEGER       |
+| FK  | ENDERECO_ID   | INTEGER       |
 
 # Divisão de tarefas
 
@@ -113,34 +160,8 @@ O que precisa entregar (por matéria):
 | Pedro     | 1 hora             | 5.2 Matriz de Papéis e Responsabilidades                          |
 | Lucas     | 1 hora             | 5.3 Cronograma de Atividades e Custos                             |
 
-## Semana 2
 
-- [x] Dia 1: Conclusão (3 horas)
-
-| Quem fará | Tempo de Execução  | Descrição                                                         | 
-|-----------|--------------------|-------------------------------------------------------------------|
-| Allan     | 1 hora             | 5.4 Análise de Riscos                                             |
-| Pedro     | 1 hora             | 5.5 Lições Aprendidas                                             |
-| Pedro     | 1 hora             | 6.1 Resumo dos Principais Pontos                                  |
-
-- [x] Dia 2: Referências (3 hora)
-
-| Quem fará | Tempo de Execução  | Descrição                                                         | 
-|-----------|--------------------|-------------------------------------------------------------------|
-| Lucas     | 1 hora             | 6.2 Contribuições e Resultados Esperados                          |
-| Allan     | 1 hora             | 7.1 Fontes de Informação Utilizadas                               |
-| Pedro     | 1 hora             | EXT. Diagramação final                                            |
-
-
-- [x] Dia 3: Finalização e envio (3 hora)
-
-| Quem fará | Tempo de Execução  | Descrição                                                         | 
-|-----------|--------------------|-------------------------------------------------------------------|
-| Todos     | 1 hora             | Revisão final                                                     |
-| Pedro     | 1 hora             | Correção da revisão                                               |
-| Pedro     | 1 hora             | Envio do trabalho                                                 |
-
-> Prazo do desenvolvimento de 2 semanas
+> Prazo do desenvolvimento de 9 dias
 
 # Considerações finais
 
