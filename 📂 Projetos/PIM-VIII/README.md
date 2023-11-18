@@ -79,9 +79,11 @@ O que precisa entregar (por matéria):
     - 7.1 Fontes de Informação Utilizadas
 
 
-<details>
 
- # Divisão de tarefas 
+
+# Divisão de tarefas
+
+<details>
 
 <summary> 9 dias de desenvolvimento </summary>
 
