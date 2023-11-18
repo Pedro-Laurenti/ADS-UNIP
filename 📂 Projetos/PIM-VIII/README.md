@@ -22,14 +22,15 @@ O que precisa entregar (por matéria):
 
 ### Diagrama User Flow
 
-![[Abrir em larga escala](./img/User-Flow.pdf)](./img/User-Flow.png)
+![](./img/User-Flow.png)
+
+[Abrir em larga escala](./img/User-Flow.pdf)
 
 
 ## Tópicos Especiais de Programação Orientada a Objetos
 1. Protótipo de interface gráfica com usuário Android usando XML
 2. Inclua as capturas de tela
 3. Inclua código XML
-
 
 ## Programação Orientada a Objetos II
 1. Código C# acesso ao Banco de Dados
@@ -46,7 +47,9 @@ O que precisa entregar (por matéria):
 
 ### Diagrama Entidade-Relacionamento
 
-![[Abrir em larga escala](./img/Diagrama-Entidade-Relacionamento.pdf)](./img/Diagrama-Entidade-Relacionamento.png)
+![](./img/Diagrama-Entidade-Relacionamento.png)
+
+[Abrir em larga escala](./img/Diagrama-Entidade-Relacionamento.pdf)
 
 
 # Sumário
