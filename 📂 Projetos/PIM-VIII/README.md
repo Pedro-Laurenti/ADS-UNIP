@@ -15,19 +15,23 @@
 
 O que precisa entregar (por matéria):
 
-### Desenvolvimento de Software para internet
+## Desenvolvimento de Software para internet
 1. Código ASPX interface gráfica com usuário ASP.net
 2. Inclua no trabalho as capturas de tela
 3. Incluir no trabalho o código ASPX
 
+### Diagrama User Flow
 
-### Tópicos Especiais de Programação Orientada a Objetos
+![[Abrir em larga escala](./img/User-Flow.pdf)](./img/User-Flow.png)
+
+
+## Tópicos Especiais de Programação Orientada a Objetos
 1. Protótipo de interface gráfica com usuário Android usando XML
 2. Inclua as capturas de tela
 3. Inclua código XML
 
 
-### Programação Orientada a Objetos II
+## Programação Orientada a Objetos II
 1. Código C# acesso ao Banco de Dados
 2. Codificar as classes de entidades:
     - Cliente
@@ -39,6 +43,10 @@ O que precisa entregar (por matéria):
 
 - O diagrama Entidade-Relacionamento do trecho do banco de dados sob responsabilidade da equipe JÁ FOI DADO, a partir dele desenvolve-se o mecanismo de acesso em C#
 - O diagrama de Classes do mecanismo de acesso ao trecho do banco de dados também já foi dado
+
+### Diagrama Entidade-Relacionamento
+
+![[Abrir em larga escala](./img/Diagrama-Entidade-Relacionamento.pdf)](./img/Diagrama-Entidade-Relacionamento.png)
 
 
 # Sumário
@@ -69,53 +77,6 @@ O que precisa entregar (por matéria):
 
 6. **Referências**
     - 7.1 Fontes de Informação Utilizadas
-
-## Classes de entidade
-
-| KEY | **CLIENTE**  | TIPO          |
-|:---:|:------------:|:-------------:|
-| PK  | ID           | INTEGER       |
-| PK  | NOME         | VARCHAR(256)  |
-| PK  | CPF          | BIGINT        |
-| PK  | EMAIL        | VARCHAR(70)   |
-| PK  | SENHA        | VARCHAR(25)   |
-| FK  | ENDERECO_ID  | INTEGER       |
-
-| KEY | **CARRINHO**     | TIPO          |
-|:---:|:----------------:|:-------------:|
-| PK  | ID               | INTEGER       |
-| PK  | DATA_PEDIDO      | DATE          |
-| PK  | VALOR_TOTAL      | FLOAT(7,2)    |
-| FK  | STATUS_PEDIDO_ID | INTEGER       |
-| FK  | CLIENTE_ID       | INTEGER       |
-
-|  KEY  | **ITEM_CARRINHO**  | TIPO          |
-|:-----:|:------------------:|:-------------:|
-| PK,FK | CARRINHO_ID        | INTEGER       |
-| PK,FK | PRODUTO_ID         | INTEGER       |
-|       | QUANTIDADE         | VARCHAR(45)   |
-|       | TOTAL              | FLOAT(7,2)    |
-
-| KEY | **PRODUTO**   | TIPO          |
-|:---:|:-------------:|:-------------:|
-| PK  | ID            | INTEGER       |
-| PK  | DESCRICAO     | VARCHAR(45)   |
-| PK  | PRECO         | FLOAT(5,2)    |
-| PK  | IMAGEM        | VARCHAR(200)  |
-| PK  | STATUS        | BOOL          |
-| FK  | VENDOR_ID     | INTEGER       |
-| FK  | CATEGORIA_ID  | INTEGER       |
-
-| KEY | **VENDEDOR**  | TIPO          |
-|:---:|:-------------:|:-------------:|
-| PK  | ID            | INTEGER       |
-| PK  | RAZAO_SOCIAL  | VARCHAR(100)  |
-| PK  | NOME_FANTASIA | VARCHAR(70)   |
-| PK  | EMAIL         | VARCHAR(70)   |
-| PK  | SENHA         | VARCHAR(25)   |
-| PK  | CNPJ          | VARCHAR(18)   |
-| PK  | COMISSAO      | INTEGER       |
-| FK  | ENDERECO_ID   | INTEGER       |
 
 # Divisão de tarefas
 
