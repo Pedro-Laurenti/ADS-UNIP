@@ -73,7 +73,7 @@ O que precisa entregar (por matéria):
 # Classes de entidade
 
 | KEY | **CLIENTE**  | TIPO          |
-|-----|--------------|---------------|
+|:---:|:------------:|:-------------:|
 | PK  | ID           | INTEGER       |
 | PK  | NOME         | VARCHAR(256)  |
 | PK  | CPF          | BIGINT        |
@@ -82,7 +82,7 @@ O que precisa entregar (por matéria):
 | FK  | ENDERECO_ID  | INTEGER       |
 
 | KEY | **CARRINHO**     | TIPO          |
-|-----|------------------|---------------|
+|:---:|:----------------:|:-------------:|
 | PK  | ID               | INTEGER       |
 | PK  | DATA_PEDIDO      | DATE          |
 | PK  | VALOR_TOTAL      | FLOAT(7,2)    |
@@ -90,14 +90,14 @@ O que precisa entregar (por matéria):
 | FK  | CLIENTE_ID       | INTEGER       |
 
 |  KEY  | **ITEM_CARRINHO**  | TIPO          |
-|-------|--------------------|---------------|
+|:-----:|:------------------:|:-------------:|
 | PK,FK | CARRINHO_ID        | INTEGER       |
 | PK,FK | PRODUTO_ID         | INTEGER       |
 |       | QUANTIDADE         | VARCHAR(45)   |
 |       | TOTAL              | FLOAT(7,2)    |
 
 | KEY | **PRODUTO**   | TIPO          |
-|-----|---------------|---------------|
+|:---:|:-------------:|:-------------:|
 | PK  | ID            | INTEGER       |
 | PK  | DESCRICAO     | VARCHAR(45)   |
 | PK  | PRECO         | FLOAT(5,2)    |
@@ -107,7 +107,7 @@ O que precisa entregar (por matéria):
 | FK  | CATEGORIA_ID  | INTEGER       |
 
 | KEY | **VENDEDOR**  | TIPO          |
-|-----|---------------|---------------|
+|:---:|:-------------:|:-------------:|
 | PK  | ID            | INTEGER       |
 | PK  | RAZAO_SOCIAL  | VARCHAR(100)  |
 | PK  | NOME_FANTASIA | VARCHAR(70)   |
@@ -124,14 +124,14 @@ O que precisa entregar (por matéria):
 - [X] Dia 1: Planejamento e Escopo (2 horas)
 
 | Quem fará | Tempo de Execução  | Descrição                                                         | 
-|-----------|--------------------|-------------------------------------------------------------------|
+|:---------:|:------------------:|:-----------------------------------------------------------------:|
 | Pedro     | 1 hora             | Desenvolver um Plano de Negócios para a startup (Empreendedorismo)|
 | Lucas     | 1 hora             | Redigir a introdução e o resumo do trabalho                       |
 
 - [X] Dia 2: Plano de Negócios (3 horas)
 
 | Quem fará | Tempo de Execução  | Descrição                                                         | 
-|-----------|--------------------|-------------------------------------------------------------------|
+|:---------:|:------------------:|:-----------------------------------------------------------------:|
 | Pedro     | 1 hora             | 2.1 Desenvolvimento do Plano de Negócios                          |
 | Allan     | 1 hora             | 2.2 Estratégias Empresariais                                      |
 | Lucas     | 1 hora             | 3.1 Requisitos Funcionais e Não Funcionais                        |
@@ -139,7 +139,7 @@ O que precisa entregar (por matéria):
 - [x] Dia 3: Requisitos e Diagramas (3 horas)
 
 | Quem fará | Tempo de Execução  | Descrição                                                         | 
-|-----------|--------------------|-------------------------------------------------------------------|
+|:---------:|:------------------:|:-----------------------------------------------------------------:|
 | Lucas     | 1 hora             | 3.2 Diagrama de Caso de Uso                                       |
 | Pedro     | 1 hora             | 3.3 Diagrama de Atividades                                        |
 | Allan     | 1 hora             | 4.1 Diagrama de Classes                                           |
@@ -147,7 +147,7 @@ O que precisa entregar (por matéria):
 - [x] Dia 4: Diagramas e Metodologia (3 horas)
 
 | Quem fará | Tempo de Execução  | Descrição                                                         | 
-|-----------|--------------------|-------------------------------------------------------------------|
+|:---------:|:------------------:|:-----------------------------------------------------------------:|
 | Pedro     | 1 hora             | 4.2 Diagrama de Sequência                                         |
 | Lucas     | 1 hora             | 4.3 Diagrama de Componentes e de Implantação                      |
 | Pedro     | 1 hora             | 4.4 Metodologia de Desenvolvimento                                |
@@ -155,7 +155,7 @@ O que precisa entregar (por matéria):
 - [x] Dia 5: Gerenciamento de Projeto (3 horas)
 
 | Quem fará | Tempo de Execução  | Descrição                                                         | 
-|-----------|--------------------|-------------------------------------------------------------------|
+|:---------:|:------------------:|:-----------------------------------------------------------------:|
 | Allan     | 1 hora             | 5.1 Termo de Abertura de Projeto                                  |
 | Pedro     | 1 hora             | 5.2 Matriz de Papéis e Responsabilidades                          |
 | Lucas     | 1 hora             | 5.3 Cronograma de Atividades e Custos                             |
