@@ -81,7 +81,9 @@ O que precisa entregar (por matéria):
 
 <details>
 
-<summary> # Divisão de tarefas </summary>
+ # Divisão de tarefas 
+
+<summary> 9 dias de desenvolvimento </summary>
 
 - [ ] Dia 1:
 
@@ -156,8 +158,6 @@ O que precisa entregar (por matéria):
 | Allan     | | |
 
 </details>
-
-> Prazo do desenvolvimento de 9 dias
 
 # Considerações finais
 
