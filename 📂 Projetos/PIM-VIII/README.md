@@ -78,9 +78,10 @@ O que precisa entregar (por matéria):
 6. **Referências**
     - 7.1 Fontes de Informação Utilizadas
 
-# Divisão de tarefas
 
-## Semana 1
+<details>
+
+<summary> # Divisão de tarefas </summary>
 
 - [ ] Dia 1:
 
@@ -153,6 +154,8 @@ O que precisa entregar (por matéria):
 | Pedro     | | |
 | Lucas     | | |
 | Allan     | | |
+
+</details>
 
 > Prazo do desenvolvimento de 9 dias
 
