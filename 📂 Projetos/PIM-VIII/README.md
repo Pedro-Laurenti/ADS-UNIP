@@ -72,7 +72,7 @@ O que precisa entregar (por matéria):
 
 # Classes de entidade
 
-|     | **CLIENTE**  |               |
+| KEY | **CLIENTE**  | TIPO          |
 |-----|--------------|---------------|
 | PK  | ID           | INTEGER       |
 | PK  | NOME         | VARCHAR(256)  |
@@ -81,7 +81,7 @@ O que precisa entregar (por matéria):
 | PK  | SENHA        | VARCHAR(25)   |
 | FK  | ENDERECO_ID  | INTEGER       |
 
-|     | **CARRINHO**     |               |
+| KEY | **CARRINHO**     | TIPO          |
 |-----|------------------|---------------|
 | PK  | ID               | INTEGER       |
 | PK  | DATA_PEDIDO      | DATE          |
@@ -89,14 +89,14 @@ O que precisa entregar (por matéria):
 | FK  | STATUS_PEDIDO_ID | INTEGER       |
 | FK  | CLIENTE_ID       | INTEGER       |
 
-|       | **ITEM_CARRINHO**  |               |
+|  KEY  | **ITEM_CARRINHO**  | TIPO          |
 |-------|--------------------|---------------|
 | PK,FK | CARRINHO_ID        | INTEGER       |
 | PK,FK | PRODUTO_ID         | INTEGER       |
 |       | QUANTIDADE         | VARCHAR(45)   |
 |       | TOTAL              | FLOAT(7,2)    |
 
-|     | **PRODUTO**   |               |
+| KEY | **PRODUTO**   | TIPO          |
 |-----|---------------|---------------|
 | PK  | ID            | INTEGER       |
 | PK  | DESCRICAO     | VARCHAR(45)   |
@@ -106,7 +106,7 @@ O que precisa entregar (por matéria):
 | FK  | VENDOR_ID     | INTEGER       |
 | FK  | CATEGORIA_ID  | INTEGER       |
 
-|     | **VENDEDOR**  |               |
+| KEY | **VENDEDOR**  | TIPO          |
 |-----|---------------|---------------|
 | PK  | ID            | INTEGER       |
 | PK  | RAZAO_SOCIAL  | VARCHAR(100)  |
