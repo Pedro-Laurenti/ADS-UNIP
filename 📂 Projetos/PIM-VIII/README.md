@@ -206,7 +206,10 @@ Agradeço a disposição de todos neste projeto, espero que façamos história c
 
 ## Leia aqui
 
+<center>
 
-<img src="img/latex.png" width='25'>
+<img src="img/latex.png" width='100'>
 
-![ [Documentação final](https://www.orbytesistemas.com/pimvii/PIM-VII.pdf) ](img/latex.png | width=100)
+[Documentação final](https://www.pedrolaurenti.orbytesistemas.com/pimviii/PIM-VII.pdf) 
+
+</center>
