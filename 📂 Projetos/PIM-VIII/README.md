@@ -206,8 +206,8 @@ Agradeço a disposição de todos neste projeto, espero que façamos história c
 
 ## Leia aqui
 
-<center>
+<div style=" display: flex; flex-direction: row; align-items: center; justify-content: center; width:20%; ">
 
 ![ [Documentação final](https://www.orbytesistemas.com/pimvii/PIM-VII.pdf) ](img/latex.png)
 
-</center>
+</div>
