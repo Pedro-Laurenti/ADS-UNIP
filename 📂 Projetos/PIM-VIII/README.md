@@ -206,12 +206,8 @@ Agradeço a disposição de todos neste projeto, espero que façamos história c
 
 ## Leia aqui
 
-<div style=" display: flex; flex-direction: row; align-items: center; justify-content: center; ">
+<center>
 
-![ [Github com arquivos do projeto](https://github.com/Pedro-Laurenti/ADS-UNIP/tree/main/%F0%9F%93%82%20Projetos/PIM-VII) ](img/github.png){width=50%}
+![ [Documentação final](https://www.orbytesistemas.com/pimvii/PIM-VII.pdf) ](img/latex.png)
 
-![ [Documentação final](https://www.orbytesistemas.com/pimvii/PIM-VII.pdf) ](img/latex.png){width=50%}
-
-
-
-</div>
+</center>
