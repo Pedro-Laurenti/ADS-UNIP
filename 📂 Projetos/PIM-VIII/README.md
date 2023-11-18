@@ -3,7 +3,7 @@
 
 <div align="center">
 
-![Logo desenvolvida para o trabalho](./img/PIM-VIII-LOGO.png){width=80%}
+![Logo desenvolvida para o trabalho](./img/PIM-VIII-LOGO.png)
 
 <br>
 
