@@ -72,42 +72,42 @@ O que precisa entregar (por matéria):
 
 # Classes de entidade
 
-**Cliente:**
-
-| PK  | ID          | INTEGER       |
-| PK  | NOME        | VARCHAR(256)  |
-| PK  | CPF         | BIGINT        |
-| PK  | EMAIL       | VARCHAR(70)   |
-| PK  | SENHA       | VARCHAR(25)   |
+|     | **CLIENTE**  |               |
+|-----|--------------|---------------|
+| PK  | ID           | INTEGER       |
+| PK  | NOME         | VARCHAR(256)  |
+| PK  | CPF          | BIGINT        |
+| PK  | EMAIL        | VARCHAR(70)   |
+| PK  | SENHA        | VARCHAR(25)   |
 | FK  | ENDERECO_ID  | INTEGER       |
 
-**Carrinho:**
-
+|     | **CARRINHO**     |               |
+|-----|------------------|---------------|
 | PK  | ID               | INTEGER       |
 | PK  | DATA_PEDIDO      | DATE          |
 | PK  | VALOR_TOTAL      | FLOAT(7,2)    |
 | FK  | STATUS_PEDIDO_ID | INTEGER       |
 | FK  | CLIENTE_ID       | INTEGER       |
 
-**Item Carrinho:**
+|       | **ITEM_CARRINHO**  |               |
+|-------|--------------------|---------------|
+| PK,FK | CARRINHO_ID        | INTEGER       |
+| PK,FK | PRODUTO_ID         | INTEGER       |
+|       | QUANTIDADE         | VARCHAR(45)   |
+|       | TOTAL              | FLOAT(7,2)    |
 
-| PK,FK  | CARRINHO_ID  | INTEGER       |
-| PK,FK  | PRODUTO_ID    | INTEGER       |
-|        | QUANTIDADE    | VARCHAR(45)   |
-|        | TOTAL         | FLOAT(7,2)    |
+|     | **PRODUTO**   |               |
+|-----|---------------|---------------|
+| PK  | ID            | INTEGER       |
+| PK  | DESCRICAO     | VARCHAR(45)   |
+| PK  | PRECO         | FLOAT(5,2)    |
+| PK  | IMAGEM        | VARCHAR(200)  |
+| PK  | STATUS        | BOOL          |
+| FK  | VENDOR_ID     | INTEGER       |
+| FK  | CATEGORIA_ID  | INTEGER       |
 
-**Produto:**
-
-| PK  | ID          | INTEGER       |
-| PK  | DESCRICAO    | VARCHAR(45)   |
-| PK  | PRECO        | FLOAT(5,2)    |
-| PK  | IMAGEM       | VARCHAR(200)  |
-| PK  | STATUS       | BOOL          |
-| FK  | VENDOR_ID    | INTEGER       |
-| FK  | CATEGORIA_ID | INTEGER       |
-
-**Vendedor:**
-
+|     | **VENDEDOR**  |               |
+|-----|---------------|---------------|
 | PK  | ID            | INTEGER       |
 | PK  | RAZAO_SOCIAL  | VARCHAR(100)  |
 | PK  | NOME_FANTASIA | VARCHAR(70)   |
