@@ -70,7 +70,7 @@ O que precisa entregar (por matéria):
 6. **Referências**
     - 7.1 Fontes de Informação Utilizadas
 
-# Classes de entidade
+## Classes de entidade
 
 | KEY | **CLIENTE**  | TIPO          |
 |:---:|:------------:|:-------------:|
@@ -121,45 +121,77 @@ O que precisa entregar (por matéria):
 
 ## Semana 1
 
-- [X] Dia 1: Planejamento e Escopo (2 horas)
+- [ ] Dia 1:
 
 | Quem fará | Tempo de Execução  | Descrição                                                         | 
-|:---------:|:------------------:|:-----------------------------------------------------------------:|
-| Pedro     | 1 hora             | Desenvolver um Plano de Negócios para a startup (Empreendedorismo)|
-| Lucas     | 1 hora             | Redigir a introdução e o resumo do trabalho                       |
+|-----------|--------------------|-------------------------------------------------------------------|
+| Pedro     | | |
+| Lucas     | | |
+| Allan     | | |
 
-- [X] Dia 2: Plano de Negócios (3 horas)
-
-| Quem fará | Tempo de Execução  | Descrição                                                         | 
-|:---------:|:------------------:|:-----------------------------------------------------------------:|
-| Pedro     | 1 hora             | 2.1 Desenvolvimento do Plano de Negócios                          |
-| Allan     | 1 hora             | 2.2 Estratégias Empresariais                                      |
-| Lucas     | 1 hora             | 3.1 Requisitos Funcionais e Não Funcionais                        |
-
-- [x] Dia 3: Requisitos e Diagramas (3 horas)
+- [ ] Dia 2:
 
 | Quem fará | Tempo de Execução  | Descrição                                                         | 
-|:---------:|:------------------:|:-----------------------------------------------------------------:|
-| Lucas     | 1 hora             | 3.2 Diagrama de Caso de Uso                                       |
-| Pedro     | 1 hora             | 3.3 Diagrama de Atividades                                        |
-| Allan     | 1 hora             | 4.1 Diagrama de Classes                                           |
+|-----------|--------------------|-------------------------------------------------------------------|
+| Pedro     | | |
+| Lucas     | | |
+| Allan     | | |
 
-- [x] Dia 4: Diagramas e Metodologia (3 horas)
-
-| Quem fará | Tempo de Execução  | Descrição                                                         | 
-|:---------:|:------------------:|:-----------------------------------------------------------------:|
-| Pedro     | 1 hora             | 4.2 Diagrama de Sequência                                         |
-| Lucas     | 1 hora             | 4.3 Diagrama de Componentes e de Implantação                      |
-| Pedro     | 1 hora             | 4.4 Metodologia de Desenvolvimento                                |
-
-- [x] Dia 5: Gerenciamento de Projeto (3 horas)
+- [ ] Dia 3:
 
 | Quem fará | Tempo de Execução  | Descrição                                                         | 
-|:---------:|:------------------:|:-----------------------------------------------------------------:|
-| Allan     | 1 hora             | 5.1 Termo de Abertura de Projeto                                  |
-| Pedro     | 1 hora             | 5.2 Matriz de Papéis e Responsabilidades                          |
-| Lucas     | 1 hora             | 5.3 Cronograma de Atividades e Custos                             |
+|-----------|--------------------|-------------------------------------------------------------------|
+| Pedro     | | |
+| Lucas     | | |
+| Allan     | | |
 
+- [ ] Dia 4:
+
+| Quem fará | Tempo de Execução  | Descrição                                                         | 
+|-----------|--------------------|-------------------------------------------------------------------|
+| Pedro     | | |
+| Lucas     | | |
+| Allan     | | |
+
+- [ ] Dia 5:
+
+| Quem fará | Tempo de Execução  | Descrição                                                         | 
+|-----------|--------------------|-------------------------------------------------------------------|
+| Pedro     | | |
+| Lucas     | | |
+| Allan     | | |
+
+- [ ] Dia 6:
+
+| Quem fará | Tempo de Execução  | Descrição                                                         | 
+|-----------|--------------------|-------------------------------------------------------------------|
+| Pedro     | | |
+| Lucas     | | |
+| Allan     | | |
+
+- [ ] Dia 7:
+
+| Quem fará | Tempo de Execução  | Descrição                                                         | 
+|-----------|--------------------|-------------------------------------------------------------------|
+| Pedro     | | |
+| Lucas     | | |
+| Allan     | | |
+
+- [ ] Dia 8:
+
+| Quem fará | Tempo de Execução  | Descrição                                                         | 
+|-----------|--------------------|-------------------------------------------------------------------|
+| Pedro     | | |
+| Lucas     | | |
+| Allan     | | |
+
+- [ ] Dia 9:
+
+| Quem fará | Tempo de Execução  | Descrição                                                         | 
+|-----------|--------------------|-------------------------------------------------------------------|
+| Pedro     | | |
+| Lucas     | | |
+| Allan     | | |
 
 > Prazo do desenvolvimento de 9 dias
 
