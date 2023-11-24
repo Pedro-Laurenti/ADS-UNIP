@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="354" height="159" viewBox="0 0 354 159">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #91939f;
+        font-size: 32px;
+        font-family: Poppins-Medium, Poppins;
+        font-weight: 500;
+      }
+
+      .cls-2 {
+        fill: #fd9522;
+        font-size: 59px;
+        font-family: Poppins-Bold, Poppins;
+        font-weight: 700;
+      }
+
+      .cls-3, .cls-7 {
+        fill: none;
+      }
+
+      .cls-3, .cls-4 {
+        stroke: #2b3244;
+      }
+
+      .cls-3 {
+        stroke-width: 3px;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        fill: #2b3244;
+        font-size: 12px;
+        font-family: Poppins-Regular, Poppins;
+      }
+
+      .cls-6 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_1922" data-name="Grupo 1922" transform="translate(-960 -285.32)">
+    <text id="Preço_baixo_" data-name="Preço baixo?" class="cls-1" transform="translate(960 319.32)"><tspan x="0" y="0">Preço baixo?</tspan></text>
+    <text id="Shop_Local_" data-name="Shop Local!" class="cls-2" transform="translate(963 377.375)"><tspan x="0" y="0">Shop Local!</tspan></text>
+    <line id="Linha_1" data-name="Linha 1" class="cls-3" x2="61" transform="translate(1010 387.401)"/>
+    <line id="Linha_2" data-name="Linha 2" class="cls-3" x2="213.37" transform="translate(1100.63 387.97)"/>
+    <g id="Grupo_1923" data-name="Grupo 1923" transform="translate(-5)">
+      <g id="Retângulo_24" data-name="Retângulo 24" class="cls-4" transform="translate(1027 414.32)">
+        <rect class="cls-6" width="230" height="30" rx="15"/>
+        <rect class="cls-7" x="0.5" y="0.5" width="229" height="29" rx="14.5"/>
+      </g>
+      <text id="Confira_nossas_ofertas" data-name="Confira nossas ofertas" class="cls-5" transform="translate(1064 434.32)"><tspan x="0" y="0">CONFIRA NOSSAS OFERTAS</tspan></text>
+    </g>
+  </g>
+</svg>
