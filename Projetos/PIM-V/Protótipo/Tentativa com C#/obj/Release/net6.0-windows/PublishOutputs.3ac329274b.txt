@@ -1,0 +1,5 @@
+C:\Users\pedro\Desktop\Projeto\Protótipo\bin\Release\net6.0-windows\publish\Protótipo.exe
+C:\Users\pedro\Desktop\Projeto\Protótipo\bin\Release\net6.0-windows\publish\Protótipo.dll
+C:\Users\pedro\Desktop\Projeto\Protótipo\bin\Release\net6.0-windows\publish\Protótipo.deps.json
+C:\Users\pedro\Desktop\Projeto\Protótipo\bin\Release\net6.0-windows\publish\Protótipo.runtimeconfig.json
+C:\Users\pedro\Desktop\Projeto\Protótipo\bin\Release\net6.0-windows\publish\Protótipo.pdb

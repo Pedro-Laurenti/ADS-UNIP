@@ -1,0 +1,665 @@
+--- 
+title: "Projeto de Interface com o Usuário"
+author: "Pedro José Laurenti de Matos"
+date: "`r Sys.Date()`"
+output: rmdformats::material
+
+---
+
+# Introdução
+
+A Interação Humano-Computador (IHC) é uma disciplina que surgiu na década de 1980 e abrange todos os aspectos relacionados à interação entre usuários e computadores, não se limitando apenas ao design de interfaces. Seu objetivo é desenvolver ou melhorar a segurança, utilidade, eficácia e usabilidade de produtos interativos baseados em computador.
+
+A IHC vai além dos conceitos tradicionais de usabilidade e projeto de interface, sendo uma área de estudo que engloba diversos fatores relacionados à interação entre seres humanos e computadores. Em 1992, a Association for Computing Machinery (ACM) definiu a IHC como uma disciplina que se preocupa com o design, avaliação e implementação de sistemas computacionais interativos para uso humano, bem como o estudo dos fenômenos que os cercam.
+
+A IHC desempenha um papel fundamental no campo da computação. Compreender seus princípios e aplicá-los resulta em uma interação mais positiva entre os usuários e os dispositivos computacionais.
+
+## Tab of Contents
+
+1. Introdução à Interação Humano-Computador
+    - Interface e interação
+    - Qualidade de uso: usabilidade, comunicabilidade e acessibilidade
+    - Retorno de investimento
+
+2. Usabilidade e as normas
+    - Usabilidade e a norma NBR ISO 9241-11
+    - Usabilidade e a norma NBR ISO/IEC 9126-1
+
+3. Fundamentos teóricos
+    - Engenharia Cognitiva
+    - Engenharia Semiótica
+
+4. Avaliação de IHC    
+    - Visão geral: o que, por que e quando avaliar
+    - Observação e monitoramento do uso
+    - Captura da opinião dos usuários
+    - Avaliação interpretativa
+    - Avaliação preditiva
+
+5. Projeto de interação com o usuário
+    - Estilos de interação
+    - Guias de estilo de interação
+    - Diretrizes e padrões de projeto de interação
+
+6. Processo de design em IHC
+    - Modelo de ciclo de vida de design de interface de usuário
+        - Modelo estrela
+        - Engenharia de usabilidade
+        - Projeto centrado no usuário
+        - Design participativo
+    - Visão da Engenharia de Software
+    - Visão da IHC
+    - Elicitação e análise
+    - Modelagem de tarefas
+    - Modelagem de interação
+    - Storyboarding e prototipação
+
+# Interface e Interação
+
+A interface é responsável por permitir a comunicação entre os seres humanos (usuários) e o hardware/software de um sistema computacional. No entanto, esse conceito evoluiu para incluir aspectos cognitivos e emocionais do usuário durante a comunicação. A interface e a interação são conceitos interdependentes e não podem ser considerados separadamente.
+
+A interface com o usuário é o meio pelo qual a comunicação entre humanos ou entre um humano e um dispositivo é facilitada por meio do uso do computador. Ela incorpora aspectos físicos e comunicativos de entrada e saída, incluindo hardware e software. No desenvolvimento de projetos de software, a interface com o usuário é fundamental para o sucesso do sistema, sendo considerada o elemento mais importante.
+
+> **A interação é o processo que envolve as ações do usuário na interface do sistema** e suas **interpretações das respostas fornecidas por essa interface**. É o processo de comunicação que ocorre entre o usuário e a aplicação de software. A interface possibilita e facilita a comunicação entre o usuário e a aplicação, permitindo o acesso às funções do sistema.
+
+A interface com o usuário desempenha um papel fundamental em sistemas interativos, proporcionando uma comunicação eficaz entre o usuário e o sistema. Quanto maior for a usabilidade da interface, mais fácil será a comunicação. A interface é um sistema de comunicação que inclui componentes físicos (hardware/software) pelos quais o usuário percebe e manipula, bem como componentes conceituais pelos quais o usuário interpreta, processa e raciocina. Ela é tanto um meio para a interação usuário-sistema quanto uma ferramenta que oferece os instrumentos para esse processo comunicativo.
+
+## Usabilidade
+
+> Define a forma como o usuário irá interagir com o sistema
+
+Usabilidade é um conceito que se refere à **Qualidade da interação usuário-computador** proporcionada pela interface de um sistema computacional.
+
+A norma **NBR ISO 9241-11** define usabilidade como a medida em que um produto pode ser utilizado por usuários específicos para alcançar objetivos específicos com eficácia, eficiência e satisfação em um contexto específico de uso. Essa norma estabelece os critérios para avaliar a usabilidade de um sistema.
+
+Por sua vez, a norma **NBR ISO/IEC 9126-1** considera a usabilidade como um atributo de qualidade de software. Ela define usabilidade como a capacidade do produto de software de ser compreendido, aprendido, operado e atraente ao usuário, quando utilizado sob condições especificadas. Essa norma fornece diretrizes para avaliar a usabilidade de um software.
+
+A usabilidade de um sistema depende de vários aspectos e pode ser mensurada formalmente. É o grau de facilidade de uso de um produto para um usuário que ainda não está familiarizado com ele. Além da medição formal, a usabilidade também pode ser compreendida intuitivamente, levando em consideração a experiência e satisfação do usuário ao utilizar o produto.
+
+**Observação:** `É importante destacar que, ao analisar as definições apresentadas, fica evidente que a usabilidade não possui uma única definição precisa. No entanto, está intrinsecamente relacionada aos usuários, suas tarefas e ao contexto de uso. Serão abordadas as interações entre usabilidade e as normas NBR ISO 9241-11 e NBR ISO/IEC 9126-1.`
+
+Segundo Nielsen (1993), a usabilidade é um fator que afeta a aceitabilidade de um produto e se aplica a todos os aspectos do sistema com os quais o usuário pode interagir, incluindo instalação e manutenção. A usabilidade deve ser medida em relação a usuários específicos realizando tarefas específicas.
+
+Para **avaliar e medir a usabilidade**, Nielsen (1993) define cinco atributos:
+
+1. Aprendizagem: o sistema deve ser de **fácil aprendizado** para que o usuário possa começar a utilizá-lo rapidamente.
+
+2. Eficiência: o sistema deve ser eficiente no sentido de que uma vez que o usuário aprenda a utilizá-lo ele o faça com **alta produtividade**.
+
+3. Memorização: o sistema deve ser de **fácil lembrança**, ou seja, ao passar um determinado período sem utilizar o sistema o usuário pode utilizá-lo novamente sem ter que aprender tudo novamente.
+
+4. Erros: a **taxa de erros deve ser baixa**. Erros de extrema gravidade não devem ocorrer. Ao cometer algum erro, **o usuário deve ter a possibilidade de recuperar o sistema para o estado imediatamente anterior ao erro**.
+
+5. Satisfação: os  **usuários devem gostar do sistema**. Ele deve ser agradável de ser utilizado para que as pessoas se sintam satisfeitas com o seu uso.
+
+
+## Comunicabilidade
+
+> Transmitir a visão do projetista sobre o sistema.
+
+A comunicabilidade de uma interface é a sua propriedade de transmitir a visão (as intenções e
+os princípios de interação que guiaram o projeto) do projetista sobre a lógica (o funcionamento) da
+interface ao usuário.
+
+Se o usuário conseguir uma boa compreensão da lógica do projetista contida na
+aplicação, aumentarão as possibilidades de se construir interfaces mais eficientes e eficazes. 
+
+Uma boa
+comunicabilidade permite que o usuário tenha um modelo mental compatível com o do projetista e
+significa que o usuário pode tirar melhor proveito do sistema.
+
+## Acessibilidade
+
+> Ultrapassar barreiras de necessidades físicas.
+
+Portanto, a interface dos sistemas computacionais não pode impor barreiras ao usuário durante o
+processo de interação. Os desenvolvedores precisam garantir que o projeto abranja mecanismos que
+permitam o fácil acesso pelos usuários portadores de necessidades especiais.
+
+### Retorno sobre Investimento
+
+A avaliação do retorno sobre o investimento em Tecnologia da Informação e Comunicação (TIC) é crucial para a tomada de decisões nas empresas. No entanto, muitos gestores de TI possuem pouca formação financeira e não dão a devida atenção a essa questão, o que pode resultar em negativas para seus pedidos de recursos. É importante destacar que a maioria dos investimentos em TIC beneficia outras áreas da empresa, não apenas a área de TI. Portanto, ao avaliar o custo-benefício, o gestor de TI deve destacar os benefícios que sua área traz para a organização como um todo. Os recursos destinados à TIC devem ser tratados como investimentos, não como gastos, uma vez que trazem ganhos para a empresa, seja na melhoria dos produtos e serviços oferecidos aos clientes, seja na redução de custos.
+
+O gestor de TI deve apresentar detalhes financeiros mensuráveis do projeto e utilizar indicadores como o Retorno do Investimento (ROI) para justificar a solicitação de recursos financeiros.
+
+###  Retorno sobre o investimento em usabilidade
+
+Muitos gerentes de desenvolvimento de software consideram os custos com usabilidade como gastos adicionais e acreditam que implementar práticas de usabilidade nos projetos requer muito tempo. Esse cenário dificulta ainda mais a tarefa de convencer a alta administração a investir em usabilidade, uma vez que os investimentos em Tecnologia da Informação e Comunicação já são vistos como gastos. No entanto, segundo Smith e Reinersten, as decisões tomadas nos primeiros 10% do processo de desenvolvimento de software podem determinar 90% do custo e desempenho do produto. Portanto, a aplicação de técnicas de usabilidade nessa fase inicial pode manter o produto alinhado aos objetivos da empresa. A usabilidade é obtida por meio da realização de atividades sistemáticas de engenharia de usabilidade ao longo do ciclo de desenvolvimento do projeto.
+
+**Usabilidade** se obtém da realização de atividades sistemáticas de engenharia de usabilidade ao longo do ciclo de desenvolvimento do projeto e, segundo **Bias e Mayhew (1994)**, o retorno sobre o investimento gera muitos **benefícios para produtos desenvolvidos** tanto para venda quanto para uso interno:
+
+- Retorno sobre o investimento – Interno:
+   - Aumento da produtividade do usuário.
+   - Redução de erros do usuário.
+   - Redução dos custos de treinamento.
+   - Economia obtida em fazer alterações no início do ciclo de vida do projeto.
+   - Redução de suporte ao usuário.
+
+- Retorno sobre o investimento – Externo:
+   - Aumento de vendas.
+   - Redução dos custos de suporte/atendimento ao cliente.
+   - Economia obtida em fazer alterações no início do ciclo de vida do projeto.
+   - Redução dos custos de prestação de treinamento (em caso de treinamento oferecido pelo vendedor da empresa).
+
+Para Pressman (2009), um sistema usável oferece diversos benefícios mensuráveis, como aumento da satisfação do cliente, vantagem competitiva, melhores críticas na mídia, propaganda boca a boca positiva, redução dos custos de documentação e menor probabilidade de litígio com clientes insatisfeitos.
+
+Segundo Nielsen (2003), estudos realizados em mais de 860 projetos que adotaram práticas de usabilidade mostraram que os custos com usabilidade representam de 8% a 13% dos orçamentos dos projetos. Nielsen concluiu que, em média, o investimento em usabilidade deve ser em torno de 10% do orçamento do projeto. No entanto, ele ressalta que o custo com usabilidade não aumenta proporcionalmente ao tamanho do projeto. Um projeto dez vezes maior, por exemplo, geralmente requer apenas quatro vezes mais investimento em usabilidade.
+
+> O investimento de 10% do orçamento do projeto em atividades de usabilidade nem sempre resulta em um retorno mensurável em termos financeiros. Em alguns casos, é mais difícil converter o retorno sobre o investimento em algo mensurável, especialmente quando se trata de satisfação do usuário e eficiência no uso. No entanto, é necessário considerar o valor do aumento da satisfação do cliente, mesmo que não seja facilmente quantificável.
+
+
+## Fundamentos Teóricos
+
+A interface de usuário deve ser projetada para evitar erros de comunicação entre os seres humanos e
+os sistemas. Portanto, o ser humano precisa se considerado no processo de desenvolvimento de interface,
+e isso é muito importante.
+
+### Engenharia Cognitiva e Engenharia Semiótica
+
+O processo de projeto de interfaces com o usuário tem seus fundamentos teóricos advindos da
+Engenharia Cognitiva e da Engenharia Semiótica, é centrado no usuário e tem grande influência dos
+processos adotados pela Engenharia de Software.
+
+Para se projetar interfaces com qualidade, é fundamental a correta compreensão das bases teóricas
+envolvidas na interação humano-computador. A usabilidade (proveniente das teorias de base cognitiva)
+e a comunicabilidade (um postulado da Engenharia Semiótica), segundo Agner (2011), são conceitos
+diretamente ligados à qualidade das interfaces de usuário.
+
+> O ser humano precisa ser considerado no processo de desenvolvimento de interface de usuário.
+
+# Engenharia de Software e Interação Humano-Computador
+
+A Engenharia de Software tem o foco voltado para o produto e seu processo de desenvolvimento. A
+Interação Humano-Computador tem o foco voltado à interação do ser humano e da máquina. As duas
+áreas, no entanto, estabelecem métodos e processos de desenvolvimento de sistemas interativos. 
+
+## Visão da Engenharia de Software e visão da Interação Humano-Computador
+
+Segundo Brown (1996), enquanto os engenheiros
+de software têm o foco voltado para o produto e seu processo (centrado em sistema), os especialistas
+em Interação Humano-Computador têm o foco mais direcionado aos aspectos de interação do ser
+humano e da máquina (centrado no usuário).
+
+> A Engenharia de Software surgiu com o objetivo de melhorar o processo de desenvolvimento de software, bem como a qualidade do produto de software.
+
+Contudo, as duas áreas propõem o desenvolvimento de sistemas interativos de forma sistemática,
+definindo modelos de ciclo de vida, métodos e técnicas (SILVA et al., 2004).
+
+## Modelos de ciclo de vida de software tradicionais da Engenharia de Software
+
+Segundo Pressman (2006), a Engenharia de Software é uma tecnologia composta por camadas.
+
+-  É uma disciplina que tem como base de apoio o **foco na qualidade**. 
+-  camada de **processos** assegura a junção das camadas de tecnologia e proporciona o desenvolvimento racional e oportuno de software de computador.
+-  Os **métodos** de Engenharia de Software fornecem a técnica de como fazer para construir software.
+-  As **ferramentas** de Engenharia de Software fornecem apoio automatizado ou semiautomatizado para os processos e para os métodos.
+
+A partir de IEEE (1990), Paula Filho (2008), Pressman (2006), Schmidt (2000), Sommerville (2003) e Swebok (2004), podem-se apresentar as **fases tipicamente utilizadas nos modelos de ciclo de vida da engenharia de software**, aplicáveis à maioria dos projetos de software.
+
+A seguir, apresenta-se a descrição resumida de casa fase:
+
+Requisitos:
+
+- Obtenção de um conjunto de requisitos acordados entre cliente e fornecedor.
+- Definição do que o sistema deve fazer.
+- Identificação de questões relacionadas a atributos de qualidade.
+
+Análise:
+
+- Detalhamento, estruturação e validação dos requisitos de software.
+- Base para o planejamento e acompanhamento da construção do produto.
+- Foco na visão dos desenvolvedores, sem entrar no espaço das soluções.
+
+Projeto (Design):
+
+- Decisão de como o sistema será implementado.
+- Definição da arquitetura de software.
+- Projeto do banco de dados e desenho interno do software.
+
+Implementação:
+
+- Tradução do projeto em código-fonte.
+- Escrita, documentação e compilação do código.
+- Plano de testes deve ser traçado.
+
+Testes:
+
+- Integração e verificação do sistema.
+- Garantia de que os requisitos foram implementados corretamente.
+- Teste rigoroso do código com base nos requisitos analisados.
+
+Implantação:
+
+- Transição do sistema para os usuários.
+- Instalação do produto de software no ambiente designado.
+- Revisão e teste de aceitação pelo cliente.
+- Inclusão de materiais de treinamento e procedimentos de instalação.
+
+
+### Modelos de ciclo de vida de Software
+
+Os principais e mais tradicionais modelos de ciclo de vida de software são:
+
+- cascata
+- incremental
+- espiral
+- prototipagem
+
+# Modelo de ciclo de vida de design de interface de usuário
+
+## Modelo Estrela
+
+![Modelo Estrela](https://moodle.ead.unipar.br/materiais/webflow/design-de-interface-humano-computador/images/figura.2.3.png)
+
+Enquanto o modelo em Cascata sugere uma abordagem top-down (descendente, partindo da visão do sistema para a do usuário – mais formal), **o modelo estrela reconhece que esta abordagem precisa ser complementada por uma abordagem bottom-up (ascendente, partindo da visão do usuário para a do sistema – mais criativa)**. Diferentemente dos modelos propostos pela Engenharia de Software, o modelo estrela não especifica ordenamento algum das atividades.
+
+## Engenharia de Usabilidade
+
+O usuário e o projetista de interface são os membros fundamentais nesta metodologia. No
+entanto, esta metodologia não apresenta uma relação definida entre o projetista de interface e o
+engenheiro de software.
+
+##  Projeto centrado no usuários
+
+A IHC enfatiza a necessidade de uma abordagem centrada no usuário. Segundo Sharp, Rogers
+e Preece (2005), o fio condutor do desenvolvimento de um produto deveria ter como base os
+usuários reais e suas metas, não apenas a tecnologia. Desse modo, para se ter um sistema
+bem-projetado, os projetistas deveriam extrair o máximo da habilidade e dos julgamentos
+humanos mais importantes para o trabalho em questão. Portanto, deveriam apoiar o usuário, e
+não limitar suas ações.
+
+## Design Participativo
+
+O Design Participativo (DP) é uma abordagem que envolve ativamente o usuário.
+
+Por meio de sua participação ativa, o usuário proporciona contribuições efetivas em todas as fases do processo de desenvolvimento, que refletem suas perspectivas e necessidades, não somente da etapa de testes e avaliação
+
+Esses métodos se caracterizam pelo uso de técnicas simples e pelo pouco comprometimento com recursos. As técnicas mais utilizadas são: brainstorming, storyboarding e workshops.
+
+## Customização de um modelo de ciclo de vida destinada a projeto de interface para dispositivos móveis
+
+O modelo tem
+como base o projeto centrado no usuário, fundamentado na norma ISO 13407: Processo de Projeto
+Centrado no Usuário para Sistemas Interativos. A aplicação da norma em conjunto com a ISO 9241-11
+e a ISO 9126-1 tem o objetivo de resultar em interfaces de usuário de software de dispositivos móveis
+com níveis maiores de usabilidade.
+
+# A Usabilidade e as normas
+
+## NBR ISO 9241-11
+
+> Requisitos Ergonômicos para Trabalho de Escritórios com Computadores,
+
+![NBR ISO 9241-11](https://sites.google.com/a/liesenberg.biz/interfaces/_/rsrc/1313692264155/Home/requisitos-e-metas-de-usabilidade/destaques-da-nbr-9241-11/estruturaUsabilidade.gif)
+
+"o objetivo de projetar e avaliar computadores buscando usabilidade é proporcionar que usuários alcancem seus objetivos e satisfaçam suas necessidades em um contexto particular de uso"
+
+- eficácia é definida como a acurácia e a completude com as quais usuários alcançam objetivos específicos;
+- eficiência é definida como os recursos gastos em relação à acurácia e à abrangência com as quais os usuários atingem os objetivos;
+- satisfação é definida como a ausência do desconforto e às atitudes positivas para com o uso de um produto;
+- contexto de uso é definido como usuários, tarefas, equipamentos (hardware, software e materiais), e os ambientes físico e social nos quais o produto é usado.
+
+## NBR ISO/IEC 9126-1
+
+"Engenharia de Software: Qualidade de Produto é uma norma que descreve um modelo de qualidade do produto de software"
+
+Esta norma categoriza os atributos de qualidade de software em seis características (funcionalidade,
+confiabilidade, usabilidade, eficiência, manutenibilidade e portabilidade). Cada característica é, ainda,
+subdividida em subcaracterísticas, que, por sua vez, podem ser medidas por meio de métricas externas
+e internas.
+
+## ISO 13407
+
+"Processo de Projeto Centrado no Usuário para Sistemas Interativos"
+
+Descreve um ciclo de desenvolvimento iterativo no qual as especificações de requisitos de produto esclarecem corretamente os requisitos do usuário e da organização, bem como especificam o contexto no qual o produto será usado.
+
+![ISO 13407](https://www.researchgate.net/profile/Seila-Preto/publication/335241218/figure/fig3/AS:793623377481730@1566225966482/Figura-8-Ciclo-do-Projeto-Centrado-no-Usuario-ISO-13407.png)
+
+
+# Processo de design de interface de usuário - Identificar e analisar o contexto de uso
+
+1. Início
+2. Identificar e analisar o contexto de uso
+3. Projetar
+4. Construir
+5. Avaliar
+6. Integrar/implantar
+
+##  Identificar e analisar o contexto de uso
+
+Aqui o projetista estabelece o foco do projeto e faz uma análise dos usuários
+
+###  Definição do escopo do projeto
+
+Nessa fase inicial do projeto é fundamental ter uma correta descrição do problema, da solução proposta e dos recursos de alto nível do produto.
+
+Por meio de reuniões com os stakeholders, são levantados os objetivos de mais alto nível e seu grau de importância (para fins de priorização).
+
+> Stakeholder: indivíduo ou organização que tem um interesse claro no sistema ou na posse de características deste que devem atender às suas necessidades e expectativas (COSTA et al., 2013).
+
+
+### Técnicas de coleta de dados
+
+- Questionários
+    série de questões projetadas a fim de obter informações específicas das pessoas (stakeholders).
+- Entrevistas
+    Fazer várias perguntas a alguém e, normalmente, frente a frente com o entrevistado, ainda que nem sempre.
+- Grupos de estudo especiais e workshops
+    Coletivo de entrevista
+- Estudo de documentação
+    Aprender sobre procedimentos, regulamentações e padrões
+
+### Análise do usuário, tarefas e ambiente de trabalho
+
+entender o contexto de uso significa entender:
+-   As pessoas (usuários finais) que vão interagir com o sistema por meio da interface – análise do usuário;
+-   As tarefas que os usuários finais devem realizar para fazer seu trabalho – análise da tarefa;
+-   O ambiente em que essas tarefas serão conduzidas – análise do ambiente de trabalho.
+
+# Processo de Projeto de Interface de Usuário - Projetar e Construir
+
+Uma vez que o conjunto de requisitos tenha sido estabelecido, esta fase se inicia com o projeto conceitual e evolui iterativamente. Quanto mais iterações, melhor será o produto final.
+
+## Projeto conceitual
+
+O projeto conceitual da interface se preocupa em **transformar os requisitos e as necessidades do usuário em um modelo conceitual**, que surge a partir do conjunto de tarefas do usuário identificado na fase anterior (identificar e analisar o contexto de uso).
+
+
+Segundo Sharp, Rogers e Preece (2005), a equipe de projeto deve considerar três perspectivas para se chegar a um modelo conceitual inicial que são descritas a seguir:
+
+### Quais metáforas de interface poderiam ajudar mais os usuários a entenderem o produto?
+
+As metáforas funcionam como modelos naturais, permitindo-nos usar conhecimento familiar de objetos concretos e experiências do mundo real para dar estrutura a conceitos mais abstratos (ROCHA; BARANAUSKAS, 2003). Por exemplo: um módulo de pagamento de um sistema de comércio eletrônico pode usar uma metáfora de cartão de crédito para orientar o usuário no processo de pagamento de sua compra. Outro exemplo de metáfora é a lixeira do sistema operacional Windows, utilizada para excluir arquivos. Dessa forma, as metáforas de interface contribuem no desenvolvimento de modelos conceituais e ajudam os usuários a entenderem o sistema.
+
+### Qual paradigma de interação usar?
+
+O paradigma de interação mais utilizado durante anos é o desktop com interface Windows, Icons, Menus, Pointers (WIMP). Entretanto, as tendências atuais apontam para os paradigmas além dos computadores desktop. Outros paradigmas de interação foram propostos, como computação ubíqua, computação pervasiva, computação vestível (wearable), realidade aumentada etc. Os paradigmas de interação ajudam a equipe de projeto a pensar sobre o produto em desenvolvimento.
+
+### Qual modo de interação é mais adequado para o produto?
+
+Modo de interação é um termo que se refere a como o usuário invoca ações quando interage com a interface do produto. Poderá ser baseado em atividades (instruir; conversar; manipular e navegar; e explorar e pesquisar) ou baseado em objetos representando o mundo real.
+
+## Construir
+
+Segundo Sharp, Rogers e Preece (2013), para se chegar a uma versão concreta do modelo conceitual,
+a equipe deverá se aprofundar na análise dos dados que foram coletados sobre os usuários e seus
+objetivos para compreendê-los. Dessa forma, uma imagem do que se quer que a experiência dos usuários
+seja quando utilizar o novo produto. Utilizar cenários e protótipos para capturar e experimentar ideias
+auxilia nesse processo.
+
+### Protótipos
+
+Os artefatos produzidos na fase Identificar e Analisar o Contexto de Uso, como descrições textuais
+e diagramas, não são bons o suficiente para garantir altos níveis de usabilidade nas interfaces com o
+usuário.
+
+Segundo Sharp, Rogers e Preece (2005), **um protótipo pode ser qualquer elemento**, desde um storyboard de papel até uma parte complexa de um software, ou de uma maquete de cartolina a um pedaço de metal moldado e prensado. **É por meio do protótipo que os stakeholders interagem com o produto imaginado**,
+visando adquirir alguma experiência de como utilizá-lo em um ambiente real, explorar os usos para ele
+imaginados e até mesmo perceber que algumas ideias do projeto não são viáveis.
+
+É recomendável fazer os primeiros protótipos de forma simples e inacabadas. Dessa maneira, as
+pessoas envolvidas na avaliação ficarão mais encorajadas e confortáveis em comentar o que realmente
+pensam do protótipo. Protótipos mais avançados e com funcionalidades implantadas podem inibir os
+usuários a fazerem críticas.
+
+#### Protótipo de baixa fidelidade
+
+Protótipos de baixa fidelidade são aqueles que não se assemelham muito ao produto final. Segundo
+Sá e Carriço (2006), esses protótipos permitem a avaliação, de modo rápido e barato, de algumas ideias
+de design, sem a necessidade de implementar soluções reais e funcionais.
+
+![Protótipo de baixa fidelidade](https://miro.medium.com/v2/resize:fit:1400/1*FaQ-emhC_0i-NaL_uI9ciA.png)
+
+#### Protótipo de alta fidelidade
+
+![Protótipo de alta fidelidade](https://softdesign.com.br/wp-content/webpc-passthru.php?src=https://softdesign.com.br/wp-content/uploads/2020/12/prototipos_baixa-1.png)
+
+### Storyboard
+
+Storyboards são sequências de imagens que mostram como um usuário pode desenvolver uma
+tarefa. A sequência de desenhos e ilustrações do storyboard fornece uma ideia da interação do usuário
+com o produto que está sendo desenvolvido.
+
+![Storyboard QR Code](https://2980030683-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-LEF9F7iFa9BXHnedBQI%2F-LNMKlqxhYBoxpzCjb_I%2F-LNMOsAW48NUdUSQtQxy%2Fnarrative-storyboard-example.jpg?alt=media&token=b0bbf0ca-4c1e-4fcb-aaba-33db22f165a2)
+
+## Projeto físico
+
+O objetivo neste momento é produzir o detalhamento do protótipo, bem como elaborar a interface
+com o usuário, o layout de telas e a estrutura de navegação.
+
+Uma “tela” pode assumir diferentes formas, tais como (LIESENBERG, 2005):
+    
+- Janela
+    - Primária ou de aplicação:
+        - Se a janela principal for fechada, todas as dependentes também serão fechadas.
+    - Secundária.
+    - Modal:
+        - A janela modal não perderá foco enquanto estiver aberta. Ela exige uma resposta do usuário, deixando-o impedido de outra ação até que isso aconteça, ou seja, o usuário deve necessariamente interagir com ela para fechá-la e então voltar a usar o sistema.
+    - Não modal.
+- Caixas de diálogo ou caixas de mensagem
+    - De tamanho fixo ou variável.
+    - Modais ou não modais.
+- Área de trabalho ou caixa de diálogo com abas.
+- Paletas fixas ou flutuantes.
+- Sucessão de painéis no estilo wizard
+
+A maneira pela qual projetamos a interface física do produto interativo não deve entrar em
+conflito com os processos cognitivos dos usuários envolvidos na realização da tarefa. Uma ampla
+gama de recomendações (guidelines), princípios e regras foi desenvolvida para ajudar os designers
+a se assegurarem de que seus produtos sejam utilizáveis – muitos dos quais incorporados em
+guias de estilos e padrões.
+
+# Processo de Projeto de Interface com o Usuário - Avaliar
+
+Não basta o projetista seguir guidelines para projetos de interface para garantir altos níveis
+de usabilidade. As avaliações não devem ser realizadas apenas na fase final do processo de
+projeto de interface, como uma única fase. As avaliações podem ser realizadas com especialistas
+(avaliação de usabilidade) e com usuários (teste de usabilidade).
+
+##  Importância das avaliações
+
+- Avaliações de usabilidade são cruciais para o sucesso de um produto.
+- Devem ser realizadas ao longo do processo de desenvolvimento, desde as fases iniciais até os estágios avançados.
+- Os protótipos podem ser avaliados por especialistas e usuários.
+- Iterações de avaliação, design e prototipagem são esperadas.
+- Os resultados das avaliações podem exigir retornar à fase de Identificar e Analisar o Contexto de Uso.
+
+as avaliações têm três grandes objetivos:
+
+- Avaliar a funcionalidade do sistema;
+    - O sistema deve facilitar e otimizar a realização das tarefas do usuário.
+    - A avaliação inclui medir o desempenho do usuário e a eficiência do sistema na execução das tarefas.
+- Avaliar o efeito da interface junto ao usuário;
+    - A avaliação da usabilidade da interface envolve analisar a facilidade de aprendizado do sistema, a percepção do usuário em relação a ele e identificar áreas que possam sobrecarregar o usuário.
+    - Os métodos de avaliação geralmente se concentram em aspectos de padrões de usabilidade, como o uso de diretrizes.
+- Identificar problemas específicos do sistema;
+
+
+Podem-se classificar os métodos de avaliação em duas dimensões:
+
+- Inspeção de usabilidade (avaliação preditiva):
+    - Não envolve usuários e pode ser realizada em qualquer fase do desenvolvimento do sistema (com o sistema implementado ou não).
+- Teste de usabilidade:
+    - Método de avaliação centrado no usuário. Realizado em uma implementação real do sistema, podendo ser desde uma simulação da capacidade interativa do sistema, sem nenhuma funcionalidade, um protótipo básico implementando um cenário, ou até o sistema completamente implementado.
+
+### Inspeção de usabilidade
+
+Inspeção de usabilidade é um conjunto de métodos utilizados para avaliação de aspectos relacionados à usabilidade de uma interface de usuário. É realizada por avaliadores especialistas em usabilidade, por desenvolvedores de software habilitados, por especialistas em um determinado padrão de interface etc.
+
+#### Avaliação heurística
+
+Avaliação heurística é um método de inspeção de usabilidade utilizado para encontrar problemas
+de projeto de interfaces. Tem como base princípios de usabilidade amplamente reconhecidos e
+aceitos denominados heurísticas. Avaliação heurística é um método considerado econômico, de fácil
+aprendizagem e fácil de ser aplicado.
+
+Neste método, as sessões de avaliação individual duram de normalmente uma a duas horas.
+O avaliador navega pela interface pelo menos duas vezes (uma vez para obter uma percepção
+mais global de possíveis fluxos de interações e o escopo do sistema e uma segunda vez para
+analisar elementos específicos da interface) e inspeciona diversos elementos de diálogo e os
+compara com os princípios aceitos e possivelmente outros que, na sua experiência, se apliquem
+(LIESENBERG, 2005).
+
+Ao encontrar algum problema, este é relatado e associado às heurísticas de usabilidade que foram violadas.
+
+Os problemas encontrados pelos avaliadores são discutidos em grupo com o objetivo de formar uma
+avaliação consolidada no final.
+
+#### Teste de usabilidade
+
+O teste de usabilidade é utilizado para avaliação de um produto ou serviço envolvendo os usuários.
+Durante um teste, os participantes tentarão completar tarefas típicas passadas a eles enquanto
+observadores assistem, ouvem e fazem anotações.
+
+O objetivo da aplicação dos testes de usabilidade é
+identificar os problemas, coletar dados qualitativos e quantitativos e medir a satisfação do participante
+com o produto (USA, [s.d.]c).
+
+De acordo com Rocha e Baranauskas (2003), para aplicar um teste de usabilidade, deve ser
+desenvolvido um plano detalhado de teste no qual, dentre outras mais específicas, as seguintes questões
+devem ser respondidas:
+
+
+- O objetivo do teste: o que se deseja obter?
+- Quando e onde o teste irá acontecer?
+- Qual a duração prevista de cada sessão de teste?
+- Qual o suporte computacional necessário?
+- Qual software precisa estar à disposição?
+- Qual deverá ser o estado do sistema no início do teste?
+- Quem serão os experimentadores?
+- Quem serão os usuários e como serão conseguidos?
+- Quantos usuários são necessários?
+- Quais as tarefas que serão solicitadas aos usuários?
+- Qual critério será utilizado para definir que os usuários terminaram cada tarefa corretamente?
+- Quanto o experimentador poderá ajudar o usuário durante o teste?
+- Quais dados serão coletados e como serão analisados uma vez que tenham sido coletados?
+- Qual o critério para determinar que a interface é um sucesso?
+
+#### Escala de Usabilidade do Sistema – System Usability Scale (SUS)
+
+Consiste em um questionário de dez perguntas com cinco opções de resposta (de “Discordo completamente” até “Concordo completamente”)
+
+![System Usability Scale](https://miro.medium.com/v2/resize:fit:1400/1*8obgEWxCcpfN3Jx0JcX8rw.png)
+
+## Integração e implantação final 
+
+Agora que a interface atingiu os níveis definidos de usabilidade, deverá ser integrada à aplicação.
+
+Uma vez que a implementação e integração tenha ocorrido, uma avaliação adicional pode ser realizada para assegurar que todas as questões que se relacionam ao uso do sistema integrado sejam abordadas.
+
+# Diretrizes para projetos de interface com o usuário
+
+> Conjuntos de regras com informações e recomendações que visam padronizar decisões de projeto de interface.
+
+
+## As regras de ouro de Mandel
+
+1. Deixar o usuário no comando:
+   - Definir modos de interação para não forçar ações desnecessárias ou indesejadas.
+   - Proporcionar interação flexível.
+   - Possibilitar interrupção e desfazer ações.
+   - Simplificar a interação e permitir personalização.
+   - Ocultar detalhes técnicos do usuário casual.
+   - Projetar para interação direta com objetos na tela.
+
+2. Reduzir a carga de memória do usuário:
+   - Reduzir a demanda de memória recente.
+   - Estabelecer defaults significativos.
+   - Definir atalhos intuitivos.
+   - Utilizar layout visual baseado na metáfora do mundo real.
+   - Revelar informações progressivamente.
+
+3. Tornar a interface consistente:
+   - Permitir inserção da tarefa em contexto significativo.
+   - Manter consistência ao longo de uma família de aplicações.
+   - Evitar alterações em modelos interativos estabelecidos.
+
+## As oito regras de ouro de Shneiderman
+
+Diretrizes para projetos de interface com o usuário:
+
+1. Esforçar-se para manter a consistência:
+   - Sequências consistentes de ações em situações semelhantes.
+   - Utilizar terminologia idêntica em instruções, menus e telas de ajuda.
+   - Aplicar cores, layout e fontes consistentes em todo o sistema.
+
+2. Atender à usabilidade universal:
+   - Reconhecer as necessidades de usuários diversos.
+   - Projetar uma interface inclusiva para diferentes habilidades e faixas etárias.
+   - Adicionar recursos explicativos para usuários inexperientes e atalhos para usuários experientes.
+
+3. Oferecer feedback informativo:
+   - Fornecer resposta do sistema para cada ação do usuário.
+   - Adaptar a intensidade do feedback à importância da ação.
+
+4. Projetar diálogos para encerrar as ações:
+   - Organizar sequências de ações em grupos com início, meio e fim.
+   - Fornecer feedback conclusivo para dar ao usuário a sensação de realização.
+
+5. Evitar erros:
+   - Projetar o sistema para prevenir erros graves.
+   - Detectar erros e fornecer instruções simples para correção.
+
+6. Permitir facilmente a reversão de ações:
+   - Oferecer meios satisfatórios para desfazer ações dos usuários.
+   - Permitir a reversão em vários pontos durante uma tarefa.
+
+7. Fornecer a sensação de controle ao usuário:
+   - Priorizar a sensação de comando e resposta às ações do usuário.
+   - Evitar mudanças abruptas no comportamento da interação.
+
+8. Reduzir a carga de memória de curta duração:
+   - Evitar demanda excessiva de informações em memória de curta duração.
+   - Projetar interfaces simples e minimizar a necessidade de lembrar informações.
+
+## Dez heurísticas de usabilidade para projeto de interface de usuário
+
+- Visibilidade do estado do sistema:
+    - Fornecer feedback adequado e oportuno sobre o estado do sistema aos usuários.
+
+- Correlação entre o sistema e o mundo real:
+    - Utilizar uma linguagem familiar e conceitos do mundo real na interface do sistema.
+    - Apresentar informações de forma lógica e natural, seguindo a ordem do mundo real.
+
+- Liberdade e controle do usuário:
+    - Permitir que os usuários desfaçam ações e tenham controle sobre as funções do sistema.
+
+- Consistência e padrões:
+    - Seguir convenções e padrões estabelecidos para evitar confusão e incerteza nos usuários.
+
+- Prevenção de erros:
+    - Projetar o sistema de forma a evitar erros e fornecer opções de confirmação para ações críticas.
+
+- Reconhecimento em vez de memorização:
+    - Disponibilizar instruções e informações necessárias de forma visível e acessível aos usuários.
+
+- Flexibilidade e eficiência de uso:
+    - Permitir a personalização de ações frequentes e implementar atalhos para usuários experientes.
+
+- Projeto estético e minimalista:
+    - Apresentar informações relevantes de forma objetiva, sem distrações desnecessárias.
+
+- Suporte para o usuário no reconhecimento, diagnóstico e recuperação de erros:
+    - Utilizar mensagens de erro claras, sem códigos, que indiquem o problema e sugiram soluções.
+
+- Ajuda e documentação:
+    - Disponibilizar documentação de consulta fácil, objetiva e focada nas tarefas do usuário.
+
+##  Design responsivo
+
+Dispositivos diferentes têm tamanhos de tela variados. Páginas web não adaptativas podem ser frustrantes para os usuários. O design responsivo resolve isso, ajustando a interface para diferentes tamanhos de tela. Ele usa técnicas flexíveis e suporta várias resoluções. O objetivo é proporcionar uma experiência consistente ao usuário, independentemente do dispositivo.
+
+![Design responsivo](https://www.edufukunari.com.br/wp-content/uploads/2014/11/112111.jpg)
+
+O design responsivo está fundamentado em três tecnologias (ZEMEL, 2013):
+- Layout fluido.
+- Imagens e recursos flexíveis.
+- Media Queries.
+
+
+O design responsivo usa um layout fluido, sem medidas fixas, para se adaptar a diferentes tamanhos de tela. Isso evita barras de rolagem e conteúdo cortado.
+
+As imagens também são flexíveis e se ajustam dentro do layout.
+
+As Media Queries permitem aplicar estilos CSS diferentes com base na resolução da tela, possibilitando a adaptação da página para diferentes dispositivos.

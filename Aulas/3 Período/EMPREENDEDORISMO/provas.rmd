@@ -1,0 +1,606 @@
+--- 
+title: "Empreendedorismo - Provas"
+author: "Pedro José Laurenti de Matos"
+date: "`r Sys.Date()`"
+output: rmdformats::material
+
+---
+
+
+# UNIDADE I
+
+## ATIVIDADE TELEAULA I
+
+1. É considerado o principal expoente da Administração Científica:
+
+    A) Henri Fayol.  
+    B) Bernadini.  
+    C) Francis Bacon.  
+    D) Frederik Taylor.  
+    E) Karl Marx.
+
+- Resposta Selecionada: `D`
+
+<br/>
+
+2. Com relação à estrutura organizacional e funcional, quais as funções, de modo geral, de cada área?
+
+    A) Marketing e produção.  
+    B) Marketing e operação.  
+    C) Administrativa.  
+    D) Administrativa e marketing.  
+    E) Marketing, operação ou produção e administração.
+
+- Resposta Selecionada: `E`
+
+<br/>
+
+3. O comando eficaz é sempre algo difícil de conseguir nas corporações, por sempre envolver habilidades pessoais. Isso é devido a quais questões?
+
+    A) Motivação e controle.  
+    B) Liderança e planejamento.  
+    C) Organização e liderança.  
+    D) Liderança e motivação.  
+    E) Planejamento e motivação.  
+
+- Resposta Selecionada: `D`
+
+<br/>
+
+4. Quais as funções da Administração?
+
+    A) Planejamento, organização, direção e controle.  
+    B) Organização e planejamento.  
+    C) Organização e controle.  
+    D) Direção.  
+    E) Planejamento.
+
+- Resposta Selecionada: `A`
+
+<br/>
+
+## QUESTIONÁRIO UNIDADE I
+
+1. A Revolução Industrial foi marcada pela passagem da produção semiartesanal para a era da manufatura. Em que período aconteceu:
+
+    A) Metade do século XX.
+    B) Metade do século XVIII.
+    C) Metade do século XVII.
+    D) Metade do século XIX.
+    E) Todas as alternativas estão corretas.
+
+- Resposta Selecionada: Correta `B`
+
+<br/>
+
+2. A abordagem sistêmica considera o relacionamento entre o todo. Ela é contrária a qual ideia?
+
+    A) Estruturalista.
+    B) Behaviorista.
+    C) Taylorista.
+    D) Fordista.
+    E) Nenhuma das alternativas.
+
+- Resposta Selecionada: Correta `C`
+
+<br/>
+
+3. Assinale a(s) alternativa(s) correta(s) de acordo com as afirmações abaixo:
+
+    I. Eficiência está relacionada à melhor utilização dos recursos disponíveis para alcançar o melhor resultado.
+    II. Eficácia está relacionada ao resultado não muito bom da corporação, possuindo uma ligação ruim com as áreas.
+    III. O comando eficaz é sempre muito fácil de se conseguir na empresa, pois envolve habilidades pessoais, questões de liderança e motivação.
+    IV. Função de segurança.
+
+    <br/>
+
+    A) I está correta.
+    B) II está correta.
+    C) I e III estão corretas.
+    D) II, III e IV estão corretas.
+    E) I e II estão corretas.
+
+- Resposta Selecionada: Correta `A`
+
+<br/>
+
+4. Assinale a(s) alternativa(s) correta(s) de acordo com as afirmações abaixo:
+    I. Administração é um processo, conjunto de tarefas.
+    II. A Administração só pode ocorrer em nível de diretoria.
+    III. O administrador tem papel primordial no processo administrativo, na análise de situações e na resolução de problemas com eficácia e eficiência.
+
+    <br/>
+
+    A) Somente a alternativa I está correta.
+    B) Somente a alternativa II está correta.
+    C) Somente as alternativas I e III estão corretas.
+    D) Somente as alternativas II e III estão corretas.
+    E) Somente as alternativas I e II estão corretas.
+
+- Resposta Selecionada: Correta `C`
+
+<br/>
+
+5. Baseado no equilíbrio entre meios e fins, no poder da burocracia e na impessoalidade. Estamos falando da escola:
+
+    A) Estruturalismo.
+    B) Behaviorismo.
+    C) Relações Humanas.
+    D) Administração Clássica.
+    E) Nenhuma das alternativas.
+
+- Resposta Selecionada: Correta `A`
+
+<br/>
+
+6. Contemporâneo de Taylor, trabalhou com o conhecido Sistema Taylorista-Fordista. Estamos falando de:
+
+    A) Bernadini.
+    B) Frederick Taylor.
+    C) Henry Ford.
+    D) Thomas Hobbs.
+    E) Costa Neto.
+
+- Resposta Selecionada: Correta `C`
+
+<br/>
+
+7. Costa Neto e Canuto (2010) descreve os pioneiros da Administração de acordo com suas abordagens. Assinale a alternativa correta:
+
+    A) Jean-Jacques Rousseau – via a Administração como uma habilidade pessoal.
+    B) Platão – via a Administração como uma habilidade pessoal.
+    C) Frances Bacon – desenvolveu a teoria da origem contratualista.
+    D) Thomas Hobbes – desenvolveu a teoria contratualista.
+    E) Aristóteles – distinguiu três formas de Administração pública: Monarquia, Aristocracia e Democracia.
+
+- Resposta Selecionada: Correta `E`
+
+<br/>
+
+8. Em uma organização, pessoa jurídica quanto à sua função pode ser classificada como de direito público e de direito privado. Outra classificação de acordo com Costa Neto e Canuto (2010) é:
+
+    A) Primeiro setor.
+    B) Segundo setor.
+    C) Terceiro setor.
+    D) Primeiro setor, segundo setor e terceiro setor.
+    E) Primeiro setor e segundo setor.
+
+- Resposta Selecionada: Correta `D`
+
+<br/>
+
+9. Henry Fayol determinou funções primordiais dentro das organizações. Podemos citar algumas delas:
+
+    I. Função técnica.
+    II. Função de afetividade e sociabilidade.
+    III. Função de necessidade de participação de grupos informais.
+    IV. Função de segurança.
+
+    <br/>
+
+    A) I e III estão corretas.
+    B) I, III e IV estão corretas.
+    D) I e IV estão corretas.
+    C) II, III e IV estão corretas.
+    E) I e II estão corretas.
+
+- Resposta Selecionada: Correta `D`
+
+<br/>
+
+10. Segundo Costa Neto e Canuto o objetivo primordial de uma empresa é:
+
+    A) Produto.
+    B) Lucro e papel social.
+    C) Insumos.
+    D) Cliente.
+    E) Nenhuma das alternativas.
+
+- Resposta Selecionada: Correta `B`
+
+<br/>
+
+# UNIDADE II
+
+## ATIVIDADE TELEAULA II
+
+1. Quais são os níveis da Cultura Organizacional?
+
+    A) Valores, Mudança contínua e Mudança planejada.
+    B) Pressupostos, Mudança descontínua e Mudança planejada.
+    C) Valores, Mudança planejada e Macromudança.
+    D) Artefatos, Mudança contínua e Mudança planejada.
+    E) Artefatos, Valores e Pressupostos.
+
+- Resposta Selecionada: Correta `A`
+
+<br/>
+
+2. Qual alternativa está relacionada aos aspectos econômicos na qualidade da tomada de decisão?
+
+    A) Decisões Consensuais.
+    B) Decisões Justas e Legais.
+    C) Decisões Economicamente Pesadas.
+    D) Decisões Racionalmente.
+    E) Decisões Baseadas na Consolidação de Indicadores.
+
+- Resposta Selecionada: Correta `C`
+
+<br/>
+
+3. Quais são os três tipos gerais de negócios na cadeia de transações?
+
+    A) Negócio Ambiental, Negócio Legal e Negócio de Prestação de Serviços.
+    B) Negócio Social, Negócio Ecológico e Negócio Industrial.
+    C) Negócio Industrial, Negócio Comercial e Negócio de Prestação de Serviços.
+    D) Negócio Econômico, Negócio Comercial e Negócio Industrial.
+    E) Negócio Demográfico, Negócio Industrial e Negócio de Prestação de Serviços.
+
+- Resposta Selecionada: Correta `C`
+
+<br/>
+
+4. Qual é uma das características da liderança transformacional?
+
+    A) Estímulo intelectual.
+    B) Comunicação não verbal.
+    C) Comportamento simbólico.
+    D) Estímulo intelectual e comunicação verbal.
+    E) Estímulo verbal.
+
+- Resposta Selecionada: Correta `A`
+
+<br/>
+
+## QUESTIONÁRIO UNIDADE II
+
+1. Com relação à mudança organizacional, podemos citar alguns tipos:
+
+    I. Mudança descontínua: períodos de desequilíbrio, reestruturações.
+    II. Mudança sem planejamento: mudança sem programação.
+    III. Macromudança: abrange toda a organização e suas relações com o macroambiente.
+
+    <br/>
+
+    A) As alternativas I e III estão corretas.
+    B) As alternativas II e III estão corretas.
+    C) Somente a alternativa II está correta.
+    D) Somente a alternativa I está correta.
+    E) Todas alternativas estão corretas.
+
+- Resposta Selecionada: Correta `A`
+
+2. Com relação à qualidade na tomada de decisões, podemos citar alguns fatores com alto grau de qualidade, que são eles:
+
+    I. decisões economicamente pesados: leva em consideração aspectos econômicos;
+    II. decisões consensuais: pautadas em critérios éticos;
+    III. decisões inspiradas em paradigmas: considera a prática de benchmarking.
+
+    <br/>
+
+    A) Somente a alternativa I está correta.
+    B) As alternativas I e III estão corretas.
+    C) Somente a alternativa II está correta.
+    D) Todas as alternativas estão corretas.
+    E) Todas as alternativas estão incorretas.
+
+- Resposta Selecionada: Correta `C`
+
+<br/>
+
+3. Assinale a(s) alternativa(s) correta(s) de acordo com as afirmações abaixo:
+
+    I. Eficiência está relacionada à melhor utilização dos recursos disponíveis para alcançar o melhor resultado.
+    II. Eficácia está relacionada ao resultado não muito bom da corporação, possuindo uma ligação ruim com as áreas.
+    III. O comando eficaz é sempre muito fácil de se conseguir na empresa, pois envolve habilidades pessoais, questões de liderança e motivação.
+    IV. Função de segurança.
+
+    <br/>
+
+    A) I está correta.
+    B) II está correta.
+    C) I e III estão corretas.
+    D) II, III e IV estão corretas.
+    E) I e II estão corretas.
+
+- Resposta Selecionada: Correta `A`
+
+<br/>
+
+4. Assinale a(s) alternativa(s) correta(s) de acordo com as afirmações abaixo:
+
+    I. Administração é um processo, conjunto de tarefas.
+    II. A Administração só pode ocorrer em nível de diretoria.
+    III. O administrador tem papel primordial no processo administrativo, na análise de situações e na resolução de problemas com eficácia e eficiência.
+
+    <br/>
+
+    A) Somente a alternativa I está correta.
+    B) Somente a alternativa II está correta.
+    C) Somente as alternativas I e III estão corretas.
+    D) Somente as alternativas II e III estão corretas.
+    E) Somente as alternativas I e II estão corretas.
+
+- Resposta Selecionada: Correta `C`
+
+<br/>
+
+5. Correta Baseado no equilíbrio entre meios e fins, no poder da burocracia e na impessoalidade. Estamos falando da escola:
+Resposta Selecionada:
+
+    A) Estruturalismo.
+    B) Behaviorismo.
+    C) Relações Humanas
+    D) Administração Clássica.
+    E) Nenhuma das alternativas
+
+- Resposta Selecionada: Correta `A`
+
+<br/>
+
+6. Correta Contemporâneo de Taylor, trabalhou com o conhecido Sistema Taylorista-Fordista. Estamos falando de:	
+
+    A) Frederick Taylor.
+    B) Henri Fayol.
+    C) Chris Argyris.
+    D) Henry Mintzberg.
+    E) Nenhuma das alternativas.
+
+- Resposta Selecionada: Correta `B`
+
+<br/>
+
+7. Assinale a(s) alternativa(s) correta(s) de acordo com as afirmações abaixo:
+
+    I. A abordagem dos sistemas, defende a importância das organizações trabalharem de forma isolada, não sendo afetadas pelo ambiente externo.
+    II. Para compreender uma organização é necessário compreender suas partes e suas inter-relações, além de sua interação com o ambiente externo.
+    III. As empresas e seus ambientes são sistemas abertos, onde o ambiente influencia a organização, mas a organização não exerce influência sobre o ambiente.
+    IV. A abordagem de sistemas possibilita entender as inter-relações das partes da organização e sua interdependência.
+    V. Toda organização deve ser analisada como um sistema fechado.
+
+    <br/>
+
+    A) I, II, III e IV estão corretas.
+    B) II, III e IV estão corretas.
+    C) I, IV e V estão corretas.
+    D) I, III e V estão corretas.
+    E) I, II e V estão corretas.
+
+- Resposta Selecionada: Correta `B`
+
+<br/>
+
+8. Estratégia foi definida por diversos autores, conforme visto em Nicolau (2001). Qual definição abaixo está relacionada com seu autor?
+“O guru das estratégias, tem-se que estratégia competitiva são ações ofensivas ou defensivas para criar uma posição defensível numa indústria, para enfrentar com sucesso as forças competitivas e assim obter um retorno maior sobre o investimento”.
+
+    A) Chandler (1962).
+    B) Hax e Majluf (1988).
+    C) Katz (1970).
+    D) Porter (1989).
+    E) Nenhuma das alternativas anteriores.
+
+- Resposta Selecionada: Correta `D`
+
+9. Quando falamos em planejamento, devemos entender também o objetivo do planejamento, suas vantagens e seus problemas. Assinale a alternativa correta.
+
+    A) O planejamento é um processo que ocorre de forma estática, não sendo necessário revisões ao longo do tempo.
+    B) O planejamento como processo contínuo e sistemático auxilia o alcance dos objetivos e metas da organização, bem como a utilização mais adequada dos recursos disponíveis.
+    C) O planejamento é um processo que ocorre apenas em organizações de grande porte e não tem relação com a otimização de recursos.
+    D)  O planejamento não possui vantagens ou desvantagens significativas, sendo um processo neutro.
+    E)  O planejamento é um processo que visa apenas ao alcance dos objetivos de curto prazo da organização.
+
+- Resposta Selecionada: Correta `B`
+
+<br/>
+
+10. Sobral e Gimba (2012) mencionam um novo tipo de liderança conhecida como Liderança Autêntica. Essa liderança foi concebida a partir de quatro dimensões que são:
+
+    I. Autoconsciência: consciência por parte da liderança, sobre fraqueza e potencialidade;
+    II. Transparência: conhecimento dos desejos do líder por parte dos liderados;
+    III. Perspectiva moral e ética: relaciona-se à consideração dada a opinião dos liderados;
+    IV. Processamento balanceado: relaciona-se à consideração dada, por parte da liderança a valores morais e éticos.
+
+    <br/>
+
+    A)  Somente a alternativa I está correta.
+    B)  As alternativas I e II estão corretas.
+    C)  As alternativas II, III e IV estão corretas.
+    D)  Somente a alternativa IV está correta.
+    E)  Somente a alternativa III está correta.
+
+<br/>
+
+- Resposta Selecionada: Correta `D`
+
+
+# UNIDADE III
+
+## ATIVIDADE TELEAULA III
+
+1. A revolução do empreendedorismo foi marcada por grandes inovações. Podemos citar como exemplo a criação do avião motorizado, a teoria geral da relatividade, o laser entre outros. Em que período isso ocorreu?
+
+    - Resposta Correta: `C` Século XX.
+
+2. Com relação à estratégia competitiva, um autor (1998) diz: “[...] a estratégia será boa quando possibilitar entender melhor a necessidade dos clientes e criar valor para eles”. Estamos falando de qual autor?
+
+    - Resposta Correta: `B` Ohmae.
+
+3. Com relação ao Processo Empreendedor, Dornelas (2008) afirma que: para que haja sucesso em um negócio são necessários:
+
+    - Resposta correta: `B`Talento, Tecnologia, Capital e Conhecimento.
+
+4. No aspecto do empreendedorismo, das afirmações abaixo, qual não se enquadra no aspecto individual?
+
+    - Resposta correta: `C` Não possui a capacidade de sonhar e de transformar esses sonhos em realidade.
+
+
+## QUESTIONÁRIO UNIDADE III
+
+1. Com relação ao ambiente competitivo de uma organização, quais os elementos básicos que o alicerçam?
+    I. Criatividade e inflexibilidade.
+    II. Intuição e criatividade.
+    III. Adaptação e flexibilidade.
+    IV. Criatividade e adaptação.
+
+    - Resposta correta: `C` II, III e IV.
+
+2. Com relação ao histórico do empreendedorismo: “[...] É uma oposição e ao mesmo tempo um complemento às relações humanas, concilia trabalho, produtividade, condições de trabalho e abordagem social da empresa”. Estamos nos referindo a:
+
+    - Resposta correta: `A` Escola Behaviorista.
+
+3. Conforme estudado no texto, empreendedorismo pode ser ensinado? Assinale abaixo a alternativa correta:
+
+    - Resposta correta: `D` O processo empreendedor pode ser ensinado e entendido por qualquer pessoa.
+
+4. De acordo com Dorneles (2008), as habilidades requeridas de um empreendedor podem ser classificadas em:
+
+    - Resposta correta: `A` Habilidades técnicas, gerenciais e características pessoais.
+
+5. Dentro de uma empresa, aquele colaborador que inova, identifica e cria oportunidades de negócio é chamado de:
+
+    - Resposta correta: `D` Intraempreendedor.
+
+6. Existem vários mitos sobre empreendedorismo, conforme Dornelas (2008). Assinale a alternativa correta:
+
+    - Resposta correta: `B` Empreendedores são natos, nascem para o sucesso.
+
+7. O empreendedor, além dos atributos do administrador, também possui características extras. Essas características podem ser identificadas conforme descritas abaixo:
+    I. Decisão e responsabilidade.
+    II. Volúvel e indecisão.
+    III. Não aceitação dos riscos.
+    IV. Ser voltado para a equipe.
+
+    - Resposta correta: `C` I e IV.
+
+8. O movimento do empreendedorismo no Brasil começou a tomar forma quando entidades como o SEBRAE e a Softex foram criadas. Em que década isso ocorreu? Assinale a alternativa correta:
+
+    - Resposta correta: `A` Década de 1990.
+
+9. O processo empreendedor é composto por fases, que são elas:
+    I. 1ª fase: Identificar e avaliar uma oportunidade.
+    II. 2ª fase: Ideias criativas.
+    III. 3ª fase: Determinar e captar os recursos necessários.
+    IV. 4ª fase: Gerenciar a empresa criada.
+
+    - Resposta correta: `B` I, III e IV.
+
+10. Para ajudar a vencer e a driblar a competitividade dos tempos modernos, o empreendedor deve focar nos quatro pilares da educação, que são:
+    I. Aprender a conhecer.
+    II. Aprender a fazer.
+    III. Aprender a trabalhar individualmente.
+    IV. Aprender a ser.
+
+    - Resposta correta: `B` I, II e IV.
+
+
+# UNIDADE IV
+
+## ATIVIDADE TELEAULA IV
+
+1. Correta Mercado é o local, físico ou virtual que favorece a compra e venda de bens e serviços. Ele pode se encontrar em duas situações: mercado de oferta ou procura. Assinale abaixo a alternativa que corresponda ao mercado de oferta:
+    a. Mais compradores que ofertantes.
+    b. Falta de produtos e serviço.
+    c. Concorrência de compradores.
+    d. Oferta maior que procura.
+    e. Preços com tendência a elevação.
+
+    - Comentário da resposta: Resposta Correta: `D`
+
+2. O empreendedor para ser bem sucedido precisa planejar o seu negócio, esse planejamento produz um resultado imediato: o plano. Baseado nessa afirmação, qual o propósito de se ter um plano? Assinale abaixo a alternativa correta:
+    a. Ideia e coordenação.
+    b. Programação e capital.
+    c. Previsão, programação e coordenação.
+    d. Capital e coordenação.
+    e. Nenhuma das alternativas anteriores.
+
+    - Resposta Correta: `C`
+
+3. Correta Os produtos possuem um ciclo de vida, passando por etapas clássicas de desenvolvimento. Maximiano (2006) apresenta cada etapa e suas características. Assinale a alternativa correta:
+    a. Etapa introdutória: as vendas decrescem, lucros desaparecem.
+    b. Crescimento: vendas decrescem, lucros desaparecem.
+    c. Maturação: vendas decrescem, lucros desaparecem.
+    d. Declínio: vendas decrescem lucros desaparecem.
+    e. Nenhuma das alternativas anteriores.
+
+    - Resposta Correta: `D` Declínio: vendas decrescem lucros desaparecem.
+
+4. Qual é um dos principais instrumentos para a manutenção, retenção e motivação dos funcionários dentro de uma empresa? Assinale a alternativa correta:
+    a. Aprimoramento do desempenho.
+    b. Remuneração direta e indireta.
+    c. Reconhecimento pelas habilidades.
+    d. Jornada de trabalho.
+    e. Promoção por tempo de serviço.
+
+    - Resposta Correta: `B` Remuneração direta e indireta. 
+
+
+## QUESTIONÁRIO UNIDADE IV
+
+1. A avaliação de desempenho é uma técnica muito prática. Nesse sistema, o gerente e cada funcionário ou equipe em conjunto definem:
+
+    I. Definem metas de desempenho.
+    II. Definem salários e contratação.
+    III. Definem aprimoramento do desempenho.
+    IV. Definem novos mitos.
+
+    Assinale a alternativa correta:
+
+    - Resposta correta: `A` I, III, IV
+
+2. A função de Recursos Humanos compreende processos básicos que são:
+    
+    I. Aquisição de pessoas
+    II. Aquisição de recursos (capital)
+    III. Gestão do desempenho das pessoas
+    IV. Manutenção de pessoas
+
+    Assinale a alternativa correta:
+
+    - Resposta correta: `A` I, III, IV
+
+3. O Brainstorming, conhecido como "tempestade de ideias", baseia-se no fato de as pessoas serem estimuladas a gerar novas ideias quando estão em grupo. O Brainstorming é executado conforme algumas regras. Assinale abaixo a alternativa incorreta:
+
+    - Resposta correta: `A` Deve haver críticas mútuas no grupo sobre as ideias que vêm à tona.
+
+4. O cargo é uma coleção de responsabilidades e tarefas que o funcionário deverá desempenhar e executar. Além disso, uma descrição de cargo contém quais informações?
+
+    I. Posição do cargo na hierarquia.
+    II. Qualificações obrigatórias, como diploma ou habilitações profissionais.
+    III. Condições de trabalho, como riscos ou necessidades de usar equipamentos especializados.
+    IV. Classe salarial.
+
+    Assinale a alternativa correta:
+
+    - Resposta correta: `D` I, II, III, IV
+
+5. Os autores falam "...que a composição do corpo do plano de negócios começa por uma descrição da empresa, que explicitará o nível de organização do negócio, a história, a constituição jurídica, a situação atual e os projetos futuros, tanto para pesquisa e desenvolvimento como para atividades operacionais e financeiras". Estamos falando de quais autores?
+
+    Assinale a alternativa correta:
+
+    - Resposta correta: `D` Dornellas (2008) e Biagio (2005)
+
+6. Por meio do Marketing, a empresa demonstra sua capacidade em tornar o produto conhecido pelos clientes. De acordo com Biagio (2006):
+
+    I. É a forma que a empresa tem de divulgar seus produtos para o cliente.
+    II. Despertará em seus clientes a necessidade de adquirir produtos.
+    III. A forma como a empresa se comunicará com seus consumidores.
+
+    Está correto em afirmar:
+
+    - Resposta correta: `C` I, II, III
+
+7. Produção é como a empresa produz seus produtos ou presta seus serviços. A produção e a instalação de processos que afetarão diretamente a produção devem ser identificadas, planejadas e conduzidas sob condições controladas. Quais são essas condições?
+
+    - Resposta correta: `E` Todas as alternativas estão corretas.
+
+8. Segundo Chiavenato (2008), "...O empreendedor que deseja desenvolver um produto ou um novo negócio deverá levar em consideração primeiramente qual etapa"? Assinale a alternativa correta:
+
+    - Resposta correta: `B` Oportunidade e ideia
+
+9. Segundo o autor "Mercado é um grupo de consumidores que têm necessidades e interesses similares." Estamos falando de qual autor?
+
+    - Resposta correta: `C` Maximiano (2006)
+
+10. Tomada de decisões é uma constante na rotina de um empreendedor, como por exemplo, comprar ou alugar equipamentos e instalações, fixar preços e controlar estoques, entre outros. Estamos falando de?
+
+    - Resposta correta: `C` Plano financeiro
