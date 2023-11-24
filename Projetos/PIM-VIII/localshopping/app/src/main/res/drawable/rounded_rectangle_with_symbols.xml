@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Adiciona o retângulo com bordas arredondadas e borda -->
+    <item>
+        <shape>
+            <solid android:color="#ffffff"/>
+            <corners android:radius="20dp"/>
+            <stroke android:color="#000000" android:width="2dp"/>
+        </shape>
+    </item>
+
+    <!-- Adiciona a linha superior (símbolo "+") -->
+    <item android:left="20dp" android:right="20dp" android:top="20dp">
+
+    </item>
+
+    <!-- Adiciona o número "1" -->
+    <item android:left="20dp" android:right="20dp" android:top="40dp">
+
+    </item>
+
+    <!-- Adiciona a linha inferior (símbolo "-") -->
+    <item android:left="20dp" android:right="20dp" android:top="60dp">
+
+    </item>
+
+</layer-list>

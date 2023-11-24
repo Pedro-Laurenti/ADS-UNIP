@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Local Shopping</string>
+    <string name="logo" />
+    <string name="menu" />
+    <string name="test" />
+    <string name="a" />
+    <string name="b" />
+    <string name="entrar">Entrar</string>
+</resources>

@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Header -->
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+
+        <!-- Logotipo -->
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/logo" />
+
+        <!-- Ícone de Perfil -->
+        <ImageView
+            android:id="@+id/menuIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="15dp"
+            android:layout_toStartOf="@id/profileIcon"
+            android:contentDescription="@string/menu"
+            android:src="@drawable/profile_icon" />
+
+        <!-- Ícone de Menu -->
+        <ImageView
+            android:id="@+id/profileIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="25dp"
+            android:contentDescription="@string/test"
+            android:src="@drawable/menu_icon" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F1F0F3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="100dp"
+                android:padding="8dp"
+                android:text="@string/entrar"
+                android:textColor="#91939F"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*"
+                android:background="#FFFFFF">
+
+                <!-- Cabeçalho -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#9293FF"
+                    android:layout_marginHorizontal="20dp">
+
+                    <!-- Coluna 1 -->
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Endereço de entrega"
+                        android:textColor="#FFFFFF"
+                        android:padding="8dp"
+                        android:gravity="center"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:layout_marginHorizontal="20dp">
+
+                    <!-- Coluna 1 -->
+
+                    <EditText
+                        android:id="@+id/editTextTextEmailAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="20dp"
+                        android:ems="10"
+                        android:inputType="textEmailAddress"
+                        android:minHeight="48dp"
+                        android:text="Nome do rementente" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:layout_marginHorizontal="20dp">
+
+                    <!-- Coluna 1 -->
+
+                    <EditText
+                        android:id="@+id/editTextTextEmailAddr1ess"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="20dp"
+                        android:ems="10"
+                        android:inputType="textEmailAddress"
+                        android:minHeight="48dp"
+                        android:text="CEP" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:layout_marginHorizontal="20dp">
+
+                    <!-- Coluna 1 -->
+
+                    <EditText
+                        android:id="@+id/editTextTextEmailAddr4ess"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="20dp"
+                        android:ems="10"
+                        android:inputType="textEmailAddress"
+                        android:minHeight="48dp"
+                        android:text="Número"/>
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:layout_marginHorizontal="20dp">
+
+                    <!-- Coluna 1 -->
+
+                    <EditText
+                        android:id="@+id/editTextTextEmailAddress1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="20dp"
+                        android:ems="10"
+                        android:inputType="textEmailAddress"
+                        android:minHeight="48dp"
+                        android:text="Estado" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:layout_marginHorizontal="20dp">
+
+                    <!-- Coluna 1 -->
+
+                    <EditText
+                        android:id="@+id/editTextTextEmailAddres2s"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="20dp"
+                        android:ems="10"
+                        android:inputType="textEmailAddress"
+                        android:minHeight="48dp"
+                        android:text="Cidade" />
+
+
+                </TableRow>
+
+            </TableLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="70dp" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*"
+                android:background="#FFFFFF">
+
+                <!-- Cabeçalho -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#9293FF"
+                    android:layout_marginHorizontal="20dp">
+
+                    <!-- Coluna 1 -->
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Endereço de entrega"
+                        android:textColor="#FFFFFF"
+                        android:padding="8dp"
+                        android:gravity="center"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:layout_marginHorizontal="20dp">
+
+                    <!-- Coluna 1 -->
+
+                    <RadioButton
+                        android:id="@+id/radioButton14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Modalidade 1                                    R$ 50,00" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:layout_marginHorizontal="20dp">
+
+                    <!-- Coluna 1 -->
+
+                    <RadioButton
+                        android:id="@+id/radioBu2tton4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Modalidade 2                                    R$ 50,00" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:layout_marginHorizontal="20dp">
+
+                    <!-- Coluna 1 -->
+
+                    <RadioButton
+                        android:id="@+id/radioButton4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Modalidade 3                                    R$ 50,00" />
+
+                </TableRow>
+
+
+
+            </TableLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="70dp" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*"
+                android:background="#FFFFFF">
+
+                <!-- Cabeçalho -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#9293FF"
+                    android:layout_marginHorizontal="20dp">
+
+                    <!-- Coluna 1 -->
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Forma de pagamento"
+                        android:textColor="#FFFFFF"
+                        android:padding="8dp"
+                        android:gravity="center"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:layout_marginHorizontal="20dp">
+
+                    <!-- Coluna 1 -->
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="Modalidade 1"
+                        android:textDecorationLine="underline"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:layout_marginHorizontal="20dp">
+
+                    <!-- Coluna 1 -->
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="Modalidade 2"
+                        android:textDecorationLine="underline"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:layout_marginHorizontal="20dp">
+
+                    <!-- Coluna 1 -->
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="Modalidade 3"
+                        android:textDecorationLine="underline"/>
+
+                </TableRow>
+            </TableLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="70dp" />
+
+
+            <Button
+                android:id="@+id/buttonPrincipal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:background="@drawable/button_background_principal"
+                android:padding="12dp"
+                android:text="Confirmar"
+                android:textColor="#ffff" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="429dp"
+                android:layout_height="91dp"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:cardBackgroundColor="#ffffff">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="54dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/logo" />
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

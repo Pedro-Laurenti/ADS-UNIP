@@ -1,0 +1,654 @@
+%% abtex2-modelo-trabalho-academico.tex, v-1.9.7 laurocesar
+%% Copyright 2012-2018 by abnTeX2 group at http://www.abntex.net.br/ 
+%%
+%% This work may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%   http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2005/12/01 or later.
+%%
+%% This work has the LPPL maintenance status `maintained'.
+%% 
+%% The Current Maintainer of this work is the abnTeX2 team, led
+%% by Lauro César Araujo. Further information are available on 
+%% http://www.abntex.net.br/
+%%
+%% This work consists of the files abntex2-modelo-trabalho-academico.tex,
+%% abntex2-modelo-include-comandos and abntex2-modelo-references.bib
+%%
+
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+% abnTeX2: Modelo de Trabalho Academico (tese de doutorado, dissertacao de
+% mestrado e trabalhos monograficos em geral) em conformidade com 
+% ABNT NBR 14724:2011: Informacao e documentacao - Trabalhos academicos -
+% Apresentacao
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+
+\documentclass[
+	% -- opções da classe memoir --
+	12pt,				% tamanho da fonte
+	openright,			% capítulos começam em pág ímpar (insere página vazia caso preciso)
+	twoside,			% para impressão em recto e verso. Oposto a oneside
+	a4paper,			% tamanho do papel. 
+	% -- opções da classe abntex2 --
+	%chapter=TITLE,		% títulos de capítulos convertidos em letras maiúsculas
+	%section=TITLE,		% títulos de seções convertidos em letras maiúsculas
+	%subsection=TITLE,	% títulos de subseções convertidos em letras maiúsculas
+	%subsubsection=TITLE,% títulos de subsubseções convertidos em letras maiúsculas
+	% -- opções do pacote babel --
+	english,			% idioma adicional para hifenização
+	brazil				% o último idioma é o principal do documento
+	]{abntex2}
+
+% ---
+% Pacotes básicos 
+% ---
+\usepackage{lmodern}			% Usa a fonte Latin Modern			
+\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
+\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
+\usepackage{color}				% Controle das cores
+\usepackage{graphicx}			% Inclusão de gráficos
+\usepackage{microtype} 			% para melhorias de justificação
+\usepackage{adjustbox}          % Quadros justificados
+
+% ---
+		
+% ---
+% Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
+% ---
+\usepackage{lipsum}				% para geração de dummy text
+% ---
+
+% ---
+% Pacotes de citações
+% ---
+\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
+\usepackage[alf]{abntex2cite}	% Citações padrão ABNT
+
+% --- 
+% CONFIGURAÇÕES DE PACOTES
+% --- 
+
+% ---
+% Configurações do pacote backref
+% Usado sem a opção hyperpageref de backref
+\renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
+% Texto padrão antes do número das páginas
+\renewcommand{\backref}{}
+% Define os textos da citação
+\renewcommand*{\backrefalt}[4]{
+	\ifcase #1 %
+		Nenhuma citação no texto.%
+	\or
+		Citado na página #2.%
+	\else
+		Citado #1 vezes nas páginas #2.%
+	\fi}%
+% ---
+
+% ---
+% Informações de dados para CAPA e FOLHA DE ROSTO
+% ---
+\titulo{PIM VIII \\ Projeto Integrado Multidiciplinar VII}
+\autor{Pedro Laurenti, Lucas Andrade e Allan Cândido}
+\local{Brasil}
+\data{Setembro de 2023}
+\orientador{Robson Batista Alves}
+\coorientador{Tarcisio Peres}
+\instituicao{%
+  Universidade Paulista - UNIP
+  \par
+  Curso de Análise e Desenvolvimento de Sistemas
+  \par}
+\tipotrabalho{Trabalho Científico}
+% O preambulo deve conter o tipo do trabalho, o objetivo, 
+% o nome da instituição e a área de concentração 
+\preambulo{Trabalho científico redigido colocando em prática as habilidades e conhecimento adquiridos no terceiro período do curso.}
+% ---
+
+
+% ---
+% Configurações de aparência do PDF final
+
+% alterando o aspecto da cor azul
+\definecolor{blue}{RGB}{41,5,195}
+
+% informações do PDF
+\makeatletter
+\hypersetup{
+     	%pagebackref=true,
+		pdftitle={\@title}, 
+		pdfauthor={\@author},
+    	pdfsubject={\imprimirpreambulo},
+	    pdfcreator={Pedro Laurenti, Lucas Andrade e Allan Cândido},
+		pdfkeywords={Desenvolvimento}{Análise e Desenvolvimento}{Sistemas}{PIM VIII}{UNIP}, 
+		colorlinks=true,       		% false: boxed links; true: colored links
+    	linkcolor=blue,          	% color of internal links
+    	citecolor=blue,        		% color of links to bibliography
+    	filecolor=magenta,      		% color of file links
+		urlcolor=blue,
+		bookmarksdepth=4
+}
+\makeatother
+% --- 
+
+% ---
+% Posiciona figuras e tabelas no topo da página quando adicionadas sozinhas
+% em um página em branco. Ver https://github.com/abntex/abntex2/issues/170
+\makeatletter
+\setlength{\@fptop}{5pt} % Set distance from top of page to first float
+\makeatother
+% ---
+
+% ---
+% Possibilita criação de Quadros e Lista de quadros.
+% Ver https://github.com/abntex/abntex2/issues/176
+%
+\newcommand{\quadroname}{Quadro}
+\newcommand{\listofquadrosname}{Lista de quadros}
+
+\newfloat[chapter]{quadro}{loq}{\quadroname}
+\newlistof{listofquadros}{loq}{\listofquadrosname}
+\newlistentry{quadro}{loq}{0}
+
+% configurações para atender às regras da ABNT
+\setfloatadjustment{quadro}{\centering}
+\counterwithout{quadro}{chapter}
+\renewcommand{\cftquadroname}{\quadroname\space} 
+\renewcommand*{\cftquadroaftersnum}{\hfill--\hfill}
+
+\setfloatlocations{quadro}{hbtp} % Ver https://github.com/abntex/abntex2/issues/176
+% ---
+
+% --- 
+% Espaçamentos entre linhas e parágrafos 
+% --- 
+
+% O tamanho do parágrafo é dado por:
+\setlength{\parindent}{1.3cm}
+
+% Controle do espaçamento entre um parágrafo e outro:
+\setlength{\parskip}{0.2cm}  % tente também \onelineskip
+
+% ---
+% compila o indice
+% ---
+\makeindex
+% ---
+
+% ----
+% Início do documento
+% ----
+\begin{document}
+
+% Seleciona o idioma do documento (conforme pacotes do babel)
+%\selectlanguage{english}
+\selectlanguage{brazil}
+
+% Retira espaço extra obsoleto entre as frases.
+\frenchspacing 
+
+% ----------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% ----------------------------------------------------------
+% \pretextual
+
+% ---
+% Capa
+% ---
+\imprimircapa
+% ---
+
+% ---
+% Folha de rosto
+% (o * indica que haverá a ficha bibliográfica)
+% ---
+\imprimirfolhaderosto*
+% ---
+
+% ---
+% Inserir a ficha bibliografica
+% ---
+
+% Isto é um exemplo de Ficha Catalográfica, ou ``Dados internacionais de
+% catalogação-na-publicação''. Você pode utilizar este modelo como referência. 
+% Porém, provavelmente a biblioteca da sua universidade lhe fornecerá um PDF
+% com a ficha catalográfica definitiva após a defesa do trabalho. Quando estiver
+% com o documento, salve-o como PDF no diretório do seu projeto e substitua todo
+% o conteúdo de implementação deste arquivo pelo comando abaixo:
+%
+% \begin{fichacatalografica}
+%     \includepdf{fig_ficha_catalografica.pdf}
+% \end{fichacatalografica}
+
+\begin{fichacatalografica}
+	\sffamily
+	\vspace*{\fill}					% Posição vertical
+	\begin{center}					% Minipage Centralizado
+	\fbox{\begin{minipage}[c][8cm]{13.5cm}		% Largura
+	\small
+	\imprimirautor
+	%Sobrenome, Nome do autor
+	
+	\hspace{0.5cm} PIM VIII Projeto Integrado Multidiciplinar VII - 
+	\imprimirlocal, \imprimirdata \ --
+	
+	\hspace{0.5cm} \thelastpage p.\\
+	
+	\hspace{0.5cm} \imprimirorientadorRotulo~\imprimirorientador\\
+	
+	\hspace{0.5cm}
+	\parbox[t]{\textwidth}{\imprimirtipotrabalho~--~\imprimirinstituicao,
+	\imprimirdata.}\\
+	
+	\hspace{0.5cm}
+		1. Market Place.
+		2. Desenvolvimento.
+		3. Análise de Sistemas.
+		I. Market.
+		II. UNIP - Universidade Paulista.
+		III. Faculdade de  Análise e Desenvolvimento de Sistemas.
+		IV. PIM VIII - Projeto Integrado Multidiciplinar.  		
+	\end{minipage}}
+	\end{center}
+\end{fichacatalografica}
+% ---
+
+% ---
+% Inserir folha de aprovação
+% ---
+
+% Isto é um exemplo de Folha de aprovação, elemento obrigatório da NBR
+% 14724/2011 (seção 4.2.1.3). Você pode utilizar este modelo até a aprovação
+% do trabalho. Após isso, substitua todo o conteúdo deste arquivo por uma
+% imagem da página assinada pela banca com o comando abaixo:
+%
+% \begin{folhadeaprovacao}
+% \includepdf{folhadeaprovacao_final.pdf}
+% \end{folhadeaprovacao}
+%
+\begin{folhadeaprovacao}
+
+  \begin{center}
+    {\ABNTEXchapterfont\large\imprimirautor}
+
+    \vspace*{\fill}\vspace*{\fill}
+    \begin{center}
+      \ABNTEXchapterfont\bfseries\Large\imprimirtitulo
+    \end{center}
+    \vspace*{\fill}
+    
+    \hspace{.45\textwidth}
+    \begin{minipage}{.5\textwidth}
+        \imprimirpreambulo
+    \end{minipage}%
+    \vspace*{\fill}
+   \end{center}
+        
+   Trabalho aprovado. \imprimirlocal, 24 de novembro de 2012:
+
+   \assinatura{\textbf{\imprimirorientador} \\ Orientador} 
+   \assinatura{\textbf{Professor} \\ Convidado 1}
+   \assinatura{\textbf{Professor} \\ Convidado 2}
+   %\assinatura{\textbf{Professor} \\ Convidado 3}
+   %\assinatura{\textbf{Professor} \\ Convidado 4}
+      
+   \begin{center}
+    \vspace*{0.5cm}
+    {\large\imprimirlocal}
+    \par
+    {\large\imprimirdata}
+    \vspace*{1cm}
+  \end{center}
+  
+\end{folhadeaprovacao}
+% ---
+
+% ---
+% Dedicatória
+% ---
+\begin{dedicatoria}
+	\vspace*{\fill}
+	\centering
+	\noindent
+	\textit{Este projeto é dedicado a todos os desenvolvedores que já falharam várias vezes, mas nunca desistiram de suas paixões e ideias.}
+
+	\begin{quote}
+	\textit{``Ser feliz ao realizar a jornada pode ser muito melhor do que chegar ao destino com sucesso.'' - Jordan Peterson.}
+	\end{quote}
+
+	\vspace*{\fill}
+
+\end{dedicatoria}
+% ---
+
+% ---
+% Agradecimentos
+% ---
+\begin{agradecimentos}
+	Os agradecimentos principais são direcionados à todos aqueles que contribuíram para que a produção deste trabalho acadêmico.
+
+	Agradecimentos especiais aos desenvolvedores do \abnTeX e ao professor Miguel Frasson - pelas orientações.
+
+\end{agradecimentos}
+% ---
+
+
+% ---
+% Epígrafe
+% ---
+\begin{epigrafe}
+	\vspace*{\fill}
+	\begin{flushright}
+		\textit{``A máquina moderna é um instrumento de poder sem precedentes; e sua falha é que não há precedentes que possam nos ensinar como lidar com isso." - (G.K. Chesterton)}
+	\end{flushright}
+\end{epigrafe}
+% ---
+
+% ---
+% RESUMOS
+% ---
+
+% resumo em português
+\setlength{\absparsep}{18pt} % ajusta o espaçamento dos parágrafos do resumo
+\begin{resumo}
+    Este Projeto Integrado Multidisciplinar (PIM) propõe o desenvolvimento de um Sistema de Marketplace, abrangendo tanto aplicativos móveis quanto navegadores web. Unindo conhecimentos de Desenvolvimento de Software para Internet, Tópicos Especiais de Programação Orientada a Objetos e Programação Orientada a Objetos II, o projeto utiliza códigos ASPX para a interface em ASP.net, cria um protótipo Android em XML e implementa em C# o acesso ao Banco de Dados, incluindo classes como Cliente, Carrinho, Produto e Vendedor. A classe "CarrinhoRepository" gerencia carrinhos de compras. Este trabalho destaca não apenas a inovação no Sistema de Marketplace, mas também a aplicação prática dos conhecimentos adquiridos, resultando em uma solução tecnológica robusta alinhada às demandas do comércio digital contemporâneo.
+
+ \textbf{Palavras-chave}: Marketplace, Desenvolvimento de Software, Programação Orientada a Objetos, Aplicativos Móveis.
+\end{resumo}
+
+% resumo em inglês
+\begin{resumo}[Abstract]
+ \begin{otherlanguage*}{english}
+    This Multidisciplinary Integrated Project (MIP) proposes the development of a Marketplace System, encompassing both mobile applications and web browsers. Integrating knowledge from Web Software Development, Special Topics in Object-Oriented Programming, and Object-Oriented Programming II, the project utilizes ASPX code for the interface in ASP.net, creates an Android prototype in XML, and implements database access in C#. This involves the creation of classes such as Client, Cart, Product, and Seller. The "CarrinhoRepository" class manages shopping carts. This work emphasizes not only innovation in the Marketplace System but also the practical application of acquired knowledge, resulting in a robust technological solution aligned with contemporary demands of the digital commerce landscape.
+
+   \vspace{\onelineskip}
+ 
+   \noindent 
+   \textbf{Keywords}: Marketplace, Software Development, Object-Oriented Programming, Mobile Applications.
+ \end{otherlanguage*}
+\end{resumo}
+
+% ---
+
+
+% ---
+% inserir o sumario
+% ---
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\cleardoublepage
+% ---
+
+
+% ---
+% inserir lista de ilustrações
+% ---
+\pdfbookmark[0]{\listfigurename}{lof}
+\listoffigures*
+\cleardoublepage
+% ---
+
+% ---
+% inserir lista de quadros
+% ---
+\pdfbookmark[0]{\listofquadrosname}{loq}
+\listofquadros*
+\cleardoublepage
+% ---
+
+% ---
+% inserir lista de tabelas
+% ---
+\pdfbookmark[0]{\listtablename}{lot}
+\listoftables*
+\cleardoublepage
+% ---
+
+% ---
+% inserir lista de abreviaturas e siglas
+% ---
+\begin{siglas}
+  \item[ABNT] Associação Brasileira de Normas Técnicas
+  \item[PIM] Projeto Integrado Multidiciplinar
+  \item[IDE] Ambiente de desenvolvimento integrado
+  \item[XML] eXtensible Markup Language
+  \item[ASPX] Active Server Pages Extended
+\end{siglas}
+% ---
+
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ----------------------------------------------------------
+\textual
+
+% ----------------------------------------------------------
+% Introdução (exemplo de capítulo sem numeração, mas presente no Sumário)
+% ----------------------------------------------------------
+\chapter{Introdução}
+% ----------------------------------------------------------
+
+A ascensão contínua da tecnologia tem remodelado significativamente o cenário comercial, impulsionando a transição para plataformas digitais que facilitam e agilizam as transações comerciais. Nesse contexto, o presente PIM (Projeto Integrado Multidiciplinar) propõe a concepção e implementação de um Sistema de Marketplace destinado à compra e venda de uma ampla variedade de produtos, acessível tanto por meio de aplicativos móveis quanto por navegadores web.
+
+O foco principal deste projeto é a convergência de múltiplas disciplinas, destacando-se o Desenvolvimento de Software para Internet, Tópicos Especiais de Programação Orientada a Objetos e Programação Orientada a Objetos II. Para a disciplina de Desenvolvimento de Software para Internet, serão explorados os códigos ASPX para a criação da interface gráfica usando ASP.net, documentando o processo por meio de capturas de tela e a inclusão direta do código ASPX no trabalho.
+
+No âmbito de Tópicos Especiais de Programação Orientada a Objetos, este TCC apresentará um protótipo de interface gráfica para dispositivos Android, elaborado por meio de XML. As capturas de tela e o código XML serão incorporados ao documento, proporcionando uma visão abrangente do desenvolvimento orientado a objetos voltado para interfaces mobile.
+
+A disciplina de Programação Orientada a Objetos II será integralmente abordada com a implementação do código C# responsável pelo acesso ao Banco de Dados. Além disso, as classes de entidades essenciais para o sistema - Cliente, Carrinho, Produto e Vendedor - serão codificadas de maneira apropriada. A classe CarrinhoRepository, que desempenha um papel crucial na gestão dos carrinhos de compras, será desenvolvida e terá seus métodos implementados, assegurando a funcionalidade eficiente do sistema de Marketplace.
+
+Este trabalho, assim, busca não apenas apresentar uma proposta de Sistema de Marketplace inovador, mas também evidenciar a aplicação prática dos conhecimentos adquiridos ao longo das disciplinas, culminando em uma solução tecnológica robusta e alinhada com as demandas contemporâneas do comércio digital.
+
+Os Autores.
+
+% ---
+% Capitulo com exemplos de comandos inseridos de arquivo externo 
+% ---
+\include{abntex2-modelo-include-comandos}
+% ---
+
+\chapter{Introdução}\label{cap_introducao}
+
+\section{Escopo do Projeto e PIM}
+
+Visando concretizar as disciplinas aprendidas neste bimestre, o corpo docente elaborou a proposta do PIM VIII. Este projeto representa a oportunidade de aplicar os conhecimentos adquiridos em Desenvolvimento de Software para Internet, Tópicos Especiais de Programação Orientada a Objetos e Programação Orientada a Objetos II.
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=0.6\textwidth]{img/PIM-VIII-LOGO}
+	\caption{Ícone do grupo PIM (Desenvolvido pelos Autores).}
+	\label{fig:logo-pim-viii}
+\end{figure}
+
+A proposta do projeto abranje uma situação hipotética em que, como uma empresa terceirizada contratada para tal, ajudaremos na construção e desenvolvimento de certas partes de um Sistema Marketplace - empresa fantasia "Local Shopping" -  destinado à compra e venda de produtos diversos por meio de aplicativos móveis e plataformas web.
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=0.6\textwidth]{img/localshopping-logo}
+	\caption{Logo da empresa-fantasia "Local Shopping"(Desenvolvido pelos Autores).}
+	\label{fig:logo-local-shopping}
+\end{figure}
+
+Ao longo deste documento, exploraremos os detalhes da implementação, desde o fluxo do usuário dos protótipos até a estruturação do código em ASPX, XML e C#. Este trabalho não apenas demonstrará a aplicação dos conhecimentos teóricos, mas também evidenciará a capacidade de integrar esses conceitos em um projeto robusto e funcional, na prática.
+
+O PIM VIII representa um desafio enriquecedor que permite a cada aluno contribuir para o desenvolvimento de uma solução tecnológica inovadora, alinhada com as demandas do mercado digital contemporâneo.
+
+\chapter{Desenvolvimento de Software para Internet}\label{cap_dev_sof_int}
+
+\section{Fluxo de Usuários no Protótipo}
+
+A etapa inicial do desenvolvimento do Sistema de Marketplace envolve a análise detalhada do fluxo do usuário no protótipo. Nesta seção, serão explorados os caminhos que os usuários percorrerão ao interagir com a interface, destacando as diferentes etapas desde a busca de produtos até a conclusão da compra.
+
+Com o propósito de proporcionar uma visão organizacional clara, elaboramos um diagrama representativo do fluxo do usuário, apresentado na Figura 3.
+
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=0.6\textwidth]{img/User-Flow}
+    \caption{Fluxo dos usuários "Comprador" e "Vendedor" (Desenvolvido pelos Autores).}
+    \label{fig:diagrama-user-flow}
+\end{figure}
+
+Este diagrama oferece uma representação visual do percurso dos usuários, tanto "Comprador" quanto "Vendedor", dentro do protótipo. A análise detalhada desta representação é essencial para compreender as interações esperadas e identificar pontos cruciais de usabilidade. Dessa forma, estabelece-se uma base sólida para a próxima fase: a organização do código ASPX, onde traduziremos essa estrutura conceitual em implementação prática no Sistema de Marketplace.
+
+O entendimento do fluxo do usuário é crucial para garantir uma experiência intuitiva e eficiente. Serão abordados aspectos como a navegação entre páginas, interações com elementos da interface, e feedbacks fornecidos ao usuário durante o processo de utilização.
+
+Ao compreender o fluxo do usuário, estaremos preparados para a próxima etapa: a organização do código ASPX, onde transformaremos essa estrutura conceitual em uma implementação prática e funcional do Sistema de Marketplace.
+
+\section{Estruturação do Código ASPX}
+
+\section{Visualização da Interface em Capturas de Tela}
+
+\chapter{Tópicos Especiais de Programação Orientada a Objetos}\label{cap_topic_espec_de_progra}
+
+\section{Fluxo do Usuário no Protótipo}
+
+Na etapa inicial do desenvolvimento do Sistema de Marketplace, a análise detalhada do fluxo do usuário no protótipo para aplicativo mobile adquire uma importância singular, especialmente ao considerar a segurança. Esta seção explora os percursos que os usuários "Comprador" seguirão ao interagir com a interface do aplicativo, delineando as diversas etapas desde a busca de produtos até a conclusão da compra.
+
+Com o intuito de proporcionar uma visão organizacional clara, desenvolvemos um diagrama representativo do fluxo do usuário, apresentado na Figura 3.
+
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=0.6\textwidth]{img/User-Flow}
+    \caption{Fluxo do usuário "Comprador" no aplicativo mobile (Desenvolvido pelos Autores).}
+    \label{fig:diagrama-user-flow-mobile}
+\end{figure}
+
+Este diagrama oferece uma representação visual do percurso do usuário "Comprador" no protótipo do aplicativo mobile. A análise minuciosa desta representação é fundamental para compreender as interações esperadas e identificar pontos cruciais de usabilidade. Assim, estabelece-se uma base sólida para a próxima fase: a organização do código XML, onde traduziremos essa estrutura conceitual em implementação prática no Sistema de Marketplace para dispositivos móveis.
+
+O entendimento do fluxo do usuário é crucial para assegurar uma experiência intuitiva e eficiente em ambientes mobile. Serão abordados aspectos como a navegação entre telas, interações com elementos da interface e feedbacks fornecidos ao usuário durante o processo de utilização.
+
+Ao compreender o fluxo do usuário "Comprador", estaremos preparados para a próxima etapa: a organização do código XML, transformando essa estrutura conceitual em uma implementação prática e funcional do Sistema de Marketplace para aplicativos móveis.
+
+\section{Estruturação do Código XML}
+
+Com base na análise do fluxo do usuário para sistemas mobile, procedemos à criação do protótipo de baixa fidelidade utilizando o Android Studio como ambiente de desenvolvimento integrado (IDE), Kotlin como linguagem de programação e XML como linguagem de marcação.
+
+Para otimizar a organização e manutenção do código, optamos por uma abordagem que divide as telas em arquivos XML distintos, proporcionando modularidade e clareza estrutural. Ao todo, foram desenvolvidas cinco telas, cada uma correspondendo a uma etapa específica do fluxo do usuário "Comprador".
+
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=0.6\textwidth]{img/IDE-android-studio}
+    \caption{IDE do Android Studio (Fonte: os Autores).}
+    \label{fig:ide_android_studio}
+\end{figure}
+
+A estruturação modular permitiu uma implementação mais eficiente, facilitando a manutenção e aprimoramento de cada componente da interface. Cada tela foi cuidadosamente projetada e, posteriormente, vinculada aos seus respectivos arquivos em Kotlin, estabelecendo uma conexão fluida entre a lógica de programação e a apresentação visual.
+
+Este enfoque na estruturação do código XML não apenas contribui para a coesão e clareza do código-fonte, mas também simplifica a implementação de futuras atualizações e a incorporação de novas funcionalidades ao Sistema de Marketplace para dispositivos móveis. Na próxima seção, exploraremos mais a fundo a integração desses elementos na programação Kotlin, detalhando como cada tela foi associada à lógica do aplicativo.
+
+\section{Exibição da Interface em Capturas de Tela}
+
+Nesta seção, apresentaremos capturas de tela que ilustram a interface do Sistema de Marketplace em sua fase de prototipagem para dispositivos móveis. Cada imagem corresponde a uma tela específica, proporcionando uma visão visual abrangente do design e da disposição dos elementos em diferentes etapas do processo.
+
+\subsection{Tela: \texttt{carrinho.xml}}
+
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/carrinho}
+    \caption{Captura de Tela - Carrinho}
+\end{figure}
+
+A tela de carrinho exibe os produtos selecionados pelo usuário "Comprador", oferecendo uma visão consolidada das escolhas feitas durante a sessão de compras.
+
+\subsection{Tela: \texttt{checkout.xml}}
+
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/checkout}
+    \caption{Captura de Tela - Checkout}
+\end{figure}
+
+A tela de checkout apresenta o resumo da compra, permitindo ao usuário revisar os itens escolhidos, ajustar quantidades e proceder ao pagamento.
+
+\subsection{Tela: \texttt{logincliente.xml}}
+
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/logincliente}
+    \caption{Captura de Tela - Login do Cliente}
+\end{figure}
+
+A tela de login do cliente é o ponto de autenticação, onde o usuário pode acessar sua conta para personalizar a experiência de compra.
+
+\subsection{Tela: \texttt{main\_layout.xml}}
+
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/main_layout}
+    \caption{Captura de Tela - Layout Principal}
+\end{figure}
+
+A tela principal, ou \texttt{main\_layout.xml}, é a interface inicial do aplicativo, apresentando opções de navegação e categorias de produtos.
+
+\subsection{Tela: \texttt{product.xml}}
+
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/product}
+    \caption{Captura de Tela - Detalhes do Produto}
+\end{figure}
+
+A tela de detalhes do produto exibe informações específicas sobre um item selecionado, proporcionando ao usuário uma visão mais aprofundada antes da compra.
+
+Essas capturas de tela oferecem uma representação visual do cuidadoso design da interface do usuário, facilitando a compreensão da experiência que o Sistema de Marketplace busca proporcionar aos usuários móveis.
+
+\chapter{Programação Orientada a Objetos II}\label{cap_program_orientada_a_objetos}
+
+\section{Modelagem de Entidades e Relacionamentos no Banco de Dados}
+
+\section{Estruturação do Código C# para Acesso às Classes e Entidades}
+
+\section{Implementação da Classe Repositório "CarrinhoRepository"}
+
+\chapter{Conclusão}\label{cap_conclusao}
+
+\chapter{Referências Bibliográficas}\label{cap_referencias}
+
+\textbf{Segmentos de Cliente:}
+\begin{itemize}
+    \item Empreendedores Individuais: São empreendedores que desejam abrir suas lojas online e usar a plataforma "XY Sales" para listar e vender seus produtos. Eles podem ser pequenos fabricantes, artesãos ou revendedores.
+    \item Empresas de Médio Porte: Empresas maiores que desejam expandir sua presença online e alavancar a plataforma "XY Sales" para atingir um público mais amplo.
+    \item Consumidores Online: Pessoas que buscam uma variedade de produtos e serviços online, desde roupas até eletrônicos e produtos personalizados.
+\end{itemize}
+
+\section{Conclusão}
+
+O desenvolvimento acelerado da tecnologia continua a transformar de maneira expressiva o panorama comercial, guiando a transição para plataformas digitais que simplificam e agilizam as transações comerciais. Em resposta a esse cenário dinâmico, o Projeto Integrado Multidisciplinar (PIM) propôs e delineou a concepção e implementação de um Sistema de Marketplace, oferecendo uma abordagem abrangente para a compra e venda de uma extensa gama de produtos, acessível tanto por aplicativos móveis quanto por navegadores web.
+
+O cerne deste projeto reside na convergência de disciplinas cruciais, com destaque para Desenvolvimento de Software para Internet, Tópicos Especiais de Programação Orientada a Objetos e Programação Orientada a Objetos II. No âmbito do Desenvolvimento de Software para Internet, a exploração dos códigos ASPX para a criação da interface gráfica usando ASP.net foi detalhada, com documentação por meio de capturas de tela e inclusão direta do código ASPX neste trabalho.
+
+Na esfera dos Tópicos Especiais de Programação Orientada a Objetos, este trabalho apresentou um protótipo de interface gráfica para dispositivos Android, desenvolvido em XML. As capturas de tela e o código XML integrados ao documento oferecem uma visão holística do desenvolvimento orientado a objetos voltado para interfaces móveis.
+
+A Programação Orientada a Objetos II foi abordada de maneira abrangente, com a implementação do código C# responsável pelo acesso ao Banco de Dados. As classes de entidades fundamentais para o sistema - Cliente, Carrinho, Produto e Vendedor - foram codificadas de maneira apropriada. A classe CarrinhoRepository, crucial na gestão dos carrinhos de compras, foi desenvolvida com seus métodos implementados, assegurando a eficiência funcional do Sistema de Marketplace.
+
+Este trabalho, além de apresentar uma proposta inovadora de Sistema de Marketplace, destaca a aplicação prática dos conhecimentos adquiridos ao longo das disciplinas. A solução tecnológica resultante é robusta e alinhada com as exigências contemporâneas do comércio digital. Ao integrar teoria e prática, este projeto não apenas representa uma conquista acadêmica, mas também ressalta a relevância e a aplicabilidade dos conceitos explorados.
+
+Os autores, ao concluírem este projeto, reafirmam o compromisso com a excelência acadêmica e com a busca contínua por soluções inovadoras no campo da tecnologia. Este Sistema de Marketplace não é apenas o resultado de esforços acadêmicos, mas uma contribuição tangível para a evolução do cenário comercial digital.
+
+\chapter{Referências Bibliográficas}
+
+\begin{thebibliography}{99}
+    
+\bibitem{robsoncamargo}
+    ROBSON CAMARGO. PMBOK: O que é e qual sua importância no gerenciamento de projetos? Disponível em: \url{https://robsoncamargo.com.br/blog/PMBOK}. Acesso em 2023.
+
+\bibitem{totvs}
+    TOTVS. O que é PMBOK e como ele auxilia no gerenciamento de projetos? Disponível em: \url{https://www.totvs.com/blog/negocios/pmbok/}. Acesso em 2023.
+
+\bibitem{blogaevo}
+    AEVO. PMBOK: Guia completo para entender tudo sobre a metodologia! Disponível em: \url{https://blog.aevo.com.br/pmbok-guia-completo/}. Acesso em 2023.
+
+\end{thebibliography}
+
+%---------------------------------------------------------------------
+% INDICE REMISSIVO
+%---------------------------------------------------------------------
+\phantompart
+\printindex
+%---------------------------------------------------------------------
+
+\end{document}
