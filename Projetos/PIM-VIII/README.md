@@ -55,32 +55,28 @@ O que precisa entregar (por matéria):
 # Sumário
 
 1. **Introdução**
-    - 1.1 Contexto e objetivos do Projeto
 
-2. **Interface Gráfica Android**
-    - 2.1 Android usando XML
-    - 2.2 Prints
+2. **Sobre o Projeto**
+   - 2.1 Escopo do Projeto e PIM
 
-3. **Interface Gráfica Desktop**
-    - 3.1 Web/Desktop usando ASP.NET
-    - 3.2 Prints 
+3. **Desenvolvimento de Software para Internet**
+   - 3.1 Fluxo de Usuários no Protótipo
+   - 3.2 Estruturação do Código ASPX
+   - 3.3 Visualização da Interface em Capturas de Tela
 
-4. **Banco de Dados**
-    - 3.1 Classes de Entidades
-        - Cliente
-        - Carrinho
-        - Produto
-        - Vendedor
-    - 3.2 Classe CarrinhoRepository
-        - Lógica dos métodos
+4. **Tópicos Especiais de Programação Orientada a Objetos**
+   - 4.1 Fluxo do Usuário no Protótipo
+   - 4.2 Estruturação do Código XML
+   - 4.3 Exibição da Interface em Capturas de Tela
 
-5. **Conclusão**
-    - 6.1 Retomada da proposta inicial
-    - 6.2 Resumo dos Principais Pontos
+5. **Programação Orientada a Objetos II**
+   - 5.1 Modelagem de Entidades e Relacionamentos no Banco de Dados
+   - 5.2 Estruturação do Código C# para Acesso às Classes e Entidades
+   - 5.3 Implementação da Classe Repositório 'CarrinhoRepository'
 
-6. **Referências**
-    - 7.1 Fontes de Informação Utilizadas
+6. **Conclusão**
 
+7. **Referências Bibliográficas**
 
 
 

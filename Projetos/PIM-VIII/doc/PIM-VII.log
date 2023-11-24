@@ -1,17 +1,17 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.9.26)  16 OCT 2023 21:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.9.26)  24 NOV 2023 20:34
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**./PIM-VII.tex
-(PIM-VII.tex
+**c:/Users/pedro/Desktop/Faculdade/ADS-UNIP/Projetos/PIM-VIII/doc/PIM-VII.tex
+(c:/Users/pedro/Desktop/Faculdade/ADS-UNIP/Projetos/PIM-VIII/doc/PIM-VII.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-07> (C:\MikTex\tex/latex/abntex2\abntex2.cls
 Document Class: abntex2 2018/11/24 v-1.9.7 abnTeX2
 (C:\MikTex\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 ) (C:\MikTex\tex/latex/memoir\memoir.cls
-Document Class: memoir 2022/11/17 v3.7.19 configurable book, report, article do
-cument class
+Document Class: memoir 2022/11/17 v3.7.19 configurable book, report, article document class
 (C:\MikTex\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count185
@@ -21,8 +21,7 @@ Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \xlvchars=\skip50
 \@memcnta=\count186
 \c@@memmarkcntra=\count187
-
-(C:\MikTex\tex/generic/iftex\iftex.sty
+ (C:\MikTex\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
 \stockheight=\dimen140
@@ -119,8 +118,7 @@ File: mem12.clo 2022/07/29 v0.5 memoir class 12pt size option
 \beforePoemTitleskip=\skip113
 \midPoemTitleskip=\skip114
 \afterPoemTitleskip=\skip115
-
-(C:\MikTex\tex/latex/tools\array.sty
+ (C:\MikTex\tex/latex/tools\array.sty
 Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen147
 \ar@mcellbox=\box51
@@ -131,11 +129,9 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \ar@cellbox=\box52
 ) (C:\MikTex\tex/latex/tools\dcolumn.sty
 Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
-)
-(C:\MikTex\tex/latex/tools\delarray.sty
+) (C:\MikTex\tex/latex/tools\delarray.sty
 Package: delarray 2014/10/28 v1.01 array delimiter package (DPC)
-)
-(C:\MikTex\tex/latex/tools\tabularx.sty
+) (C:\MikTex\tex/latex/tools\tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@col@width=\dimen149
 \TX@old@table=\dimen150
@@ -294,8 +290,7 @@ LaTeX Info: Redefining \emph on input line 7663.
 \c@sheetsequence=\count303
 \c@lastsheet=\count304
 \c@lastpage=\count305
-
-(C:\MikTex\tex/latex/textcase\textcase.sty
+ (C:\MikTex\tex/latex/textcase\textcase.sty
 Package: textcase 2022/07/10 v1.03 Text only upper/lower case changing (DPC)
 Package textcase Info: Defining Legacy names on input line 20.
 )
@@ -339,56 +334,40 @@ Package tocloft [2008/07/23] emulated by memoir.
 Package tocvsec2 [2008/07/23] emulated by memoir.
 Package verbatim [2008/07/23] emulated by memoir.
 Package verse [2008/07/23] emulated by memoir.
-)
-(C:\MikTex\tex/latex/hyperref\hyperref.sty
+) (C:\MikTex\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
-
-(C:\MikTex\tex/generic/ltxcmds\ltxcmds.sty
+ (C:\MikTex\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-)
-(C:\MikTex\tex/generic/pdftexcmds\pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(C:\MikTex\tex/generic/infwarerr\infwarerr.sty
+) (C:\MikTex\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (C:\MikTex\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)
-(C:\MikTex\tex/latex/graphics\keyval.sty
+) (C:\MikTex\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks24
-)
-(C:\MikTex\tex/latex/kvsetkeys\kvsetkeys.sty
+) (C:\MikTex\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)
-(C:\MikTex\tex/generic/kvdefinekeys\kvdefinekeys.sty
+) (C:\MikTex\tex/generic/kvdefinekeys\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)
-(C:\MikTex\tex/generic/pdfescape\pdfescape.sty
+) (C:\MikTex\tex/generic/pdfescape\pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-)
-(C:\MikTex\tex/latex/hycolor\hycolor.sty
+) (C:\MikTex\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-)
-(C:\MikTex\tex/latex/letltxmacro\letltxmacro.sty
+) (C:\MikTex\tex/latex/letltxmacro\letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-)
-(C:\MikTex\tex/latex/auxhook\auxhook.sty
+) (C:\MikTex\tex/latex/auxhook\auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-)
-(C:\MikTex\tex/latex/hyperref\nameref.sty
+) (C:\MikTex\tex/latex/hyperref\nameref.sty
 Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
-
-(C:\MikTex\tex/latex/refcount\refcount.sty
+ (C:\MikTex\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(C:\MikTex\tex/generic/gettitlestring\gettitlestring.sty
+) (C:\MikTex\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-
-(C:\MikTex\tex/latex/kvoptions\kvoptions.sty
+ (C:\MikTex\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count310
@@ -396,21 +375,17 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 \@linkdim=\dimen187
 \Hy@linkcounter=\count311
 \Hy@pagecounter=\count312
-
-(C:\MikTex\tex/latex/hyperref\pd1enc.def
+ (C:\MikTex\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-)
-(C:\MikTex\tex/generic/intcalc\intcalc.sty
+) (C:\MikTex\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-)
-(C:\MikTex\tex/generic/etexcmds\etexcmds.sty
+) (C:\MikTex\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count313
-
-(C:\MikTex\tex/latex/hyperref\puenc.def
+ (C:\MikTex\tex/latex/hyperref\puenc.def
 File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -429,13 +404,10 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4763.
 \XeTeXLinkMargin=\dimen188
-
-(C:\MikTex\tex/generic/bitset\bitset.sty
+ (C:\MikTex\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-
-(C:\MikTex\tex/generic/bigintcalc\bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
-)
+ (C:\MikTex\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count315
 \Field@Width=\dimen189
@@ -447,8 +419,7 @@ Package hyperref Info: backreferencing OFF on input line 6057.
 Package hyperref Info: Link coloring OFF on input line 6062.
 Package hyperref Info: Link coloring with OCG OFF on input line 6067.
 Package hyperref Info: PDF/A mode OFF on input line 6072.
-
-(C:\MikTex\tex/latex/base\atbegshi-ltx.sty
+ (C:\MikTex\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
@@ -457,32 +428,24 @@ package with kernel methods
 \c@Hfootnote=\count318
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
-
-(C:\MikTex\tex/latex/hyperref\hpdftex.def
+ (C:\MikTex\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2023-02-07 v7.00v Hyperref driver for pdfTeX
-
-(C:\MikTex\tex/latex/base\atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
-kage
+ (C:\MikTex\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
 \Fld@listcount=\count319
 \c@bookmark@seq@number=\count320
-
-(C:\MikTex\tex/latex/rerunfilecheck\rerunfilecheck.sty
+ (C:\MikTex\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
-
-(C:\MikTex\tex/generic/uniquecounter\uniquecounter.sty
+ (C:\MikTex\tex/generic/uniquecounter\uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-85.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip190
-)
-(C:\MikTex\tex/latex/memoir\memhfixc.sty
-Package: memhfixc 2022/11/17 v1.20 nameref/hyperref package fixes for memoir cl
-ass
+) (C:\MikTex\tex/latex/memoir\memhfixc.sty
+Package: memhfixc 2022/11/17 v1.20 nameref/hyperref package fixes for memoir class
 
 Redoing nameref's sectioning
 Redoing nameref's label
@@ -491,18 +454,15 @@ LaTeX Info: Redefining \nameref on input line 106.
 \c@Hpagenote=\count322
 ) (C:\MikTex\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
-
-(C:\MikTex\tex/latex/bookmark\bkm-pdftex.def
+ (C:\MikTex\tex/latex/bookmark\bkm-pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
 \BKM@id=\count323
-))
-(C:\MikTex\tex/generic/babel\babel.sty
+)) (C:\MikTex\tex/generic/babel\babel.sty
 Package: babel 2023/02/13 3.86 The Babel package
 \babel@savecnt=\count324
 \U@D=\dimen191
 \l@unhyphenated=\language79
-
-(C:\MikTex\tex/generic/babel\txtbabel.def)
+ (C:\MikTex\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read3
 \bbl@dirlevel=\count325
 
@@ -510,10 +470,8 @@ Package: babel 2023/02/13 3.86 The Babel package
 * Local config file bblopts.cfg used
 *
 (C:\MikTex\tex/latex/arabi\bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
-)
-(C:\MikTex\tex/latex/babel-english\english.ldf
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\MikTex\tex/latex/babel-english\english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
@@ -521,18 +479,15 @@ Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
 (babel)             (\language73). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 (babel)             (\language73). Reported on input line 108.
-)
-(C:\MikTex\tex/latex/babel-portuges\brazil.ldf
+) (C:\MikTex\tex/latex/babel-portuges\brazil.ldf
 Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
 Package babel Info: Hyphen rules for 'brazil' set to \l@portuguese
 (babel)             (\language56). Reported on input line 111.
 Package babel Info: Making " an active character on input line 143.
-))
-(C:\MikTex\tex/generic/babel/locale/en\babel-english.tex
+)) (C:\MikTex\tex/generic/babel/locale/en\babel-english.tex
 Package babel Info: Importing font and identification data for english
 (babel)             from babel-en.ini. Reported on input line 11.
-)
-(C:\MikTex\tex/latex/enumitem\enumitem.sty
+) (C:\MikTex\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip191
 \enit@outerparindent=\dimen192
@@ -623,49 +578,37 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 ) (C:\MikTex\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
-2.
-
-(C:\MikTex\tex/latex/lm\t1lmr.fd
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 112.
+ (C:\MikTex\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )) (C:\MikTex\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks26
 \inpenc@posthook=\toks27
-)
-(C:\MikTex\tex/latex/tools\indentfirst.sty
+) (C:\MikTex\tex/latex/tools\indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
-)
-(C:\MikTex\tex/latex/graphics\color.sty
+) (C:\MikTex\tex/latex/graphics\color.sty
 Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
-
-(C:\MikTex\tex/latex/graphics-cfg\color.cfg
+ (C:\MikTex\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
-
-(C:\MikTex\tex/latex/graphics-def\pdftex.def
+ (C:\MikTex\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
-)
-(C:\MikTex\tex/latex/graphics\mathcolor.ltx))
-(C:\MikTex\tex/latex/graphics\graphicx.sty
+) (C:\MikTex\tex/latex/graphics\mathcolor.ltx)) (C:\MikTex\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-
-(C:\MikTex\tex/latex/graphics\graphics.sty
+ (C:\MikTex\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
-
-(C:\MikTex\tex/latex/graphics\trig.sty
+ (C:\MikTex\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-)
-(C:\MikTex\tex/latex/graphics-cfg\graphics.cfg
+) (C:\MikTex\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 )
 \Gin@req@height=\dimen195
 \Gin@req@width=\dimen196
-)
-(C:\MikTex\tex/latex/microtype\microtype.sty
+) (C:\MikTex\tex/latex/microtype\microtype.sty
 Package: microtype 2022/06/23 v3.0f Micro-typographical refinements (RS)
 \MT@toks=\toks28
 \MT@tempbox=\box57
@@ -677,41 +620,30 @@ LaTeX Info: Redefining \textls on input line 1234.
 \MT@outer@kern=\dimen197
 LaTeX Info: Redefining \textmicrotypecontext on input line 1858.
 \MT@listname@count=\count340
-
-(C:\MikTex\tex/latex/microtype\microtype-pdftex.def
+ (C:\MikTex\tex/latex/microtype\microtype-pdftex.def
 File: microtype-pdftex.def 2022/06/23 v3.0f Definitions specific to pdftex (RS)
-
 LaTeX Info: Redefining \lsstyle on input line 900.
 LaTeX Info: Redefining \lslig on input line 900.
 \MT@outer@space=\skip257
 )
 Package microtype Info: Loading configuration file microtype.cfg.
-
-(C:\MikTex\tex/latex/microtype\microtype.cfg
+ (C:\MikTex\tex/latex/microtype\microtype.cfg
 File: microtype.cfg 2022/06/23 v3.0f microtype main configuration file (RS)
-))
-(C:\MikTex\tex/latex/adjustbox\adjustbox.sty
+)) (C:\MikTex\tex/latex/adjustbox\adjustbox.sty
 Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
-
-(C:\MikTex\tex/latex/xkeyval\xkeyval.sty
+ (C:\MikTex\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
-
-(C:\MikTex\tex/generic/xkeyval\xkeyval.tex
-(C:\MikTex\tex/generic/xkeyval\xkvutils.tex
+ (C:\MikTex\tex/generic/xkeyval\xkeyval.tex (C:\MikTex\tex/generic/xkeyval\xkvutils.tex
 \XKV@toks=\toks29
 \XKV@tempa@toks=\toks30
 )
 \XKV@depth=\count341
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-(C:\MikTex\tex/latex/adjustbox\adjcalc.sty
-Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
--ends (calc, etex, pgfmath)
-)
-(C:\MikTex\tex/latex/adjustbox\trimclip.sty
+)) (C:\MikTex\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (C:\MikTex\tex/latex/adjustbox\trimclip.sty
 Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
-
-(C:\MikTex\tex/latex/collectbox\collectbox.sty
+ (C:\MikTex\tex/latex/collectbox\collectbox.sty
 Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
 \collectedbox=\box58
 )
@@ -720,8 +652,7 @@ Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
 \tc@urx=\dimen256
 \tc@ury=\dimen257
 Package trimclip Info: Using driver 'tc-pdftex.def'.
-
-(C:\MikTex\tex/latex/adjustbox\tc-pdftex.def
+ (C:\MikTex\tex/latex/adjustbox\tc-pdftex.def
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
 \adjbox@Width=\dimen258
@@ -732,25 +663,19 @@ File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 \adjbox@pheight=\dimen263
 \adjbox@pdepth=\dimen264
 \adjbox@ptotalheight=\dimen265
-
-(C:\MikTex\tex/latex/ifoddpage\ifoddpage.sty
+ (C:\MikTex\tex/latex/ifoddpage\ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
 \c@checkoddpage=\count342
 LaTeX Info: Redefining \checkoddpage on input line 45.
-)
-(C:\MikTex\tex/latex/varwidth\varwidth.sty
+) (C:\MikTex\tex/latex/varwidth\varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box59
 \sift@deathcycles=\count343
 \@vwid@loff=\dimen266
 \@vwid@roff=\dimen267
-))
-(C:\MikTex\tex/latex/lipsum\lipsum.sty
-(C:\MikTex\tex/latex/l3packages/l3keys2e\l3keys2e.sty
-(C:\MikTex\tex/latex/l3kernel\expl3.sty
+)) (C:\MikTex\tex/latex/lipsum\lipsum.sty (C:\MikTex\tex/latex/l3packages/l3keys2e\l3keys2e.sty (C:\MikTex\tex/latex/l3kernel\expl3.sty
 Package: expl3 2023-02-07 L3 programming layer (loader) 
-
-(C:\MikTex\tex/latex/l3backend\l3backend-pdftex.def
+ (C:\MikTex\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count344
 \l__pdf_internal_box=\box60
@@ -761,27 +686,20 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \g__lipsum_par_int=\count345
 \l__lipsum_a_int=\count346
 \l__lipsum_b_int=\count347
-
-(C:\MikTex\tex/latex/lipsum\lipsum.ltd.tex))
-(C:\MikTex\tex/latex/hyperref\backref.sty
+ (C:\MikTex\tex/latex/lipsum\lipsum.ltd.tex)) (C:\MikTex\tex/latex/hyperref\backref.sty
 Package: backref 2021/02/04 v1.41 Bibliographical back referencing
-)
-(C:\MikTex\tex/latex/abntex2\abntex2cite.sty
+) (C:\MikTex\tex/latex/abntex2\abntex2cite.sty
 Package: abntex2cite 2018/11/24 v-1.9.7 abnTeX2
-
-(C:\MikTex\tex/latex/abntex2\abntex2abrev.sty)
+ (C:\MikTex\tex/latex/abntex2\abntex2abrev.sty)
 \minimumbiblabelwidth=\skip258
 \ABCIauxlen=\skip259
 \c@ABCIaux=\count348
 \c@ABCImax=\count349
-
-(C:\MikTex\tex/generic/iftex\ifpdf.sty
+ (C:\MikTex\tex/generic/iftex\ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
-)
-(C:\MikTex\tex/generic/iftex\ifxetex.sty
+) (C:\MikTex\tex/generic/iftex\ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
-)
-(C:\MikTex\tex/latex/relsize\relsize.sty
+) (C:\MikTex\tex/latex/relsize\relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
 \biblabelsep=\skip260
@@ -825,8 +743,7 @@ LaTeX Font Info:    ... okay on input line 187.
 Package hyperref Info: Link coloring ON on input line 187.
 \myptabbox=\box61
 \myptabboxwidth=\skip264
-
-(C:\MikTex\tex/context/base/mkii\supp-pdf.mkii
+ (C:\MikTex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count352
 \scratchdimen=\dimen268
@@ -841,10 +758,8 @@ Package hyperref Info: Link coloring ON on input line 187.
 \everyMPtoPDFconversion=\toks33
 ) (C:\MikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(C:\MikTex\tex/latex/00miktex\epstopdf-sys.cfg
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\MikTex\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 LaTeX Info: Redefining \microtypecontext on input line 187.
@@ -862,13 +777,10 @@ LaTeX Info: Redefining \showhyphens on input line 187.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-
-(C:\MikTex\tex/latex/microtype\mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
+ (C:\MikTex\tex/latex/microtype\mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 2
-04.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 204.
  (C:\MikTex\tex/latex/lm\t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -876,31 +788,24 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-[1
+ [1
 
 {C:/Users/pedro/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2
 
 ]
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-13.
-
-(C:\MikTex\tex/latex/lm\ot1lmr.fd
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 213.
+ (C:\MikTex\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-13.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 213.
  (C:\MikTex\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-213.
-
-(C:\MikTex\tex/latex/lm\omslmsy.fd
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 213.
+ (C:\MikTex\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-213.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 213.
  (C:\MikTex\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -911,8 +816,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 213.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.213 
@@ -946,8 +850,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 257.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
-been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.276 
@@ -963,25 +866,29 @@ l.276
 
 ] [9] [10
 
-] [11] [12
+]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 360.
+ (C:\MikTex\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [11] [12
 
 ] [13] [14
 
 ] (PIM-VII.toc
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 12.
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 33.
+) [15] [16
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15])
-[16] (PIM-VII.lof) [17
-
-] [18
+] (PIM-VII.lof) [17] [18
 
 ] (PIM-VII.loq) [19] [20
 
-] (PIM-VII.lot) [21]
-[22
+] (PIM-VII.lot) [21] [22
 
 ] [23
 
@@ -989,195 +896,101 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ] [25
 
-] [26
-
-] [27] [28]
+]
 \openout2 = `abntex2-modelo-include-comandos.aux'.
 
 
 No file abntex2-modelo-include-comandos.tex.
-<img/XY-logo.png, id=291, 1003.75pt x 1003.75pt>
-File: img/XY-logo.png Graphic file (type png)
-<use img/XY-logo.png>
-Package pdftex.def Info: img/XY-logo.png  used on input line 472.
-(pdftex.def)             Requested size: 273.00278pt x 273.0072pt.
-[29
+[26
 
 
 
 
- <./img/XY-logo.png (PNG copy)>]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4
-95.
- (C:\MikTex\tex/latex/lm\ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [30]
-[31] [32] [33]
-<img/business-model-canvas.jpg, id=315, 1343.0175pt x 749.80125pt>
-File: img/business-model-canvas.jpg Graphic file (type jpg)
-<use img/business-model-canvas.jpg>
-Package pdftex.def Info: img/business-model-canvas.jpg  used on input line 594.
+]
+<img/PIM-VIII-LOGO.png, id=226, 1003.75pt x 682.55pt>
+File: img/PIM-VIII-LOGO.png Graphic file (type png)
+<use img/PIM-VIII-LOGO.png>
+Package pdftex.def Info: img/PIM-VIII-LOGO.png  used on input line 462.
+(pdftex.def)             Requested size: 273.00278pt x 185.6449pt.
+<img/localshopping-logo.jpg, id=227, 1003.75pt x 682.55pt>
+File: img/localshopping-logo.jpg Graphic file (type jpg)
+<use img/localshopping-logo.jpg>
+Package pdftex.def Info: img/localshopping-logo.jpg  used on input line 471.
+(pdftex.def)             Requested size: 273.00278pt x 185.6449pt.
+ [27 <./img/PIM-VIII-LOGO.png (PNG copy)>] [28 <./img/localshopping-logo.jpg>]
 
-(pdftex.def)             Requested size: 455.0pt x 254.0252pt.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 609.
+pdfTeX warning: pdflatex (file ./img/User-Flow.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<img/User-Flow.pdf, id=237, 2887.11632pt x 1591.07425pt>
+File: img/User-Flow.pdf Graphic file (type pdf)
+<use img/User-Flow.pdf>
+Package pdftex.def Info: img/User-Flow.pdf  used on input line 490.
+(pdftex.def)             Requested size: 273.00278pt x 150.44957pt.
 
-Overfull \hbox (2.33147pt too wide) in paragraph at lines 612--612
-[]|\T1/lmr/m/n/10.95 (-20) [RNF001]| 
- []
-
-
-Overfull \hbox (2.33147pt too wide) in paragraph at lines 613--613
-[]|\T1/lmr/m/n/10.95 (-20) [RNF002]| 
- []
-
-
-Overfull \hbox (2.33147pt too wide) in paragraph at lines 614--614
-[]|\T1/lmr/m/n/10.95 (-20) [RNF003]| 
- []
-
-
-Overfull \hbox (2.33147pt too wide) in paragraph at lines 615--615
-[]|\T1/lmr/m/n/10.95 (-20) [RNF004]| 
- []
-
-
-Overfull \hbox (2.33147pt too wide) in paragraph at lines 616--616
-[]|\T1/lmr/m/n/10.95 (-20) [RNF005]| 
- []
-
-
-Overfull \hbox (2.33147pt too wide) in paragraph at lines 617--617
-[]|\T1/lmr/m/n/10.95 (-20) [RNF006]| 
- []
-
-
-Overfull \hbox (2.33147pt too wide) in paragraph at lines 618--618
-[]|\T1/lmr/m/n/10.95 (-20) [RNF007]| 
- []
-
-
-Overfull \hbox (2.33147pt too wide) in paragraph at lines 619--619
-[]|\T1/lmr/m/n/10.95 (-20) [RNF008]| 
- []
-
-
-Underfull \hbox (badness 1571) in paragraph at lines 633--633
-\T1/lmr/m/n/10.95 (+20) tir o usuá-rio ler ava-li-a-
- []
-
-[34 <./img/business-model-canvas.jpg>] [35] [36]
-<img/Diagrama de atividades comprador.png, id=332, 2059.695pt x 542.025pt>
-File: img/Diagrama de atividades comprador.png Graphic file (type png)
-<use img/Diagrama de atividades comprador.png>
-Package pdftex.def Info: img/Diagrama de atividades comprador.png  used on inpu
-t line 660.
-(pdftex.def)             Requested size: 455.0pt x 119.73383pt.
-<img/Diagrama de Atividades Vendedor.png, id=333, 1029.8475pt x 271.0125pt>
-File: img/Diagrama de Atividades Vendedor.png Graphic file (type png)
-<use img/Diagrama de Atividades Vendedor.png>
-Package pdftex.def Info: img/Diagrama de Atividades Vendedor.png  used on input
- line 669.
-(pdftex.def)             Requested size: 455.0pt x 119.73383pt.
-<img/diagrama-de-atividades.png, id=334, 785.8158pt x 418.6842pt>
-File: img/diagrama-de-atividades.png Graphic file (type png)
-<use img/diagrama-de-atividades.png>
-Package pdftex.def Info: img/diagrama-de-atividades.png  used on input line 681
-.
-(pdftex.def)             Requested size: 455.0pt x 242.42175pt.
-
-
-LaTeX Warning: Citation `blogaevo' on page 37 undefined on input line 689.
-
-[37
-
- <./img/Diagrama de atividades comprador.png> <./img/Diagrama de Atividades Ven
-dedor.png>]
-<img/diagrama-de-classes.png, id=341, 1003.75pt x 1003.75pt>
-File: img/diagrama-de-classes.png Graphic file (type png)
-<use img/diagrama-de-classes.png>
-Package pdftex.def Info: img/diagrama-de-classes.png  used on input line 693.
-(pdftex.def)             Requested size: 455.0pt x 455.0069pt.
-
-Underfull \vbox (badness 3690) has occurred while \output is active []
-
- [38 <./img/diagrama-de-atividades.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39 <./img/diagrama-de-classes.png>]
+ [29
 
-LaTeX Warning: Citation `robsoncamargo' on page 40 undefined on input line 718.
-
-
-
-LaTeX Warning: Citation `totvs' on page 40 undefined on input line 724.
-
-[40] [41] [42
-
-] [43] [44] [45
-
-] [46] [47] [48
+ <./img/User-Flow.pdf>] [30]
+File: img/User-Flow.pdf Graphic file (type pdf)
+<use img/User-Flow.pdf>
+Package pdftex.def Info: img/User-Flow.pdf  used on input line 515.
+(pdftex.def)             Requested size: 273.00278pt x 150.44957pt.
+ [31
 
 ]
-Overfull \hbox (44.57135pt too wide) in paragraph at lines 805--805
-[]|\T1/lmr/bx/n/10.95 (-20) Papel/Responsabilidade| 
- []
+<img/IDE-android-studio.png, id=262, 1445.4pt x 813.0375pt>
+File: img/IDE-android-studio.png Graphic file (type png)
+<use img/IDE-android-studio.png>
+Package pdftex.def Info: img/IDE-android-studio.png  used on input line 534.
+(pdftex.def)             Requested size: 273.00278pt x 153.56068pt.
+ [32 <./img/IDE-android-studio.png>]
+<img/carrinho.png, id=269, 325.96782pt x 703.12688pt>
+File: img/carrinho.png Graphic file (type png)
+<use img/carrinho.png>
+Package pdftex.def Info: img/carrinho.png  used on input line 551.
+(pdftex.def)             Requested size: 90.99861pt x 196.28409pt.
+<img/checkout.png, id=270, 328.22626pt x 706.13812pt>
+File: img/checkout.png Graphic file (type png)
+<use img/checkout.png>
+Package pdftex.def Info: img/checkout.png  used on input line 561.
+(pdftex.def)             Requested size: 90.99861pt x 195.76709pt.
+<img/logincliente.png, id=271, 326.72063pt x 701.62125pt>
+File: img/logincliente.png Graphic file (type png)
+<use img/logincliente.png>
+Package pdftex.def Info: img/logincliente.png  used on input line 571.
+(pdftex.def)             Requested size: 90.99861pt x 195.41414pt.
+ [33 <./img/carrinho.png> <./img/checkout.png>]
+<img/main_layout.png, id=278, 328.97906pt x 703.12688pt>
+File: img/main_layout.png Graphic file (type png)
+<use img/main_layout.png>
+Package pdftex.def Info: img/main_layout.png  used on input line 581.
+(pdftex.def)             Requested size: 90.99861pt x 194.48164pt.
+<img/product.png, id=279, 327.47343pt x 700.86844pt>
+File: img/product.png Graphic file (type png)
+<use img/product.png>
+Package pdftex.def Info: img/product.png  used on input line 591.
+(pdftex.def)             Requested size: 90.99861pt x 194.75531pt.
+ [34 <./img/logincliente.png> <./img/main_layout.png>] [35 <./img/product.png>] [36
 
+] [37] [38
 
-Underfull \hbox (badness 1577) in paragraph at lines 808--808
-[]|\T1/lmr/m/n/10.95 (+20) Gerente de Pro-
- []
-
-
-Underfull \hbox (badness 1635) in paragraph at lines 814--814
-[]|\T1/lmr/m/n/10.95 (+20) Outros Sta-kehol-
- []
-
-[49] [50
+] [39] [40
 
 ]
-<img/croncustos1.png, id=400, 344.03531pt x 310.15875pt>
-File: img/croncustos1.png Graphic file (type png)
-<use img/croncustos1.png>
-Package pdftex.def Info: img/croncustos1.png  used on input line 826.
-(pdftex.def)             Requested size: 273.00278pt x 246.1207pt.
-<img/croncustos2.png, id=401, 341.77687pt x 278.54062pt>
-File: img/croncustos2.png Graphic file (type png)
-<use img/croncustos2.png>
-Package pdftex.def Info: img/croncustos2.png  used on input line 833.
-(pdftex.def)             Requested size: 273.00278pt x 222.50552pt.
- [51 <./img/croncustos1.png> <./img/croncustos2.png>]
-<img/cronatv1.png, id=408, 344.78813pt x 238.64156pt>
-File: img/cronatv1.png Graphic file (type png)
-<use img/cronatv1.png>
-Package pdftex.def Info: img/cronatv1.png  used on input line 846.
-(pdftex.def)             Requested size: 273.00278pt x 188.95807pt.
-<img/cronatv2.png, id=409, 344.03531pt x 325.215pt>
-File: img/cronatv2.png Graphic file (type png)
-<use img/cronatv2.png>
-Package pdftex.def Info: img/cronatv2.png  used on input line 853.
-(pdftex.def)             Requested size: 273.00278pt x 258.0683pt.
- [52 <./img/cronatv1.png> <./img/cronatv2.png>] [53] [54
-
-] [55] [56
-
-] [57] [58] [59
-
-] [60
-
-] [61]
-[62] (PIM-VII.brf)
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 613.
+ (C:\MikTex\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [41] [42] (PIM-VII.brf)
 \tf@brf=\write5
 \openout5 = `PIM-VII.brf'.
 
- [63
+ [43
 
-] [64
+] [44
 
 ]
 bibitemlist
-No file PIM-VII.ind.
-[65]
+(PIM-VII.ind) [45]
 \tf@toc=\write6
 \openout6 = `PIM-VII.toc'.
 
@@ -1191,30 +1004,21 @@ No file PIM-VII.ind.
 \openout9 = `PIM-VII.lot'.
 
  (PIM-VII.aux (abntex2-modelo-include-comandos.aux))
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `PIM-VII.brf' has not changed.
-(rerunfilecheck)             Checksum: B0812F8F916309DCDA904BA2F9F016A6;151.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 19191 strings out of 476339
- 311127 string characters out of 5804534
- 1878340 words of memory out of 5000000
- 38891 multiletter control sequences out of 15000+600000
- 606569 words of font info for 186 fonts, out of 8000000 for 9000
+ 19044 strings out of 476339
+ 309043 string characters out of 5804534
+ 1862340 words of memory out of 5000000
+ 38864 multiletter control sequences out of 15000+600000
+ 592528 words of font info for 157 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,13n,90p,1810b,651s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{C:/MikTex/fonts/enc/dvips/lm/lm-ec.enc}{C:/MikTex/fonts/enc/dvips/lm/lm-ts1.
-enc}<C:/MikTex/fonts/type1/public/lm/lmbx10.pfb><C:/MikTex/fonts/type1/public/l
-m/lmbx12.pfb><C:/MikTex/fonts/type1/public/lm/lmr10.pfb><C:/MikTex/fonts/type1/
-public/lm/lmr12.pfb><C:/MikTex/fonts/type1/public/lm/lmri10.pfb><C:/MikTex/font
-s/type1/public/lm/lmri12.pfb><C:/MikTex/fonts/type1/public/lm/lmss10.pfb><C:/Mi
-kTex/fonts/type1/public/lm/lmss12.pfb><C:/MikTex/fonts/type1/public/lm/lmss17.p
-fb><C:/MikTex/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on PIM-VII.pdf (67 pages, 874633 bytes).
+ 90i,13n,90p,1068b,611s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{C:/MikTex/fonts/enc/dvips/lm/lm-ts1.enc}{C:/MikTex/fonts/enc/dvips/lm/lm-ec.enc}<C:/MikTex/fonts/type1/public/lm/lmbx12.pfb><C:/MikTex/fonts/type1/public/lm/lmr10.pfb><C:/MikTex/fonts/type1/public/lm/lmr12.pfb><C:/MikTex/fonts/type1/public/lm/lmri10.pfb><C:/MikTex/fonts/type1/public/lm/lmri12.pfb><C:/MikTex/fonts/type1/public/lm/lmss10.pfb><C:/MikTex/fonts/type1/public/lm/lmss12.pfb><C:/MikTex/fonts/type1/public/lm/lmss17.pfb><C:/MikTex/fonts/type1/public/lm/lmssbx10.pfb><C:/MikTex/fonts/type1/public/lm/lmtk10.pfb><C:/MikTex/fonts/type1/public/lm/lmtt12.pfb>
+Output written on PIM-VII.pdf (47 pages, 1302206 bytes).
 PDF statistics:
- 793 PDF objects out of 1000 (max. 8388607)
- 193 named destinations out of 1000 (max. 500000)
- 55859 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 535 PDF objects out of 1000 (max. 8388607)
+ 115 named destinations out of 1000 (max. 500000)
+ 49494 words of extra memory for PDF output out of 51595 (max. 10000000)
 
