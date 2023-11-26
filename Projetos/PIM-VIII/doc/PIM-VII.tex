@@ -55,6 +55,8 @@
 \usepackage{graphicx}			% Inclusão de gráficos
 \usepackage{microtype} 			% para melhorias de justificação
 \usepackage{adjustbox}          % Quadros justificados
+\usepackage{listings}
+\usepackage{xcolor}
 
 % ---
 		
@@ -90,6 +92,49 @@
 		Citado #1 vezes nas páginas #2.%
 	\fi}%
 % ---
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize, % Ajuste aqui para o tamanho desejado
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+
+\lstset{
+    literate=%
+        {á}{{\'a}}1 {é}{{\'e}}1 {í}{{\'i}}1 {ó}{{\'o}}1 {ú}{{\'u}}1
+        {Á}{{\'A}}1 {É}{{\'E}}1 {Í}{{\'I}}1 {Ó}{{\'O}}1 {Ú}{{\'U}}1
+        {à}{{\`a}}1 {è}{{\`e}}1 {ì}{{\`i}}1 {ò}{{\`o}}1 {ù}{{\`u}}1
+        {À}{{\`A}}1 {È}{{\`E}}1 {Ì}{{\`I}}1 {Ò}{{\`O}}1 {Ù}{{\`U}}1
+        {ã}{{\~a}}1 {õ}{{\~o}}1
+        {Ã}{{\~A}}1 {Õ}{{\~O}}1
+        {â}{{\^a}}1 {ê}{{\^e}}1 {î}{{\^i}}1 {ô}{{\^o}}1 {û}{{\^u}}1
+        {Â}{{\^A}}1 {Ê}{{\^E}}1 {Î}{{\^I}}1 {Ô}{{\^O}}1 {Û}{{\^U}}1
+        {ç}{{\c{c}}}1 {Ç}{{\c{C}}}1
+        {ø}{{\o}}1 {å}{{\r a}}1
+        {Ø}{{\O}}1 {Å}{{\r A}}1
+}
+
+
+\lstset{style=mystyle}
 
 % ---
 % Informações de dados para CAPA e FOLHA DE ROSTO
@@ -317,11 +362,6 @@
 	\centering
 	\noindent
 	\textit{Este projeto é dedicado a todos os desenvolvedores que já falharam várias vezes, mas nunca desistiram de suas paixões e ideias.}
-
-	\begin{quote}
-	\textit{``Ser feliz ao realizar a jornada pode ser muito melhor do que chegar ao destino com sucesso.'' - Jordan Peterson.}
-	\end{quote}
-
 	\vspace*{\fill}
 
 \end{dedicatoria}
@@ -330,12 +370,12 @@
 % ---
 % Agradecimentos
 % ---
-\begin{agradecimentos}
-	Os agradecimentos principais são direcionados à todos aqueles que contribuíram para que a produção deste trabalho acadêmico.
-
-	Agradecimentos especiais aos desenvolvedores do \abnTeX e ao professor Miguel Frasson - pelas orientações.
-
-\end{agradecimentos}
+% \begin{agradecimentos}
+% 	Os agradecimentos principais são direcionados à todos aqueles que contribuíram para que a produção deste trabalho acadêmico.
+% 
+% 	Agradecimentos especiais aos desenvolvedores do \abnTeX e ao professor Miguel Frasson - pelas orientações.
+% 
+% \end{agradecimentos}
 % ---
 
 
@@ -345,7 +385,7 @@
 \begin{epigrafe}
 	\vspace*{\fill}
 	\begin{flushright}
-		\textit{``A máquina moderna é um instrumento de poder sem precedentes; e sua falha é que não há precedentes que possam nos ensinar como lidar com isso." - (G.K. Chesterton)}
+		\textit{``Ser feliz ao realizar a jornada pode ser muito melhor do que chegar ao destino com sucesso.'' - (Jordan Peterson)}
 	\end{flushright}
 \end{epigrafe}
 % ---
@@ -397,17 +437,17 @@
 % ---
 % inserir lista de quadros
 % ---
-\pdfbookmark[0]{\listofquadrosname}{loq}
-\listofquadros*
-\cleardoublepage
+% \pdfbookmark[0]{\listofquadrosname}{loq}
+% \listofquadros*
+% \cleardoublepage
 % ---
 
 % ---
 % inserir lista de tabelas
 % ---
-\pdfbookmark[0]{\listtablename}{lot}
-\listoftables*
-\cleardoublepage
+% \pdfbookmark[0]{\listtablename}{lot}
+% \listoftables*
+% \cleardoublepage
 % ---
 
 % ---
@@ -451,9 +491,9 @@ Os Autores.
 \include{abntex2-modelo-include-comandos}
 % ---
 
-\chapter{Sobre o projeto}\label{cap_introducao}
+\section{Sobre o projeto}\label{cap_introducao}
 
-\section{Escopo do Projeto e PIM}
+\subsection{Escopo do Projeto e PIM}
 
 Visando concretizar as disciplinas aprendidas neste bimestre, o corpo docente elaborou a proposta do PIM VIII. Este projeto representa a oportunidade de aplicar os conhecimentos adquiridos em Desenvolvimento de Software para Internet, Tópicos Especiais de Programação Orientada a Objetos e Programação Orientada a Objetos II.
 
@@ -500,28 +540,254 @@ Ao compreender o fluxo do usuário, estaremos preparados para a próxima etapa: 
 
 \section{Estruturação do Código ASPX}
 
+Na fase de desenvolvimento do Sistema de Marketplace, uma consideração crucial reside na estruturação eficaz do código ASPX, responsável por fornecer a interface gráfica através da plataforma ASP.net. A qualidade do código nessa etapa influencia diretamente a experiência do usuário e a eficiência operacional do sistema.
+
+Nesta seção, exploraremos a organização do código ASPX, destacando princípios de design e as estratégias adotadas para garantir a coesão e a manutenibilidade do código. A compreensão detalhada dessa estrutura é fundamental para a transição suave da concepção do projeto para sua implementação prática.
+
 \section{Visualização da Interface em Capturas de Tela}
 
-\chapter{Tópicos Especiais de Programação Orientada a Objetos}\label{cap_topic_espec_de_progra}
-
-\section{Fluxo do Usuário no Protótipo}
-
-Na etapa inicial do desenvolvimento do Sistema de Marketplace, a análise detalhada do fluxo do usuário no protótipo para aplicativo mobile adquire uma importância singular, especialmente ao considerar a segurança. Esta seção explora os percursos que os usuários "Comprador" seguirão ao interagir com a interface do aplicativo, delineando as diversas etapas desde a busca de produtos até a conclusão da compra.
-
-Com o intuito de proporcionar uma visão organizacional clara, desenvolvemos um diagrama representativo do fluxo do usuário, apresentado na Figura 3.
+\subsubsection{Carrinho}
 
 \begin{figure}[htb]
     \centering
-    \includegraphics[width=0.6\textwidth]{img/User-Flow}
-    \caption{Fluxo do usuário "Comprador" no aplicativo mobile (Desenvolvido pelos Autores).}
-    \label{fig:diagrama-user-flow-mobile}
+    \includegraphics[width=0.6\textwidth]{img/carrinho-desktop-print.jpg}
+    \caption{Tela de Carrinho (Desenvolvido pelos Autores).}
+    \label{fig:tela-de-carrinho-desktop}
 \end{figure}
 
-Este diagrama oferece uma representação visual do percurso do usuário "Comprador" no protótipo do aplicativo mobile. A análise minuciosa desta representação é fundamental para compreender as interações esperadas e identificar pontos cruciais de usabilidade. Assim, estabelece-se uma base sólida para a próxima fase: a organização do código XML, onde traduziremos essa estrutura conceitual em implementação prática no Sistema de Marketplace para dispositivos móveis.
+A tela do carrinho é o espaço virtual onde os usuários podem revisar e gerenciar os itens selecionados para compra. Nessa interface, eles podem adicionar, remover ou ajustar a quantidade de produtos no carrinho antes de prosseguir para o checkout.
 
-O entendimento do fluxo do usuário é crucial para assegurar uma experiência intuitiva e eficiente em ambientes mobile. Serão abordados aspectos como a navegação entre telas, interações com elementos da interface e feedbacks fornecidos ao usuário durante o processo de utilização.
+\begin{lstlisting}[language=HTML, caption=Tela de Carrinho em ASPX, label=lst:aspx]
 
-Ao compreender o fluxo do usuário "Comprador", estaremos preparados para a próxima etapa: a organização do código XML, transformando essa estrutura conceitual em uma implementação prática e funcional do Sistema de Marketplace para aplicativos móveis.
+<%@ Page Title="Carrinho" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Carrinho.aspx.cs" Inherits="UNIPPIMVIII.Carrinho" %>
+
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+    <h1>Carrinho</h1>
+    <table class="table table-bordered">
+        <thead>
+            <tr class="bg-primary">
+                <th scope="col"></th>
+                <th scope="col">Produto</th>
+                <th scope="col">Quantidade</th>
+                <th scope="col">Preço unitário</th>
+                <th scope="col">Preço total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row"><input type="checkbox" /></th>
+                <td>Smartphone Nokia C21 ...</td>
+                <td>1</td>
+                <td>R$10,00</td>
+                <td>R$10,00</td>
+            </tr>            
+        </tbody>
+    </table>
+    <br />
+    <p>
+        <a runat="server" href="~/Checkout.aspx"><button type="button" class="btn btn-primary" style="width:30%;height:auto;">Confirmar</button></a>
+    </p>
+</asp:Content>
+
+
+\end{lstlisting}
+
+\subsubsection{Checkout}
+
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=0.6\textwidth]{img/checkout-desktop-print.jpg}
+    \caption{Tela de Checkout (Desenvolvido pelos Autores).}
+    \label{fig:tela-de-checkout-desktop}
+\end{figure}
+
+
+A tela de checkout é o ponto crucial onde os usuários finalizam suas compras. Aqui, eles fornecem informações de pagamento, endereço de entrega e revisam o resumo da compra antes de confirmar o pedido. Uma interface intuitiva é essencial para simplificar esse processo sensível.
+
+\begin{lstlisting}[language=HTML, caption=Tela de Checkout em ASPX, label=lst:aspx]
+
+<%@ Page Title="Checkout" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Checkout.aspx.cs" Inherits="UNIPPIMVIII.Checkout" %>
+
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+    <h1>Checkout</h1>
+
+    <p>Nome do remetente</p>
+    <input type="text" />
+    <p>CEP</p>
+    <input type="text" />
+    <p>Complemento</p>
+    <input type="text" />
+    <p>Número</p>
+    <input type="text" />
+    <p>Estado</p>
+    <input type="text" />
+    <p>Cidade</p>
+    <input type="text" />
+    <br />
+    <p>
+        <a runat="server" href="~/">
+            <button type="button" class="btn btn-primary" style="width: 30%; height: auto;">Confirmar</button></a>
+    </p>
+</asp:Content>
+
+
+\end{lstlisting}
+
+
+\subsubsection{Login do Cliente}
+
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=0.6\textwidth]{img/login-desktop-print.jpg}
+    \caption{Tela de Login (Desenvolvido pelos Autores).}
+    \label{fig:tela-de-login-desktop}
+\end{figure}
+
+A tela de login do cliente é a porta de entrada personalizada para usuários registrados. Aqui, eles inserem suas credenciais para acessar funcionalidades exclusivas, como histórico de compras, rastreamento de pedidos e configurações de conta.
+
+\begin{lstlisting}[language=HTML, caption=Tela de Login em ASPX, label=lst:aspx]
+
+<%@ Page Title="Login" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="LoginCliente.aspx.cs" Inherits="UNIPPIMVIII.LoginCliente" %>
+
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+    <div class="box-parent-login">
+	<div class="well bg-white box-login">
+		<h1 class="ls-login-logo"></h1>
+		<form role="form">
+			<fieldset>
+ 
+				<div class="form-group ls-login-user">
+					<label for="userLogin">Usuário</label>
+					<input class="form-control ls-login-bg-user input-lg" id="userLogin" type="text" aria-label="Usuário" placeholder="Usuário">
+				</div>
+ 
+				<div class="form-group ls-login-password">
+					<label for="userPassword">Senha</label>
+					<input class="form-control ls-login-bg-password input-lg" id="userPassword" type="password" aria-label="Senha" placeholder="Senha">
+				</div>
+ 
+				<a href="#" class="ls-login-forgot">Esqueci minha senha</a>
+ 
+				<input type="submit" value="Entrar" class="btn btn-primary btn-lg btn-block">
+				<p class="txt-center ls-login-signup">Não possui um usuário na Locaweb?
+					<a href="#">Cadastre-se agora</a>
+				</p>
+ 
+			</fieldset>
+		</form>
+	</div>
+</div>
+</asp:Content>
+
+\end{lstlisting}
+
+\subsubsection{Layout Principal}
+
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=0.6\textwidth]{img/inicio-desktop-print.jpg}
+    \caption{Tela de Início (Desenvolvido pelos Autores).}
+    \label{fig:tela-de-inicio-desktop}
+\end{figure}
+
+O layout principal é a página inicial do Sistema de Marketplace, onde os usuários são recebidos com uma visão geral dos produtos em destaque, promoções e categorias. Essa tela desempenha um papel vital na navegação inicial e na exposição de produtos.
+
+\begin{lstlisting}[language=HTML, caption=Tela Principal em ASPX, label=lst:aspx]
+
+	<%@ Page Title="Pagina Inicial" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="UNIPPIMVIII._Default" %>
+
+	<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+	
+		<div class="row">
+			<div class="col-md-5" style="margin:auto; display:flex">
+				<img src="imgs/grupo_1830.png" />
+			</div>
+			<div class="col-md-7" style="height:311px;margin:auto;display:flex">
+				<img src="imgs/grupo_1922.png"/>
+			</div>
+		</div>
+		<br/>
+		<br/>
+		<br/>
+		<div class="row">
+			<h2>Roupas</h2>
+		</div>
+		<div class="row" >
+			<div class="col-md-3">
+				<a runat="server" href="~/Produto.aspx"><img src="imgs/roupa1.png" style="width:200px;height:200px;border:2px solid black"/></a>
+			</div>
+			<div class="col-md-3">
+				<a runat="server" href="~/Produto.aspx"><img src="imgs/roupa2.png" style="width:200px;height:200px;border:2px solid black"/></a>
+			</div>
+			<div class="col-md-3">
+				<a runat="server" href="~/Produto.aspx"><img src="imgs/roupa1.png" style="width:200px;height:200px;border:2px solid black"/></a>
+			</div>
+			<div class="col-md-3">
+				<a runat="server" href="~/Produto.aspx"><img src="imgs/roupa2.png" style="width:200px;height:200px;border:2px solid black"/></a>
+			</div>
+		</div>
+		<br />
+		<br />
+		<br />
+		<div class="row">
+			<h2>Celular</h2>
+		</div>
+		<div class="row" >
+			<div class="col-md-3">
+				<a runat="server" href="~/Produto.aspx"><img src="imgs/celular1.png" style="width:200px;height:200px;border:2px solid black"/></a>
+			</div>
+			<div class="col-md-3">
+				<a runat="server" href="~/Produto.aspx"><img src="imgs/celular2.png" style="width:200px;height:200px;border:2px solid black"/></a>
+			</div>
+			<div class="col-md-3">
+				<a runat="server" href="~/Produto.aspx"><img src="imgs/celular3.png" style="width:200px;height:200px;border:2px solid black"/></a>
+			</div>
+			<div class="col-md-3">
+				<a runat="server" href="~/Produto.aspx"><img src="imgs/celular4.png" style="width:200px;height:200px;border:2px solid black"/></a>
+			</div>
+		</div>
+	</asp:Content>
+	
+
+\end{lstlisting}
+
+\subsubsection{Página de Produto}
+
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=0.6\textwidth]{img/product-desktop-print.jpg}
+    \caption{Tela de Produto (Desenvolvido pelos Autores).}
+    \label{fig:tela-de-produto-desktop}
+\end{figure}
+
+Ao acessar a página de um produto específico, os usuários encontram detalhes abrangentes sobre o item, incluindo descrição, preço, avaliações e opções de compra. Uma interface clara e informativa é crucial para influenciar as decisões de compra nessa fase crítica.
+
+\begin{lstlisting}[language=HTML, caption=Tela de Produto em ASPX, label=lst:aspx]
+
+	<%@ Page Title="Produto" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Produto.aspx.cs" Inherits="UNIPPIMVIII.Produto" %>
+
+	<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+		<div class="row">
+			<div class="col-md-7">
+				<h1>Smartphone Nokia c21 Plus 4g 128GB Tela HD+ 6,5 Câmera Dupla 13MP Android Bateria de 2 dias de duração +</h1>
+				<h2>R$100,00</h2>
+				<h3>Em até 12x sem juros</h3>
+				<p>
+				<a runat="server" href="Carrinho.aspx"><button type="button" class="btn btn-primary" style="margin:auto;width:70%;height:auto;">Adicionar ao Carrinho</button></a>
+					</p>
+				<br/>
+				<a runat="server" href="Checkout.aspx"><button type="button" class="btn btn-light" style="margin:auto;width:70%;height:auto;">Comprar</button></a>
+			</div>
+			<div class="col-md-5">
+				<img src="imgs/celular4.png" style="margin:auto;width:70%;height:auto;border:2px solid black" />
+			</div>
+		</div>
+	</asp:Content>
+	
+
+\end{lstlisting}
+
+\chapter{Tópicos Especiais de Programação Orientada a Objetos}\label{cap_topic_espec_de_progra}
 
 \section{Estruturação do Código XML}
 
@@ -554,6 +820,64 @@ Nesta seção, apresentaremos capturas de tela que ilustram a interface do Siste
 
 A tela de carrinho exibe os produtos selecionados pelo usuário "Comprador", oferecendo uma visão consolidada das escolhas feitas durante a sessão de compras.
 
+\begin{lstlisting}[language=XML, caption=Exemplo de Código XML, label=lst:xml]
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Header -->
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+
+        <!-- Logotipo -->
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/logo" />
+
+        <!-- Ícone de Perfil -->
+        <ImageView
+            android:id="@+id/menuIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="15dp"
+            android:layout_toStartOf="@id/profileIcon"
+            android:contentDescription="@string/menu"
+            android:src="@drawable/profile_icon" />
+
+        <!-- Ícone de Menu -->
+        <ImageView
+            android:id="@+id/profileIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="25dp"
+            android:contentDescription="@string/test"
+            android:src="@drawable/menu_icon" />
+
+    </RelativeLayout>
+
+	<!-- Restante do código mandado em Anexo com esse documento -->
+
+</LinearLayout>
+
+\end{lstlisting}
+
 \subsection{Tela: \texttt{checkout.xml}}
 
 \begin{figure}[htb]
@@ -563,6 +887,64 @@ A tela de carrinho exibe os produtos selecionados pelo usuário "Comprador", ofe
 \end{figure}
 
 A tela de checkout apresenta o resumo da compra, permitindo ao usuário revisar os itens escolhidos, ajustar quantidades e proceder ao pagamento.
+
+\begin{lstlisting}[language=XML, caption=Código XML da tela de Checkout, label=lst:xml]
+
+	<?xml version="1.0" encoding="utf-8"?>
+	<?xml version="1.0" encoding="utf-8"?>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+	
+		<!-- Header -->
+		<RelativeLayout
+			android:id="@+id/header"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="#FFFFFF">
+	
+			<!-- Logotipo -->
+			<ImageView
+				android:id="@+id/logo"
+				android:layout_width="80dp"
+				android:layout_height="60dp"
+				android:layout_centerVertical="true"
+				android:layout_marginStart="25dp"
+				android:layout_marginEnd="8dp"
+				android:contentDescription="@string/logo"
+				android:src="@drawable/logo" />
+	
+			<!-- Ícone de Perfil -->
+			<ImageView
+				android:id="@+id/menuIcon"
+				android:layout_width="24dp"
+				android:layout_height="24dp"
+				android:layout_centerVertical="true"
+				android:layout_marginEnd="15dp"
+				android:layout_toStartOf="@id/profileIcon"
+				android:contentDescription="@string/menu"
+				android:src="@drawable/profile_icon" />
+	
+			<!-- Ícone de Menu -->
+			<ImageView
+				android:id="@+id/profileIcon"
+				android:layout_width="24dp"
+				android:layout_height="24dp"
+				android:layout_alignParentEnd="true"
+				android:layout_centerVertical="true"
+				android:layout_marginEnd="25dp"
+				android:contentDescription="@string/test"
+				android:src="@drawable/menu_icon" />
+	
+		</RelativeLayout>
+		
+		<!-- Restante do código mandado em Anexo com esse documento -->
+	
+	</LinearLayout>
+
+\end{lstlisting}
 
 \subsection{Tela: \texttt{logincliente.xml}}
 
@@ -574,6 +956,86 @@ A tela de checkout apresenta o resumo da compra, permitindo ao usuário revisar 
 
 A tela de login do cliente é o ponto de autenticação, onde o usuário pode acessar sua conta para personalizar a experiência de compra.
 
+\begin{lstlisting}[language=XML, caption=Código da tela de Login, label=lst:xml]
+
+	<?xml version="1.0" encoding="utf-8"?>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+	
+		<!-- Header -->
+		<RelativeLayout
+			android:id="@+id/header"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="#FFFFFF">
+	
+			<!-- Logotipo -->
+			<ImageView
+				android:id="@+id/logo"
+				android:layout_width="80dp"
+				android:layout_height="60dp"
+				android:layout_centerVertical="true"
+				android:layout_marginStart="25dp"
+				android:layout_marginEnd="8dp"
+				android:contentDescription="@string/logo"
+				android:src="@drawable/logo" />
+	
+			<!-- Ícone de Perfil -->
+			<ImageView
+				android:id="@+id/menuIcon"
+				android:layout_width="24dp"
+				android:layout_height="24dp"
+				android:layout_centerVertical="true"
+				android:layout_marginEnd="15dp"
+				android:layout_toStartOf="@id/profileIcon"
+				android:contentDescription="@string/menu"
+				android:src="@drawable/profile_icon" />
+	
+			<!-- Ícone de Menu -->
+			<ImageView
+				android:id="@+id/profileIcon"
+				android:layout_width="24dp"
+				android:layout_height="24dp"
+				android:layout_alignParentEnd="true"
+				android:layout_centerVertical="true"
+				android:layout_marginEnd="25dp"
+				android:contentDescription="@string/test"
+				android:src="@drawable/menu_icon" />
+	
+		</RelativeLayout>
+	
+		<ScrollView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="#F1F0F3">
+	
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+	
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_margin="100px"
+					android:padding="8dp"
+					android:text="Entrar"
+					android:textColor="#91939F"
+					android:textSize="20sp"
+					android:textStyle="bold" />
+	
+					
+			<!-- Restante do código mandado em Anexo com esse documento -->
+	
+	</LinearLayout>
+
+
+\end{lstlisting}
+
 \subsection{Tela: \texttt{main\_layout.xml}}
 
 \begin{figure}[htb]
@@ -583,6 +1045,65 @@ A tela de login do cliente é o ponto de autenticação, onde o usuário pode ac
 \end{figure}
 
 A tela principal, ou \texttt{main\_layout.xml}, é a interface inicial do aplicativo, apresentando opções de navegação e categorias de produtos.
+
+\begin{lstlisting}[language=XML, caption=ECódigo Layout Principal do portal, label=lst:xml]
+
+	<?xml version="1.0" encoding="utf-8"?>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+	
+		<!-- Header -->
+		<RelativeLayout
+			android:id="@+id/header"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="#FFFFFF">
+	
+			<!-- Logotipo -->
+			<ImageView
+				android:id="@+id/logo"
+				android:layout_width="80dp"
+				android:layout_height="60dp"
+				android:layout_centerVertical="true"
+				android:layout_marginStart="25dp"
+				android:layout_marginEnd="8dp"
+				android:contentDescription="@string/logo"
+				android:src="@drawable/logo" />
+	
+			<!-- Ícone de Perfil -->
+			<ImageView
+				android:id="@+id/menuIcon"
+				android:layout_width="24dp"
+				android:layout_height="24dp"
+				android:layout_centerVertical="true"
+				android:layout_marginEnd="15dp"
+				android:layout_toStartOf="@id/profileIcon"
+				android:contentDescription="@string/menu"
+				android:src="@drawable/profile_icon" />
+	
+			<!-- Ícone de Menu -->
+			<ImageView
+				android:id="@+id/profileIcon"
+				android:layout_width="24dp"
+				android:layout_height="24dp"
+				android:layout_alignParentEnd="true"
+				android:layout_centerVertical="true"
+				android:layout_marginEnd="25dp"
+				android:contentDescription="@string/test"
+				android:src="@drawable/menu_icon" />
+	
+		</RelativeLayout>
+	
+	
+		<!-- Restante do código mandado em Anexo com esse documento -->
+	
+	</LinearLayout>
+
+\end{lstlisting}
 
 \subsection{Tela: \texttt{product.xml}}
 
@@ -594,28 +1115,229 @@ A tela principal, ou \texttt{main\_layout.xml}, é a interface inicial do aplica
 
 A tela de detalhes do produto exibe informações específicas sobre um item selecionado, proporcionando ao usuário uma visão mais aprofundada antes da compra.
 
+\begin{lstlisting}[language=XML, caption=Exemplo de Código XML, label=lst:xml]
+
+	<?xml version="1.0" encoding="utf-8"?>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+	
+		<!-- Header -->
+		<RelativeLayout
+			android:id="@+id/header"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="#FFFFFF">
+	
+			<!-- Logotipo -->
+			<ImageView
+				android:id="@+id/logo"
+				android:layout_width="80dp"
+				android:layout_height="60dp"
+				android:layout_centerVertical="true"
+				android:layout_marginStart="25dp"
+				android:layout_marginEnd="8dp"
+				android:contentDescription="@string/logo"
+				android:src="@drawable/logo" />
+	
+			<!-- Ícone de Perfil -->
+			<ImageView
+				android:id="@+id/menuIcon"
+				android:layout_width="24dp"
+				android:layout_height="24dp"
+				android:layout_centerVertical="true"
+				android:layout_marginEnd="15dp"
+				android:layout_toStartOf="@id/profileIcon"
+				android:contentDescription="@string/menu"
+				android:src="@drawable/profile_icon" />
+	
+			<!-- Ícone de Menu -->
+			<ImageView
+				android:id="@+id/profileIcon"
+				android:layout_width="24dp"
+				android:layout_height="24dp"
+				android:layout_alignParentEnd="true"
+				android:layout_centerVertical="true"
+				android:layout_marginEnd="25dp"
+				android:contentDescription="@string/test"
+				android:src="@drawable/menu_icon" />
+	
+		</RelativeLayout>
+	
+		<ScrollView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="#FCFBFF">
+	
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+	
+				<TextView
+					android:layout_margin="100px"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Smartphone Nokia C21 Plus 4G 128GB Tela HD+ 6,5 Câm Dupla 13MP Android Bateria de 2 dias de duração +"
+					android:textColor="#91939F"
+					android:textSize="20sp"
+					android:textStyle="bold"
+					android:padding="8dp"/>
+	
+				<androidx.cardview.widget.CardView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_margin="16dp"
+					android:cardBackgroundColor="#ffffff"
+					android:layout_gravity="center"
+					android:radius="16dp">
+	
+		<!-- Restante do código mandado em Anexo com esse documento -->
+	
+	</LinearLayout>
+
+\end{lstlisting}
+
 Essas capturas de tela oferecem uma representação visual do cuidadoso design da interface do usuário, facilitando a compreensão da experiência que o Sistema de Marketplace busca proporcionar aos usuários móveis.
 
 \chapter{Programação Orientada a Objetos II}\label{cap_program_orientada_a_objetos}
 
-\section{Modelagem de Entidades e Relacionamentos no Banco de Dados}
+O capítulo de Programação Orientada a Objetos II concentra-se em aspectos fundamentais para o desenvolvimento eficiente do Sistema de Marketplace proposto. Abordaremos a modelagem de entidades e relacionamentos no banco de dados, a estruturação do código em C\# para acesso às classes e entidades, além da implementação crucial da classe repositório 'CarrinhoRepository'.
 
-\section{Estruturação do Código \texttt{C\#} para Acesso às Classes e Entidades}
+\subsection{Modelagem de Entidades e Relacionamentos no Banco de Dados}
 
-\section{Implementação da Classe Repositório 'CarrinhoRepository'}
+Antes de adentrar a implementação em código, é imperativo estabelecer uma sólida modelagem de entidades e seus relacionamentos no banco de dados. Este passo é crucial para a integridade e eficiência do sistema. A definição clara das entidades, como Cliente, Carrinho, Produto e Vendedor, juntamente com seus relacionamentos, moldará a estrutura do banco de dados e, por consequência, a dinâmica do Sistema de Marketplace.
+
+\begin{lstlisting}[language={[Sharp]C}, caption=Entidades do código C\#, label=lst:entidades]
+	using System ; 
+	using System.Collections.Generic;  
+	using System.Linq;
+	using System.Text;  
+	using System.Threading.Task s;
+	
+	public class Cliente
+	{
+		public int Id { get; set; }
+		public string Nome { get; set; }
+		public string Cpf { get; set; }
+		public string Email { get; set; }
+		public string Senha { get; set; }
+		public string Endereco { get; set; }
+	
+		public Carrinho Carrinho { get; set; }
+	}
+	
+	public class Carrinho
+	{
+		public int Id { get; set; }
+		public DateTime DataPedido { get; set; }
+		public decimal ValorTotal { get; set; }
+		public string StatusPedido { get; set; }
+	
+		public Cliente Cliente { get; set; }
+		public List<Produto> Produtos { get; set; }
+	}
+	
+	public class Produto
+	{
+		public int Id { get; set; }
+		public string Descricao { get; set; }
+		public decimal Preco { get; set; }
+		public string Imagem { get; set; }
+		public string Status { get; set; }
+	
+		public Vendedor Vendedor { get; set; }
+		public Categoria Categoria { get; set; }
+	}
+	
+	public class Vendedor
+	{
+			public int Id { get; set; }
+			public string RazaoSocial { get; set; }
+			public string NomeFantasia { get; set; }
+			public string Cnpj { get; set; }
+			public string Email { get; set; }
+			public string Senha { get; set; }
+			public string Endereco { get; set; }
+			public decimal Comissao { get; set; }
+	}
+\end{lstlisting}
+
+Para representar a conexão das diversas Entidades com o Banco de Dados também desenvolvemos um código C\# presente no seuguinte trecho:
+
+
+\begin{lstlisting}[language={[Sharp]C}, caption=Conexão com a Data Base, label=lst:conexao]
+using Microsoft.EntityFrameworkCore;
+
+public class LojaContext : DbContext
+	{
+		public DbSet<Cliente> Clientes { get; set; }
+		public DbSet<Carrinho> Carrinhos { get; set; }
+		public DbSet<Produto> Produtos { get; set; }
+		public DbSet<Vendedor> Vendedores { get; set; }
+		public DbSet<Categoria> Categorias { get; set; }
+
+		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+		{
+			optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=LojaDB;Integrated Security=True");
+		}
+	}
+\end{lstlisting}
+
+\subsection{Estruturação do Código \texttt{C\#} para Acesso às Classes e Entidades}
+
+Com a modelagem de dados consolidada, avançaremos para a estruturação do código em C\#. Este tópico abordará a forma como as classes e entidades definidas anteriormente serão acessadas e manipuladas no ambiente do Sistema de Marketplace. A clareza e eficácia dessa estruturação são cruciais para garantir a coerência entre a representação do modelo no código e no banco de dados.
+
+\subsection{Implementação da Classe Repositório 'CarrinhoRepository'}
+
+A implementação da classe 'CarrinhoRepository' desempenha um papel central na gestão dos carrinhos de compras. Essa classe é responsável por operações como adicionar itens, remover produtos, calcular o total da compra e outras ações relacionadas ao carrinho do cliente. A eficiência e correção dessa implementação influenciam diretamente a experiência do usuário ao utilizar o Sistema de Marketplace.
+
+No decorrer deste capítulo, cada tópico será explorado detalhadamente, proporcionando uma compreensão abrangente da Programação Orientada a Objetos II no contexto do desenvolvimento do Sistema de Marketplace. O objetivo é não apenas implementar funcionalidades, mas também assegurar a manutenibilidade e escalabilidade do sistema ao longo do tempo.
+
+\begin{lstlisting}[language={[Sharp]C}, caption=DataBase, label=lst:basedata]
+public class CarrinhoRepository
+{
+    private readonly LojaContext _context;
+
+    public CarrinhoRepository(LojaContext context)
+    {
+        _context = context;
+    }
+
+    public async Task AdicionarCarrinhoAsync(Carrinho carrinho)
+    {
+        await _context.Carrinhos.AddAsync(carrinho);
+        await _context.SaveChangesAsync();
+    }
+
+    public async Task AtualizarCarrinhoAsync(Carrinho carrinho)
+    {
+        _context.Entry(carrinho).State = EntityState.Modified;
+        await _context.SaveChangesAsync();
+    }
+
+    public async Task ExcluirCarrinhoAsync(Carrinho carrinho)
+    {
+        _context.Carrinhos.Remove(carrinho);
+        await _context.SaveChangesAsync();
+    }
+
+    public async Task<Carrinho> ObterPorIdAsync(int id)
+    {
+        return await _context.Carrinhos.FindAsync(id);
+    }
+
+    public async Task<List<Carrinho>> ObterTodosAsync()
+    {
+        return await _context.Carrinhos.ToListAsync();
+	}
+}
+\end{lstlisting}
 
 \chapter{Conclusão}\label{cap_conclusao}
-
-\chapter{Referências Bibliográficas}\label{cap_referencias}
-
-\textbf{Segmentos de Cliente:}
-\begin{itemize}
-    \item Empreendedores Individuais: São empreendedores que desejam abrir suas lojas online e usar a plataforma "XY Sales" para listar e vender seus produtos. Eles podem ser pequenos fabricantes, artesãos ou revendedores.
-    \item Empresas de Médio Porte: Empresas maiores que desejam expandir sua presença online e alavancar a plataforma "XY Sales" para atingir um público mais amplo.
-    \item Consumidores Online: Pessoas que buscam uma variedade de produtos e serviços online, desde roupas até eletrônicos e produtos personalizados.
-\end{itemize}
-
-\section{Conclusão}
 
 O desenvolvimento acelerado da tecnologia continua a transformar de maneira expressiva o panorama comercial, guiando a transição para plataformas digitais que simplificam e agilizam as transações comerciais. Em resposta a esse cenário dinâmico, o Projeto Integrado Multidisciplinar (PIM) propôs e delineou a concepção e implementação de um Sistema de Marketplace, oferecendo uma abordagem abrangente para a compra e venda de uma extensa gama de produtos, acessível tanto por aplicativos móveis quanto por navegadores web.
 
@@ -628,8 +1350,6 @@ A Programação Orientada a Objetos II foi abordada de maneira abrangente, com a
 Este trabalho, além de apresentar uma proposta inovadora de Sistema de Marketplace, destaca a aplicação prática dos conhecimentos adquiridos ao longo das disciplinas. A solução tecnológica resultante é robusta e alinhada com as exigências contemporâneas do comércio digital. Ao integrar teoria e prática, este projeto não apenas representa uma conquista acadêmica, mas também ressalta a relevância e a aplicabilidade dos conceitos explorados.
 
 Os autores, ao concluírem este projeto, reafirmam o compromisso com a excelência acadêmica e com a busca contínua por soluções inovadoras no campo da tecnologia. Este Sistema de Marketplace não é apenas o resultado de esforços acadêmicos, mas uma contribuição tangível para a evolução do cenário comercial digital.
-
-\chapter{Referências Bibliográficas}
 
 \begin{thebibliography}{99}
     

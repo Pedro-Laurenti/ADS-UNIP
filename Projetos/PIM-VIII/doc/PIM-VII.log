@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.9.26)  24 NOV 2023 20:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.9.26)  26 NOV 2023 13:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -673,19 +673,58 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \sift@deathcycles=\count343
 \@vwid@loff=\dimen266
 \@vwid@roff=\dimen267
-)) (C:\MikTex\tex/latex/lipsum\lipsum.sty (C:\MikTex\tex/latex/l3packages/l3keys2e\l3keys2e.sty (C:\MikTex\tex/latex/l3kernel\expl3.sty
+)) (C:\MikTex\tex/latex/listings\listings.sty
+\lst@mode=\count344
+\lst@gtempboxa=\box60
+\lst@token=\toks31
+\lst@length=\count345
+\lst@currlwidth=\dimen268
+\lst@column=\count346
+\lst@pos=\count347
+\lst@lostspace=\dimen269
+\lst@width=\dimen270
+\lst@newlines=\count348
+\lst@lineno=\count349
+\lst@maxwidth=\dimen271
+ (C:\MikTex\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count350
+\lst@skipnumbers=\count351
+\lst@framebox=\box61
+) (C:\MikTex\tex/latex/listings\listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ (C:\MikTex\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+ (C:\MikTex\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+LaTeX Info: Redefining \color on input line 711.
+ (C:\MikTex\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+) (C:\MikTex\tex/latex/lipsum\lipsum.sty (C:\MikTex\tex/latex/l3packages/l3keys2e\l3keys2e.sty (C:\MikTex\tex/latex/l3kernel\expl3.sty
 Package: expl3 2023-02-07 L3 programming layer (loader) 
  (C:\MikTex\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count344
-\l__pdf_internal_box=\box60
+\l__color_backend_stack_int=\count352
+\l__pdf_internal_box=\box62
 ))
 Package: l3keys2e 2023-01-16 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count345
-\l__lipsum_a_int=\count346
-\l__lipsum_b_int=\count347
+\g__lipsum_par_int=\count353
+\l__lipsum_a_int=\count354
+\l__lipsum_b_int=\count355
  (C:\MikTex\tex/latex/lipsum\lipsum.ltd.tex)) (C:\MikTex\tex/latex/hyperref\backref.sty
 Package: backref 2021/02/04 v1.41 Bibliographical back referencing
 ) (C:\MikTex\tex/latex/abntex2\abntex2cite.sty
@@ -693,8 +732,8 @@ Package: abntex2cite 2018/11/24 v-1.9.7 abnTeX2
  (C:\MikTex\tex/latex/abntex2\abntex2abrev.sty)
 \minimumbiblabelwidth=\skip258
 \ABCIauxlen=\skip259
-\c@ABCIaux=\count348
-\c@ABCImax=\count349
+\c@ABCIaux=\count356
+\c@ABCImax=\count357
  (C:\MikTex\tex/generic/iftex\ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
 ) (C:\MikTex\tex/generic/iftex\ifxetex.sty
@@ -705,12 +744,11 @@ Package: relsize 2013/03/29 ver 4.1
 \biblabelsep=\skip260
 LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
-\ABCItoken=\toks31
+\ABCItoken=\toks32
 )
-Package color Info: Redefining color blue on input line 119.
-Package hyperref Info: Option `colorlinks' set `true' on input line 136.
-\c@quadro=\count350
-\c@loqdepth=\count351
+Package hyperref Info: Option `colorlinks' set `true' on input line 181.
+\c@quadro=\count358
+\c@loqdepth=\count359
 \cftbeforequadroskip=\skip261
 \cftquadroindent=\skip262
 \cftquadronumwidth=\skip263
@@ -719,68 +757,94 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 136.
 
 
 Writing index file PIM-VII.idx 
-(PIM-VII.aux (abntex2-modelo-include-comandos.aux))
+(PIM-VII.aux (abntex2-modelo-include-comandos.aux)
+
+LaTeX Warning: Label `lst:aspx' multiply defined.
+
+
+LaTeX Warning: Label `lst:aspx' multiply defined.
+
+
+LaTeX Warning: Label `lst:aspx' multiply defined.
+
+
+LaTeX Warning: Label `lst:aspx' multiply defined.
+
+
+LaTeX Warning: Label `lst:xml' multiply defined.
+
+
+LaTeX Warning: Label `lst:xml' multiply defined.
+
+
+LaTeX Warning: Label `lst:xml' multiply defined.
+
+
+LaTeX Warning: Label `lst:xml' multiply defined.
+
+)
 \openout1 = `PIM-VII.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 187.
-LaTeX Font Info:    ... okay on input line 187.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 187.
-LaTeX Font Info:    ... okay on input line 187.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 187.
-LaTeX Font Info:    ... okay on input line 187.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 187.
-LaTeX Font Info:    ... okay on input line 187.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 187.
-LaTeX Font Info:    ... okay on input line 187.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 187.
-LaTeX Font Info:    ... okay on input line 187.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 187.
-LaTeX Font Info:    ... okay on input line 187.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 187.
-LaTeX Font Info:    ... okay on input line 187.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 187.
-LaTeX Font Info:    ... okay on input line 187.
-Package hyperref Info: Link coloring ON on input line 187.
-\myptabbox=\box61
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 232.
+LaTeX Font Info:    ... okay on input line 232.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 232.
+LaTeX Font Info:    ... okay on input line 232.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 232.
+LaTeX Font Info:    ... okay on input line 232.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 232.
+LaTeX Font Info:    ... okay on input line 232.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 232.
+LaTeX Font Info:    ... okay on input line 232.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 232.
+LaTeX Font Info:    ... okay on input line 232.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 232.
+LaTeX Font Info:    ... okay on input line 232.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 232.
+LaTeX Font Info:    ... okay on input line 232.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 232.
+LaTeX Font Info:    ... okay on input line 232.
+Package hyperref Info: Link coloring ON on input line 232.
+\myptabbox=\box63
 \myptabboxwidth=\skip264
  (C:\MikTex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count352
-\scratchdimen=\dimen268
-\scratchbox=\box62
-\nofMPsegments=\count353
-\nofMParguments=\count354
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count355
-\MPscratchDim=\dimen269
-\MPnumerator=\count356
-\makeMPintoPDFobject=\count357
-\everyMPtoPDFconversion=\toks33
+\scratchcounter=\count360
+\scratchdimen=\dimen272
+\scratchbox=\box64
+\nofMPsegments=\count361
+\nofMParguments=\count362
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count363
+\MPscratchDim=\dimen273
+\MPnumerator=\count364
+\makeMPintoPDFobject=\count365
+\everyMPtoPDFconversion=\toks34
 ) (C:\MikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\MikTex\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \microtypecontext on input line 187.
-Package microtype Info: Applying patch `item' on input line 187.
-Package microtype Info: Applying patch `toc' on input line 187.
-Package microtype Info: Applying patch `eqnum' on input line 187.
-Package microtype Info: Applying patch `footnote' on input line 187.
+LaTeX Info: Redefining \microtypecontext on input line 232.
+Package microtype Info: Applying patch `item' on input line 232.
+Package microtype Info: Applying patch `toc' on input line 232.
+Package microtype Info: Applying patch `eqnum' on input line 232.
+Package microtype Info: Applying patch `footnote' on input line 232.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 187.
+LaTeX Info: Redefining \showhyphens on input line 232.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
  (C:\MikTex\tex/latex/microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 204.
+\c@lstlisting=\count366
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 249.
  (C:\MikTex\tex/latex/lm\t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -793,81 +857,77 @@ Package microtype Info: Loading generic protrusion settings for font family
 {C:/Users/pedro/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2
 
 ]
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 213.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 258.
  (C:\MikTex\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 213.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 258.
  (C:\MikTex\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 213.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 258.
  (C:\MikTex\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 213.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 258.
  (C:\MikTex\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 213.
+(Font)              <12> on input line 258.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 213.
+(Font)              <8> on input line 258.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 213.
+(Font)              <6> on input line 258.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.213 
+l.258 
        [1
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 257--257
+Underfull \hbox (badness 10000) in paragraph at lines 302--302
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--257
+Underfull \hbox (badness 10000) in paragraph at lines 302--302
 
  []
 
 
-Overfull \hbox (16.6597pt too wide) in paragraph at lines 257--257
+Overfull \hbox (16.6597pt too wide) in paragraph at lines 302--302
 []  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--257
+Underfull \hbox (badness 10000) in paragraph at lines 302--302
 
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 257.
+(Font)              <10> on input line 302.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 257.
+(Font)              <7> on input line 302.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 257.
+(Font)              <5> on input line 302.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.276 
+l.321 
        [2] [3
 
 ] [4
 
 ] [5] [6
 
-] [7
-
-] [8
-
-] [9] [10
+] [7] [8
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 360.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 400.
  (C:\MikTex\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -875,150 +935,183 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [11] [12
+ [9] [10
 
-] [13] [14
+] [11] [12
 
-] (PIM-VII.toc
-LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 33.
-) [15] [16
+] (PIM-VII.toc) [13] [14
 
-] (PIM-VII.lof) [17] [18
+] (PIM-VII.lof) [15] [16
 
-] (PIM-VII.loq) [19] [20
+] [17
 
-] (PIM-VII.lot) [21] [22
+] [18
 
-] [23
-
-] [24
-
-] [25
+] [19
 
 ]
 \openout2 = `abntex2-modelo-include-comandos.aux'.
 
 
 No file abntex2-modelo-include-comandos.tex.
-[26
-
-
-
-
-]
-<img/PIM-VIII-LOGO.png, id=226, 1003.75pt x 682.55pt>
+<img/PIM-VIII-LOGO.png, id=198, 1003.75pt x 682.55pt>
 File: img/PIM-VIII-LOGO.png Graphic file (type png)
 <use img/PIM-VIII-LOGO.png>
-Package pdftex.def Info: img/PIM-VIII-LOGO.png  used on input line 462.
+Package pdftex.def Info: img/PIM-VIII-LOGO.png  used on input line 502.
 (pdftex.def)             Requested size: 273.00278pt x 185.6449pt.
-<img/localshopping-logo.jpg, id=227, 1003.75pt x 682.55pt>
+<img/localshopping-logo.jpg, id=199, 1003.75pt x 682.55pt>
 File: img/localshopping-logo.jpg Graphic file (type jpg)
 <use img/localshopping-logo.jpg>
-Package pdftex.def Info: img/localshopping-logo.jpg  used on input line 471.
+Package pdftex.def Info: img/localshopping-logo.jpg  used on input line 511.
 (pdftex.def)             Requested size: 273.00278pt x 185.6449pt.
- [27 <./img/PIM-VIII-LOGO.png (PNG copy)>] [28 <./img/localshopping-logo.jpg>]
+[20
+
+
+
+ <./img/PIM-VIII-LOGO.png (PNG copy)> <./img/localshopping-logo.jpg>] [21] [22
+
+]
 
 pdfTeX warning: pdflatex (file ./img/User-Flow.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<img/User-Flow.pdf, id=237, 2887.11632pt x 1591.07425pt>
+<img/User-Flow.pdf, id=213, 2887.11632pt x 1591.07425pt>
 File: img/User-Flow.pdf Graphic file (type pdf)
 <use img/User-Flow.pdf>
-Package pdftex.def Info: img/User-Flow.pdf  used on input line 490.
+Package pdftex.def Info: img/User-Flow.pdf  used on input line 530.
 (pdftex.def)             Requested size: 273.00278pt x 150.44957pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29
+ [23 <./img/User-Flow.pdf>]
+<img/carrinho-desktop-print.jpg, id=230, 919.93687pt x 312.41719pt>
+File: img/carrinho-desktop-print.jpg Graphic file (type jpg)
+<use img/carrinho-desktop-print.jpg>
+Package pdftex.def Info: img/carrinho-desktop-print.jpg  used on input line 553.
+(pdftex.def)             Requested size: 273.00278pt x 92.71524pt.
+ (C:\MikTex\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+) (C:\MikTex\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 560.
+ [24 <./img/carrinho-desktop-print.jpg>]
+<img/checkout-desktop-print.jpg, id=251, 402.75468pt x 351.56343pt>
+File: img/checkout-desktop-print.jpg Graphic file (type jpg)
+<use img/checkout-desktop-print.jpg>
+Package pdftex.def Info: img/checkout-desktop-print.jpg  used on input line 599.
+(pdftex.def)             Requested size: 273.00278pt x 238.30357pt.
+ [25 <./img/checkout-desktop-print.jpg>]
+<img/login-desktop-print.jpg, id=273, 910.90312pt x 391.4625pt>
+File: img/login-desktop-print.jpg Graphic file (type jpg)
+<use img/login-desktop-print.jpg>
+Package pdftex.def Info: img/login-desktop-print.jpg  used on input line 641.
+(pdftex.def)             Requested size: 273.00278pt x 117.32616pt.
+ [26 <./img/login-desktop-print.jpg>]
+<img/inicio-desktop-print.jpg, id=303, 1340.00626pt x 751.30687pt>
+File: img/inicio-desktop-print.jpg Graphic file (type jpg)
+<use img/inicio-desktop-print.jpg>
+Package pdftex.def Info: img/inicio-desktop-print.jpg  used on input line 688.
+(pdftex.def)             Requested size: 273.00278pt x 153.05592pt.
+ [27]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- <./img/User-Flow.pdf>] [30]
-File: img/User-Flow.pdf Graphic file (type pdf)
-<use img/User-Flow.pdf>
-Package pdftex.def Info: img/User-Flow.pdf  used on input line 515.
-(pdftex.def)             Requested size: 273.00278pt x 150.44957pt.
- [31
-
-]
-<img/IDE-android-studio.png, id=262, 1445.4pt x 813.0375pt>
+ [28 <./img/inicio-desktop-print.jpg>]
+<img/product-desktop-print.jpg, id=373, 839.38594pt x 420.06938pt>
+File: img/product-desktop-print.jpg Graphic file (type jpg)
+<use img/product-desktop-print.jpg>
+Package pdftex.def Info: img/product-desktop-print.jpg  used on input line 758.
+(pdftex.def)             Requested size: 273.00278pt x 136.62349pt.
+ [29] [30 <./img/product-desktop-print.jpg>]
+<img/IDE-android-studio.png, id=433, 1445.4pt x 813.0375pt>
 File: img/IDE-android-studio.png Graphic file (type png)
 <use img/IDE-android-studio.png>
-Package pdftex.def Info: img/IDE-android-studio.png  used on input line 534.
+Package pdftex.def Info: img/IDE-android-studio.png  used on input line 800.
 (pdftex.def)             Requested size: 273.00278pt x 153.56068pt.
- [32 <./img/IDE-android-studio.png>]
-<img/carrinho.png, id=269, 325.96782pt x 703.12688pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31
+
+ <./img/IDE-android-studio.png>]
+<img/carrinho.png, id=440, 325.96782pt x 703.12688pt>
 File: img/carrinho.png Graphic file (type png)
 <use img/carrinho.png>
-Package pdftex.def Info: img/carrinho.png  used on input line 551.
+Package pdftex.def Info: img/carrinho.png  used on input line 817.
 (pdftex.def)             Requested size: 90.99861pt x 196.28409pt.
-<img/checkout.png, id=270, 328.22626pt x 706.13812pt>
+ (C:\MikTex\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+) [32 <./img/carrinho.png>]
+<img/checkout.png, id=465, 328.22626pt x 706.13812pt>
 File: img/checkout.png Graphic file (type png)
 <use img/checkout.png>
-Package pdftex.def Info: img/checkout.png  used on input line 561.
+Package pdftex.def Info: img/checkout.png  used on input line 885.
 (pdftex.def)             Requested size: 90.99861pt x 195.76709pt.
-<img/logincliente.png, id=271, 326.72063pt x 701.62125pt>
+ [33] [34 <./img/checkout.png>]
+<img/logincliente.png, id=545, 326.72063pt x 701.62125pt>
 File: img/logincliente.png Graphic file (type png)
 <use img/logincliente.png>
-Package pdftex.def Info: img/logincliente.png  used on input line 571.
+Package pdftex.def Info: img/logincliente.png  used on input line 953.
 (pdftex.def)             Requested size: 90.99861pt x 195.41414pt.
- [33 <./img/carrinho.png> <./img/checkout.png>]
-<img/main_layout.png, id=278, 328.97906pt x 703.12688pt>
+ [35 <./img/logincliente.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [36]
+<img/main_layout.png, id=626, 328.97906pt x 703.12688pt>
 File: img/main_layout.png Graphic file (type png)
 <use img/main_layout.png>
-Package pdftex.def Info: img/main_layout.png  used on input line 581.
+Package pdftex.def Info: img/main_layout.png  used on input line 1043.
 (pdftex.def)             Requested size: 90.99861pt x 194.48164pt.
-<img/product.png, id=279, 327.47343pt x 700.86844pt>
+ [37] [38 <./img/main_layout.png>]
+<img/product.png, id=707, 327.47343pt x 700.86844pt>
 File: img/product.png Graphic file (type png)
 <use img/product.png>
-Package pdftex.def Info: img/product.png  used on input line 591.
+Package pdftex.def Info: img/product.png  used on input line 1112.
 (pdftex.def)             Requested size: 90.99861pt x 194.75531pt.
- [34 <./img/logincliente.png> <./img/main_layout.png>] [35 <./img/product.png>] [36
+ [39 <./img/product.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [37] [38
+ [40] [41] [42
 
-] [39] [40
+] (C:\MikTex\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+) [43]
+Underfull \vbox (badness 5374) has occurred while \output is active []
 
-]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 613.
- (C:\MikTex\tex/latex/lm\ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [41] [42] (PIM-VII.brf)
+ [44] [45] [46] (PIM-VII.brf)
 \tf@brf=\write5
 \openout5 = `PIM-VII.brf'.
 
- [43
+ [47
 
-] [44
+] [48
 
 ]
 bibitemlist
-(PIM-VII.ind) [45]
+(PIM-VII.ind) [49]
 \tf@toc=\write6
 \openout6 = `PIM-VII.toc'.
 
 \tf@lof=\write7
 \openout7 = `PIM-VII.lof'.
 
-\tf@loq=\write8
-\openout8 = `PIM-VII.loq'.
-
-\tf@lot=\write9
-\openout9 = `PIM-VII.lot'.
-
  (PIM-VII.aux (abntex2-modelo-include-comandos.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `PIM-VII.brf' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 19044 strings out of 476339
- 309043 string characters out of 5804534
- 1862340 words of memory out of 5000000
- 38864 multiletter control sequences out of 15000+600000
- 592528 words of font info for 157 fonts, out of 8000000 for 9000
+ 22208 strings out of 476339
+ 351755 string characters out of 5804534
+ 2156340 words of memory out of 5000000
+ 41397 multiletter control sequences out of 15000+600000
+ 595030 words of font info for 158 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,13n,90p,1068b,611s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{C:/MikTex/fonts/enc/dvips/lm/lm-ts1.enc}{C:/MikTex/fonts/enc/dvips/lm/lm-ec.enc}<C:/MikTex/fonts/type1/public/lm/lmbx12.pfb><C:/MikTex/fonts/type1/public/lm/lmr10.pfb><C:/MikTex/fonts/type1/public/lm/lmr12.pfb><C:/MikTex/fonts/type1/public/lm/lmri10.pfb><C:/MikTex/fonts/type1/public/lm/lmri12.pfb><C:/MikTex/fonts/type1/public/lm/lmss10.pfb><C:/MikTex/fonts/type1/public/lm/lmss12.pfb><C:/MikTex/fonts/type1/public/lm/lmss17.pfb><C:/MikTex/fonts/type1/public/lm/lmssbx10.pfb><C:/MikTex/fonts/type1/public/lm/lmtk10.pfb><C:/MikTex/fonts/type1/public/lm/lmtt12.pfb>
-Output written on PIM-VII.pdf (47 pages, 1302206 bytes).
+ 90i,13n,90p,1068b,2321s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{C:/MikTex/fonts/enc/dvips/lm/lm-ec.enc}<C:/MikTex/fonts/type1/public/lm/lmbx12.pfb><C:/MikTex/fonts/type1/public/lm/lmr10.pfb><C:/MikTex/fonts/type1/public/lm/lmr12.pfb><C:/MikTex/fonts/type1/public/lm/lmr8.pfb><C:/MikTex/fonts/type1/public/lm/lmri10.pfb><C:/MikTex/fonts/type1/public/lm/lmri12.pfb><C:/MikTex/fonts/type1/public/lm/lmss10.pfb><C:/MikTex/fonts/type1/public/lm/lmss12.pfb><C:/MikTex/fonts/type1/public/lm/lmss17.pfb><C:/MikTex/fonts/type1/public/lm/lmssbx10.pfb><C:/MikTex/fonts/type1/public/lm/lmtt10.pfb><C:/MikTex/fonts/type1/public/lm/lmtt12.pfb>
+Output written on PIM-VII.pdf (51 pages, 1796705 bytes).
 PDF statistics:
- 535 PDF objects out of 1000 (max. 8388607)
- 115 named destinations out of 1000 (max. 500000)
- 49494 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1273 PDF objects out of 1440 (max. 8388607)
+ 716 named destinations out of 1000 (max. 500000)
+ 48991 words of extra memory for PDF output out of 51595 (max. 10000000)
 

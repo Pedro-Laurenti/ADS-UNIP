@@ -4,41 +4,36 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}\MakeUppercase []{Introdução}}{19}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Sobre o projeto}{20}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Escopo do Projeto e PIM}{20}{subsection.1.1.1}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\MakeUppercase []{Desenvolvimento de Software para Internet}}{23}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Fluxo de Usuários no Protótipo}{23}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Estruturação do Código ASPX}{24}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Visualização da Interface em Capturas de Tela}{24}{section.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.0.1}Carrinho}{24}{subsubsection.2.3.0.1}%
+\contentsline {subsubsection}{\numberline {2.3.0.2}Checkout}{25}{subsubsection.2.3.0.2}%
+\contentsline {subsubsection}{\numberline {2.3.0.3}Login do Cliente}{26}{subsubsection.2.3.0.3}%
+\contentsline {subsubsection}{\numberline {2.3.0.4}Layout Principal}{27}{subsubsection.2.3.0.4}%
+\contentsline {subsubsection}{\numberline {2.3.0.5}Página de Produto}{29}{subsubsection.2.3.0.5}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeUppercase []{Tópicos Especiais de Programação Orientada a Objetos}}{31}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Estruturação do Código XML}{31}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Exibição da Interface em Capturas de Tela}{32}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Tela: \texttt {carrinho.xml}}{32}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Tela: \texttt {checkout.xml}}{33}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Tela: \texttt {logincliente.xml}}{35}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Tela: \texttt {main\_layout.xml}}{37}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Tela: \texttt {product.xml}}{39}{subsection.3.2.5}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}\MakeUppercase []{Programação Orientada a Objetos II}}{43}{chapter.4}%
+\contentsline {subsection}{\numberline {4.0.1}Modelagem de Entidades e Relacionamentos no Banco de Dados}{43}{subsection.4.0.1}%
+\contentsline {subsection}{\numberline {4.0.2}Estruturação do Código \texttt {C\#} para Acesso às Classes e Entidades}{45}{subsection.4.0.2}%
+\contentsline {subsection}{\numberline {4.0.3}Implementação da Classe Repositório 'CarrinhoRepository'}{45}{subsection.4.0.3}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}\MakeUppercase []{Conclusão}}{47}{chapter.5}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {1}\MakeUppercase []{Introdução}}{25}{chapter.1}%
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeUppercase []{Sobre o projeto}}{27}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Escopo do Projeto e PIM}{27}{section.2.1}%
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeUppercase []{Desenvolvimento de Software para Internet}}{29}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Fluxo de Usuários no Protótipo}{29}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Estruturação do Código ASPX}{30}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Visualização da Interface em Capturas de Tela}{30}{section.3.3}%
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeUppercase []{Tópicos Especiais de Programação Orientada a Objetos}}{31}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Fluxo do Usuário no Protótipo}{31}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Estruturação do Código XML}{32}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Exibição da Interface em Capturas de Tela}{32}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Tela: \texttt {carrinho.xml}}{33}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Tela: \texttt {checkout.xml}}{33}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Tela: \texttt {logincliente.xml}}{34}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}Tela: \texttt {main\_layout.xml}}{34}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.3.5}Tela: \texttt {product.xml}}{34}{subsection.4.3.5}%
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeUppercase []{Programação Orientada a Objetos II}}{37}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Modelagem de Entidades e Relacionamentos no Banco de Dados}{37}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Estruturação do Código \texttt {C\#} para Acesso às Classes e Entidades}{37}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Implementação da Classe Repositório 'CarrinhoRepository'}{37}{section.5.3}%
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeUppercase []{Conclusão}}{39}{chapter.6}%
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {7}\MakeUppercase []{Referências Bibliográficas}}{41}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Conclusão}{41}{section.7.1}%
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {8}\MakeUppercase []{Referências Bibliográficas}}{43}{chapter.8}%
-\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeUppercase []{Refer\^encias}}{45}{section*.16}%
+\contentsline {chapter}{\MakeUppercase []{Refer\^encias}}{49}{section*.12}%
 \vspace {\cftbeforechapterskip }
